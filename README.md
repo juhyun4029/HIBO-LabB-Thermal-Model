@@ -1,8 +1,10 @@
-# HIBO Lab B thermal-model calibration and reduction
+# HIBO Lab B thermal-model parameter estimation and reduction
 
-This repository contains the EnergyPlus model and weather, the IDF-derived 17R8C reference network, the single-setpoint calibration pipeline, and the completed October 24–25, 2026 calculation. The study varies the Lab B thermostat across 20, 22, 24, 26 and 28°C during July. The other zones retain their operating schedules.
+Developing control-oriented grey-box models often requires engineers to construct several resistance-capacitance (RC) networks, estimate their parameters, and compare their performance before choosing a suitable structure. This repeated trial-and-error process requires substantial engineering effort and limits the scalability of grey-box modeling across different buildings.
 
-The initial Bayesian calibration estimates 55 independent parameters. The reduction loop evaluates every unordered envelope-component pair at each adopted model, calibrates each merged component, selects a passing candidate using two Pareto objectives, and repeats. Binary and numeric subgroup discovery use the accumulated candidate records.
+This project aims to automate model structure selection using physical building-space information, including geometry, envelope properties and thermal boundaries. It examines how physically defined RC networks can be simplified while maintaining acceptable predictive performance and reliable parameter estimates. The broader goal is to derive rules that connect building-space characteristics to suitable reductions. These rules would help select an appropriate structure before parameter estimation and reduce the number of candidate models that must be estimated and compared for each new space.
+
+The workflow begins with an RC network defined from building information and Bayesian parameter estimation using Markov chain Monte Carlo (MCMC) with EnergyPlus simulation data. The model is then reduced by repeatedly merging components and re-estimating the parameters of each proposed merged component. Among candidates that meet temperature-error and convergence criteria, Pareto selection compares changes in thermal resistance and capacitance to choose the next model. Subgroup discovery analyzes the accumulated candidate records for conditions associated with smaller parameter changes after merging.
 
 ## Study sequence
 
@@ -20,6 +22,12 @@ flowchart TD
     I -->|"Adopt a child; pairs remain"| F
     I -->|"No pair or no passing candidate"| J["Subgroup discovery and result export"]
 ```
+
+## Case study
+
+The current implementation focuses on HIBO Lab B, starting from a 17R8C model with 55 independent parameters. The July experiment varies the Lab B thermostat across 20, 22, 24, 26 and 28°C, with heating and cooling sharing the same setpoint at each time. The other zones retain their operating schedules. This repository includes the EnergyPlus model and weather, the IDF-derived reference network, the complete estimation and reduction code, and summarized results from the October 24–25, 2026 calculation.
+
+The current subgroup results describe exploratory associations among estimated thermal parameters. Developing and validating rules that select model structures directly from physical building-space characteristics remains a goal of the broader research.
 
 ## Repository contents
 
