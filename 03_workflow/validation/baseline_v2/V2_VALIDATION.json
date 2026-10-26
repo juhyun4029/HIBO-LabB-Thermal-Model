@@ -1,0 +1,42 @@
+{
+  "package": "HIBO_LabB_SingleSP_FullPipeline_v2",
+  "unit_and_pipeline_tests": {
+    "passed": 13,
+    "test_files": [
+      "test_exterior_transport.py",
+      "test_pipeline_safety.py"
+    ]
+  },
+  "fresh_smoke": {
+    "passed": true,
+    "uses_full_new_single_setpoint_input": true,
+    "adaptive_per_chain": 8,
+    "settling_per_chain": 4,
+    "retained_test_only_per_chain": 8,
+    "stage": "smoke_complete_no_inference",
+    "targeted_transport_disabled_for_insufficient_tiny_warmup": true
+  },
+  "enabled_transport_resume_fixture": {
+    "u": true,
+    "w": true,
+    "logp": true,
+    "position": true,
+    "position_logp": true,
+    "metric": true,
+    "steps": true,
+    "frozen_transport_saved": true,
+    "transport_attempted": true,
+    "tamper_rejected": true,
+    "all_passed": true
+  },
+  "resume_fixture_note": "Diagnostic checkpoint fixtures were used only to exercise enabled transport and exact resume; none are included as runtime input. Same trajectory and draws after split/resume; changed frozen proposal rejected.",
+  "numerical_math_review": {
+    "proposal_measure": "unit-Jacobian targeted chart; exactly one thermal gap correction",
+    "target_and_priors_changed": false
+  },
+  "production_MCMC_completed_here": false,
+  "reduction_production_completed_here": false,
+  "windows_runtime_tested_here": false,
+  "windows_archive_fix": "Writable handle verified by fcntl regression test in Linux; native Windows execution is user run.",
+  "no_prior_posterior_bank_or_checkpoint_shipped": true
+}

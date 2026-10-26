@@ -1,0 +1,547 @@
+{
+  "target_zone": "Thermal Zone: Space 103 LAB B",
+  "components": [
+    {
+      "name": "ceiling",
+      "surfaces": [
+        "Surface 8",
+        "Surface 71"
+      ],
+      "boundary": 0,
+      "area": 19.062273101184,
+      "gross_area": 19.062273101184,
+      "R": 0.03492802973813108,
+      "R1": 0.01746401486906554,
+      "R2": 0.01746401486906554,
+      "C": 82112.34281719322,
+      "vertices": [
+        [
+          [
+            3.956304,
+            0.0,
+            3.048
+          ],
+          [
+            3.956304,
+            4.654296,
+            3.048
+          ],
+          [
+            0.0,
+            4.654296,
+            3.048
+          ],
+          [
+            0.0,
+            0.0,
+            3.048
+          ]
+        ],
+        [
+          [
+            3.956304,
+            4.654296,
+            3.048
+          ],
+          [
+            3.956304,
+            4.654296,
+            2.7432
+          ],
+          [
+            1.8288,
+            4.654296,
+            2.7432
+          ],
+          [
+            1.8288,
+            4.654296,
+            3.048
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "extwall_1",
+      "surfaces": [
+        "Surface 69 Ext",
+        "Surface 69 Low CMU"
+      ],
+      "boundary": 1,
+      "area": 2.3968984319999977,
+      "gross_area": 12.058814592,
+      "R": 1.2375073912786887,
+      "R1": 0.599920732262235,
+      "R2": 0.6375866590164536,
+      "C": 191409.31680154795,
+      "vertices": [
+        [
+          [
+            0.0,
+            0.0,
+            3.048
+          ],
+          [
+            0.0,
+            0.0,
+            0.4064
+          ],
+          [
+            3.956304,
+            0.0,
+            0.4064
+          ],
+          [
+            3.956304,
+            0.0,
+            3.048
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0,
+            0.4064
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            3.956304,
+            0.0,
+            0.0
+          ],
+          [
+            3.956304,
+            0.0,
+            0.4064
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "extwall_2",
+      "surfaces": [
+        "Surface 70 Ext"
+      ],
+      "boundary": 1,
+      "area": 12.095975808,
+      "gross_area": 14.186294208000001,
+      "R": 0.1883682088016543,
+      "R1": 0.08719154773168929,
+      "R2": 0.10117666106996502,
+      "C": 430315.73207287915,
+      "vertices": [
+        [
+          [
+            0.0,
+            4.654296,
+            3.048
+          ],
+          [
+            0.0,
+            4.654296,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            3.048
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "extwall_3",
+      "surfaces": [
+        "Surface 3 Ext"
+      ],
+      "boundary": 1,
+      "area": 5.5741824,
+      "gross_area": 5.5741824,
+      "R": 0.4927936350225319,
+      "R1": 0.2383238846987336,
+      "R2": 0.25446975032379826,
+      "C": 201824.9126848512,
+      "vertices": [
+        [
+          [
+            1.8288,
+            4.654296,
+            3.048
+          ],
+          [
+            1.8288,
+            4.654296,
+            0.0
+          ],
+          [
+            0.0,
+            4.654296,
+            0.0
+          ],
+          [
+            0.0,
+            4.654296,
+            3.048
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "intwall_1",
+      "surfaces": [
+        "Surface 5",
+        "Surface 6"
+      ],
+      "boundary": 2,
+      "area": 12.720490688000003,
+      "gross_area": 14.186294208000001,
+      "R": 0.10437105546294621,
+      "R1": 0.05218552773147311,
+      "R2": 0.05218552773147311,
+      "C": 365033.4548090497,
+      "vertices": [
+        [
+          [
+            3.956304,
+            2.734056,
+            3.048
+          ],
+          [
+            3.956304,
+            2.734056,
+            0.0
+          ],
+          [
+            3.956304,
+            4.654296,
+            0.0
+          ],
+          [
+            3.956304,
+            4.654296,
+            3.048
+          ]
+        ],
+        [
+          [
+            3.956304,
+            0.0,
+            3.048
+          ],
+          [
+            3.956304,
+            0.0,
+            0.0
+          ],
+          [
+            3.956304,
+            2.734056,
+            0.0
+          ],
+          [
+            3.956304,
+            2.734056,
+            3.048
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "intwall_2",
+      "surfaces": [
+        "Surface 4"
+      ],
+      "boundary": 2,
+      "area": 5.8361689727999995,
+      "gross_area": 5.8361689727999995,
+      "R": 0.36869577343662574,
+      "R1": 0.18434788671831287,
+      "R2": 0.18434788671831287,
+      "C": 194785.64116858365,
+      "vertices": [
+        [
+          [
+            3.956304,
+            4.654296,
+            2.7432
+          ],
+          [
+            3.956304,
+            4.654296,
+            0.0
+          ],
+          [
+            1.8288,
+            4.654296,
+            0.0
+          ],
+          [
+            1.8288,
+            4.654296,
+            2.7432
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "floor",
+      "surfaces": [
+        "Surface 1"
+      ],
+      "boundary": 3,
+      "area": 18.413809881984,
+      "gross_area": 18.413809881984,
+      "R": 0.018885559959149773,
+      "R1": 0.005912820649235772,
+      "R2": 0.012972739309914,
+      "C": 6238889.0132295955,
+      "vertices": [
+        [
+          [
+            3.956304,
+            4.654296,
+            0.0
+          ],
+          [
+            3.956304,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.654296,
+            0.0
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "extwindow_1",
+      "surfaces": [
+        "HIBO CWC LabB Vision"
+      ],
+      "boundary": 1,
+      "area": 9.03224,
+      "R": 0.06680141387644578,
+      "C": 0.0,
+      "kind": "massless",
+      "host": 1,
+      "frame_G_correction": 2.6858966334270287,
+      "frame_area": 0.6296761600000007
+    },
+    {
+      "name": "extwindow_2",
+      "surfaces": [
+        "HIBO CWA LabB West Lower CTIG",
+        "HIBO CWA LabB West Upper CTIG"
+      ],
+      "boundary": 1,
+      "area": 2.0903184,
+      "R": 0.35176177832384703,
+      "C": 0.0,
+      "kind": "massless",
+      "host": 2,
+      "frame_G_correction": 0.0,
+      "frame_area": 0.0
+    },
+    {
+      "name": "intwindow_1",
+      "surfaces": [
+        "HIBO Type A LabB-Control CTG A",
+        "HIBO Door 103 CTG Lite A"
+      ],
+      "boundary": 2,
+      "area": 1.4658035199999984,
+      "R": 0.18170921024940662,
+      "C": 0.0,
+      "kind": "massless",
+      "host": 4,
+      "frame_G_correction": 0.0,
+      "frame_area": 0.0
+    }
+  ],
+  "Czone": 67687.10277946641,
+  "dt_seconds": 60.0,
+  "n_R": 17,
+  "n_C_estimated": 8,
+  "n_C_fixed": 0,
+  "n_parameters": 55,
+  "n_R_free": 17,
+  "n_error_parameters": 2,
+  "n_alpha_reported": 32,
+  "n_alpha_independent": 28,
+  "physical_parameters": [
+    {
+      "name": "ceiling:R1",
+      "unit": "K/W",
+      "reference": 0.01746401486906554,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "ceiling:R2",
+      "unit": "K/W",
+      "reference": 0.01746401486906554,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "extwall_1:R1",
+      "unit": "K/W",
+      "reference": 0.599920732262235,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "extwall_1:R2",
+      "unit": "K/W",
+      "reference": 0.6375866590164536,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "extwall_2:R1",
+      "unit": "K/W",
+      "reference": 0.08719154773168929,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "extwall_2:R2",
+      "unit": "K/W",
+      "reference": 0.10117666106996502,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "extwall_3:R1",
+      "unit": "K/W",
+      "reference": 0.2383238846987336,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "extwall_3:R2",
+      "unit": "K/W",
+      "reference": 0.25446975032379826,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "intwall_1:R1",
+      "unit": "K/W",
+      "reference": 0.05218552773147311,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "intwall_1:R2",
+      "unit": "K/W",
+      "reference": 0.05218552773147311,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "intwall_2:R1",
+      "unit": "K/W",
+      "reference": 0.18434788671831287,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "intwall_2:R2",
+      "unit": "K/W",
+      "reference": 0.18434788671831287,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "floor:R1",
+      "unit": "K/W",
+      "reference": 0.005912820649235772,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "floor:R2",
+      "unit": "K/W",
+      "reference": 0.012972739309914,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "extwindow_1:R",
+      "unit": "K/W",
+      "reference": 0.06680141387644578,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "extwindow_2:R",
+      "unit": "K/W",
+      "reference": 0.35176177832384703,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "intwindow_1:R",
+      "unit": "K/W",
+      "reference": 0.18170921024940662,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "ceiling:C",
+      "unit": "J/K",
+      "reference": 82112.34281719322,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "extwall_1:C",
+      "unit": "J/K",
+      "reference": 191409.31680154795,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "extwall_2:C",
+      "unit": "J/K",
+      "reference": 430315.73207287915,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "extwall_3:C",
+      "unit": "J/K",
+      "reference": 201824.9126848512,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "intwall_1:C",
+      "unit": "J/K",
+      "reference": 365033.4548090497,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "intwall_2:C",
+      "unit": "J/K",
+      "reference": 194785.64116858365,
+      "role": "prior_reference_only"
+    },
+    {
+      "name": "floor:C",
+      "unit": "J/K",
+      "reference": 6238889.0132295955,
+      "role": "prior_reference_only"
+    }
+  ]
+}

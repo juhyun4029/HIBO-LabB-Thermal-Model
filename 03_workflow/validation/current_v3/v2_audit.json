@@ -1,0 +1,5207 @@
+{
+  "settings": {
+    "period": "july",
+    "warmup": 6000,
+    "seed": 20261018,
+    "particles": 512,
+    "hmc_weight": 0.65,
+    "bridge_weight": 0.25,
+    "bridge_temperature": 16.0,
+    "bridge_step_ratio": 0.75,
+    "target_acceptance": 0.9,
+    "metric_shrinkage": 0.2,
+    "trajectory_min": 0.4,
+    "trajectory_max": 1.2,
+    "max_leapfrog": 1024,
+    "residue_substeps": 8,
+    "minimum_retained": 5000,
+    "initial_map_iterations": 1500,
+    "smoke": false,
+    "transport_every": 5,
+    "transport_fit_window": 4000,
+    "transport_min_count": 64,
+    "transport_shrinkage": 0.2,
+    "settling_initial": 8000,
+    "settling_max": 20000,
+    "settling_check_every": 4000,
+    "settling_burnin": 4000,
+    "settling_window": 4000,
+    "settling_confirmations": 2
+  },
+  "frozen_steps": [
+    0.003265963117276683,
+    0.0031911801062098864,
+    0.003063975304875532,
+    0.0030798741585413704
+  ],
+  "frozen_bridge_steps": [
+    0.002449472337957512,
+    0.002393385079657415,
+    0.002297981478656649,
+    0.0023099056189060277
+  ],
+  "metric_history": [
+    {
+      "completed": 500,
+      "metric_condition_number": 821780.9710863797,
+      "covariance_positions": 2000,
+      "reset_steps": [
+        0.02292559315223101,
+        0.03409115377156242,
+        0.032635224518343255,
+        0.020344754892925355
+      ],
+      "reset_bridge_steps": [
+        0.017194194864173257,
+        0.025568365328671815,
+        0.024476418388757443,
+        0.015258566169694017
+      ]
+    },
+    {
+      "completed": 1000,
+      "metric_condition_number": 551892.4677433054,
+      "covariance_positions": 2000,
+      "reset_steps": [
+        0.0008637313451159329,
+        0.0010351579332085325,
+        0.0009557934071345003,
+        0.0009385216386466001
+      ],
+      "reset_bridge_steps": [
+        0.0006477985088369497,
+        0.0007763684499063994,
+        0.0007168450553508752,
+        0.00070389122898495
+      ]
+    },
+    {
+      "completed": 2000,
+      "metric_condition_number": 553684.4621764616,
+      "covariance_positions": 4000,
+      "reset_steps": [
+        0.0011958614472992778,
+        0.0012453131317974387,
+        0.0012433256077629775,
+        0.0012237054363937554
+      ],
+      "reset_bridge_steps": [
+        0.0008968960854744583,
+        0.000933984848848079,
+        0.0009324942058222331,
+        0.0009177790772953165
+      ]
+    },
+    {
+      "completed": 4000,
+      "metric_condition_number": 487694.3839023272,
+      "covariance_positions": 8000,
+      "reset_steps": [
+        0.0017154371281177196,
+        0.0016462773467449396,
+        0.0016963173454657505,
+        0.0016472432086589283
+      ],
+      "reset_bridge_steps": [
+        0.0012865778460882896,
+        0.0012347080100587047,
+        0.0012722380090993129,
+        0.0012354324064941962
+      ]
+    }
+  ],
+  "settling_assessments": [
+    {
+      "completed": 8000,
+      "window_passed": false,
+      "gate_passed": false,
+      "blocking_failures": [
+        "Chain 1: more than 1% invalid or |energy error|>1000 HMC transitions",
+        "Chain 2: more than 1% invalid or |energy error|>1000 HMC transitions"
+      ],
+      "physical": {
+        "max_rhat": 1.009004464332293,
+        "min_bulk_ess": 684.2612912431558,
+        "min_tail_ess": 462.5165265928292,
+        "invalid_parameters": 0,
+        "passed": true
+      },
+      "ordered": {
+        "max_rhat": 1.0109515950284897,
+        "min_bulk_ess": 560.8214163278341,
+        "min_tail_ess": 344.51388719466206,
+        "invalid_parameters": 0,
+        "passed": false
+      }
+    },
+    {
+      "completed": 12000,
+      "window_passed": true,
+      "gate_passed": false,
+      "blocking_failures": [
+        "Awaiting the prespecified consecutive nonoverlapping assessment confirmations"
+      ],
+      "physical": {
+        "max_rhat": 1.004329995706413,
+        "min_bulk_ess": 1171.0923968486832,
+        "min_tail_ess": 1226.4000005381106,
+        "invalid_parameters": 0,
+        "passed": true
+      },
+      "ordered": {
+        "max_rhat": 1.005423274122421,
+        "min_bulk_ess": 1112.7533490880278,
+        "min_tail_ess": 861.3291018479036,
+        "invalid_parameters": 0,
+        "passed": true
+      }
+    },
+    {
+      "completed": 16000,
+      "window_passed": false,
+      "gate_passed": false,
+      "blocking_failures": [
+        "Chain 3: more than 1% invalid or |energy error|>1000 HMC transitions",
+        "Chain 4: more than 1% invalid or |energy error|>1000 HMC transitions"
+      ],
+      "physical": {
+        "max_rhat": 1.0106331665895367,
+        "min_bulk_ess": 868.7110282084196,
+        "min_tail_ess": 753.0803854797055,
+        "invalid_parameters": 0,
+        "passed": true
+      },
+      "ordered": {
+        "max_rhat": 1.0105203824259796,
+        "min_bulk_ess": 734.633507463784,
+        "min_tail_ess": 401.29422410515184,
+        "invalid_parameters": 0,
+        "passed": true
+      }
+    },
+    {
+      "completed": 20000,
+      "window_passed": false,
+      "gate_passed": false,
+      "blocking_failures": [
+        "Chain 1: more than 1% invalid or |energy error|>1000 HMC transitions",
+        "Chain 4: more than 1% invalid or |energy error|>1000 HMC transitions"
+      ],
+      "physical": {
+        "max_rhat": 1.007183902920152,
+        "min_bulk_ess": 812.3405487719564,
+        "min_tail_ess": 845.0127897740937,
+        "invalid_parameters": 0,
+        "passed": true
+      },
+      "ordered": {
+        "max_rhat": 1.0112991762070431,
+        "min_bulk_ess": 422.10052820708324,
+        "min_tail_ess": 83.78564245412173,
+        "invalid_parameters": 0,
+        "passed": false
+      }
+    }
+  ],
+  "windows": {
+    "warmup_1_500": [
+      {
+        "chain": 1,
+        "iterations": 500,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          8.03510072666126,
+          8.054122201770928,
+          8.147557248622181,
+          9.371453270095504,
+          9.803606558694796,
+          9.873074167949863,
+          9.978694748074876
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 315,
+            "accepted": 285,
+            "acceptance": 0.9047619047619048,
+            "invalid": 1,
+            "finite_abs_energy_gt1000": 3,
+            "combined_flag": 4,
+            "combined_fraction": 0.012698412698412698,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.005711445496733469,
+              0.044532512147236844,
+              0.5
+            ],
+            "leapfrog_quantiles": [
+              4.0,
+              18.0,
+              45.30000000000001,
+              136.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07196314100190015,
+              0.44898197303717274,
+              0.8142289377845996,
+              143.8308518927811,
+              52947.76332337847
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 123,
+            "accepted": 85,
+            "acceptance": 0.6910569105691057,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.004283584122550102,
+              0.033601139396904095,
+              0.09622160737803584
+            ],
+            "leapfrog_quantiles": [
+              8.0,
+              26.0,
+              75.79999999999998,
+              268.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.6200654006222983,
+              1.755550445833785,
+              3.078745095942751,
+              8.108635749696987,
+              8.907173447123803
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 62,
+            "accepted": 41,
+            "acceptance": 0.6612903225806451
+          }
+        },
+        "transport": {
+          "attempts": 0,
+          "valid": 0,
+          "accepted": 0,
+          "cross_region_proposals": 0,
+          "actual_region_crossings": 0,
+          "seconds": 0.0,
+          "acceptance_probability_sum": 0.0,
+          "max_acceptance_probability": null
+        },
+        "residue": {
+          "attempts": 4000,
+          "valid": 1913,
+          "accepted": 282,
+          "nontrivial": 206
+        }
+      },
+      {
+        "chain": 2,
+        "iterations": 500,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          7.8882078335599255,
+          8.107439306835927,
+          8.317013369371255,
+          9.56304719687743,
+          9.821618255631735,
+          9.91319159262445,
+          10.011236838387862
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 332,
+            "accepted": 293,
+            "acceptance": 0.8825301204819277,
+            "invalid": 1,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 1,
+            "combined_fraction": 0.0030120481927710845,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.005027930002802123,
+              0.06282511359119614,
+              0.5
+            ],
+            "leapfrog_quantiles": [
+              4.0,
+              12.0,
+              43.89999999999998,
+              102.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.08641451758839835,
+              0.5701612414484103,
+              0.846837862886284,
+              2.808546074039542,
+              904.9096717902951
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 121,
+            "accepted": 80,
+            "acceptance": 0.6611570247933884,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.009737739937419533,
+              0.046656355102714625,
+              0.10426450737363363
+            ],
+            "leapfrog_quantiles": [
+              4.0,
+              18.0,
+              60.0,
+              100.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.3867029963792419,
+              2.2579047303342463,
+              4.883245604686579,
+              16.966327586527015,
+              20.82139679374188
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 47,
+            "accepted": 30,
+            "acceptance": 0.6382978723404256
+          }
+        },
+        "transport": {
+          "attempts": 0,
+          "valid": 0,
+          "accepted": 0,
+          "cross_region_proposals": 0,
+          "actual_region_crossings": 0,
+          "seconds": 0.0,
+          "acceptance_probability_sum": 0.0,
+          "max_acceptance_probability": null
+        },
+        "residue": {
+          "attempts": 4000,
+          "valid": 1553,
+          "accepted": 237,
+          "nontrivial": 183
+        }
+      },
+      {
+        "chain": 3,
+        "iterations": 500,
+        "fast_region_count": 239,
+        "fast_region_fraction": 0.478,
+        "all_final_region_transitions": 41,
+        "last_region_is_fast": true,
+        "q18_quantiles": [
+          -1.1530638579511654,
+          -1.057005386781955,
+          -0.5146224015003565,
+          8.06723329427997,
+          9.692546908355222,
+          9.80940493621476,
+          9.920936105162816
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 342,
+            "accepted": 308,
+            "acceptance": 0.9005847953216374,
+            "invalid": 1,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 1,
+            "combined_fraction": 0.0029239766081871343,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.004872137431273445,
+              0.058954933922837974,
+              0.5
+            ],
+            "leapfrog_quantiles": [
+              4.0,
+              13.0,
+              39.94999999999999,
+              160.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.0862559875865685,
+              0.4893531973465741,
+              0.7514635091378459,
+              5.934518455519814,
+              228.48573112773497
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 118,
+            "accepted": 85,
+            "acceptance": 0.7203389830508474,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0036541030734550837,
+              0.043674938521299556,
+              0.08427626702941671
+            ],
+            "leapfrog_quantiles": [
+              6.0,
+              18.0,
+              56.09999999999988,
+              284.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.432316339582135,
+              1.9698415843494328,
+              2.837129403242028,
+              10.941529667004097,
+              13.815136901587444
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 40,
+            "accepted": 27,
+            "acceptance": 0.675
+          }
+        },
+        "transport": {
+          "attempts": 0,
+          "valid": 0,
+          "accepted": 0,
+          "cross_region_proposals": 0,
+          "actual_region_crossings": 0,
+          "seconds": 0.0,
+          "acceptance_probability_sum": 0.0,
+          "max_acceptance_probability": null
+        },
+        "residue": {
+          "attempts": 4000,
+          "valid": 1946,
+          "accepted": 217,
+          "nontrivial": 186
+        }
+      },
+      {
+        "chain": 4,
+        "iterations": 500,
+        "fast_region_count": 393,
+        "fast_region_fraction": 0.786,
+        "all_final_region_transitions": 17,
+        "last_region_is_fast": true,
+        "q18_quantiles": [
+          -0.2020452391378082,
+          -0.16631151620417836,
+          0.02250689348528286,
+          0.6036597877788112,
+          8.692588128958826,
+          9.69607478624156,
+          9.804079007052241
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 321,
+            "accepted": 284,
+            "acceptance": 0.8847352024922118,
+            "invalid": 2,
+            "finite_abs_energy_gt1000": 2,
+            "combined_flag": 4,
+            "combined_fraction": 0.012461059190031152,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.00516877803686692,
+              0.04234372184474633,
+              0.5
+            ],
+            "leapfrog_quantiles": [
+              4.0,
+              18.0,
+              54.0,
+              215.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07564839683557167,
+              0.42886583104285586,
+              0.7134794107014927,
+              49.16280028505518,
+              9338.016748897397
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 126,
+            "accepted": 89,
+            "acceptance": 0.7063492063492064,
+            "invalid": 1,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 1,
+            "combined_fraction": 0.007936507936507936,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.00387658352765019,
+              0.03555522452275264,
+              0.10751366338431442
+            ],
+            "leapfrog_quantiles": [
+              4.0,
+              22.0,
+              72.0,
+              292.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.29090083915647824,
+              1.5052827197723515,
+              2.152169531769531,
+              4.5845202215854695,
+              44.816581803142626
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 53,
+            "accepted": 36,
+            "acceptance": 0.6792452830188679
+          }
+        },
+        "transport": {
+          "attempts": 0,
+          "valid": 0,
+          "accepted": 0,
+          "cross_region_proposals": 0,
+          "actual_region_crossings": 0,
+          "seconds": 0.0,
+          "acceptance_probability_sum": 0.0,
+          "max_acceptance_probability": null
+        },
+        "residue": {
+          "attempts": 4000,
+          "valid": 1969,
+          "accepted": 207,
+          "nontrivial": 110
+        }
+      }
+    ],
+    "warmup_501_1000": [
+      {
+        "chain": 1,
+        "iterations": 500,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          7.444681326054041,
+          7.800505711428004,
+          8.006214560021961,
+          9.477049091682304,
+          9.814276835405524,
+          9.894587562636803,
+          9.97982232070792
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 331,
+            "accepted": 290,
+            "acceptance": 0.8761329305135952,
+            "invalid": 5,
+            "finite_abs_energy_gt1000": 1,
+            "combined_flag": 6,
+            "combined_fraction": 0.01812688821752266,
+            "cap_hits": 52,
+            "step_quantiles": [
+              0.00013278374180008664,
+              0.0015198006344999346,
+              0.04463308267355266
+            ],
+            "leapfrog_quantiles": [
+              16.0,
+              524.0,
+              1024.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.05876166076594025,
+              0.4811400384062843,
+              1.1203511806003874,
+              24.94180644921562,
+              1997.8053623972264
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 127,
+            "accepted": 90,
+            "acceptance": 0.7086614173228346,
+            "invalid": 5,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 5,
+            "combined_fraction": 0.03937007874015748,
+            "cap_hits": 23,
+            "step_quantiles": [
+              0.00019931478906212046,
+              0.0012980582365482657,
+              0.0334748120051645
+            ],
+            "leapfrog_quantiles": [
+              24.0,
+              620.0,
+              1024.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.2942495588561105,
+              1.659480960518251,
+              2.638120080895429,
+              4.672295784114055,
+              7.182277155080033
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 42,
+            "accepted": 30,
+            "acceptance": 0.7142857142857143
+          }
+        },
+        "transport": {
+          "attempts": 100,
+          "valid": 100,
+          "accepted": 0,
+          "cross_region_proposals": 38,
+          "actual_region_crossings": 0,
+          "seconds": 3.0469999997876585,
+          "acceptance_probability_sum": 3.101260823284152e-06,
+          "max_acceptance_probability": 3.0524658258401246e-06
+        },
+        "residue": {
+          "attempts": 4000,
+          "valid": 1908,
+          "accepted": 246,
+          "nontrivial": 171
+        }
+      },
+      {
+        "chain": 2,
+        "iterations": 500,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          7.490191008637366,
+          7.90836201344158,
+          8.025837220931995,
+          9.236998988213083,
+          9.762798041663517,
+          9.879363975460222,
+          9.943814482143994
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 340,
+            "accepted": 300,
+            "acceptance": 0.8823529411764706,
+            "invalid": 4,
+            "finite_abs_energy_gt1000": 2,
+            "combined_flag": 6,
+            "combined_fraction": 0.01764705882352941,
+            "cap_hits": 33,
+            "step_quantiles": [
+              0.00029300528539752803,
+              0.0017477289832963858,
+              0.06637094511008834
+            ],
+            "leapfrog_quantiles": [
+              13.0,
+              451.0,
+              1024.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07365491397094281,
+              0.5966937913677679,
+              1.0045257115308521,
+              6.604337795661048,
+              48897.19758453083
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 109,
+            "accepted": 79,
+            "acceptance": 0.7247706422018348,
+            "invalid": 3,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 3,
+            "combined_fraction": 0.027522935779816515,
+            "cap_hits": 26,
+            "step_quantiles": [
+              0.00021975396404814602,
+              0.0013100489429615917,
+              0.049778208832566256
+            ],
+            "leapfrog_quantiles": [
+              16.0,
+              684.0,
+              1024.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.33403772735969817,
+              1.8095264659157948,
+              2.3762679431841294,
+              3.090432048294983,
+              3.191694767792125
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 51,
+            "accepted": 32,
+            "acceptance": 0.6274509803921569
+          }
+        },
+        "transport": {
+          "attempts": 100,
+          "valid": 100,
+          "accepted": 0,
+          "cross_region_proposals": 53,
+          "actual_region_crossings": 0,
+          "seconds": 4.280000000726432,
+          "acceptance_probability_sum": 0.0003707070189255979,
+          "max_acceptance_probability": 0.00036937731550120085
+        },
+        "residue": {
+          "attempts": 4000,
+          "valid": 1964,
+          "accepted": 268,
+          "nontrivial": 177
+        }
+      },
+      {
+        "chain": 3,
+        "iterations": 500,
+        "fast_region_count": 30,
+        "fast_region_fraction": 0.06,
+        "all_final_region_transitions": 1,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          -0.997772278736917,
+          -0.5240807437368277,
+          1.0433966038957916,
+          8.910847054330278,
+          9.789620383944833,
+          9.886616056857184,
+          10.024447760025785
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 309,
+            "accepted": 269,
+            "acceptance": 0.8705501618122977,
+            "invalid": 5,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 5,
+            "combined_fraction": 0.016181229773462782,
+            "cap_hits": 41,
+            "step_quantiles": [
+              0.00018199067414659105,
+              0.0017812117145302904,
+              0.06353644437136041
+            ],
+            "leapfrog_quantiles": [
+              12.0,
+              461.0,
+              1024.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.0718345359082111,
+              0.47018555956069413,
+              0.720720088361546,
+              2.0541522085278574,
+              208.76672576694824
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 128,
+            "accepted": 92,
+            "acceptance": 0.71875,
+            "invalid": 1,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 1,
+            "combined_fraction": 0.0078125,
+            "cap_hits": 32,
+            "step_quantiles": [
+              0.000141788118003979,
+              0.001419393451429284,
+              0.024476418388757443
+            ],
+            "leapfrog_quantiles": [
+              36.0,
+              610.0,
+              1024.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.30097765502418383,
+              1.1327209527406583,
+              1.9334421592339832,
+              2.865832113151154,
+              4.7913357048520915
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 63,
+            "accepted": 42,
+            "acceptance": 0.6666666666666666
+          }
+        },
+        "transport": {
+          "attempts": 100,
+          "valid": 100,
+          "accepted": 1,
+          "cross_region_proposals": 44,
+          "actual_region_crossings": 1,
+          "seconds": 3.592999998945743,
+          "acceptance_probability_sum": 1.0000654473574304,
+          "max_acceptance_probability": 1.0
+        },
+        "residue": {
+          "attempts": 4000,
+          "valid": 1775,
+          "accepted": 279,
+          "nontrivial": 181
+        }
+      },
+      {
+        "chain": 4,
+        "iterations": 500,
+        "fast_region_count": 130,
+        "fast_region_fraction": 0.26,
+        "all_final_region_transitions": 5,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          -1.5549375489474462,
+          -0.6691489862778222,
+          0.03996532459270456,
+          8.396741636099478,
+          9.760481648074242,
+          9.89394171443926,
+          10.004604217744447
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 331,
+            "accepted": 287,
+            "acceptance": 0.8670694864048338,
+            "invalid": 7,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 7,
+            "combined_fraction": 0.021148036253776436,
+            "cap_hits": 25,
+            "step_quantiles": [
+              0.00011820940717149199,
+              0.0019388846771342472,
+              0.03960853361915024
+            ],
+            "leapfrog_quantiles": [
+              24.0,
+              415.0,
+              1024.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.05505796666484564,
+              0.5137869285090871,
+              0.9160518391917485,
+              4.33029037879066,
+              20.991252891211296
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 125,
+            "accepted": 89,
+            "acceptance": 0.712,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 20,
+            "step_quantiles": [
+              0.00011485116066519563,
+              0.0014273744446797586,
+              0.003989009629004529
+            ],
+            "leapfrog_quantiles": [
+              140.0,
+              524.0,
+              1024.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.4115025322890631,
+              1.9575762560716612,
+              2.8659832154592864,
+              7.366572178108774,
+              9.915259345768447
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 44,
+            "accepted": 30,
+            "acceptance": 0.6818181818181818
+          }
+        },
+        "transport": {
+          "attempts": 100,
+          "valid": 96,
+          "accepted": 1,
+          "cross_region_proposals": 53,
+          "actual_region_crossings": 1,
+          "seconds": 4.110999998636544,
+          "acceptance_probability_sum": 1.0218779919208185,
+          "max_acceptance_probability": 1.0
+        },
+        "residue": {
+          "attempts": 4000,
+          "valid": 1795,
+          "accepted": 255,
+          "nontrivial": 170
+        }
+      }
+    ],
+    "warmup_1001_2000": [
+      {
+        "chain": 1,
+        "iterations": 1000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          5.4290228372071265,
+          7.7676938961918855,
+          7.97301512203571,
+          9.139578995775704,
+          9.789421170586008,
+          9.883061575316427,
+          9.974389034860069
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 664,
+            "accepted": 594,
+            "acceptance": 0.8945783132530121,
+            "invalid": 6,
+            "finite_abs_energy_gt1000": 2,
+            "combined_flag": 8,
+            "combined_fraction": 0.012048192771084338,
+            "cap_hits": 13,
+            "step_quantiles": [
+              0.0003986410675464202,
+              0.0024499568908684082,
+              0.010359560085378305
+            ],
+            "leapfrog_quantiles": [
+              64.0,
+              311.0,
+              789.7,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07033515369757559,
+              0.4550264958840897,
+              0.8365419757728215,
+              8.42979749112726,
+              11824.03040139933
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 239,
+            "accepted": 182,
+            "acceptance": 0.7615062761506276,
+            "invalid": 1,
+            "finite_abs_energy_gt1000": 1,
+            "combined_flag": 2,
+            "combined_fraction": 0.008368200836820083,
+            "cap_hits": 7,
+            "step_quantiles": [
+              0.0005903858971468452,
+              0.0018982565382077649,
+              0.004983135181970069
+            ],
+            "leapfrog_quantiles": [
+              106.0,
+              426.0,
+              961.8,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.3296494169925843,
+              1.383491853573941,
+              2.7128067236164473,
+              4.3364153791266284,
+              2609.783391088861
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 97,
+            "accepted": 61,
+            "acceptance": 0.6288659793814433
+          }
+        },
+        "transport": {
+          "attempts": 200,
+          "valid": 200,
+          "accepted": 0,
+          "cross_region_proposals": 108,
+          "actual_region_crossings": 0,
+          "seconds": 8.831000001169741,
+          "acceptance_probability_sum": 0.0017649894858281475,
+          "max_acceptance_probability": 0.0008449576260480198
+        },
+        "residue": {
+          "attempts": 8000,
+          "valid": 3744,
+          "accepted": 596,
+          "nontrivial": 440
+        }
+      },
+      {
+        "chain": 2,
+        "iterations": 1000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.432234868504322,
+          7.762042704102482,
+          8.010461876144305,
+          9.43840291949563,
+          9.802773575956133,
+          9.916349807195889,
+          10.004258433192213
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 645,
+            "accepted": 579,
+            "acceptance": 0.8976744186046511,
+            "invalid": 4,
+            "finite_abs_energy_gt1000": 3,
+            "combined_flag": 7,
+            "combined_fraction": 0.010852713178294573,
+            "cap_hits": 15,
+            "step_quantiles": [
+              0.00034225845802303965,
+              0.002404879181053709,
+              0.011818342131698965
+            ],
+            "leapfrog_quantiles": [
+              82.0,
+              330.0,
+              744.8,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.05706130784952279,
+              0.49027798911403764,
+              0.8405862911157023,
+              17.606146218192745,
+              15329.269196647747
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 265,
+            "accepted": 195,
+            "acceptance": 0.7358490566037735,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 1,
+            "combined_flag": 1,
+            "combined_fraction": 0.0037735849056603774,
+            "cap_hits": 13,
+            "step_quantiles": [
+              0.0002881425516278461,
+              0.0018732409873482062,
+              0.004405480723812381
+            ],
+            "leapfrog_quantiles": [
+              132.0,
+              410.0,
+              987.9999999999991,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.2694392340573728,
+              1.4366335596786006,
+              2.104337434975775,
+              4.658742909755981,
+              1505.0375365012403
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 90,
+            "accepted": 50,
+            "acceptance": 0.5555555555555556
+          }
+        },
+        "transport": {
+          "attempts": 200,
+          "valid": 200,
+          "accepted": 0,
+          "cross_region_proposals": 110,
+          "actual_region_crossings": 0,
+          "seconds": 9.077000003308058,
+          "acceptance_probability_sum": 0.0033187018867636155,
+          "max_acceptance_probability": 0.0033081911126754907
+        },
+        "residue": {
+          "attempts": 8000,
+          "valid": 3696,
+          "accepted": 571,
+          "nontrivial": 399
+        }
+      },
+      {
+        "chain": 3,
+        "iterations": 1000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          7.587836522725259,
+          7.823499199758116,
+          8.020104021509614,
+          9.438785336219897,
+          9.799292245608166,
+          9.900661653476508,
+          9.979650503625958
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 652,
+            "accepted": 583,
+            "acceptance": 0.8941717791411042,
+            "invalid": 4,
+            "finite_abs_energy_gt1000": 3,
+            "combined_flag": 7,
+            "combined_fraction": 0.010736196319018405,
+            "cap_hits": 21,
+            "step_quantiles": [
+              0.00036158354389265646,
+              0.0023329967263435816,
+              0.011463748868682401
+            ],
+            "leapfrog_quantiles": [
+              69.0,
+              339.5,
+              816.1499999999995,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.06743597191153583,
+              0.42867808927579776,
+              0.8105009539456649,
+              4.901721749196934,
+              18834.63384924906
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 254,
+            "accepted": 183,
+            "acceptance": 0.7204724409448819,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 19,
+            "step_quantiles": [
+              0.0003341512936977381,
+              0.001833660177415636,
+              0.004376938369927366
+            ],
+            "leapfrog_quantiles": [
+              102.0,
+              418.0,
+              1024.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.344857636361418,
+              1.448228614017077,
+              2.782010432389277,
+              5.130746749324161,
+              7.758136491788619
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 94,
+            "accepted": 66,
+            "acceptance": 0.7021276595744681
+          }
+        },
+        "transport": {
+          "attempts": 200,
+          "valid": 200,
+          "accepted": 0,
+          "cross_region_proposals": 89,
+          "actual_region_crossings": 0,
+          "seconds": 7.312000000849366,
+          "acceptance_probability_sum": 0.00028234085425058597,
+          "max_acceptance_probability": 0.0002535682182612838
+        },
+        "residue": {
+          "attempts": 8000,
+          "valid": 3676,
+          "accepted": 513,
+          "nontrivial": 355
+        }
+      },
+      {
+        "chain": 4,
+        "iterations": 1000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.026823250115498,
+          7.427707680395759,
+          7.966346479613181,
+          9.359612981443814,
+          9.817292186670084,
+          9.92511004573848,
+          10.034209165788376
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 637,
+            "accepted": 567,
+            "acceptance": 0.8901098901098901,
+            "invalid": 4,
+            "finite_abs_energy_gt1000": 8,
+            "combined_flag": 12,
+            "combined_fraction": 0.018838304552590265,
+            "cap_hits": 18,
+            "step_quantiles": [
+              0.00031087285759264367,
+              0.0023315554951172405,
+              0.0110588340486822
+            ],
+            "leapfrog_quantiles": [
+              57.0,
+              330.0,
+              864.7999999999997,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07011296095669906,
+              0.5090287784523259,
+              0.9448251781435576,
+              1094.784386219049,
+              1452418.5111304177
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 256,
+            "accepted": 196,
+            "acceptance": 0.765625,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 25,
+            "step_quantiles": [
+              0.00032241430811061225,
+              0.0018500384660229572,
+              0.004607845202105159
+            ],
+            "leapfrog_quantiles": [
+              142.0,
+              416.0,
+              1024.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.3749322430566284,
+              1.4827816218554677,
+              2.6455580354333277,
+              5.102606856673475,
+              10.871511236110344
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 107,
+            "accepted": 81,
+            "acceptance": 0.7570093457943925
+          }
+        },
+        "transport": {
+          "attempts": 200,
+          "valid": 200,
+          "accepted": 0,
+          "cross_region_proposals": 98,
+          "actual_region_crossings": 0,
+          "seconds": 8.019999998155981,
+          "acceptance_probability_sum": 0.0009331383115102153,
+          "max_acceptance_probability": 0.0006706852949449109
+        },
+        "residue": {
+          "attempts": 8000,
+          "valid": 3632,
+          "accepted": 505,
+          "nontrivial": 349
+        }
+      }
+    ],
+    "warmup_2001_4000": [
+      {
+        "chain": 1,
+        "iterations": 2000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.222839631250486,
+          7.776018974339605,
+          7.998454234412263,
+          9.410623023916704,
+          9.815177055064627,
+          9.892547994091235,
+          9.9820775043299
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 1342,
+            "accepted": 1207,
+            "acceptance": 0.8994038748137109,
+            "invalid": 3,
+            "finite_abs_energy_gt1000": 4,
+            "combined_flag": 7,
+            "combined_fraction": 0.005216095380029807,
+            "cap_hits": 6,
+            "step_quantiles": [
+              0.0002914330797749843,
+              0.0033483578794525548,
+              0.014343115584651489
+            ],
+            "leapfrog_quantiles": [
+              58.0,
+              234.0,
+              468.9000000000001,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07550747092946963,
+              0.4755142767663126,
+              0.8095564391117288,
+              3.227585985848021,
+              45639.958720063405
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 461,
+            "accepted": 310,
+            "acceptance": 0.6724511930585684,
+            "invalid": 1,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 1,
+            "combined_fraction": 0.0021691973969631237,
+            "cap_hits": 4,
+            "step_quantiles": [
+              0.00036312306105192336,
+              0.002515920462646052,
+              0.010757336688488616
+            ],
+            "leapfrog_quantiles": [
+              100.0,
+              314.0,
+              660.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.4665754464743408,
+              2.363855930293621,
+              3.8681598481146895,
+              7.355814454648827,
+              10.812048841321847
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 197,
+            "accepted": 132,
+            "acceptance": 0.6700507614213198
+          }
+        },
+        "transport": {
+          "attempts": 400,
+          "valid": 400,
+          "accepted": 0,
+          "cross_region_proposals": 209,
+          "actual_region_crossings": 0,
+          "seconds": 17.925000000745058,
+          "acceptance_probability_sum": 0.026834188520369916,
+          "max_acceptance_probability": 0.01037021783591373
+        },
+        "residue": {
+          "attempts": 16000,
+          "valid": 7538,
+          "accepted": 1136,
+          "nontrivial": 742
+        }
+      },
+      {
+        "chain": 2,
+        "iterations": 2000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          7.261602835277512,
+          7.7754561677635134,
+          8.005532046942413,
+          9.368883580644361,
+          9.791377120662531,
+          9.89629379232718,
+          10.094856850437484
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 1304,
+            "accepted": 1188,
+            "acceptance": 0.911042944785276,
+            "invalid": 7,
+            "finite_abs_energy_gt1000": 3,
+            "combined_flag": 10,
+            "combined_fraction": 0.007668711656441718,
+            "cap_hits": 3,
+            "step_quantiles": [
+              0.000409998143485681,
+              0.0032887850563957464,
+              0.014157742690361928
+            ],
+            "leapfrog_quantiles": [
+              67.0,
+              241.0,
+              477.24999999999955,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.08047336272323946,
+              0.4608103010385314,
+              0.8100239284169988,
+              3.422674736293986,
+              33326.977590588416
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 489,
+            "accepted": 336,
+            "acceptance": 0.6871165644171779,
+            "invalid": 1,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 1,
+            "combined_fraction": 0.002044989775051125,
+            "cap_hits": 3,
+            "step_quantiles": [
+              0.0006784485255680412,
+              0.002471374689077506,
+              0.010618307017771446
+            ],
+            "leapfrog_quantiles": [
+              50.0,
+              324.0,
+              624.7999999999997,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.4686678502851418,
+              2.0092128920150016,
+              3.668160351038387,
+              8.78566579471342,
+              12.82046655478819
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 207,
+            "accepted": 134,
+            "acceptance": 0.6473429951690821
+          }
+        },
+        "transport": {
+          "attempts": 400,
+          "valid": 400,
+          "accepted": 0,
+          "cross_region_proposals": 190,
+          "actual_region_crossings": 0,
+          "seconds": 16.290000001899898,
+          "acceptance_probability_sum": 0.0005562933666183135,
+          "max_acceptance_probability": 0.00025845953423820516
+        },
+        "residue": {
+          "attempts": 16000,
+          "valid": 7162,
+          "accepted": 1179,
+          "nontrivial": 801
+        }
+      },
+      {
+        "chain": 3,
+        "iterations": 2000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.616387745592308,
+          7.233993029639162,
+          7.94237554577081,
+          9.246736600094811,
+          9.805364900420392,
+          9.897265703667939,
+          10.016835920152475
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 1311,
+            "accepted": 1185,
+            "acceptance": 0.9038901601830663,
+            "invalid": 5,
+            "finite_abs_energy_gt1000": 6,
+            "combined_flag": 11,
+            "combined_fraction": 0.008390541571319604,
+            "cap_hits": 5,
+            "step_quantiles": [
+              0.0005937498453980416,
+              0.003326131730972817,
+              0.013084592948883965
+            ],
+            "leapfrog_quantiles": [
+              41.0,
+              242.0,
+              484.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07760550338666938,
+              0.47372510781191224,
+              0.8017664584424109,
+              5.231218893129043,
+              14290.619514133628
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 492,
+            "accepted": 325,
+            "acceptance": 0.6605691056910569,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 1,
+            "combined_flag": 1,
+            "combined_fraction": 0.0020325203252032522,
+            "cap_hits": 5,
+            "step_quantiles": [
+              0.0006029954481430616,
+              0.0025019260218426265,
+              0.005838931487690575
+            ],
+            "leapfrog_quantiles": [
+              116.0,
+              313.0,
+              687.5999999999999,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.49782014932553764,
+              2.0347640297101157,
+              2.9606176339827193,
+              7.534906862864732,
+              1103.9682222707102
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 197,
+            "accepted": 144,
+            "acceptance": 0.7309644670050761
+          }
+        },
+        "transport": {
+          "attempts": 400,
+          "valid": 400,
+          "accepted": 0,
+          "cross_region_proposals": 205,
+          "actual_region_crossings": 0,
+          "seconds": 17.313000002875924,
+          "acceptance_probability_sum": 0.0933087964903098,
+          "max_acceptance_probability": 0.07285623464953497
+        },
+        "residue": {
+          "attempts": 16000,
+          "valid": 7453,
+          "accepted": 1118,
+          "nontrivial": 774
+        }
+      },
+      {
+        "chain": 4,
+        "iterations": 2000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          5.0260226938488355,
+          7.380979257220426,
+          7.966823987543892,
+          9.352138242059038,
+          9.799206576995436,
+          9.90992584739003,
+          9.999483880939918
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 1253,
+            "accepted": 1119,
+            "acceptance": 0.8930566640063847,
+            "invalid": 6,
+            "finite_abs_energy_gt1000": 2,
+            "combined_flag": 8,
+            "combined_fraction": 0.006384676775738229,
+            "cap_hits": 10,
+            "step_quantiles": [
+              0.000413464407892058,
+              0.0031569357563429323,
+              0.013511018041313522
+            ],
+            "leapfrog_quantiles": [
+              44.0,
+              258.0,
+              533.3999999999999,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.08025442222469081,
+              0.45596260210501727,
+              0.769181003864422,
+              2.2024525606750083,
+              6265.354256198909
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 540,
+            "accepted": 365,
+            "acceptance": 0.6759259259259259,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 10,
+            "step_quantiles": [
+              0.0005339030452790297,
+              0.002366373861279641,
+              0.005089325096754329
+            ],
+            "leapfrog_quantiles": [
+              118.0,
+              338.0,
+              764.3999999999996,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.45791969900744256,
+              2.081096357187779,
+              3.1500549289696154,
+              6.054380098930441,
+              18.130228148353805
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 207,
+            "accepted": 138,
+            "acceptance": 0.6666666666666666
+          }
+        },
+        "transport": {
+          "attempts": 400,
+          "valid": 400,
+          "accepted": 0,
+          "cross_region_proposals": 203,
+          "actual_region_crossings": 0,
+          "seconds": 17.557999999728054,
+          "acceptance_probability_sum": 0.011652303505614983,
+          "max_acceptance_probability": 0.0066373440352972875
+        },
+        "residue": {
+          "attempts": 16000,
+          "valid": 7163,
+          "accepted": 1076,
+          "nontrivial": 716
+        }
+      }
+    ],
+    "warmup_4001_6000": [
+      {
+        "chain": 1,
+        "iterations": 2000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          7.559224827358445,
+          7.820952101134695,
+          8.022644824108335,
+          9.37973069900364,
+          9.796665254103534,
+          9.899310053961294,
+          10.013413157889781
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 1338,
+            "accepted": 1207,
+            "acceptance": 0.9020926756352765,
+            "invalid": 6,
+            "finite_abs_energy_gt1000": 6,
+            "combined_flag": 12,
+            "combined_fraction": 0.008968609865470852,
+            "cap_hits": 8,
+            "step_quantiles": [
+              0.00029338594839668146,
+              0.0030963163619540717,
+              0.01871617161536972
+            ],
+            "leapfrog_quantiles": [
+              28.0,
+              253.0,
+              508.2999999999997,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07888727453947553,
+              0.46565068010936783,
+              0.8082229346478502,
+              6.885188857159584,
+              772565.5210878013
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 466,
+            "accepted": 308,
+            "acceptance": 0.6609442060085837,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 2,
+            "step_quantiles": [
+              0.0002908811218813629,
+              0.0022813909697125207,
+              0.00416333378643888
+            ],
+            "leapfrog_quantiles": [
+              104.0,
+              349.0,
+              649.5,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5331959202376879,
+              2.966298223954851,
+              4.393949603267377,
+              9.989352142372278,
+              16.259896500485894
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 196,
+            "accepted": 132,
+            "acceptance": 0.673469387755102
+          }
+        },
+        "transport": {
+          "attempts": 400,
+          "valid": 400,
+          "accepted": 0,
+          "cross_region_proposals": 198,
+          "actual_region_crossings": 0,
+          "seconds": 16.29600000102073,
+          "acceptance_probability_sum": 0.03213716862749345,
+          "max_acceptance_probability": 0.02326297269663612
+        },
+        "residue": {
+          "attempts": 16000,
+          "valid": 7378,
+          "accepted": 1081,
+          "nontrivial": 727
+        }
+      },
+      {
+        "chain": 2,
+        "iterations": 2000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.792727285656145,
+          7.492284335821847,
+          7.992197775892848,
+          9.436662978088854,
+          9.825115847994507,
+          9.923671699201018,
+          10.047208761346623
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 1300,
+            "accepted": 1162,
+            "acceptance": 0.8938461538461538,
+            "invalid": 6,
+            "finite_abs_energy_gt1000": 7,
+            "combined_flag": 13,
+            "combined_fraction": 0.01,
+            "cap_hits": 20,
+            "step_quantiles": [
+              0.0002815219724527973,
+              0.002944771708335136,
+              0.019745386325550382
+            ],
+            "leapfrog_quantiles": [
+              34.0,
+              269.0,
+              638.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.0687606576656492,
+              0.4724238498345208,
+              0.8735847561524772,
+              11.793757756779113,
+              87123.75794738188
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 507,
+            "accepted": 311,
+            "acceptance": 0.6134122287968442,
+            "invalid": 1,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 1,
+            "combined_fraction": 0.0019723865877712033,
+            "cap_hits": 19,
+            "step_quantiles": [
+              0.0002757856135387899,
+              0.002215071133059538,
+              0.014809039744162786
+            ],
+            "leapfrog_quantiles": [
+              34.0,
+              372.0,
+              916.5999999999998,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5294995562281652,
+              2.5491943951623792,
+              3.8332938627442985,
+              8.058046189451968,
+              20.432030451971627
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 193,
+            "accepted": 133,
+            "acceptance": 0.689119170984456
+          }
+        },
+        "transport": {
+          "attempts": 400,
+          "valid": 400,
+          "accepted": 0,
+          "cross_region_proposals": 193,
+          "actual_region_crossings": 0,
+          "seconds": 15.891999997664243,
+          "acceptance_probability_sum": 0.027543742749625413,
+          "max_acceptance_probability": 0.015659163261887144
+        },
+        "residue": {
+          "attempts": 16000,
+          "valid": 7084,
+          "accepted": 1068,
+          "nontrivial": 710
+        }
+      },
+      {
+        "chain": 3,
+        "iterations": 2000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          5.540750133789315,
+          7.4933599930299,
+          7.9855048856572495,
+          9.44521383185004,
+          9.794897376940753,
+          9.889452554783633,
+          10.034258149154669
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 1288,
+            "accepted": 1142,
+            "acceptance": 0.8866459627329193,
+            "invalid": 9,
+            "finite_abs_energy_gt1000": 4,
+            "combined_flag": 13,
+            "combined_fraction": 0.010093167701863354,
+            "cap_hits": 3,
+            "step_quantiles": [
+              0.00044336051334693013,
+              0.0029422807519057133,
+              0.019951327307778134
+            ],
+            "leapfrog_quantiles": [
+              55.0,
+              273.0,
+              539.6499999999999,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07148878522936997,
+              0.47993514690106964,
+              0.7623901547535662,
+              6.274830292616442,
+              28130.51513162248
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 491,
+            "accepted": 318,
+            "acceptance": 0.6476578411405295,
+            "invalid": 1,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 1,
+            "combined_fraction": 0.002036659877800407,
+            "cap_hits": 4,
+            "step_quantiles": [
+              0.00046338979964116603,
+              0.002259864459606976,
+              0.0149634954808336
+            ],
+            "leapfrog_quantiles": [
+              66.0,
+              350.0,
+              718.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5852686262664708,
+              2.548649391211595,
+              3.983487502497952,
+              9.342795734522888,
+              956.7369949839297
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 221,
+            "accepted": 160,
+            "acceptance": 0.7239819004524887
+          }
+        },
+        "transport": {
+          "attempts": 400,
+          "valid": 400,
+          "accepted": 0,
+          "cross_region_proposals": 190,
+          "actual_region_crossings": 0,
+          "seconds": 15.779000002425164,
+          "acceptance_probability_sum": 0.05554459576526947,
+          "max_acceptance_probability": 0.045480595724726326
+        },
+        "residue": {
+          "attempts": 16000,
+          "valid": 7441,
+          "accepted": 1096,
+          "nontrivial": 742
+        }
+      },
+      {
+        "chain": 4,
+        "iterations": 2000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          7.193779827807463,
+          7.743668291602845,
+          7.979383249493085,
+          9.44445882474648,
+          9.821924438123094,
+          9.953695696161764,
+          10.07519495444228
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 1290,
+            "accepted": 1150,
+            "acceptance": 0.8914728682170543,
+            "invalid": 6,
+            "finite_abs_energy_gt1000": 6,
+            "combined_flag": 12,
+            "combined_fraction": 0.009302325581395349,
+            "cap_hits": 9,
+            "step_quantiles": [
+              0.0004367075430782288,
+              0.003051193601602678,
+              0.0197569708356978
+            ],
+            "leapfrog_quantiles": [
+              41.0,
+              263.0,
+              530.0999999999999,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07308795890168795,
+              0.473723555255786,
+              0.9346432201793593,
+              118.41935801995724,
+              86797.49937975928
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 521,
+            "accepted": 338,
+            "acceptance": 0.6487523992322457,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 13,
+            "step_quantiles": [
+              0.0005463269695567001,
+              0.00225424314591497,
+              0.004618623413501396
+            ],
+            "leapfrog_quantiles": [
+              120.0,
+              362.0,
+              800.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.522858082704083,
+              2.5725991996477617,
+              3.357105300044445,
+              6.995959501164638,
+              11.297150931182102
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 189,
+            "accepted": 133,
+            "acceptance": 0.7037037037037037
+          }
+        },
+        "transport": {
+          "attempts": 400,
+          "valid": 400,
+          "accepted": 0,
+          "cross_region_proposals": 201,
+          "actual_region_crossings": 0,
+          "seconds": 16.350999995600432,
+          "acceptance_probability_sum": 0.022620767773540277,
+          "max_acceptance_probability": 0.015422400577692348
+        },
+        "residue": {
+          "attempts": 16000,
+          "valid": 7253,
+          "accepted": 1076,
+          "nontrivial": 712
+        }
+      }
+    ],
+    "warmup_1_6000": [
+      {
+        "chain": 1,
+        "iterations": 6000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          5.4290228372071265,
+          7.801808078364869,
+          8.013664895586887,
+          9.369399797019224,
+          9.805679240180005,
+          9.893454723089077,
+          10.013413157889781
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 3990,
+            "accepted": 3583,
+            "acceptance": 0.8979949874686717,
+            "invalid": 21,
+            "finite_abs_energy_gt1000": 16,
+            "combined_flag": 37,
+            "combined_fraction": 0.009273182957393484,
+            "cap_hits": 79,
+            "step_quantiles": [
+              0.00013278374180008664,
+              0.003115445616045428,
+              0.5
+            ],
+            "leapfrog_quantiles": [
+              4.0,
+              252.0,
+              691.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07302884134288234,
+              0.4646302634198254,
+              0.8258298859672845,
+              14.420992691987774,
+              772565.5210878013
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 1416,
+            "accepted": 975,
+            "acceptance": 0.6885593220338984,
+            "invalid": 7,
+            "finite_abs_energy_gt1000": 1,
+            "combined_flag": 8,
+            "combined_fraction": 0.005649717514124294,
+            "cap_hits": 36,
+            "step_quantiles": [
+              0.00019931478906212046,
+              0.0023474419156099833,
+              0.09622160737803584
+            ],
+            "leapfrog_quantiles": [
+              8.0,
+              342.0,
+              845.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.44748790442103825,
+              2.2909352270960874,
+              3.663589503758761,
+              7.672529302875524,
+              2609.783391088861
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 594,
+            "accepted": 396,
+            "acceptance": 0.6666666666666666
+          }
+        },
+        "transport": {
+          "attempts": 1100,
+          "valid": 1100,
+          "accepted": 0,
+          "cross_region_proposals": 553,
+          "actual_region_crossings": 0,
+          "seconds": 46.09900000272319,
+          "acceptance_probability_sum": 0.0607394478945148,
+          "max_acceptance_probability": 0.02326297269663612
+        },
+        "residue": {
+          "attempts": 48000,
+          "valid": 22481,
+          "accepted": 3341,
+          "nontrivial": 2286
+        }
+      },
+      {
+        "chain": 2,
+        "iterations": 6000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.432234868504322,
+          7.675766051882147,
+          8.012942766579494,
+          9.436760298837891,
+          9.808735280334067,
+          9.904132457573576,
+          10.094856850437484
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 3921,
+            "accepted": 3522,
+            "acceptance": 0.8982402448355011,
+            "invalid": 22,
+            "finite_abs_energy_gt1000": 15,
+            "combined_flag": 37,
+            "combined_fraction": 0.009436368273399644,
+            "cap_hits": 71,
+            "step_quantiles": [
+              0.0002815219724527973,
+              0.003041375380970234,
+              0.5
+            ],
+            "leapfrog_quantiles": [
+              4.0,
+              262.0,
+              686.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07251722505592895,
+              0.49042031929817703,
+              0.8568487442870436,
+              7.4685505253830105,
+              87123.75794738188
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 1491,
+            "accepted": 1001,
+            "acceptance": 0.6713615023474179,
+            "invalid": 5,
+            "finite_abs_energy_gt1000": 1,
+            "combined_flag": 6,
+            "combined_fraction": 0.004024144869215292,
+            "cap_hits": 61,
+            "step_quantiles": [
+              0.00021975396404814602,
+              0.0022955658732549487,
+              0.10426450737363363
+            ],
+            "leapfrog_quantiles": [
+              4.0,
+              348.0,
+              948.0,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.44155753359191685,
+              2.1721937396124886,
+              3.2605002721784038,
+              7.798412851892782,
+              1505.0375365012403
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 588,
+            "accepted": 379,
+            "acceptance": 0.6445578231292517
+          }
+        },
+        "transport": {
+          "attempts": 1100,
+          "valid": 1100,
+          "accepted": 0,
+          "cross_region_proposals": 546,
+          "actual_region_crossings": 0,
+          "seconds": 45.53900000359863,
+          "acceptance_probability_sum": 0.03178944502193295,
+          "max_acceptance_probability": 0.015659163261887144
+        },
+        "residue": {
+          "attempts": 48000,
+          "valid": 21459,
+          "accepted": 3323,
+          "nontrivial": 2270
+        }
+      },
+      {
+        "chain": 3,
+        "iterations": 6000,
+        "fast_region_count": 269,
+        "fast_region_fraction": 0.044833333333333336,
+        "all_final_region_transitions": 42,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          -1.1530638579511654,
+          -0.05667251519471367,
+          6.97340656134869,
+          9.305962733079411,
+          9.794897376940753,
+          9.889440825044433,
+          10.034258149154669
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 3902,
+            "accepted": 3487,
+            "acceptance": 0.8936442849820605,
+            "invalid": 24,
+            "finite_abs_energy_gt1000": 13,
+            "combined_flag": 37,
+            "combined_fraction": 0.009482316760635571,
+            "cap_hits": 70,
+            "step_quantiles": [
+              0.00018199067414659105,
+              0.0030445453419579386,
+              0.5
+            ],
+            "leapfrog_quantiles": [
+              4.0,
+              262.0,
+              667.9499999999998,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07464177126336047,
+              0.47523650579418203,
+              0.7803185680284952,
+              5.487132898509808,
+              28130.51513162248
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 1483,
+            "accepted": 1003,
+            "acceptance": 0.6763317599460553,
+            "invalid": 2,
+            "finite_abs_energy_gt1000": 1,
+            "combined_flag": 3,
+            "combined_fraction": 0.0020229265003371545,
+            "cap_hits": 60,
+            "step_quantiles": [
+              0.000141788118003979,
+              0.0022957989303916985,
+              0.08427626702941671
+            ],
+            "leapfrog_quantiles": [
+              6.0,
+              342.0,
+              891.7999999999997,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.461710652378688,
+              2.069483468526659,
+              3.103372227232711,
+              7.544871078898816,
+              1103.9682222707102
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 615,
+            "accepted": 439,
+            "acceptance": 0.7138211382113822
+          }
+        },
+        "transport": {
+          "attempts": 1100,
+          "valid": 1100,
+          "accepted": 1,
+          "cross_region_proposals": 528,
+          "actual_region_crossings": 1,
+          "seconds": 43.9970000050962,
+          "acceptance_probability_sum": 1.1492011804672604,
+          "max_acceptance_probability": 1.0
+        },
+        "residue": {
+          "attempts": 48000,
+          "valid": 22291,
+          "accepted": 3223,
+          "nontrivial": 2238
+        }
+      },
+      {
+        "chain": 4,
+        "iterations": 6000,
+        "fast_region_count": 523,
+        "fast_region_fraction": 0.08716666666666667,
+        "all_final_region_transitions": 22,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          -1.5549375489474462,
+          0.05869873693092094,
+          0.5577663110218676,
+          9.22594561316448,
+          9.80116822259565,
+          9.925109957350793,
+          10.07519495444228
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 3832,
+            "accepted": 3407,
+            "acceptance": 0.8890918580375783,
+            "invalid": 25,
+            "finite_abs_energy_gt1000": 18,
+            "combined_flag": 43,
+            "combined_fraction": 0.011221294363256785,
+            "cap_hits": 62,
+            "step_quantiles": [
+              0.00011820940717149199,
+              0.0030193787672255015,
+              0.5
+            ],
+            "leapfrog_quantiles": [
+              4.0,
+              263.0,
+              687.4499999999998,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07421085031796437,
+              0.47211479060551587,
+              0.8646531617108835,
+              29.480797032119096,
+              1452418.5111304177
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 1568,
+            "accepted": 1077,
+            "acceptance": 0.6868622448979592,
+            "invalid": 1,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 1,
+            "combined_fraction": 0.0006377551020408163,
+            "cap_hits": 68,
+            "step_quantiles": [
+              0.00011485116066519563,
+              0.00226506608739925,
+              0.10751366338431442
+            ],
+            "leapfrog_quantiles": [
+              4.0,
+              352.0,
+              939.2999999999997,
+              1024.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.4522596231651761,
+              2.078918525984067,
+              3.2456572753590214,
+              6.824135140728124,
+              44.816581803142626
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 600,
+            "accepted": 418,
+            "acceptance": 0.6966666666666667
+          }
+        },
+        "transport": {
+          "attempts": 1100,
+          "valid": 1096,
+          "accepted": 1,
+          "cross_region_proposals": 555,
+          "actual_region_crossings": 1,
+          "seconds": 46.03999999212101,
+          "acceptance_probability_sum": 1.057084201511484,
+          "max_acceptance_probability": 1.0
+        },
+        "residue": {
+          "attempts": 48000,
+          "valid": 21812,
+          "accepted": 3119,
+          "nontrivial": 2057
+        }
+      }
+    ],
+    "settling_1_4000": [
+      {
+        "chain": 1,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          5.605471513023818,
+          6.879877833750031,
+          7.920555366417417,
+          9.378472628018045,
+          9.805638889160097,
+          9.897518592258969,
+          10.102442356579946
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2608,
+            "accepted": 2368,
+            "acceptance": 0.9079754601226994,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 3,
+            "combined_flag": 3,
+            "combined_fraction": 0.0011503067484662577,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.003265963117276683,
+              0.003265963117276683,
+              0.003265963117276683
+            ],
+            "leapfrog_quantiles": [
+              123.0,
+              248.5,
+              355.0,
+              367.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.0933660307230344,
+              0.49230298444500636,
+              0.7860426783600182,
+              2.0603053496651755,
+              2870.2001359829815
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 990,
+            "accepted": 642,
+            "acceptance": 0.6484848484848484,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002449472337957512,
+              0.002449472337957512,
+              0.002449472337957512
+            ],
+            "leapfrog_quantiles": [
+              164.0,
+              324.0,
+              472.0,
+              488.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5512356523197806,
+              2.52975478760655,
+              3.5898889553380817,
+              8.081079577295284,
+              26.274217553926295
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 402,
+            "accepted": 267,
+            "acceptance": 0.664179104477612
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 413,
+          "actual_region_crossings": 0,
+          "seconds": 34.72100000223145,
+          "acceptance_probability_sum": 0.20142347676022127,
+          "max_acceptance_probability": 0.17530785830177245
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14488,
+          "accepted": 2164,
+          "nontrivial": 1475
+        }
+      },
+      {
+        "chain": 2,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          5.729212112941606,
+          7.142576887192526,
+          7.924971049029769,
+          9.389357975644533,
+          9.800781427336053,
+          9.89916983428168,
+          10.059576389972595
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2645,
+            "accepted": 2390,
+            "acceptance": 0.9035916824196597,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 5,
+            "combined_flag": 5,
+            "combined_fraction": 0.001890359168241966,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0031911801062098864,
+              0.0031911801062098864,
+              0.0031911801062098864
+            ],
+            "leapfrog_quantiles": [
+              126.0,
+              252.0,
+              365.0,
+              376.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.09211012313420497,
+              0.4774409190004814,
+              0.7939038068724122,
+              2.539413668444192,
+              3867.631664369876
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 934,
+            "accepted": 592,
+            "acceptance": 0.6338329764453962,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002393385079657415,
+              0.002393385079657415,
+              0.002393385079657415
+            ],
+            "leapfrog_quantiles": [
+              168.0,
+              340.0,
+              482.6999999999998,
+              500.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5482154536210295,
+              2.4859361896770467,
+              3.5622260177311045,
+              8.665948390911977,
+              15.014142981982829
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 421,
+            "accepted": 281,
+            "acceptance": 0.667458432304038
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 396,
+          "actual_region_crossings": 0,
+          "seconds": 33.311999996658415,
+          "acceptance_probability_sum": 0.028705220484491117,
+          "max_acceptance_probability": 0.017244229107023088
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14789,
+          "accepted": 2272,
+          "nontrivial": 1460
+        }
+      },
+      {
+        "chain": 3,
+        "iterations": 4000,
+        "fast_region_count": 43,
+        "fast_region_fraction": 0.01075,
+        "all_final_region_transitions": 4,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          -0.2134268986355777,
+          4.831653195281621,
+          7.932819714762903,
+          9.346488130999559,
+          9.794866001301498,
+          9.888541007303806,
+          9.99810372225324
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2593,
+            "accepted": 2383,
+            "acceptance": 0.9190127265715388,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 2,
+            "combined_flag": 2,
+            "combined_fraction": 0.0007713073659853452,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.003063975304875532,
+              0.003063975304875532,
+              0.003063975304875532
+            ],
+            "leapfrog_quantiles": [
+              131.0,
+              261.0,
+              380.0,
+              392.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07415171833951817,
+              0.41797003207845845,
+              0.6275668425819554,
+              1.5149909987319596,
+              3806.3043824982396
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 989,
+            "accepted": 638,
+            "acceptance": 0.6450960566228514,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002297981478656649,
+              0.002297981478656649,
+              0.002297981478656649
+            ],
+            "leapfrog_quantiles": [
+              174.0,
+              348.0,
+              505.1999999999998,
+              522.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5443502693216402,
+              2.5263949509174664,
+              3.81535680098179,
+              7.542562703595233,
+              17.20321222619896
+            ],
+            "bridge_or_main_region_crossings": 2
+          },
+          "conditional_heat": {
+            "attempts": 418,
+            "accepted": 271,
+            "acceptance": 0.6483253588516746
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 798,
+          "accepted": 2,
+          "cross_region_proposals": 398,
+          "actual_region_crossings": 2,
+          "seconds": 32.739000000525266,
+          "acceptance_probability_sum": 2.1023321209931707,
+          "max_acceptance_probability": 1.0
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14452,
+          "accepted": 2062,
+          "nontrivial": 1378
+        }
+      },
+      {
+        "chain": 4,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.766825628729483,
+          7.666323553100475,
+          7.999714781126041,
+          9.412964734634212,
+          9.792367137001872,
+          9.875009315291837,
+          10.015595548435753
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2572,
+            "accepted": 2372,
+            "acceptance": 0.9222395023328149,
+            "invalid": 2,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 2,
+            "combined_fraction": 0.0007776049766718507,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0030798741585413704,
+              0.0030798741585413704,
+              0.0030798741585413704
+            ],
+            "leapfrog_quantiles": [
+              130.0,
+              265.0,
+              377.0,
+              389.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07495490370748747,
+              0.40848786070514814,
+              0.6270526957025959,
+              1.3285153040480155,
+              214.1763961374309
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 985,
+            "accepted": 638,
+            "acceptance": 0.6477157360406092,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0023099056189060277,
+              0.0023099056189060277,
+              0.0023099056189060277
+            ],
+            "leapfrog_quantiles": [
+              174.0,
+              354.0,
+              500.0,
+              520.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5194332499503318,
+              2.34233422885022,
+              3.8694474875434453,
+              7.717580107396258,
+              16.118903577445035
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 443,
+            "accepted": 312,
+            "acceptance": 0.7042889390519187
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 401,
+          "actual_region_crossings": 0,
+          "seconds": 33.76800000201911,
+          "acceptance_probability_sum": 0.02888949108722274,
+          "max_acceptance_probability": 0.013657103826065482
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14648,
+          "accepted": 2337,
+          "nontrivial": 1601
+        }
+      }
+    ],
+    "settling_4001_8000": [
+      {
+        "chain": 1,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.508724336063134,
+          7.654867366493605,
+          8.026091900585946,
+          9.426526572948895,
+          9.793084634043787,
+          9.877969432423843,
+          10.024431084004295
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2577,
+            "accepted": 2265,
+            "acceptance": 0.8789289871944121,
+            "invalid": 71,
+            "finite_abs_energy_gt1000": 1,
+            "combined_flag": 72,
+            "combined_fraction": 0.027939464493597205,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.003265963117276683,
+              0.003265963117276683,
+              0.003265963117276683
+            ],
+            "leapfrog_quantiles": [
+              123.0,
+              241.0,
+              356.0,
+              367.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.0877777923552614,
+              0.4530546828682205,
+              0.7793223968835159,
+              2.276093151997415,
+              139555.36173652433
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 1010,
+            "accepted": 679,
+            "acceptance": 0.6722772277227723,
+            "invalid": 21,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 21,
+            "combined_fraction": 0.020792079207920793,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002449472337957512,
+              0.002449472337957512,
+              0.002449472337957512
+            ],
+            "leapfrog_quantiles": [
+              164.0,
+              324.0,
+              476.0,
+              488.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5056277119645607,
+              2.3154888707157375,
+              3.6574161994459407,
+              7.835328673688844,
+              12.470950753980286
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 413,
+            "accepted": 265,
+            "acceptance": 0.6416464891041163
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 370,
+          "actual_region_crossings": 0,
+          "seconds": 31.872000000905246,
+          "acceptance_probability_sum": 0.23653040277554038,
+          "max_acceptance_probability": 0.1859226525370059
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14391,
+          "accepted": 2123,
+          "nontrivial": 1423
+        }
+      },
+      {
+        "chain": 2,
+        "iterations": 4000,
+        "fast_region_count": 5,
+        "fast_region_fraction": 0.00125,
+        "all_final_region_transitions": 6,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          4.600644308508372,
+          6.016517591446066,
+          7.9092714027836495,
+          9.446236145081127,
+          9.818835139062823,
+          9.89755267629655,
+          10.021377264922242
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2597,
+            "accepted": 2315,
+            "acceptance": 0.8914131690412014,
+            "invalid": 19,
+            "finite_abs_energy_gt1000": 8,
+            "combined_flag": 27,
+            "combined_fraction": 0.010396611474778591,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0031911801062098864,
+              0.0031911801062098864,
+              0.0031911801062098864
+            ],
+            "leapfrog_quantiles": [
+              125.0,
+              251.0,
+              364.0,
+              376.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.08219083986407405,
+              0.4773883029901107,
+              0.7570404727569653,
+              2.8196649805586222,
+              110652.95759445653
+            ],
+            "bridge_or_main_region_crossings": 5
+          },
+          "exterior_bridge": {
+            "attempts": 1009,
+            "accepted": 657,
+            "acceptance": 0.6511397423191279,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002393385079657415,
+              0.002393385079657415,
+              0.002393385079657415
+            ],
+            "leapfrog_quantiles": [
+              168.0,
+              328.0,
+              486.0,
+              500.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5596909597092719,
+              2.370662099731604,
+              3.87710294852152,
+              9.396509874833315,
+              153.26122525304808
+            ],
+            "bridge_or_main_region_crossings": 1
+          },
+          "conditional_heat": {
+            "attempts": 394,
+            "accepted": 266,
+            "acceptance": 0.6751269035532995
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 386,
+          "actual_region_crossings": 0,
+          "seconds": 33.52299999911338,
+          "acceptance_probability_sum": 0.056979118228140786,
+          "max_acceptance_probability": 0.017013702068939505
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14622,
+          "accepted": 2214,
+          "nontrivial": 1521
+        }
+      },
+      {
+        "chain": 3,
+        "iterations": 4000,
+        "fast_region_count": 1,
+        "fast_region_fraction": 0.00025,
+        "all_final_region_transitions": 2,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          4.972735276927687,
+          7.035171865363789,
+          7.889222292235831,
+          9.36145889705178,
+          9.795398332870834,
+          9.898982726842076,
+          10.013091139382464
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2581,
+            "accepted": 2348,
+            "acceptance": 0.9097249128244866,
+            "invalid": 2,
+            "finite_abs_energy_gt1000": 3,
+            "combined_flag": 5,
+            "combined_fraction": 0.0019372336303758234,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.003063975304875532,
+              0.003063975304875532,
+              0.003063975304875532
+            ],
+            "leapfrog_quantiles": [
+              131.0,
+              261.0,
+              379.0,
+              391.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.08338777287059074,
+              0.4687488407850169,
+              0.6981018935120513,
+              1.5750101020282485,
+              28126.60000685513
+            ],
+            "bridge_or_main_region_crossings": 1
+          },
+          "exterior_bridge": {
+            "attempts": 1025,
+            "accepted": 670,
+            "acceptance": 0.6536585365853659,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002297981478656649,
+              0.002297981478656649,
+              0.002297981478656649
+            ],
+            "leapfrog_quantiles": [
+              174.0,
+              356.0,
+              508.0,
+              522.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.529388771068767,
+              2.624927939336543,
+              3.8771884073797223,
+              8.549864269652495,
+              17.40016500450602
+            ],
+            "bridge_or_main_region_crossings": 1
+          },
+          "conditional_heat": {
+            "attempts": 394,
+            "accepted": 262,
+            "acceptance": 0.6649746192893401
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 407,
+          "actual_region_crossings": 0,
+          "seconds": 34.690000001806766,
+          "acceptance_probability_sum": 0.03182989983783343,
+          "max_acceptance_probability": 0.014970504571082994
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14502,
+          "accepted": 2229,
+          "nontrivial": 1540
+        }
+      },
+      {
+        "chain": 4,
+        "iterations": 4000,
+        "fast_region_count": 16,
+        "fast_region_fraction": 0.004,
+        "all_final_region_transitions": 4,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          3.5669662780771265,
+          6.205976864407252,
+          7.9297094481213675,
+          9.408352789083649,
+          9.809093175128064,
+          9.886105164816021,
+          10.00181455519709
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2538,
+            "accepted": 2309,
+            "acceptance": 0.9097714736012609,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 1,
+            "combined_flag": 1,
+            "combined_fraction": 0.0003940110323089047,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0030798741585413704,
+              0.0030798741585413704,
+              0.0030798741585413704
+            ],
+            "leapfrog_quantiles": [
+              130.0,
+              267.0,
+              377.0,
+              390.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.08393084146649343,
+              0.43359358008511706,
+              0.6422439861936136,
+              1.3688596227025664,
+              5276.608985622981
+            ],
+            "bridge_or_main_region_crossings": 4
+          },
+          "exterior_bridge": {
+            "attempts": 1042,
+            "accepted": 683,
+            "acceptance": 0.6554702495201535,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0023099056189060277,
+              0.0023099056189060277,
+              0.0023099056189060277
+            ],
+            "leapfrog_quantiles": [
+              172.0,
+              348.0,
+              500.0,
+              520.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5318302325296322,
+              2.2890374283172967,
+              3.6641080572190057,
+              7.43887224109018,
+              25.462852857459147
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 420,
+            "accepted": 278,
+            "acceptance": 0.6619047619047619
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 399,
+          "actual_region_crossings": 0,
+          "seconds": 34.05900000082329,
+          "acceptance_probability_sum": 0.06735825812456192,
+          "max_acceptance_probability": 0.025855938397973836
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14637,
+          "accepted": 2195,
+          "nontrivial": 1481
+        }
+      }
+    ],
+    "settling_8001_12000": [
+      {
+        "chain": 1,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.930389975370775,
+          7.806743592213354,
+          8.015530156513138,
+          9.394325405982094,
+          9.810075882324679,
+          9.904105327116246,
+          10.038017001393719
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2610,
+            "accepted": 2339,
+            "acceptance": 0.8961685823754789,
+            "invalid": 6,
+            "finite_abs_energy_gt1000": 3,
+            "combined_flag": 9,
+            "combined_fraction": 0.0034482758620689655,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.003265963117276683,
+              0.003265963117276683,
+              0.003265963117276683
+            ],
+            "leapfrog_quantiles": [
+              123.0,
+              245.5,
+              357.0,
+              367.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.09429999639650255,
+              0.5169220345008949,
+              0.8300914772370601,
+              2.237790974548595,
+              51896.19791899271
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 992,
+            "accepted": 629,
+            "acceptance": 0.6340725806451613,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002449472337957512,
+              0.002449472337957512,
+              0.002449472337957512
+            ],
+            "leapfrog_quantiles": [
+              164.0,
+              328.0,
+              472.0,
+              490.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5346667758441122,
+              2.293215277126919,
+              3.766439978966644,
+              7.662043867122977,
+              22.974701758341567
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 398,
+            "accepted": 284,
+            "acceptance": 0.7135678391959799
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 421,
+          "actual_region_crossings": 0,
+          "seconds": 36.06599999964237,
+          "acceptance_probability_sum": 0.013742145910547246,
+          "max_acceptance_probability": 0.002974516696845942
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14775,
+          "accepted": 2220,
+          "nontrivial": 1529
+        }
+      },
+      {
+        "chain": 2,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.451934800743418,
+          7.713318994948431,
+          7.989657879984376,
+          9.31079061253344,
+          9.78826502615859,
+          9.886367206419301,
+          10.076410395817406
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2614,
+            "accepted": 2352,
+            "acceptance": 0.899770466717674,
+            "invalid": 1,
+            "finite_abs_energy_gt1000": 7,
+            "combined_flag": 8,
+            "combined_fraction": 0.00306044376434583,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0031911801062098864,
+              0.0031911801062098864,
+              0.0031911801062098864
+            ],
+            "leapfrog_quantiles": [
+              125.0,
+              248.0,
+              363.3499999999999,
+              376.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.08505365985453395,
+              0.49871039275346074,
+              0.8171235275509028,
+              3.0366996186666975,
+              9571.867253042332
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 988,
+            "accepted": 635,
+            "acceptance": 0.6427125506072875,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002393385079657415,
+              0.002393385079657415,
+              0.002393385079657415
+            ],
+            "leapfrog_quantiles": [
+              168.0,
+              333.0,
+              488.0,
+              500.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.511046649848307,
+              2.366480623656695,
+              3.798305905261914,
+              8.155911956669355,
+              23.32013995796762
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 398,
+            "accepted": 277,
+            "acceptance": 0.6959798994974874
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 407,
+          "actual_region_crossings": 0,
+          "seconds": 34.71600000560284,
+          "acceptance_probability_sum": 0.050606255061209755,
+          "max_acceptance_probability": 0.02539595729480254
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14766,
+          "accepted": 2187,
+          "nontrivial": 1520
+        }
+      },
+      {
+        "chain": 3,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.697463755661948,
+          7.7656550116254826,
+          8.034212399303346,
+          9.397891949330496,
+          9.8163782419781,
+          9.89720211312176,
+          10.088433183586234
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2653,
+            "accepted": 2425,
+            "acceptance": 0.9140595552205051,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 9,
+            "combined_flag": 9,
+            "combined_fraction": 0.003392385978137957,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.003063975304875532,
+              0.003063975304875532,
+              0.003063975304875532
+            ],
+            "leapfrog_quantiles": [
+              131.0,
+              265.0,
+              380.0,
+              391.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.08022765984422975,
+              0.47259386824274646,
+              0.7430431373660351,
+              2.0561656029007227,
+              46517.32353932057
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 960,
+            "accepted": 641,
+            "acceptance": 0.6677083333333333,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002297981478656649,
+              0.002297981478656649,
+              0.002297981478656649
+            ],
+            "leapfrog_quantiles": [
+              174.0,
+              344.0,
+              504.0999999999999,
+              522.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5102584556668859,
+              2.5458368030411846,
+              3.576610109258197,
+              6.95292150217936,
+              19.897688843931448
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 387,
+            "accepted": 251,
+            "acceptance": 0.648578811369509
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 410,
+          "actual_region_crossings": 0,
+          "seconds": 34.59800000162795,
+          "acceptance_probability_sum": 0.09753514225462231,
+          "max_acceptance_probability": 0.045989598300618155
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14452,
+          "accepted": 2252,
+          "nontrivial": 1575
+        }
+      },
+      {
+        "chain": 4,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.463079962898883,
+          7.844147498605673,
+          8.046848503038241,
+          9.477524585089016,
+          9.805561821565234,
+          9.895996814637568,
+          10.059336090849087
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2666,
+            "accepted": 2449,
+            "acceptance": 0.9186046511627907,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0030798741585413704,
+              0.0030798741585413704,
+              0.0030798741585413704
+            ],
+            "leapfrog_quantiles": [
+              130.0,
+              264.0,
+              378.0,
+              390.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07485298427227605,
+              0.40204063045260163,
+              0.6091250541444282,
+              1.2326073334423575,
+              632.1101157154962
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 948,
+            "accepted": 588,
+            "acceptance": 0.620253164556962,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0023099056189060277,
+              0.0023099056189060277,
+              0.0023099056189060277
+            ],
+            "leapfrog_quantiles": [
+              172.0,
+              345.0,
+              504.0,
+              520.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5930368297836992,
+              2.7632687048399105,
+              4.494391977574571,
+              9.403747013868257,
+              25.753976082823343
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 386,
+            "accepted": 265,
+            "acceptance": 0.6865284974093264
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 396,
+          "actual_region_crossings": 0,
+          "seconds": 33.797000001650304,
+          "acceptance_probability_sum": 0.03110687285534887,
+          "max_acceptance_probability": 0.02332728746566824
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14656,
+          "accepted": 2200,
+          "nontrivial": 1500
+        }
+      }
+    ],
+    "settling_12001_16000": [
+      {
+        "chain": 1,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          5.976168176494362,
+          7.649513395045082,
+          7.977488666965634,
+          9.363056399631287,
+          9.816326622578906,
+          9.898627617614727,
+          10.020365066141661
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2610,
+            "accepted": 2340,
+            "acceptance": 0.896551724137931,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.003265963117276683,
+              0.003265963117276683,
+              0.003265963117276683
+            ],
+            "leapfrog_quantiles": [
+              123.0,
+              246.0,
+              356.0,
+              367.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.09271256117482451,
+              0.528560984249956,
+              0.8284088079536214,
+              1.663948385367838,
+              679.3515392708264
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 1016,
+            "accepted": 667,
+            "acceptance": 0.656496062992126,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002449472337957512,
+              0.002449472337957512,
+              0.002449472337957512
+            ],
+            "leapfrog_quantiles": [
+              164.0,
+              334.0,
+              474.0,
+              488.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5272744795021289,
+              2.6983393075781255,
+              3.902470695600284,
+              7.419464069453717,
+              27.798224319562593
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 374,
+            "accepted": 266,
+            "acceptance": 0.7112299465240641
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 398,
+          "actual_region_crossings": 0,
+          "seconds": 33.757999994792044,
+          "acceptance_probability_sum": 0.04278715432425423,
+          "max_acceptance_probability": 0.013709604687431641
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14512,
+          "accepted": 2195,
+          "nontrivial": 1493
+        }
+      },
+      {
+        "chain": 2,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.92650598053871,
+          7.697010965351237,
+          7.990313099424898,
+          9.417818034119012,
+          9.807245255080236,
+          9.906478516477335,
+          10.034820422498726
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2607,
+            "accepted": 2350,
+            "acceptance": 0.9014192558496356,
+            "invalid": 5,
+            "finite_abs_energy_gt1000": 4,
+            "combined_flag": 9,
+            "combined_fraction": 0.0034522439585730723,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0031911801062098864,
+              0.0031911801062098864,
+              0.0031911801062098864
+            ],
+            "leapfrog_quantiles": [
+              126.0,
+              254.0,
+              364.0,
+              376.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.08297426835483712,
+              0.484189251622064,
+              0.7291672712472591,
+              1.7870615430002457,
+              18737.151198223288
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 977,
+            "accepted": 639,
+            "acceptance": 0.654042988741044,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002393385079657415,
+              0.002393385079657415,
+              0.002393385079657415
+            ],
+            "leapfrog_quantiles": [
+              168.0,
+              332.0,
+              488.0,
+              500.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5452809970866994,
+              2.2156736853289147,
+              3.393985237492206,
+              6.974265522681434,
+              15.151830153871686
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 416,
+            "accepted": 257,
+            "acceptance": 0.6177884615384616
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 395,
+          "actual_region_crossings": 0,
+          "seconds": 33.56499999994412,
+          "acceptance_probability_sum": 0.050881930110363426,
+          "max_acceptance_probability": 0.01351170895351671
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14425,
+          "accepted": 2166,
+          "nontrivial": 1443
+        }
+      },
+      {
+        "chain": 3,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.344624175241776,
+          7.688830717791758,
+          7.98585658532612,
+          9.377674200024623,
+          9.802667311033561,
+          9.89468435808207,
+          10.06220188032508
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2597,
+            "accepted": 2368,
+            "acceptance": 0.9118213323065075,
+            "invalid": 31,
+            "finite_abs_energy_gt1000": 3,
+            "combined_flag": 34,
+            "combined_fraction": 0.013092029264536002,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.003063975304875532,
+              0.003063975304875532,
+              0.003063975304875532
+            ],
+            "leapfrog_quantiles": [
+              131.0,
+              263.0,
+              379.0,
+              392.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07865110634554817,
+              0.4475407350593894,
+              0.7296474008473837,
+              1.602784039423588,
+              170579.84886265756
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 992,
+            "accepted": 659,
+            "acceptance": 0.6643145161290323,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 3,
+            "combined_flag": 3,
+            "combined_fraction": 0.0030241935483870967,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002297981478656649,
+              0.002297981478656649,
+              0.002297981478656649
+            ],
+            "leapfrog_quantiles": [
+              174.0,
+              344.0,
+              504.0,
+              522.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.4856170628395091,
+              2.548448398225134,
+              3.8878058409611587,
+              11.96960409735201,
+              71690.93596407685
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 411,
+            "accepted": 267,
+            "acceptance": 0.6496350364963503
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 387,
+          "actual_region_crossings": 0,
+          "seconds": 32.39199999766424,
+          "acceptance_probability_sum": 0.01926523114361655,
+          "max_acceptance_probability": 0.005993850283747107
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14697,
+          "accepted": 2254,
+          "nontrivial": 1552
+        }
+      },
+      {
+        "chain": 4,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.58602203449806,
+          7.684456100074209,
+          8.012231796215769,
+          9.450263265094236,
+          9.801224908831331,
+          9.898721267407524,
+          10.00798757816801
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2606,
+            "accepted": 2314,
+            "acceptance": 0.8879508825786646,
+            "invalid": 32,
+            "finite_abs_energy_gt1000": 33,
+            "combined_flag": 65,
+            "combined_fraction": 0.0249424405218726,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0030798741585413704,
+              0.0030798741585413704,
+              0.0030798741585413704
+            ],
+            "leapfrog_quantiles": [
+              130.0,
+              262.0,
+              377.0,
+              390.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.08194539266150258,
+              0.4890164471882561,
+              0.818010295065971,
+              3283.3805821875717,
+              136565.86582321624
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 993,
+            "accepted": 636,
+            "acceptance": 0.6404833836858006,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0023099056189060277,
+              0.0023099056189060277,
+              0.0023099056189060277
+            ],
+            "leapfrog_quantiles": [
+              172.0,
+              346.0,
+              500.0,
+              520.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5460792736660771,
+              2.4578636139444296,
+              3.6236771101398864,
+              8.094517169055948,
+              21.89033429766583
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 401,
+            "accepted": 268,
+            "acceptance": 0.6683291770573566
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 415,
+          "actual_region_crossings": 0,
+          "seconds": 35.09499999973923,
+          "acceptance_probability_sum": 0.057390185494373115,
+          "max_acceptance_probability": 0.025539277003305987
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14491,
+          "accepted": 2145,
+          "nontrivial": 1457
+        }
+      }
+    ],
+    "settling_16001_20000": [
+      {
+        "chain": 1,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.85872406397626,
+          7.6484375303550385,
+          8.011145917727216,
+          9.400640501430418,
+          9.80211348488566,
+          9.88367489032107,
+          10.164022286360112
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2648,
+            "accepted": 2306,
+            "acceptance": 0.870845921450151,
+            "invalid": 80,
+            "finite_abs_energy_gt1000": 14,
+            "combined_flag": 94,
+            "combined_fraction": 0.035498489425981876,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.003265963117276683,
+              0.003265963117276683,
+              0.003265963117276683
+            ],
+            "leapfrog_quantiles": [
+              123.0,
+              246.0,
+              354.6500000000001,
+              367.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.0886804498063789,
+              0.5875051600148429,
+              0.9646787388825903,
+              160.33957701779826,
+              166468.58680758937
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 975,
+            "accepted": 627,
+            "acceptance": 0.6430769230769231,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002449472337957512,
+              0.002449472337957512,
+              0.002449472337957512
+            ],
+            "leapfrog_quantiles": [
+              166.0,
+              318.0,
+              468.0,
+              490.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5280559737286907,
+              2.413737314770076,
+              3.6981304565053037,
+              8.474836206955363,
+              462.80825368027723
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 377,
+            "accepted": 253,
+            "acceptance": 0.6710875331564987
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 408,
+          "actual_region_crossings": 0,
+          "seconds": 34.34999999962747,
+          "acceptance_probability_sum": 0.016026690731025778,
+          "max_acceptance_probability": 0.004551697428041285
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14422,
+          "accepted": 2232,
+          "nontrivial": 1535
+        }
+      },
+      {
+        "chain": 2,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          6.442394235292889,
+          7.633399642035079,
+          7.996160415457554,
+          9.393291891496265,
+          9.80400787838828,
+          9.913723425853476,
+          10.075648813688842
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2631,
+            "accepted": 2403,
+            "acceptance": 0.9133409350057012,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0031911801062098864,
+              0.0031911801062098864,
+              0.0031911801062098864
+            ],
+            "leapfrog_quantiles": [
+              125.0,
+              252.0,
+              363.0,
+              376.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.08969486840162944,
+              0.4528557455449125,
+              0.7018230518799307,
+              1.6742269224086739,
+              939.397657804841
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 993,
+            "accepted": 646,
+            "acceptance": 0.6505538771399798,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002393385079657415,
+              0.002393385079657415,
+              0.002393385079657415
+            ],
+            "leapfrog_quantiles": [
+              168.0,
+              336.0,
+              480.0,
+              500.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5187877332636326,
+              2.424777415559382,
+              3.5436369469392277,
+              6.977326460310066,
+              17.546059604454207
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 376,
+            "accepted": 249,
+            "acceptance": 0.6622340425531915
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 402,
+          "actual_region_crossings": 0,
+          "seconds": 33.942000000271946,
+          "acceptance_probability_sum": 0.06222411968722967,
+          "max_acceptance_probability": 0.020611209083601322
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14789,
+          "accepted": 2186,
+          "nontrivial": 1465
+        }
+      },
+      {
+        "chain": 3,
+        "iterations": 4000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          7.047329226284786,
+          7.68213111791713,
+          7.992974051328538,
+          9.2481791361673,
+          9.79923000678584,
+          9.873331308895386,
+          10.017564961804004
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2569,
+            "accepted": 2326,
+            "acceptance": 0.9054106656286492,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 8,
+            "combined_flag": 8,
+            "combined_fraction": 0.003114052160373686,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.003063975304875532,
+              0.003063975304875532,
+              0.003063975304875532
+            ],
+            "leapfrog_quantiles": [
+              131.0,
+              263.0,
+              380.0,
+              392.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07635534240628061,
+              0.4558659010390252,
+              0.7169440331658327,
+              2.6257429860027304,
+              9260.467679577068
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 1036,
+            "accepted": 666,
+            "acceptance": 0.6428571428571429,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002297981478656649,
+              0.002297981478656649,
+              0.002297981478656649
+            ],
+            "leapfrog_quantiles": [
+              174.0,
+              344.0,
+              500.0,
+              522.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5535023779017241,
+              2.60000444241588,
+              4.049794810621266,
+              8.350782064916837,
+              24.663701582978256
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 395,
+            "accepted": 283,
+            "acceptance": 0.7164556962025317
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 402,
+          "actual_region_crossings": 0,
+          "seconds": 33.38100000564009,
+          "acceptance_probability_sum": 0.0212318260384585,
+          "max_acceptance_probability": 0.014303727096156824
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14941,
+          "accepted": 2268,
+          "nontrivial": 1519
+        }
+      },
+      {
+        "chain": 4,
+        "iterations": 4000,
+        "fast_region_count": 6,
+        "fast_region_fraction": 0.0015,
+        "all_final_region_transitions": 4,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          4.821434725120966,
+          6.820896151721222,
+          7.916953032006158,
+          9.250705467986636,
+          9.788141866900503,
+          9.88472030914999,
+          10.01663962114429
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 2564,
+            "accepted": 2236,
+            "acceptance": 0.8720748829953198,
+            "invalid": 100,
+            "finite_abs_energy_gt1000": 18,
+            "combined_flag": 118,
+            "combined_fraction": 0.046021840873634944,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0030798741585413704,
+              0.0030798741585413704,
+              0.0030798741585413704
+            ],
+            "leapfrog_quantiles": [
+              130.0,
+              253.0,
+              377.0,
+              390.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.08535729718615492,
+              0.5004437394821258,
+              0.779987358136857,
+              7.755939899084005,
+              136984.80809475316
+            ],
+            "bridge_or_main_region_crossings": 2
+          },
+          "exterior_bridge": {
+            "attempts": 997,
+            "accepted": 612,
+            "acceptance": 0.6138415245737212,
+            "invalid": 3,
+            "finite_abs_energy_gt1000": 1,
+            "combined_flag": 4,
+            "combined_fraction": 0.004012036108324975,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0023099056189060277,
+              0.0023099056189060277,
+              0.0023099056189060277
+            ],
+            "leapfrog_quantiles": [
+              172.0,
+              352.0,
+              500.0,
+              520.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5463438632383113,
+              2.7093431829210024,
+              4.023069677180389,
+              10.086936551599212,
+              3537.5116930158074
+            ],
+            "bridge_or_main_region_crossings": 2
+          },
+          "conditional_heat": {
+            "attempts": 439,
+            "accepted": 294,
+            "acceptance": 0.6697038724373576
+          }
+        },
+        "transport": {
+          "attempts": 800,
+          "valid": 800,
+          "accepted": 0,
+          "cross_region_proposals": 407,
+          "actual_region_crossings": 0,
+          "seconds": 34.2060000016354,
+          "acceptance_probability_sum": 0.12597277859550096,
+          "max_acceptance_probability": 0.04162848377017294
+        },
+        "residue": {
+          "attempts": 32000,
+          "valid": 14921,
+          "accepted": 2228,
+          "nontrivial": 1483
+        }
+      }
+    ],
+    "settling_1_20000": [
+      {
+        "chain": 1,
+        "iterations": 20000,
+        "fast_region_count": 0,
+        "fast_region_fraction": 0.0,
+        "all_final_region_transitions": 0,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          5.605471513023818,
+          7.602480452545911,
+          7.995019365080324,
+          9.396930156823084,
+          9.805638889160097,
+          9.892809793435509,
+          10.164022286360112
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 13053,
+            "accepted": 11618,
+            "acceptance": 0.8900635869148855,
+            "invalid": 157,
+            "finite_abs_energy_gt1000": 21,
+            "combined_flag": 178,
+            "combined_fraction": 0.013636711867003755,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.003265963117276683,
+              0.003265963117276683,
+              0.003265963117276683
+            ],
+            "leapfrog_quantiles": [
+              123.0,
+              245.0,
+              356.0,
+              367.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.09131841767937487,
+              0.5255413042069179,
+              0.8333096312674444,
+              2.3193675043535364,
+              166468.58680758937
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "exterior_bridge": {
+            "attempts": 4983,
+            "accepted": 3244,
+            "acceptance": 0.6510134457154325,
+            "invalid": 21,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 21,
+            "combined_fraction": 0.004214328717639976,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002449472337957512,
+              0.002449472337957512,
+              0.002449472337957512
+            ],
+            "leapfrog_quantiles": [
+              164.0,
+              326.0,
+              472.0,
+              490.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5290935987234366,
+              2.4556598773245826,
+              3.7508228541194923,
+              7.93813102334989,
+              462.80825368027723
+            ],
+            "bridge_or_main_region_crossings": 0
+          },
+          "conditional_heat": {
+            "attempts": 1964,
+            "accepted": 1335,
+            "acceptance": 0.679735234215886
+          }
+        },
+        "transport": {
+          "attempts": 4000,
+          "valid": 4000,
+          "accepted": 0,
+          "cross_region_proposals": 2010,
+          "actual_region_crossings": 0,
+          "seconds": 170.76699999719858,
+          "acceptance_probability_sum": 0.5105098705015889,
+          "max_acceptance_probability": 0.1859226525370059
+        },
+        "residue": {
+          "attempts": 160000,
+          "valid": 72588,
+          "accepted": 10934,
+          "nontrivial": 7455
+        }
+      },
+      {
+        "chain": 2,
+        "iterations": 20000,
+        "fast_region_count": 5,
+        "fast_region_fraction": 0.00025,
+        "all_final_region_transitions": 6,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          4.600644308508372,
+          7.3843955835681445,
+          7.967872733100376,
+          9.39579851037362,
+          9.805704308218813,
+          9.901905546435657,
+          10.076410395817406
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 13094,
+            "accepted": 11810,
+            "acceptance": 0.9019398197647778,
+            "invalid": 25,
+            "finite_abs_energy_gt1000": 24,
+            "combined_flag": 49,
+            "combined_fraction": 0.003742171987169696,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0031911801062098864,
+              0.0031911801062098864,
+              0.0031911801062098864
+            ],
+            "leapfrog_quantiles": [
+              125.0,
+              251.0,
+              364.0,
+              376.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.08640871400796257,
+              0.4766750684374914,
+              0.7554705643114539,
+              2.2174720300326576,
+              110652.95759445653
+            ],
+            "bridge_or_main_region_crossings": 5
+          },
+          "exterior_bridge": {
+            "attempts": 4901,
+            "accepted": 3169,
+            "acceptance": 0.6466027341358906,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 0,
+            "combined_flag": 0,
+            "combined_fraction": 0.0,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002393385079657415,
+              0.002393385079657415,
+              0.002393385079657415
+            ],
+            "leapfrog_quantiles": [
+              168.0,
+              336.0,
+              486.0,
+              500.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5357863271372452,
+              2.3666270522206716,
+              3.652371734567847,
+              7.959500648616604,
+              153.26122525304808
+            ],
+            "bridge_or_main_region_crossings": 1
+          },
+          "conditional_heat": {
+            "attempts": 2005,
+            "accepted": 1330,
+            "acceptance": 0.6633416458852868
+          }
+        },
+        "transport": {
+          "attempts": 4000,
+          "valid": 4000,
+          "accepted": 0,
+          "cross_region_proposals": 1986,
+          "actual_region_crossings": 0,
+          "seconds": 169.0580000015907,
+          "acceptance_probability_sum": 0.24939664357143473,
+          "max_acceptance_probability": 0.02539595729480254
+        },
+        "residue": {
+          "attempts": 160000,
+          "valid": 73391,
+          "accepted": 11025,
+          "nontrivial": 7409
+        }
+      },
+      {
+        "chain": 3,
+        "iterations": 20000,
+        "fast_region_count": 44,
+        "fast_region_fraction": 0.0022,
+        "all_final_region_transitions": 6,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          -0.2134268986355777,
+          7.449842438178333,
+          7.964984567324177,
+          9.350621682145954,
+          9.801185728892138,
+          9.893338605085761,
+          10.088433183586234
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 12993,
+            "accepted": 11850,
+            "acceptance": 0.9120295543754329,
+            "invalid": 33,
+            "finite_abs_energy_gt1000": 25,
+            "combined_flag": 58,
+            "combined_fraction": 0.004463942122681444,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.003063975304875532,
+              0.003063975304875532,
+              0.003063975304875532
+            ],
+            "leapfrog_quantiles": [
+              131.0,
+              262.0,
+              380.0,
+              392.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.0782059176504859,
+              0.4508680140389334,
+              0.704968603181667,
+              1.7466382076436744,
+              170579.84886265756
+            ],
+            "bridge_or_main_region_crossings": 1
+          },
+          "exterior_bridge": {
+            "attempts": 5002,
+            "accepted": 3274,
+            "acceptance": 0.6545381847261096,
+            "invalid": 0,
+            "finite_abs_energy_gt1000": 3,
+            "combined_flag": 3,
+            "combined_fraction": 0.0005997600959616154,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.002297981478656649,
+              0.002297981478656649,
+              0.002297981478656649
+            ],
+            "leapfrog_quantiles": [
+              174.0,
+              348.0,
+              504.0,
+              522.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5297638810278311,
+              2.5993993270946865,
+              3.866040361951458,
+              8.494122274066106,
+              71690.93596407685
+            ],
+            "bridge_or_main_region_crossings": 3
+          },
+          "conditional_heat": {
+            "attempts": 2005,
+            "accepted": 1334,
+            "acceptance": 0.6653366583541147
+          }
+        },
+        "transport": {
+          "attempts": 4000,
+          "valid": 3998,
+          "accepted": 2,
+          "cross_region_proposals": 2004,
+          "actual_region_crossings": 2,
+          "seconds": 167.80000000726432,
+          "acceptance_probability_sum": 2.272194220267701,
+          "max_acceptance_probability": 1.0
+        },
+        "residue": {
+          "attempts": 160000,
+          "valid": 73044,
+          "accepted": 11065,
+          "nontrivial": 7564
+        }
+      },
+      {
+        "chain": 4,
+        "iterations": 20000,
+        "fast_region_count": 22,
+        "fast_region_fraction": 0.0011,
+        "all_final_region_transitions": 8,
+        "last_region_is_fast": false,
+        "q18_quantiles": [
+          3.5669662780771265,
+          7.455771533138087,
+          7.991940784448134,
+          9.408472059275441,
+          9.801198520212958,
+          9.89007354799011,
+          10.059336090849087
+        ],
+        "kernels": {
+          "ordinary_hmc": {
+            "attempts": 12946,
+            "accepted": 11680,
+            "acceptance": 0.9022091765796385,
+            "invalid": 134,
+            "finite_abs_energy_gt1000": 52,
+            "combined_flag": 186,
+            "combined_fraction": 0.014367372161285339,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0030798741585413704,
+              0.0030798741585413704,
+              0.0030798741585413704
+            ],
+            "leapfrog_quantiles": [
+              130.0,
+              262.0,
+              377.0,
+              390.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.07995542825789936,
+              0.4426150711449131,
+              0.6837452099401689,
+              2.1969593516161834,
+              136984.80809475316
+            ],
+            "bridge_or_main_region_crossings": 6
+          },
+          "exterior_bridge": {
+            "attempts": 4965,
+            "accepted": 3157,
+            "acceptance": 0.6358509566968782,
+            "invalid": 3,
+            "finite_abs_energy_gt1000": 1,
+            "combined_flag": 4,
+            "combined_fraction": 0.0008056394763343404,
+            "cap_hits": 0,
+            "step_quantiles": [
+              0.0023099056189060277,
+              0.0023099056189060277,
+              0.0023099056189060277
+            ],
+            "leapfrog_quantiles": [
+              172.0,
+              348.0,
+              500.0,
+              520.0
+            ],
+            "finite_abs_energy_quantiles": [
+              0.5469099154595423,
+              2.5562052276267884,
+              3.8561974818682176,
+              8.557581012330203,
+              3537.5116930158074
+            ],
+            "bridge_or_main_region_crossings": 2
+          },
+          "conditional_heat": {
+            "attempts": 2089,
+            "accepted": 1417,
+            "acceptance": 0.678314983245572
+          }
+        },
+        "transport": {
+          "attempts": 4000,
+          "valid": 4000,
+          "accepted": 0,
+          "cross_region_proposals": 2018,
+          "actual_region_crossings": 0,
+          "seconds": 170.92500000586733,
+          "acceptance_probability_sum": 0.3107175861570076,
+          "max_acceptance_probability": 0.04162848377017294
+        },
+        "residue": {
+          "attempts": 160000,
+          "valid": 73353,
+          "accepted": 11105,
+          "nontrivial": 7522
+        }
+      }
+    ]
+  },
+  "final_window_parameters": [
+    {
+      "chain": 1,
+      "C_air_quantiles": [
+        64117.626606274556,
+        64304.51079575981,
+        64497.89817794583
+      ],
+      "sigma_hour_quantiles": [
+        0.11934186964680024,
+        0.12143009327393717,
+        0.12345878305404012
+      ],
+      "rho_hour_quantiles": [
+        0.9310082312977774,
+        0.9517274812917429,
+        0.9692052321497182
+      ],
+      "alpha_air_quantiles": {
+        "solar": [
+          0.32774781702919753,
+          0.3633338330611845,
+          0.3992361074182695
+        ],
+        "lighting": [
+          0.004352027544742347,
+          0.04760828320758755,
+          0.16549440584607444
+        ],
+        "occupant": [
+          0.7500715157470204,
+          0.8165890073137148,
+          0.8749560566125019
+        ],
+        "equipment": [
+          0.8104694766538879,
+          0.859861908390776,
+          0.905901143422661
+        ]
+      },
+      "canonical_thermal_median": [
+        0.08102823295598095,
+        0.0349313973112996,
+        0.5169432879206094,
+        0.09987664854493447,
+        0.06217672808246182,
+        0.11553141090838798,
+        0.82907297670119,
+        0.18497861624368966,
+        1.0014393482476431,
+        0.050259472037597966,
+        1.2232375261690431,
+        0.18982817935404234,
+        0.0017491304897763438,
+        0.024425310427643336,
+        0.23388198795965393,
+        0.4731718040839215,
+        3.631080370192277,
+        151428.5728491427,
+        81076.65606555893,
+        457893.3215120121,
+        270889.58793049265,
+        82691.99464207666,
+        111160.88285249184,
+        2616243.983986486,
+        64304.51079575981
+      ]
+    },
+    {
+      "chain": 2,
+      "C_air_quantiles": [
+        64110.90058231074,
+        64302.907979092255,
+        64494.58819013904
+      ],
+      "sigma_hour_quantiles": [
+        0.11930896532698393,
+        0.12147505916889001,
+        0.12357128199911165
+      ],
+      "rho_hour_quantiles": [
+        0.9297004000997152,
+        0.9522361726031122,
+        0.9705439955663443
+      ],
+      "alpha_air_quantiles": {
+        "solar": [
+          0.32766930974557323,
+          0.36289728141367106,
+          0.3974114910739425
+        ],
+        "lighting": [
+          0.004237540482507575,
+          0.05026384926382299,
+          0.17300156347549317
+        ],
+        "occupant": [
+          0.7432570609386995,
+          0.8157170558955207,
+          0.8735616041645567
+        ],
+        "equipment": [
+          0.8087356137584001,
+          0.8606866783115604,
+          0.9088390696389689
+        ]
+      },
+      "canonical_thermal_median": [
+        0.08376961178067943,
+        0.03282788090156933,
+        0.407212479453521,
+        0.10624146948958536,
+        0.029438857720130895,
+        0.08505221375295738,
+        0.8736625617738271,
+        0.1721070835753153,
+        0.9366074862540541,
+        0.05349411070663861,
+        1.184370553937262,
+        0.18341653571129762,
+        0.0017496968394009643,
+        0.024709771025778336,
+        0.23920766661958554,
+        0.44961590414381125,
+        3.442758269177526,
+        154720.37767614267,
+        84578.04007617614,
+        847521.7443301989,
+        271416.1005074448,
+        83559.8145632606,
+        139456.56144727094,
+        2090096.0756673198,
+        64302.907979092255
+      ]
+    },
+    {
+      "chain": 3,
+      "C_air_quantiles": [
+        64117.36133536649,
+        64306.46972922365,
+        64500.507963085125
+      ],
+      "sigma_hour_quantiles": [
+        0.11929055802079569,
+        0.12138407831025474,
+        0.12360613784196943
+      ],
+      "rho_hour_quantiles": [
+        0.9296929628703917,
+        0.9518971371458413,
+        0.9691392503618713
+      ],
+      "alpha_air_quantiles": {
+        "solar": [
+          0.32787009459967553,
+          0.3625953096684309,
+          0.3972756850765039
+        ],
+        "lighting": [
+          0.0044329297823931454,
+          0.05300012445740597,
+          0.16842574530442592
+        ],
+        "occupant": [
+          0.7457805224313885,
+          0.8153482420592704,
+          0.8750909273077474
+        ],
+        "equipment": [
+          0.8104312510566379,
+          0.8609002762364494,
+          0.9064002736615595
+        ]
+      },
+      "canonical_thermal_median": [
+        0.07915241816914564,
+        0.03461369481227295,
+        0.6281328388061791,
+        0.13244761455903736,
+        0.023200690970543177,
+        0.07722060794785728,
+        0.7821447540524273,
+        0.16795316422101864,
+        0.9798687765657418,
+        0.05487930220506575,
+        1.2658189114371867,
+        0.17824045348002127,
+        0.0017907740533672735,
+        0.024443544488372625,
+        0.23648248899941482,
+        0.4575258680358715,
+        3.3958213124543386,
+        155068.1865857888,
+        72072.55984716822,
+        1071200.8827652363,
+        282317.2523366201,
+        82262.45784873782,
+        122951.75035607716,
+        2140549.5399402822,
+        64306.46972922365
+      ]
+    },
+    {
+      "chain": 4,
+      "C_air_quantiles": [
+        64120.33508371407,
+        64313.825299026634,
+        64496.51175229634
+      ],
+      "sigma_hour_quantiles": [
+        0.11924763101417604,
+        0.12139600409611762,
+        0.12357878072975999
+      ],
+      "rho_hour_quantiles": [
+        0.9299523012547584,
+        0.9518398890703659,
+        0.9699302115872437
+      ],
+      "alpha_air_quantiles": {
+        "solar": [
+          0.3305557518543132,
+          0.3641511797851684,
+          0.397200087738499
+        ],
+        "lighting": [
+          0.004727465181884806,
+          0.051399858891174544,
+          0.165444383069243
+        ],
+        "occupant": [
+          0.74902773209204,
+          0.8157323726928081,
+          0.8773515936930596
+        ],
+        "equipment": [
+          0.8083854405772374,
+          0.8585007606902199,
+          0.9067010260699364
+        ]
+      },
+      "canonical_thermal_median": [
+        0.07519929257214711,
+        0.038700137693921714,
+        0.6151635042969378,
+        0.12612526209692837,
+        0.023283468784046222,
+        0.0732875562469001,
+        0.8671090044178082,
+        0.17381851533623716,
+        0.9531424004388632,
+        0.05004817342865442,
+        1.2575299675825753,
+        0.17396621509502896,
+        0.0018891916546669174,
+        0.024415009897982433,
+        0.2377610066749639,
+        0.4679286274372725,
+        3.456063115678573,
+        150862.69219531238,
+        70019.47980173911,
+        1075064.0142475003,
+        279096.09717913246,
+        84466.53331841782,
+        114830.14841633677,
+        2253219.853599989,
+        64313.825299026634
+      ]
+    }
+  ],
+  "caution": "All values are from discarded adaptation or settling, not retained posterior inference. Canonical solid component labels are ordered labels, not assigned physical wall identities."
+}

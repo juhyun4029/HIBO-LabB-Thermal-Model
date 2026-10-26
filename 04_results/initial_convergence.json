@@ -1,0 +1,428 @@
+{
+  "chains": 4,
+  "retained_per_chain": 5000,
+  "independent_parameters": 55,
+  "physical": {
+    "diagnostic_definition": {
+      "schema": "hibo-diagnostics-5-95-v1",
+      "rhat_method": "rank",
+      "rhat_description": "Maximum rank-normalized split and folded-split R-hat",
+      "bulk_ess_method": "bulk",
+      "tail_ess_method": "minimum_of_two_explicit_quantile_ess",
+      "tail_quantiles": [
+        0.05,
+        0.95
+      ],
+      "relative_ess": false,
+      "production_draw_policy": "All retained post-warmup draws; no thinning or posthoc discard",
+      "thresholds": {
+        "rhat_strictly_below": 1.1,
+        "bulk_ess_at_least": 400,
+        "tail_ess_at_least": 400
+      },
+      "coordinate_policy": "Both all 59 reported physical marginals and all 55 ordered coordinates must pass"
+    },
+    "max_rhat": 1.003822026261044,
+    "min_bulk_ess": 1501.7636522770886,
+    "min_tail_ess": 1208.0377085532757,
+    "invalid_parameters": 0,
+    "passed": true,
+    "per_parameter": [
+      {
+        "name": "ceiling:R1",
+        "rhat": 1.0023526351515142,
+        "ess_bulk": 1798.3680685615789,
+        "ess_tail": 2399.427310659353
+      },
+      {
+        "name": "ceiling:R2",
+        "rhat": 1.003822026261044,
+        "ess_bulk": 1572.4681231543188,
+        "ess_tail": 1924.8878140758436
+      },
+      {
+        "name": "extwall_1:R1",
+        "rhat": 1.0012156688486047,
+        "ess_bulk": 4614.410307661568,
+        "ess_tail": 7232.693647797172
+      },
+      {
+        "name": "extwall_1:R2",
+        "rhat": 1.0017195073258733,
+        "ess_bulk": 5588.097311225497,
+        "ess_tail": 7800.922894024706
+      },
+      {
+        "name": "extwall_2:R1",
+        "rhat": 1.0015760562186895,
+        "ess_bulk": 6211.080964851931,
+        "ess_tail": 8483.216697803253
+      },
+      {
+        "name": "extwall_2:R2",
+        "rhat": 1.0015349638410647,
+        "ess_bulk": 4097.636138439101,
+        "ess_tail": 7303.011244269259
+      },
+      {
+        "name": "extwall_3:R1",
+        "rhat": 1.0008939471691831,
+        "ess_bulk": 4342.65467776149,
+        "ess_tail": 5951.1137134373275
+      },
+      {
+        "name": "extwall_3:R2",
+        "rhat": 1.0019038737002088,
+        "ess_bulk": 4441.106666379152,
+        "ess_tail": 5018.890455529795
+      },
+      {
+        "name": "intwall_1:R1",
+        "rhat": 1.002518898578979,
+        "ess_bulk": 2719.596093915091,
+        "ess_tail": 1208.0377085532757
+      },
+      {
+        "name": "intwall_1:R2",
+        "rhat": 1.0027000387192753,
+        "ess_bulk": 2491.944074694519,
+        "ess_tail": 1477.5851241542193
+      },
+      {
+        "name": "intwall_2:R1",
+        "rhat": 1.0028450092336847,
+        "ess_bulk": 3038.8984661258323,
+        "ess_tail": 3162.5640625273004
+      },
+      {
+        "name": "intwall_2:R2",
+        "rhat": 1.0015812450809696,
+        "ess_bulk": 3982.24193423885,
+        "ess_tail": 3495.918372703361
+      },
+      {
+        "name": "floor:R1",
+        "rhat": 1.0019184723252,
+        "ess_bulk": 1807.1320131716213,
+        "ess_tail": 2077.8656011110747
+      },
+      {
+        "name": "floor:R2",
+        "rhat": 1.001513183349127,
+        "ess_bulk": 2120.9687581480466,
+        "ess_tail": 3500.1317330504025
+      },
+      {
+        "name": "extwindow_1:R",
+        "rhat": 1.000735922019307,
+        "ess_bulk": 4186.61770428141,
+        "ess_tail": 5533.820615892385
+      },
+      {
+        "name": "extwindow_2:R",
+        "rhat": 1.000908045609527,
+        "ess_bulk": 3935.9419730716577,
+        "ess_tail": 6140.202248421838
+      },
+      {
+        "name": "intwindow_1:R",
+        "rhat": 1.0002581168124425,
+        "ess_bulk": 2560.27838597638,
+        "ess_tail": 3030.9616799011947
+      },
+      {
+        "name": "ceiling:C",
+        "rhat": 1.0014278931321778,
+        "ess_bulk": 3188.2777329754845,
+        "ess_tail": 3377.7560636785724
+      },
+      {
+        "name": "extwall_1:C",
+        "rhat": 1.0008601591024837,
+        "ess_bulk": 4306.16943521864,
+        "ess_tail": 8660.176895905335
+      },
+      {
+        "name": "extwall_2:C",
+        "rhat": 1.0005505434096484,
+        "ess_bulk": 6584.802125915447,
+        "ess_tail": 8235.76457010837
+      },
+      {
+        "name": "extwall_3:C",
+        "rhat": 1.0016947147754705,
+        "ess_bulk": 3325.1629666974823,
+        "ess_tail": 6627.306230123941
+      },
+      {
+        "name": "intwall_1:C",
+        "rhat": 1.0010561332205896,
+        "ess_bulk": 3246.942382293252,
+        "ess_tail": 4732.215419603825
+      },
+      {
+        "name": "intwall_2:C",
+        "rhat": 1.0010060606111093,
+        "ess_bulk": 4138.850246957611,
+        "ess_tail": 7296.922740210843
+      },
+      {
+        "name": "floor:C",
+        "rhat": 1.0018191585115375,
+        "ess_bulk": 1501.7636522770886,
+        "ess_tail": 2986.975769421765
+      },
+      {
+        "name": "zone_air:C",
+        "rhat": 1.0003921916118752,
+        "ess_bulk": 12408.362148544411,
+        "ess_tail": 10882.24641306849
+      },
+      {
+        "name": "sigma_innovation_hour",
+        "rhat": 1.0022270307799281,
+        "ess_bulk": 4313.280181186048,
+        "ess_tail": 6744.730622786884
+      },
+      {
+        "name": "rho_hour",
+        "rhat": 1.000857295064586,
+        "ess_bulk": 3258.0436506515157,
+        "ess_tail": 2233.303806814187
+      },
+      {
+        "name": "alpha_solar:ceiling",
+        "rhat": 1.0019551994294806,
+        "ess_bulk": 2436.0087754189544,
+        "ess_tail": 2607.316941272107
+      },
+      {
+        "name": "alpha_solar:extwall_1",
+        "rhat": 1.0005709116639705,
+        "ess_bulk": 5112.760566968687,
+        "ess_tail": 9458.042196614984
+      },
+      {
+        "name": "alpha_solar:extwall_2",
+        "rhat": 1.0003890961071569,
+        "ess_bulk": 4935.484128277549,
+        "ess_tail": 5646.306984270097
+      },
+      {
+        "name": "alpha_solar:extwall_3",
+        "rhat": 1.0007000519435982,
+        "ess_bulk": 4797.888969201279,
+        "ess_tail": 7009.080523181777
+      },
+      {
+        "name": "alpha_solar:intwall_1",
+        "rhat": 1.001649705816084,
+        "ess_bulk": 3779.635517300329,
+        "ess_tail": 6297.569610242016
+      },
+      {
+        "name": "alpha_solar:intwall_2",
+        "rhat": 1.0008341233477869,
+        "ess_bulk": 7349.683400342335,
+        "ess_tail": 7999.710208076138
+      },
+      {
+        "name": "alpha_solar:floor",
+        "rhat": 1.0001538000277426,
+        "ess_bulk": 4936.1619836540685,
+        "ess_tail": 5388.54459345214
+      },
+      {
+        "name": "alpha_solar:zone_air",
+        "rhat": 1.0001621800892284,
+        "ess_bulk": 13882.275478511217,
+        "ess_tail": 14630.748809940182
+      },
+      {
+        "name": "alpha_lighting:ceiling",
+        "rhat": 1.000520220664486,
+        "ess_bulk": 6145.6072673709905,
+        "ess_tail": 5107.761177944109
+      },
+      {
+        "name": "alpha_lighting:extwall_1",
+        "rhat": 1.0013040851803217,
+        "ess_bulk": 5504.955439714774,
+        "ess_tail": 10219.377488576018
+      },
+      {
+        "name": "alpha_lighting:extwall_2",
+        "rhat": 1.0004334479366508,
+        "ess_bulk": 6973.707688597445,
+        "ess_tail": 6507.203741993561
+      },
+      {
+        "name": "alpha_lighting:extwall_3",
+        "rhat": 1.0004469093215027,
+        "ess_bulk": 7920.408102102727,
+        "ess_tail": 9997.493377873192
+      },
+      {
+        "name": "alpha_lighting:intwall_1",
+        "rhat": 1.0013343894396782,
+        "ess_bulk": 6103.369147711952,
+        "ess_tail": 7979.852359610078
+      },
+      {
+        "name": "alpha_lighting:intwall_2",
+        "rhat": 1.0013664436179261,
+        "ess_bulk": 4273.388881404466,
+        "ess_tail": 8256.365530381747
+      },
+      {
+        "name": "alpha_lighting:floor",
+        "rhat": 1.0001861149953162,
+        "ess_bulk": 6575.6828571101705,
+        "ess_tail": 6323.62996144082
+      },
+      {
+        "name": "alpha_lighting:zone_air",
+        "rhat": 1.000072112098405,
+        "ess_bulk": 5650.65257877291,
+        "ess_tail": 6145.978359628808
+      },
+      {
+        "name": "alpha_occupant:ceiling",
+        "rhat": 1.0002221381570113,
+        "ess_bulk": 5020.42592224161,
+        "ess_tail": 4715.3975311231325
+      },
+      {
+        "name": "alpha_occupant:extwall_1",
+        "rhat": 1.0003246325917126,
+        "ess_bulk": 9469.241600568292,
+        "ess_tail": 8260.638954454096
+      },
+      {
+        "name": "alpha_occupant:extwall_2",
+        "rhat": 1.0007335085435736,
+        "ess_bulk": 5343.288636490411,
+        "ess_tail": 4874.160137665505
+      },
+      {
+        "name": "alpha_occupant:extwall_3",
+        "rhat": 1.000159366350492,
+        "ess_bulk": 9426.197892526887,
+        "ess_tail": 9291.09265269365
+      },
+      {
+        "name": "alpha_occupant:intwall_1",
+        "rhat": 1.0007513919032205,
+        "ess_bulk": 8520.095551306582,
+        "ess_tail": 8237.926295528321
+      },
+      {
+        "name": "alpha_occupant:intwall_2",
+        "rhat": 1.0003583706981485,
+        "ess_bulk": 10063.689969847228,
+        "ess_tail": 8903.366102798052
+      },
+      {
+        "name": "alpha_occupant:floor",
+        "rhat": 1.000374424845747,
+        "ess_bulk": 5281.825031767778,
+        "ess_tail": 4369.582496460203
+      },
+      {
+        "name": "alpha_occupant:zone_air",
+        "rhat": 1.000138808253313,
+        "ess_bulk": 9628.656341802765,
+        "ess_tail": 11876.33680059953
+      },
+      {
+        "name": "alpha_equipment:ceiling",
+        "rhat": 1.0004699860334818,
+        "ess_bulk": 5293.111467618723,
+        "ess_tail": 4907.111658262248
+      },
+      {
+        "name": "alpha_equipment:extwall_1",
+        "rhat": 0.9999596815032992,
+        "ess_bulk": 9215.901974223505,
+        "ess_tail": 8433.890857945305
+      },
+      {
+        "name": "alpha_equipment:extwall_2",
+        "rhat": 1.0009089465684131,
+        "ess_bulk": 5971.269998883893,
+        "ess_tail": 5713.848837583924
+      },
+      {
+        "name": "alpha_equipment:extwall_3",
+        "rhat": 1.0009367322819105,
+        "ess_bulk": 9345.131954134808,
+        "ess_tail": 7914.697159942607
+      },
+      {
+        "name": "alpha_equipment:intwall_1",
+        "rhat": 1.0011285733837587,
+        "ess_bulk": 8010.282704511961,
+        "ess_tail": 6985.239877627344
+      },
+      {
+        "name": "alpha_equipment:intwall_2",
+        "rhat": 1.000695932260008,
+        "ess_bulk": 8170.6680405114375,
+        "ess_tail": 7636.808323644855
+      },
+      {
+        "name": "alpha_equipment:floor",
+        "rhat": 1.0006951962456867,
+        "ess_bulk": 6269.884477785034,
+        "ess_tail": 5342.119295867232
+      },
+      {
+        "name": "alpha_equipment:zone_air",
+        "rhat": 1.0003127726180354,
+        "ess_bulk": 11660.954221725455,
+        "ess_tail": 10724.069485928912
+      }
+    ]
+  },
+  "ordered": {
+    "diagnostic_definition": {
+      "schema": "hibo-diagnostics-5-95-v1",
+      "rhat_method": "rank",
+      "rhat_description": "Maximum rank-normalized split and folded-split R-hat",
+      "bulk_ess_method": "bulk",
+      "tail_ess_method": "minimum_of_two_explicit_quantile_ess",
+      "tail_quantiles": [
+        0.05,
+        0.95
+      ],
+      "relative_ess": false,
+      "production_draw_policy": "All retained post-warmup draws; no thinning or posthoc discard",
+      "thresholds": {
+        "rhat_strictly_below": 1.1,
+        "bulk_ess_at_least": 400,
+        "tail_ess_at_least": 400
+      },
+      "coordinate_policy": "Both all 59 reported physical marginals and all 55 ordered coordinates must pass"
+    },
+    "max_rhat": 1.0064104208924016,
+    "min_bulk_ess": 1043.8467768863652,
+    "min_tail_ess": 436.5362765717698,
+    "invalid_parameters": 0,
+    "passed": true
+  },
+  "training": {
+    "n": 30240,
+    "rmse": 0.39955820334461134,
+    "mae": 0.33028855691444814,
+    "bias": -0.18361986977963926
+  },
+  "validation": {
+    "n": 12960,
+    "rmse": 0.41083638519622667,
+    "mae": 0.3342309204821417,
+    "bias": -0.1597247698170881
+  },
+  "representative": "Highest original labeled log posterior among retained joint draws; no marginal-median parameter mixing",
+  "chain": 3,
+  "retained_draw": 2023
+}

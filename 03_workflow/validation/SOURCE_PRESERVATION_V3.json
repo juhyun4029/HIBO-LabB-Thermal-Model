@@ -1,0 +1,374 @@
+{
+  "schema": "hibo-v3-source-preservation-v1",
+  "checked_utc": "2026-10-24T13:26:52.459243+00:00",
+  "comparison": "Current v3 build against the user-uploaded SingleSP FullPipeline v2 package",
+  "digest_definition": "SHA256 over sorted relative_path + NUL + file_SHA256 + newline; caches and temporary hidden files excluded",
+  "reduction": {
+    "files": 14,
+    "all_byte_identical": true,
+    "tree_sha256": "7f11bac7b83b85a8ecfdef0bbf40c9404cb53baa1ea3d0d6c495546461b6152c",
+    "entries": [
+      {
+        "path": "reduction/README_KO.md",
+        "uploaded_v2_sha256": "a6a1f79231e1cd018e10ec541d55ddc75c01604ecc56d6d3732bc2b1d6765e2e",
+        "v3_sha256": "a6a1f79231e1cd018e10ec541d55ddc75c01604ecc56d6d3732bc2b1d6765e2e",
+        "unchanged": true
+      },
+      {
+        "path": "reduction/SCIENTIFIC_METHOD.md",
+        "uploaded_v2_sha256": "86db2bd30c13f6dd88bc6321dc9f868e92011ebf6f8bad4f85192685661cb1cf",
+        "v3_sha256": "86db2bd30c13f6dd88bc6321dc9f868e92011ebf6f8bad4f85192685661cb1cf",
+        "unchanged": true
+      },
+      {
+        "path": "reduction/config.json",
+        "uploaded_v2_sha256": "6924b78886a2ddf0eb8435d0dcc4788e447d02b62cf7bd52b3148ead5d548d52",
+        "v3_sha256": "6924b78886a2ddf0eb8435d0dcc4788e447d02b62cf7bd52b3148ead5d548d52",
+        "unchanged": true
+      },
+      {
+        "path": "reduction/requirements.txt",
+        "uploaded_v2_sha256": "a631481891b97877eb761c07e226c6d82927c1748c859a07acb0e276f5ddbb1c",
+        "v3_sha256": "a631481891b97877eb761c07e226c6d82927c1748c859a07acb0e276f5ddbb1c",
+        "unchanged": true
+      },
+      {
+        "path": "reduction/run_reduction.py",
+        "uploaded_v2_sha256": "213c9517ff0e9d9982ba8f9353e11b6f4a32be74eaba38d9dfa89c04588b5394",
+        "v3_sha256": "213c9517ff0e9d9982ba8f9353e11b6f4a32be74eaba38d9dfa89c04588b5394",
+        "unchanged": true
+      },
+      {
+        "path": "reduction/src/reduction/__init__.py",
+        "uploaded_v2_sha256": "10f9a05ce7562a4b394bffd9307ecdbbac6901e56b6697f1685cb8a7292ec9e2",
+        "v3_sha256": "10f9a05ce7562a4b394bffd9307ecdbbac6901e56b6697f1685cb8a7292ec9e2",
+        "unchanged": true
+      },
+      {
+        "path": "reduction/src/reduction/analysis.py",
+        "uploaded_v2_sha256": "7ea95dcdfabb1734485391598cd2d326be069753e6dd90b1b89866644a1e5810",
+        "v3_sha256": "7ea95dcdfabb1734485391598cd2d326be069753e6dd90b1b89866644a1e5810",
+        "unchanged": true
+      },
+      {
+        "path": "reduction/src/reduction/numeric_rules.py",
+        "uploaded_v2_sha256": "d552b9cf9fa97f26f825eee33a9d7ccc97f9f1f7238b4b412088aabdd26e0aee",
+        "v3_sha256": "d552b9cf9fa97f26f825eee33a9d7ccc97f9f1f7238b4b412088aabdd26e0aee",
+        "unchanged": true
+      },
+      {
+        "path": "reduction/src/reduction/numerics.py",
+        "uploaded_v2_sha256": "96225be0d5fa8e2a899b572325ac2a3a6b36fbe1cd521d5c1c308f3c01c4dac0",
+        "v3_sha256": "96225be0d5fa8e2a899b572325ac2a3a6b36fbe1cd521d5c1c308f3c01c4dac0",
+        "unchanged": true
+      },
+      {
+        "path": "reduction/src/reduction/ranking.py",
+        "uploaded_v2_sha256": "207fb7f65388528f7571d61c7463d93e4073611065a26248474b21c1d24d25bf",
+        "v3_sha256": "207fb7f65388528f7571d61c7463d93e4073611065a26248474b21c1d24d25bf",
+        "unchanged": true
+      },
+      {
+        "path": "reduction/src/reduction/reprocess.py",
+        "uploaded_v2_sha256": "4318cdef0f9445bbdbfcb86b75631f1c17216c3160153da6aeacf09edbf032f1",
+        "v3_sha256": "4318cdef0f9445bbdbfcb86b75631f1c17216c3160153da6aeacf09edbf032f1",
+        "unchanged": true
+      },
+      {
+        "path": "reduction/src/reduction/sampling.py",
+        "uploaded_v2_sha256": "384f5f8d40b2374bb60ba5d37756a186bb790807df01d24b0647d5c2e412d861",
+        "v3_sha256": "384f5f8d40b2374bb60ba5d37756a186bb790807df01d24b0647d5c2e412d861",
+        "unchanged": true
+      },
+      {
+        "path": "reduction/src/reduction/topology.py",
+        "uploaded_v2_sha256": "e2fe43b3332875059e996db15f9e14e4a0b43ca55fcff0a6b2f09a75e2c93ef8",
+        "v3_sha256": "e2fe43b3332875059e996db15f9e14e4a0b43ca55fcff0a6b2f09a75e2c93ef8",
+        "unchanged": true
+      },
+      {
+        "path": "reduction/src/reduction/workflow.py",
+        "uploaded_v2_sha256": "06c4a8c4b820ed23946a0fe427c5b45c2ba61dff9824df76797d7117f5765e56",
+        "v3_sha256": "06c4a8c4b820ed23946a0fe427c5b45c2ba61dff9824df76797d7117f5765e56",
+        "unchanged": true
+      }
+    ],
+    "file_sets_identical": true
+  },
+  "initial_inputs": {
+    "files": 7,
+    "all_byte_identical": true,
+    "tree_sha256": "0e8f85d703d7a121e431950dfc4d5cdf18e1e35327b39a33710f73a34635c363",
+    "entries": [
+      {
+        "path": "initial/inputs/HIBO.idf",
+        "uploaded_v2_sha256": "80bdbd484400f78263fef5fbd0cde3b5f2a6bf9f589cbbf229215580a47754f4",
+        "v3_sha256": "80bdbd484400f78263fef5fbd0cde3b5f2a6bf9f589cbbf229215580a47754f4",
+        "unchanged": true
+      },
+      {
+        "path": "initial/inputs/HIBO_MCMC_1min.csv",
+        "uploaded_v2_sha256": "3d7af46b9928291ff36348618643d10b035cff44fc23eaf10facda30dc889a36",
+        "v3_sha256": "3d7af46b9928291ff36348618643d10b035cff44fc23eaf10facda30dc889a36",
+        "unchanged": true
+      },
+      {
+        "path": "initial/inputs/build_data.py",
+        "uploaded_v2_sha256": "031049637ef633b091cd5f7628ef7528317abb9341e06b4ebf2cc5ba9010e9c2",
+        "v3_sha256": "031049637ef633b091cd5f7628ef7528317abb9341e06b4ebf2cc5ba9010e9c2",
+        "unchanged": true
+      },
+      {
+        "path": "initial/inputs/data.npz",
+        "uploaded_v2_sha256": "5521a1f6210ca41f02865751203057109f4e337d0770ac41ec50f4044e806f1c",
+        "v3_sha256": "5521a1f6210ca41f02865751203057109f4e337d0770ac41ec50f4044e806f1c",
+        "unchanged": true
+      },
+      {
+        "path": "initial/inputs/metadata.json",
+        "uploaded_v2_sha256": "3c786f03eb2ca30d78ccd4b3ac0b0c2c8c994cbd366a6c1bf5ce5413d0ea1fc5",
+        "v3_sha256": "3c786f03eb2ca30d78ccd4b3ac0b0c2c8c994cbd366a6c1bf5ce5413d0ea1fc5",
+        "unchanged": true
+      },
+      {
+        "path": "initial/inputs/reference.json",
+        "uploaded_v2_sha256": "712258c194bd62da6908ba9449bc51d2fcfc1d9f2c21eb6cdc25c4ece5db2980",
+        "v3_sha256": "712258c194bd62da6908ba9449bc51d2fcfc1d9f2c21eb6cdc25c4ece5db2980",
+        "unchanged": true
+      },
+      {
+        "path": "initial/inputs/simulation_audit.json",
+        "uploaded_v2_sha256": "a64c36bcaf1c1b7ab2b8da959244bbd606e17d4edb49267a22b9df6699d1f32e",
+        "v3_sha256": "a64c36bcaf1c1b7ab2b8da959244bbd606e17d4edb49267a22b9df6699d1f32e",
+        "unchanged": true
+      }
+    ],
+    "file_sets_identical": true
+  },
+  "initial_unchanged_scientific_source": {
+    "files": 31,
+    "all_byte_identical": true,
+    "tree_sha256": "1c9795c64cf18c8ee6daa0e9f62453530402fb31a6d963e4737730ce37763c48",
+    "entries": [
+      {
+        "path": "initial/src/adjoint.py",
+        "uploaded_v2_sha256": "647264eea88681fec01c29c9a3f7e0eff980f58efaeb04a15577bf58c32d11f4",
+        "v3_sha256": "647264eea88681fec01c29c9a3f7e0eff980f58efaeb04a15577bf58c32d11f4",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/adjoint_fast.py",
+        "uploaded_v2_sha256": "36f40752f2d92e7c95732e03e93def59b8cf1ec90a320efc580aba6f32dd3852",
+        "v3_sha256": "36f40752f2d92e7c95732e03e93def59b8cf1ec90a320efc580aba6f32dd3852",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/audit_profile_proposals.py",
+        "uploaded_v2_sha256": "1dab51615a549de1bd67af695a80f73a4fc2eebef90295129ea9152ca5067dd5",
+        "v3_sha256": "1dab51615a549de1bd67af695a80f73a4fc2eebef90295129ea9152ca5067dd5",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/canonical_model.py",
+        "uploaded_v2_sha256": "f30ce6a16b7ae8589b350aaa92049f874803323b4a5efe4e0f01e0e3f5de851b",
+        "v3_sha256": "f30ce6a16b7ae8589b350aaa92049f874803323b4a5efe4e0f01e0e3f5de851b",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/compiled_target.py",
+        "uploaded_v2_sha256": "7b4a43f88a439ff8de099167701406efd4a3d632a663bc3c5257efe80d872e3c",
+        "v3_sha256": "7b4a43f88a439ff8de099167701406efd4a3d632a663bc3c5257efe80d872e3c",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/conditional_heat.py",
+        "uploaded_v2_sha256": "b669212c56ff44c7a094688e0d97ed44d5acbf7441e1dcfe42f2bfe3f2609c37",
+        "v3_sha256": "b669212c56ff44c7a094688e0d97ed44d5acbf7441e1dcfe42f2bfe3f2609c37",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/conditional_transport.py",
+        "uploaded_v2_sha256": "29cdc537b9a7258d321cfd762f98163f574f8d96c529b8d3ae76f07cab19c045",
+        "v3_sha256": "29cdc537b9a7258d321cfd762f98163f574f8d96c529b8d3ae76f07cab19c045",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/diagnostic_parallel.py",
+        "uploaded_v2_sha256": "d1a4dcc2aa190af0b371fbcea224df16cbf062c569554946c2dddc79dc099f1e",
+        "v3_sha256": "d1a4dcc2aa190af0b371fbcea224df16cbf062c569554946c2dddc79dc099f1e",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/effective_coordinates.py",
+        "uploaded_v2_sha256": "784d99703e74aa207046752659a1a14c261a9cd4dfcce53968c0b44d9287de2c",
+        "v3_sha256": "784d99703e74aa207046752659a1a14c261a9cd4dfcce53968c0b44d9287de2c",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/exterior_bridge.py",
+        "uploaded_v2_sha256": "6c95c89a1791e04a5cc495b4c6e0459f5226f93ffdd56d367d6545742fbaacfc",
+        "v3_sha256": "6c95c89a1791e04a5cc495b4c6e0459f5226f93ffdd56d367d6545742fbaacfc",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/exterior_transport.py",
+        "uploaded_v2_sha256": "aba59711ed66314aefb9a93eb3b45a371d18773e7ce923841df19b8d2433cab9",
+        "v3_sha256": "aba59711ed66314aefb9a93eb3b45a371d18773e7ce923841df19b8d2433cab9",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/ghk_heat.py",
+        "uploaded_v2_sha256": "aedad8fe3698442c4167b3d5db779b0bf19b53c67d39dce1f9f809c723014c4f",
+        "v3_sha256": "aedad8fe3698442c4167b3d5db779b0bf19b53c67d39dce1f9f809c723014c4f",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/global_transport.py",
+        "uploaded_v2_sha256": "cecaf495767b9f913f8a69c248245cd1cde9b6fb28125942b47b417b5aa9f8db",
+        "v3_sha256": "cecaf495767b9f913f8a69c248245cd1cde9b6fb28125942b47b417b5aa9f8db",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/july_initialization.py",
+        "uploaded_v2_sha256": "a17fb7ccaf7cb29ed25c8c0d552fdac3d673109681254e93be67fa1f960e9ee1",
+        "v3_sha256": "a17fb7ccaf7cb29ed25c8c0d552fdac3d673109681254e93be67fa1f960e9ee1",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/marginal_heat.py",
+        "uploaded_v2_sha256": "7827e91e5010fd3d7ef3292398e308c63457b3b4d612287da872f29d1e042411",
+        "v3_sha256": "7827e91e5010fd3d7ef3292398e308c63457b3b4d612287da872f29d1e042411",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/model.py",
+        "uploaded_v2_sha256": "006f8de6c3fec6b0a613a431944b1dbd2e9232ad46bfed69f46ecb08ad1fcc9c",
+        "v3_sha256": "006f8de6c3fec6b0a613a431944b1dbd2e9232ad46bfed69f46ecb08ad1fcc9c",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/multiple_try_heat.py",
+        "uploaded_v2_sha256": "8dacc5dccb6dd58d69817c24323fcd06453a6ed3729056d8857be1d950a9402b",
+        "v3_sha256": "8dacc5dccb6dd58d69817c24323fcd06453a6ed3729056d8857be1d950a9402b",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/physical_prior.py",
+        "uploaded_v2_sha256": "df72537b42f819cb2bf446f4e907642dfcb3771ad781bf7984dc7a982f3e4f23",
+        "v3_sha256": "df72537b42f819cb2bf446f4e907642dfcb3771ad781bf7984dc7a982f3e4f23",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/profile_coordinates.py",
+        "uploaded_v2_sha256": "996a44bea251abb661b9c892cf3eb0fbacc279ceec93f5f87d797a49f813a352",
+        "v3_sha256": "996a44bea251abb661b9c892cf3eb0fbacc279ceec93f5f87d797a49f813a352",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/profile_heat.py",
+        "uploaded_v2_sha256": "905e33915bcd2c371ba9ec3229081828410b33c559aa1ee7ade2eeff3fd715f0",
+        "v3_sha256": "905e33915bcd2c371ba9ec3229081828410b33c559aa1ee7ade2eeff3fd715f0",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/profile_integrator.py",
+        "uploaded_v2_sha256": "003b6b7aee2f600e8a30f430401d0f8f315ab354709d66070721942a905b9e9a",
+        "v3_sha256": "003b6b7aee2f600e8a30f430401d0f8f315ab354709d66070721942a905b9e9a",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/reflected_hmc_integrator.py",
+        "uploaded_v2_sha256": "75250db23fdefc2b0530c09c1601206dfcb05f002708fdf2f3c2e71f4ad0ee0c",
+        "v3_sha256": "75250db23fdefc2b0530c09c1601206dfcb05f002708fdf2f3c2e71f4ad0ee0c",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/reporting.py",
+        "uploaded_v2_sha256": "1cd23269542601265e2c3084395ab00fa2e88a06de96152824e1924e6025038f",
+        "v3_sha256": "1cd23269542601265e2c3084395ab00fa2e88a06de96152824e1924e6025038f",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/residue_transition.py",
+        "uploaded_v2_sha256": "5cab0065851fdb8dcbab09ed3b6a3c9d8f18aa1dc07f0ff17fa726c8db5b0438",
+        "v3_sha256": "5cab0065851fdb8dcbab09ed3b6a3c9d8f18aa1dc07f0ff17fa726c8db5b0438",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/settling_policy.py",
+        "uploaded_v2_sha256": "c33bd47c7c540e457f054b1b561023e5c54a1c05b400133d7cc8c660ed511613",
+        "v3_sha256": "c33bd47c7c540e457f054b1b561023e5c54a1c05b400133d7cc8c660ed511613",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/slice_transition.py",
+        "uploaded_v2_sha256": "b5acebf477630cfb596c44d8eb0d1a83684cd84119e492e89bb1ccf78e59180b",
+        "v3_sha256": "b5acebf477630cfb596c44d8eb0d1a83684cd84119e492e89bb1ccf78e59180b",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/solver.py",
+        "uploaded_v2_sha256": "1bfdfdef45aabe69b0e59d0ef47bd2c4f5420b1ee2e7a7311e1a51079243ee0b",
+        "v3_sha256": "1bfdfdef45aabe69b0e59d0ef47bd2c4f5420b1ee2e7a7311e1a51079243ee0b",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/tempered_hmc.py",
+        "uploaded_v2_sha256": "b857ed34e8bce779c66bd694173d53e16b4148d16674c827e8be0d21de3c5f75",
+        "v3_sha256": "b857ed34e8bce779c66bd694173d53e16b4148d16674c827e8be0d21de3c5f75",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/tuned_adaptation.py",
+        "uploaded_v2_sha256": "ab7e4645c8774734101d8fae740a170fa75f8a90b4f3330c2c9df70d6798d989",
+        "v3_sha256": "ab7e4645c8774734101d8fae740a170fa75f8a90b4f3330c2c9df70d6798d989",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/variety_assessment.py",
+        "uploaded_v2_sha256": "c42099b2a07fe6867001d20d8ed32ff49a2a7a9780dd2857287287243ae11735",
+        "v3_sha256": "c42099b2a07fe6867001d20d8ed32ff49a2a7a9780dd2857287287243ae11735",
+        "unchanged": true
+      },
+      {
+        "path": "initial/src/warmup_health.py",
+        "uploaded_v2_sha256": "ab5ca274d8bf49718fe1426838ada789002d0d4e7c2b023d5eddf9dea168b60c",
+        "v3_sha256": "ab5ca274d8bf49718fe1426838ada789002d0d4e7c2b023d5eddf9dea168b60c",
+        "unchanged": true
+      }
+    ],
+    "file_sets_identical": true
+  },
+  "intentionally_changed_initial_source": [
+    "initial/src/july_export.py",
+    "initial/src/production_health.py",
+    "initial/src/tuned_profile_sampler.py"
+  ],
+  "claims": {
+    "same_single_setpoint_csv_as_uploaded_v2": true,
+    "same_idf_reference_and_input_builder": true,
+    "same_target_density_priors_likelihood_and_coordinate_transforms": true,
+    "same_thermal_solver_and_time_steps": true,
+    "same_reduction_source_and_configuration": true
+  },
+  "limitations": [
+    "Byte identity establishes source/input preservation relative to uploaded v2; it does not certify scientific validity or future convergence.",
+    "Sampler/export orchestration and production-health checks are intentionally changed; this is not an unchanged-whole-package claim."
+  ],
+  "readme_command_validation": {
+    "mode": "Static inspection; Windows/PowerShell execution is not available in this Linux audit",
+    "passed": true,
+    "archive_name": "HIBO_LabB_SingleSP_FullPipeline_v3.zip",
+    "expected_top_level_directory": "HIBO_LabB_SingleSP_FullPipeline_v3",
+    "setup_runs_verification_before_start": true,
+    "bat_actions": {
+      "SETUP": "verify",
+      "START": "start",
+      "RESUME": "resume",
+      "STATUS": "status",
+      "STOP": "stop",
+      "EXPORT_RESULTS": "export"
+    },
+    "default_work_root": "%LOCALAPPDATA%\\HIBO_SingleSP_FullPipeline_v3\\<run-id>"
+  }
+}

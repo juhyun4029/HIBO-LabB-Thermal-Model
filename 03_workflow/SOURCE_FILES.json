@@ -1,0 +1,22 @@
+{
+  "HIBO_LabB_July_Wide_Case5.zip": {
+    "sha256": "1fa91a7668236a49a37fcc7bfdbff808d6e806a6fc03287e35824cf7bcec9a5a",
+    "role": "initial numerical sampler/settings and IDF-derived prior references"
+  },
+  "HIBO_LabB_Reduction_AllPairs_RCA_v3(1).zip": {
+    "sha256": "56ad1c58a1a1dfe2d297e8314ab6767e8bd12f4b4f849394c182577f21a7c711",
+    "role": "reduction and binary/numeric subgroup code/settings"
+  },
+  "HIBO_LabB_July_Single_Setpoint_Excitation.csv": {
+    "sha256": "3d7af46b9928291ff36348618643d10b035cff44fc23eaf10facda30dc889a36",
+    "role": "new complete minute physical inputs and target temperatures"
+  },
+  "HIBO_LabB_July_Single_Setpoint_Excitation.sql": {
+    "sha256": "8ee1394b200454ac632801a923620750f1625390571a094e27362703299ab1c5",
+    "role": "cross-check only; not required for runtime and not bundled"
+  },
+  "HIBO_LabB_SingleSP_FullPipeline_v2(1).zip": {
+    "sha256": "2213cbc400461aa92130c8082843fe16b0087bfb27048bc216146398c2f58ade",
+    "role": "Uploaded v2 implementation and failed settling diagnostics used for code audit; no saved chain, checkpoint or fitted proposal is runtime input."
+  }
+}

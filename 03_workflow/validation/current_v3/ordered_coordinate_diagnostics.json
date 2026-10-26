@@ -1,0 +1,1794 @@
+[
+  {
+    "end": 8000,
+    "worst_tail": [
+      {
+        "index": 23,
+        "label": "floor:log_tau",
+        "rhat": 1.0068700875096859,
+        "bulk": 560.8214163278341,
+        "tail": 344.5138871946622
+      },
+      {
+        "index": 0,
+        "label": "component0:log_Rtotal",
+        "rhat": 1.0109515950284897,
+        "bulk": 740.3043200106439,
+        "tail": 479.61162298278674
+      },
+      {
+        "index": 1,
+        "label": "component0:log_R1_over_R2",
+        "rhat": 1.007425308307945,
+        "bulk": 742.0436422172828,
+        "tail": 490.5794151127139
+      },
+      {
+        "index": 13,
+        "label": "component6:log_R1_over_R2",
+        "rhat": 1.0033483678633413,
+        "bulk": 694.9635218148009,
+        "tail": 507.4523882267074
+      },
+      {
+        "index": 9,
+        "label": "component4:log_R1_over_R2",
+        "rhat": 1.0026271544332495,
+        "bulk": 1515.2572394619563,
+        "tail": 650.9648425388501
+      },
+      {
+        "index": 18,
+        "label": "exterior_fast:log_tau",
+        "rhat": 1.0033771202351363,
+        "bulk": 1176.7242436148954,
+        "tail": 769.7592969083346
+      },
+      {
+        "index": 11,
+        "label": "component5:log_R1_over_R2",
+        "rhat": 1.0012807608892689,
+        "bulk": 1451.6879220912056,
+        "tail": 885.7931235754081
+      },
+      {
+        "index": 3,
+        "label": "component1:log_R1_over_R2",
+        "rhat": 1.0036688368306614,
+        "bulk": 1224.314057622168,
+        "tail": 912.8891460133535
+      }
+    ],
+    "all": [
+      {
+        "index": 0,
+        "label": "component0:log_Rtotal",
+        "rhat": 1.0109515950284897,
+        "bulk": 740.3043200106439,
+        "tail": 479.61162298278674
+      },
+      {
+        "index": 1,
+        "label": "component0:log_R1_over_R2",
+        "rhat": 1.007425308307945,
+        "bulk": 742.0436422172828,
+        "tail": 490.5794151127139
+      },
+      {
+        "index": 2,
+        "label": "component1:log_Rtotal",
+        "rhat": 1.0018814612745848,
+        "bulk": 1196.9346840202081,
+        "tail": 4118.270957072998
+      },
+      {
+        "index": 3,
+        "label": "component1:log_R1_over_R2",
+        "rhat": 1.0036688368306614,
+        "bulk": 1224.314057622168,
+        "tail": 912.8891460133535
+      },
+      {
+        "index": 4,
+        "label": "component2:log_Rtotal",
+        "rhat": 1.0045970188430426,
+        "bulk": 1721.0956274054984,
+        "tail": 1552.0892591270617
+      },
+      {
+        "index": 5,
+        "label": "component2:log_R1_over_R2",
+        "rhat": 1.003074840790712,
+        "bulk": 2088.407602064996,
+        "tail": 4986.4995216996085
+      },
+      {
+        "index": 6,
+        "label": "component3:log_Rtotal",
+        "rhat": 1.0027186946137567,
+        "bulk": 1729.6268696542281,
+        "tail": 2684.99282437135
+      },
+      {
+        "index": 7,
+        "label": "component3:log_R1_over_R2",
+        "rhat": 1.0024621876842774,
+        "bulk": 1847.3196889391759,
+        "tail": 3441.11878254951
+      },
+      {
+        "index": 8,
+        "label": "component4:log_Rtotal",
+        "rhat": 1.0009419880066421,
+        "bulk": 2841.3261016811994,
+        "tail": 4767.258490819843
+      },
+      {
+        "index": 9,
+        "label": "component4:log_R1_over_R2",
+        "rhat": 1.0026271544332495,
+        "bulk": 1515.2572394619563,
+        "tail": 650.9648425388501
+      },
+      {
+        "index": 10,
+        "label": "component5:log_Rtotal",
+        "rhat": 1.0008827785679195,
+        "bulk": 2353.5596420344896,
+        "tail": 3798.062155145579
+      },
+      {
+        "index": 11,
+        "label": "component5:log_R1_over_R2",
+        "rhat": 1.0012807608892689,
+        "bulk": 1451.6879220912056,
+        "tail": 885.7931235754081
+      },
+      {
+        "index": 12,
+        "label": "component6:log_Rtotal",
+        "rhat": 1.0025513995785444,
+        "bulk": 1417.0205533872324,
+        "tail": 2339.535147198802
+      },
+      {
+        "index": 13,
+        "label": "component6:log_R1_over_R2",
+        "rhat": 1.0033483678633413,
+        "bulk": 694.9635218148009,
+        "tail": 507.4523882267074
+      },
+      {
+        "index": 14,
+        "label": "exterior_windows:log_total_G",
+        "rhat": 1.0002739730279122,
+        "bulk": 4512.628364385623,
+        "tail": 6194.307547393724
+      },
+      {
+        "index": 15,
+        "label": "exterior_windows:log_R2_over_R1",
+        "rhat": 1.0002911857342556,
+        "bulk": 3086.7389237581733,
+        "tail": 4563.296702550038
+      },
+      {
+        "index": 16,
+        "label": "interior_window:log_R",
+        "rhat": 1.0030626848303381,
+        "bulk": 1845.2786249693488,
+        "tail": 2486.312573210894
+      },
+      {
+        "index": 17,
+        "label": "ceiling:log_tau",
+        "rhat": 1.0007136865963413,
+        "bulk": 1668.0276795302,
+        "tail": 1550.4650343397946
+      },
+      {
+        "index": 18,
+        "label": "exterior_fast:log_tau",
+        "rhat": 1.0033771202351363,
+        "bulk": 1176.7242436148954,
+        "tail": 769.7592969083346
+      },
+      {
+        "index": 19,
+        "label": "exterior_mid:log_tau_gap",
+        "rhat": 1.0009146302962113,
+        "bulk": 1469.84330527553,
+        "tail": 923.4876541353968
+      },
+      {
+        "index": 20,
+        "label": "exterior_slow:log_tau_gap",
+        "rhat": 1.0016319166414553,
+        "bulk": 2209.399113265444,
+        "tail": 3580.7317396287153
+      },
+      {
+        "index": 21,
+        "label": "interior_fast:log_tau",
+        "rhat": 1.0029586613889898,
+        "bulk": 1386.388512926173,
+        "tail": 1540.2966839310202
+      },
+      {
+        "index": 22,
+        "label": "interior_slow:log_tau_gap",
+        "rhat": 1.0016853670566326,
+        "bulk": 1508.8441306942725,
+        "tail": 3609.553895356153
+      },
+      {
+        "index": 23,
+        "label": "floor:log_tau",
+        "rhat": 1.0068700875096859,
+        "bulk": 560.8214163278341,
+        "tail": 344.5138871946622
+      },
+      {
+        "index": 24,
+        "label": "air:log_C",
+        "rhat": 1.0006798372060632,
+        "bulk": 7651.763756816154,
+        "tail": 7505.398800613825
+      },
+      {
+        "index": 25,
+        "label": "noise:sigma_transform",
+        "rhat": 1.001340675554065,
+        "bulk": 3618.8239878185072,
+        "tail": 5720.690479376
+      },
+      {
+        "index": 26,
+        "label": "noise:rho_transform",
+        "rhat": 1.0003475206677384,
+        "bulk": 4744.257163346293,
+        "tail": 3403.847299510812
+      },
+      {
+        "index": 27,
+        "label": "solar:alpha_logratio_component0",
+        "rhat": 1.0039085640271936,
+        "bulk": 1565.4755535808624,
+        "tail": 1852.603078459813
+      },
+      {
+        "index": 28,
+        "label": "solar:alpha_logratio_component1",
+        "rhat": 1.0015317843009952,
+        "bulk": 1985.3644621656838,
+        "tail": 4835.9246350157
+      },
+      {
+        "index": 29,
+        "label": "solar:alpha_logratio_component2",
+        "rhat": 1.002637787796883,
+        "bulk": 2334.907422640168,
+        "tail": 4264.627827445987
+      },
+      {
+        "index": 30,
+        "label": "solar:alpha_logratio_component3",
+        "rhat": 1.001254342547845,
+        "bulk": 1911.90258475145,
+        "tail": 3628.0755057806787
+      },
+      {
+        "index": 31,
+        "label": "solar:alpha_logratio_component4",
+        "rhat": 1.0012686959578387,
+        "bulk": 1573.4111723640651,
+        "tail": 2373.8650419482374
+      },
+      {
+        "index": 32,
+        "label": "solar:alpha_logratio_component5",
+        "rhat": 1.001200866885717,
+        "bulk": 1536.8333063626803,
+        "tail": 2433.873074201226
+      },
+      {
+        "index": 33,
+        "label": "solar:alpha_logratio_component6",
+        "rhat": 1.0017483493426065,
+        "bulk": 3980.871510515923,
+        "tail": 4264.485138102782
+      },
+      {
+        "index": 34,
+        "label": "lighting:alpha_logratio_component0",
+        "rhat": 1.0007206709060963,
+        "bulk": 3633.2425291849563,
+        "tail": 4876.806808322487
+      },
+      {
+        "index": 35,
+        "label": "lighting:alpha_logratio_component1",
+        "rhat": 1.0015901730190035,
+        "bulk": 2679.6850549851015,
+        "tail": 4388.339421081493
+      },
+      {
+        "index": 36,
+        "label": "lighting:alpha_logratio_component2",
+        "rhat": 1.00148555498122,
+        "bulk": 2465.0477037030037,
+        "tail": 5186.355737507109
+      },
+      {
+        "index": 37,
+        "label": "lighting:alpha_logratio_component3",
+        "rhat": 1.0011793207555015,
+        "bulk": 2694.826912452058,
+        "tail": 4157.034965172351
+      },
+      {
+        "index": 38,
+        "label": "lighting:alpha_logratio_component4",
+        "rhat": 1.0000838861936625,
+        "bulk": 3920.300235826731,
+        "tail": 5266.030622758136
+      },
+      {
+        "index": 39,
+        "label": "lighting:alpha_logratio_component5",
+        "rhat": 1.0007744876947755,
+        "bulk": 3350.5644881178405,
+        "tail": 5262.1514786668695
+      },
+      {
+        "index": 40,
+        "label": "lighting:alpha_logratio_component6",
+        "rhat": 1.0001202881362332,
+        "bulk": 4038.1249806805968,
+        "tail": 5147.0389631957605
+      },
+      {
+        "index": 41,
+        "label": "occupant:alpha_logratio_component0",
+        "rhat": 1.0010631623680621,
+        "bulk": 3846.7743144537076,
+        "tail": 3608.917275660877
+      },
+      {
+        "index": 42,
+        "label": "occupant:alpha_logratio_component1",
+        "rhat": 1.0011980032390455,
+        "bulk": 3970.1961933949988,
+        "tail": 4244.222807604935
+      },
+      {
+        "index": 43,
+        "label": "occupant:alpha_logratio_component2",
+        "rhat": 1.000518707632556,
+        "bulk": 4355.966427675094,
+        "tail": 4560.267026830807
+      },
+      {
+        "index": 44,
+        "label": "occupant:alpha_logratio_component3",
+        "rhat": 1.0001868533156373,
+        "bulk": 4568.897524950132,
+        "tail": 4226.675896401363
+      },
+      {
+        "index": 45,
+        "label": "occupant:alpha_logratio_component4",
+        "rhat": 1.0014612096350979,
+        "bulk": 4814.03849090988,
+        "tail": 4674.116425714122
+      },
+      {
+        "index": 46,
+        "label": "occupant:alpha_logratio_component5",
+        "rhat": 1.0008627212875132,
+        "bulk": 4218.238378055257,
+        "tail": 4289.993300888767
+      },
+      {
+        "index": 47,
+        "label": "occupant:alpha_logratio_component6",
+        "rhat": 1.0005648541269498,
+        "bulk": 4538.078265154971,
+        "tail": 3941.7488636027706
+      },
+      {
+        "index": 48,
+        "label": "equipment:alpha_logratio_component0",
+        "rhat": 1.0008052655708621,
+        "bulk": 3495.3805741291812,
+        "tail": 3462.525139930241
+      },
+      {
+        "index": 49,
+        "label": "equipment:alpha_logratio_component1",
+        "rhat": 1.0011973940001635,
+        "bulk": 4658.213051730393,
+        "tail": 5088.375391841728
+      },
+      {
+        "index": 50,
+        "label": "equipment:alpha_logratio_component2",
+        "rhat": 1.0010848878024985,
+        "bulk": 4838.215955357336,
+        "tail": 5940.632689257435
+      },
+      {
+        "index": 51,
+        "label": "equipment:alpha_logratio_component3",
+        "rhat": 1.000005685748522,
+        "bulk": 4201.942250801292,
+        "tail": 3924.6263944380103
+      },
+      {
+        "index": 52,
+        "label": "equipment:alpha_logratio_component4",
+        "rhat": 1.0006561719741167,
+        "bulk": 5113.426800216699,
+        "tail": 4476.589844100715
+      },
+      {
+        "index": 53,
+        "label": "equipment:alpha_logratio_component5",
+        "rhat": 1.0006269069566236,
+        "bulk": 5184.830216400232,
+        "tail": 5459.499077550173
+      },
+      {
+        "index": 54,
+        "label": "equipment:alpha_logratio_component6",
+        "rhat": 1.0001333149759213,
+        "bulk": 4665.059605702575,
+        "tail": 4372.539933204779
+      }
+    ]
+  },
+  {
+    "end": 12000,
+    "worst_tail": [
+      {
+        "index": 23,
+        "label": "floor:log_tau",
+        "rhat": 1.0036966944371215,
+        "bulk": 1202.9169545965785,
+        "tail": 861.3291018479036
+      },
+      {
+        "index": 11,
+        "label": "component5:log_R1_over_R2",
+        "rhat": 1.0032466120755852,
+        "bulk": 1403.393123108828,
+        "tail": 906.5907214095296
+      },
+      {
+        "index": 9,
+        "label": "component4:log_R1_over_R2",
+        "rhat": 1.0013496827894832,
+        "bulk": 1747.150072911046,
+        "tail": 1186.784968758778
+      },
+      {
+        "index": 13,
+        "label": "component6:log_R1_over_R2",
+        "rhat": 1.001089280374743,
+        "bulk": 1572.5642527728933,
+        "tail": 1209.9820959581812
+      },
+      {
+        "index": 1,
+        "label": "component0:log_R1_over_R2",
+        "rhat": 1.0026430816562795,
+        "bulk": 1112.7533231896957,
+        "tail": 1275.0702514248587
+      },
+      {
+        "index": 0,
+        "label": "component0:log_Rtotal",
+        "rhat": 1.005423274122421,
+        "bulk": 1517.6881188722614,
+        "tail": 1447.5512069761915
+      },
+      {
+        "index": 17,
+        "label": "ceiling:log_tau",
+        "rhat": 1.002812456854678,
+        "bulk": 1808.489306313835,
+        "tail": 1719.8490758944463
+      },
+      {
+        "index": 16,
+        "label": "interior_window:log_R",
+        "rhat": 1.000757263448109,
+        "bulk": 1959.3036744166745,
+        "tail": 1944.8081998982727
+      }
+    ],
+    "all": [
+      {
+        "index": 0,
+        "label": "component0:log_Rtotal",
+        "rhat": 1.005423274122421,
+        "bulk": 1517.6881188722614,
+        "tail": 1447.5512069761915
+      },
+      {
+        "index": 1,
+        "label": "component0:log_R1_over_R2",
+        "rhat": 1.0026430816562795,
+        "bulk": 1112.7533231896957,
+        "tail": 1275.0702514248587
+      },
+      {
+        "index": 2,
+        "label": "component1:log_Rtotal",
+        "rhat": 1.0035891442512714,
+        "bulk": 1230.1101197394557,
+        "tail": 4583.839835012037
+      },
+      {
+        "index": 3,
+        "label": "component1:log_R1_over_R2",
+        "rhat": 1.0012940423883208,
+        "bulk": 1427.029737883752,
+        "tail": 3627.841986829444
+      },
+      {
+        "index": 4,
+        "label": "component2:log_Rtotal",
+        "rhat": 1.00486786486829,
+        "bulk": 1754.4105962522813,
+        "tail": 4612.920218516275
+      },
+      {
+        "index": 5,
+        "label": "component2:log_R1_over_R2",
+        "rhat": 1.0032845655355762,
+        "bulk": 1905.7148085727606,
+        "tail": 4298.24806384908
+      },
+      {
+        "index": 6,
+        "label": "component3:log_Rtotal",
+        "rhat": 1.0023387903852101,
+        "bulk": 1741.4935575584213,
+        "tail": 2713.243692685084
+      },
+      {
+        "index": 7,
+        "label": "component3:log_R1_over_R2",
+        "rhat": 1.0017109415007537,
+        "bulk": 1821.641632251189,
+        "tail": 2850.9211316562514
+      },
+      {
+        "index": 8,
+        "label": "component4:log_Rtotal",
+        "rhat": 1.0006335038035545,
+        "bulk": 2690.0798207402386,
+        "tail": 3943.367461868796
+      },
+      {
+        "index": 9,
+        "label": "component4:log_R1_over_R2",
+        "rhat": 1.0013496827894832,
+        "bulk": 1747.150072911046,
+        "tail": 1186.784968758778
+      },
+      {
+        "index": 10,
+        "label": "component5:log_Rtotal",
+        "rhat": 1.0011857392090509,
+        "bulk": 2286.646497273955,
+        "tail": 3494.8878408047512
+      },
+      {
+        "index": 11,
+        "label": "component5:log_R1_over_R2",
+        "rhat": 1.0032466120755852,
+        "bulk": 1403.393123108828,
+        "tail": 906.5907214095296
+      },
+      {
+        "index": 12,
+        "label": "component6:log_Rtotal",
+        "rhat": 1.0021189172584037,
+        "bulk": 1472.2224126572007,
+        "tail": 2002.6312426782267
+      },
+      {
+        "index": 13,
+        "label": "component6:log_R1_over_R2",
+        "rhat": 1.001089280374743,
+        "bulk": 1572.5642527728933,
+        "tail": 1209.9820959581812
+      },
+      {
+        "index": 14,
+        "label": "exterior_windows:log_total_G",
+        "rhat": 1.0003364804369264,
+        "bulk": 6119.684303408743,
+        "tail": 7594.915070034798
+      },
+      {
+        "index": 15,
+        "label": "exterior_windows:log_R2_over_R1",
+        "rhat": 1.0005763265280996,
+        "bulk": 3060.9312249106206,
+        "tail": 4934.08606886446
+      },
+      {
+        "index": 16,
+        "label": "interior_window:log_R",
+        "rhat": 1.000757263448109,
+        "bulk": 1959.3036744166745,
+        "tail": 1944.8081998982727
+      },
+      {
+        "index": 17,
+        "label": "ceiling:log_tau",
+        "rhat": 1.002812456854678,
+        "bulk": 1808.489306313835,
+        "tail": 1719.8490758944463
+      },
+      {
+        "index": 18,
+        "label": "exterior_fast:log_tau",
+        "rhat": 1.0042844443457062,
+        "bulk": 1526.1120688722046,
+        "tail": 4827.1079611276655
+      },
+      {
+        "index": 19,
+        "label": "exterior_mid:log_tau_gap",
+        "rhat": 1.0024881257442055,
+        "bulk": 2173.4567378997713,
+        "tail": 4821.043534365393
+      },
+      {
+        "index": 20,
+        "label": "exterior_slow:log_tau_gap",
+        "rhat": 1.0006892544848636,
+        "bulk": 2305.04503322749,
+        "tail": 3267.4508155066214
+      },
+      {
+        "index": 21,
+        "label": "interior_fast:log_tau",
+        "rhat": 1.0042471480660982,
+        "bulk": 2065.1317783611375,
+        "tail": 2627.8708661091027
+      },
+      {
+        "index": 22,
+        "label": "interior_slow:log_tau_gap",
+        "rhat": 1.0012623453975613,
+        "bulk": 1522.3324783995038,
+        "tail": 3356.5094949419013
+      },
+      {
+        "index": 23,
+        "label": "floor:log_tau",
+        "rhat": 1.0036966944371215,
+        "bulk": 1202.9169545965785,
+        "tail": 861.3291018479036
+      },
+      {
+        "index": 24,
+        "label": "air:log_C",
+        "rhat": 1.000154755800825,
+        "bulk": 9362.21260785095,
+        "tail": 8345.998906524694
+      },
+      {
+        "index": 25,
+        "label": "noise:sigma_transform",
+        "rhat": 1.0002017094745126,
+        "bulk": 3849.132515875725,
+        "tail": 6087.960137705377
+      },
+      {
+        "index": 26,
+        "label": "noise:rho_transform",
+        "rhat": 1.0010271895535359,
+        "bulk": 3752.451455234764,
+        "tail": 2156.490256276329
+      },
+      {
+        "index": 27,
+        "label": "solar:alpha_logratio_component0",
+        "rhat": 1.0017890646441774,
+        "bulk": 2004.16532536074,
+        "tail": 2394.6189216155544
+      },
+      {
+        "index": 28,
+        "label": "solar:alpha_logratio_component1",
+        "rhat": 1.001477672089667,
+        "bulk": 2139.2469998663314,
+        "tail": 4956.901858800201
+      },
+      {
+        "index": 29,
+        "label": "solar:alpha_logratio_component2",
+        "rhat": 1.001912459238995,
+        "bulk": 2253.102563677777,
+        "tail": 3475.5816782636007
+      },
+      {
+        "index": 30,
+        "label": "solar:alpha_logratio_component3",
+        "rhat": 1.0009720277076894,
+        "bulk": 2517.8840613730963,
+        "tail": 4007.0320165240632
+      },
+      {
+        "index": 31,
+        "label": "solar:alpha_logratio_component4",
+        "rhat": 1.0019515624138677,
+        "bulk": 1673.4528223123086,
+        "tail": 2521.6967333670987
+      },
+      {
+        "index": 32,
+        "label": "solar:alpha_logratio_component5",
+        "rhat": 1.0035444503415223,
+        "bulk": 1496.1900343735804,
+        "tail": 3042.226124965973
+      },
+      {
+        "index": 33,
+        "label": "solar:alpha_logratio_component6",
+        "rhat": 1.0005345308841882,
+        "bulk": 3407.442732722649,
+        "tail": 4041.0985505031827
+      },
+      {
+        "index": 34,
+        "label": "lighting:alpha_logratio_component0",
+        "rhat": 1.0003752059285465,
+        "bulk": 3589.3416357181954,
+        "tail": 5124.138127156481
+      },
+      {
+        "index": 35,
+        "label": "lighting:alpha_logratio_component1",
+        "rhat": 1.0000936066517139,
+        "bulk": 3161.8994634323863,
+        "tail": 5726.9591856913585
+      },
+      {
+        "index": 36,
+        "label": "lighting:alpha_logratio_component2",
+        "rhat": 1.001510673828333,
+        "bulk": 2662.4288065905544,
+        "tail": 4322.342231819805
+      },
+      {
+        "index": 37,
+        "label": "lighting:alpha_logratio_component3",
+        "rhat": 1.0004518368299904,
+        "bulk": 2703.50192386425,
+        "tail": 5092.173144986067
+      },
+      {
+        "index": 38,
+        "label": "lighting:alpha_logratio_component4",
+        "rhat": 1.0005523205569828,
+        "bulk": 4074.1198662123334,
+        "tail": 5620.05299249592
+      },
+      {
+        "index": 39,
+        "label": "lighting:alpha_logratio_component5",
+        "rhat": 1.0012838676996612,
+        "bulk": 3313.7059404971374,
+        "tail": 5527.320628675038
+      },
+      {
+        "index": 40,
+        "label": "lighting:alpha_logratio_component6",
+        "rhat": 1.0003904722636334,
+        "bulk": 4361.933702357257,
+        "tail": 5531.2297845822795
+      },
+      {
+        "index": 41,
+        "label": "occupant:alpha_logratio_component0",
+        "rhat": 1.0007272940139653,
+        "bulk": 4296.988837542678,
+        "tail": 4056.3383114729263
+      },
+      {
+        "index": 42,
+        "label": "occupant:alpha_logratio_component1",
+        "rhat": 1.0006287800250746,
+        "bulk": 5079.154947175956,
+        "tail": 5038.841685525378
+      },
+      {
+        "index": 43,
+        "label": "occupant:alpha_logratio_component2",
+        "rhat": 1.0014884374162492,
+        "bulk": 4687.382461055369,
+        "tail": 5083.603951121433
+      },
+      {
+        "index": 44,
+        "label": "occupant:alpha_logratio_component3",
+        "rhat": 1.0015822532937704,
+        "bulk": 4491.052601564116,
+        "tail": 3993.706905140907
+      },
+      {
+        "index": 45,
+        "label": "occupant:alpha_logratio_component4",
+        "rhat": 1.0004891955929345,
+        "bulk": 4516.340792646558,
+        "tail": 4084.008205407775
+      },
+      {
+        "index": 46,
+        "label": "occupant:alpha_logratio_component5",
+        "rhat": 1.0001921455862548,
+        "bulk": 5422.687322603742,
+        "tail": 4998.4182667231935
+      },
+      {
+        "index": 47,
+        "label": "occupant:alpha_logratio_component6",
+        "rhat": 1.001526521603201,
+        "bulk": 4120.369307838931,
+        "tail": 3789.199135658839
+      },
+      {
+        "index": 48,
+        "label": "equipment:alpha_logratio_component0",
+        "rhat": 1.0007283564877674,
+        "bulk": 3938.851619817925,
+        "tail": 3553.7568012599017
+      },
+      {
+        "index": 49,
+        "label": "equipment:alpha_logratio_component1",
+        "rhat": 1.0006798274437765,
+        "bulk": 4668.37326997663,
+        "tail": 5107.577392915229
+      },
+      {
+        "index": 50,
+        "label": "equipment:alpha_logratio_component2",
+        "rhat": 1.0007693657177263,
+        "bulk": 4223.631777775746,
+        "tail": 5046.177017668649
+      },
+      {
+        "index": 51,
+        "label": "equipment:alpha_logratio_component3",
+        "rhat": 1.0007101332551296,
+        "bulk": 4502.8228095625345,
+        "tail": 3473.03680676722
+      },
+      {
+        "index": 52,
+        "label": "equipment:alpha_logratio_component4",
+        "rhat": 1.0003517651268352,
+        "bulk": 4650.45066523317,
+        "tail": 4779.472751634993
+      },
+      {
+        "index": 53,
+        "label": "equipment:alpha_logratio_component5",
+        "rhat": 1.0006079691995342,
+        "bulk": 4896.714592508899,
+        "tail": 4568.591132194881
+      },
+      {
+        "index": 54,
+        "label": "equipment:alpha_logratio_component6",
+        "rhat": 1.0018249217841806,
+        "bulk": 4347.739207461987,
+        "tail": 4340.973904741178
+      }
+    ]
+  },
+  {
+    "end": 16000,
+    "worst_tail": [
+      {
+        "index": 23,
+        "label": "floor:log_tau",
+        "rhat": 1.0074758623841227,
+        "bulk": 734.633507463784,
+        "tail": 401.29422410515184
+      },
+      {
+        "index": 9,
+        "label": "component4:log_R1_over_R2",
+        "rhat": 1.0034021766928192,
+        "bulk": 1461.208170904641,
+        "tail": 655.9782282599184
+      },
+      {
+        "index": 13,
+        "label": "component6:log_R1_over_R2",
+        "rhat": 1.0105203824263882,
+        "bulk": 884.752859799637,
+        "tail": 681.0834147938388
+      },
+      {
+        "index": 11,
+        "label": "component5:log_R1_over_R2",
+        "rhat": 1.0020326853697339,
+        "bulk": 1187.3231747106215,
+        "tail": 1176.853884556847
+      },
+      {
+        "index": 1,
+        "label": "component0:log_R1_over_R2",
+        "rhat": 1.0035340314631385,
+        "bulk": 1027.8770988023641,
+        "tail": 1438.1722037333611
+      },
+      {
+        "index": 27,
+        "label": "solar:alpha_logratio_component0",
+        "rhat": 1.0009804761062508,
+        "bulk": 1379.1877949134775,
+        "tail": 1574.963613110689
+      },
+      {
+        "index": 0,
+        "label": "component0:log_Rtotal",
+        "rhat": 1.002178772733215,
+        "bulk": 1445.946497569911,
+        "tail": 1666.8610979327707
+      },
+      {
+        "index": 6,
+        "label": "component3:log_Rtotal",
+        "rhat": 1.001683968001036,
+        "bulk": 1783.2594452310686,
+        "tail": 2001.4050123825234
+      }
+    ],
+    "all": [
+      {
+        "index": 0,
+        "label": "component0:log_Rtotal",
+        "rhat": 1.002178772733215,
+        "bulk": 1445.946497569911,
+        "tail": 1666.8610979327707
+      },
+      {
+        "index": 1,
+        "label": "component0:log_R1_over_R2",
+        "rhat": 1.0035340314631385,
+        "bulk": 1027.8770988023641,
+        "tail": 1438.1722037333611
+      },
+      {
+        "index": 2,
+        "label": "component1:log_Rtotal",
+        "rhat": 1.0009527154724676,
+        "bulk": 1311.1826560799764,
+        "tail": 3561.2115960036645
+      },
+      {
+        "index": 3,
+        "label": "component1:log_R1_over_R2",
+        "rhat": 1.001826266221938,
+        "bulk": 1358.085602685727,
+        "tail": 2918.2424434833256
+      },
+      {
+        "index": 4,
+        "label": "component2:log_Rtotal",
+        "rhat": 1.0004277102870414,
+        "bulk": 1663.6640979789552,
+        "tail": 4228.989695937557
+      },
+      {
+        "index": 5,
+        "label": "component2:log_R1_over_R2",
+        "rhat": 1.0006134077636488,
+        "bulk": 1849.9683258310215,
+        "tail": 4267.562660376061
+      },
+      {
+        "index": 6,
+        "label": "component3:log_Rtotal",
+        "rhat": 1.001683968001036,
+        "bulk": 1783.2594452310686,
+        "tail": 2001.4050123825234
+      },
+      {
+        "index": 7,
+        "label": "component3:log_R1_over_R2",
+        "rhat": 1.0008124983775977,
+        "bulk": 2113.0029360106205,
+        "tail": 3373.4342773988974
+      },
+      {
+        "index": 8,
+        "label": "component4:log_Rtotal",
+        "rhat": 1.00155413552029,
+        "bulk": 2370.7317951746472,
+        "tail": 4175.452758462208
+      },
+      {
+        "index": 9,
+        "label": "component4:log_R1_over_R2",
+        "rhat": 1.0034021766928192,
+        "bulk": 1461.208170904641,
+        "tail": 655.9782282599184
+      },
+      {
+        "index": 10,
+        "label": "component5:log_Rtotal",
+        "rhat": 1.0028217023342751,
+        "bulk": 1818.9288608158256,
+        "tail": 4053.0375801792766
+      },
+      {
+        "index": 11,
+        "label": "component5:log_R1_over_R2",
+        "rhat": 1.0020326853697339,
+        "bulk": 1187.3231747106215,
+        "tail": 1176.853884556847
+      },
+      {
+        "index": 12,
+        "label": "component6:log_Rtotal",
+        "rhat": 1.00257693241844,
+        "bulk": 1398.5847620203717,
+        "tail": 2341.51845455391
+      },
+      {
+        "index": 13,
+        "label": "component6:log_R1_over_R2",
+        "rhat": 1.0105203824263882,
+        "bulk": 884.752859799637,
+        "tail": 681.0834147938388
+      },
+      {
+        "index": 14,
+        "label": "exterior_windows:log_total_G",
+        "rhat": 1.000740122193902,
+        "bulk": 5702.709571013431,
+        "tail": 7419.829964719273
+      },
+      {
+        "index": 15,
+        "label": "exterior_windows:log_R2_over_R1",
+        "rhat": 1.0015423213298977,
+        "bulk": 2886.6976484552283,
+        "tail": 4035.374212349541
+      },
+      {
+        "index": 16,
+        "label": "interior_window:log_R",
+        "rhat": 1.0020980099832808,
+        "bulk": 1873.4611591732114,
+        "tail": 2273.594608109661
+      },
+      {
+        "index": 17,
+        "label": "ceiling:log_tau",
+        "rhat": 1.0021993053432923,
+        "bulk": 2090.82501410269,
+        "tail": 2075.670272842117
+      },
+      {
+        "index": 18,
+        "label": "exterior_fast:log_tau",
+        "rhat": 1.0022478175353353,
+        "bulk": 1300.002123504612,
+        "tail": 2906.8184736400526
+      },
+      {
+        "index": 19,
+        "label": "exterior_mid:log_tau_gap",
+        "rhat": 1.0018231420051111,
+        "bulk": 1864.697247387615,
+        "tail": 4063.746443693479
+      },
+      {
+        "index": 20,
+        "label": "exterior_slow:log_tau_gap",
+        "rhat": 1.001733519463056,
+        "bulk": 2361.720780670578,
+        "tail": 2577.2759116155817
+      },
+      {
+        "index": 21,
+        "label": "interior_fast:log_tau",
+        "rhat": 1.0013227880137718,
+        "bulk": 1853.7485420981359,
+        "tail": 2010.9181553974338
+      },
+      {
+        "index": 22,
+        "label": "interior_slow:log_tau_gap",
+        "rhat": 1.0036751056447841,
+        "bulk": 1649.9630576016916,
+        "tail": 3498.395233967845
+      },
+      {
+        "index": 23,
+        "label": "floor:log_tau",
+        "rhat": 1.0074758623841227,
+        "bulk": 734.633507463784,
+        "tail": 401.29422410515184
+      },
+      {
+        "index": 24,
+        "label": "air:log_C",
+        "rhat": 1.0005805365108695,
+        "bulk": 8904.42713703629,
+        "tail": 7449.162043173933
+      },
+      {
+        "index": 25,
+        "label": "noise:sigma_transform",
+        "rhat": 1.0022474526104703,
+        "bulk": 3705.8677840159403,
+        "tail": 5451.729415268645
+      },
+      {
+        "index": 26,
+        "label": "noise:rho_transform",
+        "rhat": 1.002162620630955,
+        "bulk": 4200.810786499783,
+        "tail": 2709.9054129598508
+      },
+      {
+        "index": 27,
+        "label": "solar:alpha_logratio_component0",
+        "rhat": 1.0009804761062508,
+        "bulk": 1379.1877949134775,
+        "tail": 1574.963613110689
+      },
+      {
+        "index": 28,
+        "label": "solar:alpha_logratio_component1",
+        "rhat": 1.001157837095087,
+        "bulk": 2004.9335277032665,
+        "tail": 4175.974191986388
+      },
+      {
+        "index": 29,
+        "label": "solar:alpha_logratio_component2",
+        "rhat": 1.0012887293905792,
+        "bulk": 2365.0910997946157,
+        "tail": 3826.55574125314
+      },
+      {
+        "index": 30,
+        "label": "solar:alpha_logratio_component3",
+        "rhat": 1.001743663434026,
+        "bulk": 2691.2095496475745,
+        "tail": 3785.295182593252
+      },
+      {
+        "index": 31,
+        "label": "solar:alpha_logratio_component4",
+        "rhat": 1.0009190237708405,
+        "bulk": 1418.2949354386208,
+        "tail": 2027.4768136918747
+      },
+      {
+        "index": 32,
+        "label": "solar:alpha_logratio_component5",
+        "rhat": 1.0005131287826583,
+        "bulk": 1732.7216526784987,
+        "tail": 2765.6214030740343
+      },
+      {
+        "index": 33,
+        "label": "solar:alpha_logratio_component6",
+        "rhat": 1.0005968912670984,
+        "bulk": 3461.979939390502,
+        "tail": 3995.6558240764193
+      },
+      {
+        "index": 34,
+        "label": "lighting:alpha_logratio_component0",
+        "rhat": 1.0003028819311033,
+        "bulk": 3562.255531935949,
+        "tail": 4111.916791852659
+      },
+      {
+        "index": 35,
+        "label": "lighting:alpha_logratio_component1",
+        "rhat": 1.0001345607886736,
+        "bulk": 3160.817112918933,
+        "tail": 4485.181869163786
+      },
+      {
+        "index": 36,
+        "label": "lighting:alpha_logratio_component2",
+        "rhat": 1.0010249162555032,
+        "bulk": 2900.56620218617,
+        "tail": 5149.761996719314
+      },
+      {
+        "index": 37,
+        "label": "lighting:alpha_logratio_component3",
+        "rhat": 1.000292237205187,
+        "bulk": 2950.770674217056,
+        "tail": 4502.564956105606
+      },
+      {
+        "index": 38,
+        "label": "lighting:alpha_logratio_component4",
+        "rhat": 1.0006564330889411,
+        "bulk": 3948.504256081501,
+        "tail": 5289.853387399379
+      },
+      {
+        "index": 39,
+        "label": "lighting:alpha_logratio_component5",
+        "rhat": 1.0005802875503416,
+        "bulk": 2968.4149010744954,
+        "tail": 4220.0031645850195
+      },
+      {
+        "index": 40,
+        "label": "lighting:alpha_logratio_component6",
+        "rhat": 1.0007917687548038,
+        "bulk": 3856.4582148000313,
+        "tail": 4559.126215870216
+      },
+      {
+        "index": 41,
+        "label": "occupant:alpha_logratio_component0",
+        "rhat": 1.000881298964168,
+        "bulk": 4233.253186241336,
+        "tail": 4122.711879136219
+      },
+      {
+        "index": 42,
+        "label": "occupant:alpha_logratio_component1",
+        "rhat": 1.001549705614242,
+        "bulk": 4231.215032714912,
+        "tail": 4045.2932808690907
+      },
+      {
+        "index": 43,
+        "label": "occupant:alpha_logratio_component2",
+        "rhat": 1.0011485846488992,
+        "bulk": 4333.61820205914,
+        "tail": 4146.161668612252
+      },
+      {
+        "index": 44,
+        "label": "occupant:alpha_logratio_component3",
+        "rhat": 1.0003360946661186,
+        "bulk": 4593.904705372034,
+        "tail": 4190.820162935596
+      },
+      {
+        "index": 45,
+        "label": "occupant:alpha_logratio_component4",
+        "rhat": 1.0004783935104236,
+        "bulk": 4582.513808589475,
+        "tail": 4403.496442672371
+      },
+      {
+        "index": 46,
+        "label": "occupant:alpha_logratio_component5",
+        "rhat": 1.0004116984851366,
+        "bulk": 4681.817401551683,
+        "tail": 4208.703945369024
+      },
+      {
+        "index": 47,
+        "label": "occupant:alpha_logratio_component6",
+        "rhat": 1.0003610774510778,
+        "bulk": 3986.958431025714,
+        "tail": 4187.0971844100695
+      },
+      {
+        "index": 48,
+        "label": "equipment:alpha_logratio_component0",
+        "rhat": 1.0005956719368552,
+        "bulk": 3643.354286622947,
+        "tail": 3512.863206811442
+      },
+      {
+        "index": 49,
+        "label": "equipment:alpha_logratio_component1",
+        "rhat": 1.000443791507577,
+        "bulk": 4773.576110010424,
+        "tail": 5345.530895994302
+      },
+      {
+        "index": 50,
+        "label": "equipment:alpha_logratio_component2",
+        "rhat": 1.0007033381181976,
+        "bulk": 4470.687978482334,
+        "tail": 4458.018230638688
+      },
+      {
+        "index": 51,
+        "label": "equipment:alpha_logratio_component3",
+        "rhat": 1.0014164281370654,
+        "bulk": 5180.779645061239,
+        "tail": 4861.834506323636
+      },
+      {
+        "index": 52,
+        "label": "equipment:alpha_logratio_component4",
+        "rhat": 1.0011958902943268,
+        "bulk": 4525.487077800401,
+        "tail": 4484.135792487396
+      },
+      {
+        "index": 53,
+        "label": "equipment:alpha_logratio_component5",
+        "rhat": 1.0006253247141423,
+        "bulk": 4316.463407303854,
+        "tail": 4123.513899530688
+      },
+      {
+        "index": 54,
+        "label": "equipment:alpha_logratio_component6",
+        "rhat": 1.0006840416840284,
+        "bulk": 4260.406032809634,
+        "tail": 3189.6277750219015
+      }
+    ]
+  },
+  {
+    "end": 20000,
+    "worst_tail": [
+      {
+        "index": 23,
+        "label": "floor:log_tau",
+        "rhat": 1.0112991762070431,
+        "bulk": 422.10052820708364,
+        "tail": 83.78564245412174
+      },
+      {
+        "index": 9,
+        "label": "component4:log_R1_over_R2",
+        "rhat": 1.0013112535961008,
+        "bulk": 1649.2020947742703,
+        "tail": 705.5900110569485
+      },
+      {
+        "index": 11,
+        "label": "component5:log_R1_over_R2",
+        "rhat": 1.0028033376754704,
+        "bulk": 1267.6283936610248,
+        "tail": 848.6324773276881
+      },
+      {
+        "index": 1,
+        "label": "component0:log_R1_over_R2",
+        "rhat": 1.0075125055648468,
+        "bulk": 782.1903646454249,
+        "tail": 873.2414569970795
+      },
+      {
+        "index": 16,
+        "label": "interior_window:log_R",
+        "rhat": 1.0027665113594149,
+        "bulk": 1904.0961586969556,
+        "tail": 1241.9240529093518
+      },
+      {
+        "index": 13,
+        "label": "component6:log_R1_over_R2",
+        "rhat": 1.0035359941365862,
+        "bulk": 1203.4240924786968,
+        "tail": 1358.1217932245552
+      },
+      {
+        "index": 27,
+        "label": "solar:alpha_logratio_component0",
+        "rhat": 1.0015734023483933,
+        "bulk": 1391.9233898649034,
+        "tail": 1499.001006282807
+      },
+      {
+        "index": 22,
+        "label": "interior_slow:log_tau_gap",
+        "rhat": 1.0025643059186928,
+        "bulk": 1319.7861785052949,
+        "tail": 1626.1063546474259
+      }
+    ],
+    "all": [
+      {
+        "index": 0,
+        "label": "component0:log_Rtotal",
+        "rhat": 1.0028703304817452,
+        "bulk": 1444.675500511912,
+        "tail": 1947.7475576045038
+      },
+      {
+        "index": 1,
+        "label": "component0:log_R1_over_R2",
+        "rhat": 1.0075125055648468,
+        "bulk": 782.1903646454249,
+        "tail": 873.2414569970795
+      },
+      {
+        "index": 2,
+        "label": "component1:log_Rtotal",
+        "rhat": 1.004161575783557,
+        "bulk": 1258.9220023300334,
+        "tail": 3109.887007744923
+      },
+      {
+        "index": 3,
+        "label": "component1:log_R1_over_R2",
+        "rhat": 1.0037544226076816,
+        "bulk": 1376.0105467330209,
+        "tail": 2247.9453633151056
+      },
+      {
+        "index": 4,
+        "label": "component2:log_Rtotal",
+        "rhat": 1.0021321024082364,
+        "bulk": 1322.2455066813664,
+        "tail": 3988.980313222082
+      },
+      {
+        "index": 5,
+        "label": "component2:log_R1_over_R2",
+        "rhat": 1.0023688798523478,
+        "bulk": 1473.1147787482357,
+        "tail": 4592.596731340846
+      },
+      {
+        "index": 6,
+        "label": "component3:log_Rtotal",
+        "rhat": 1.0020531007416529,
+        "bulk": 1230.1374710638636,
+        "tail": 2658.8414089765365
+      },
+      {
+        "index": 7,
+        "label": "component3:log_R1_over_R2",
+        "rhat": 1.0022200505838645,
+        "bulk": 1418.4602689937437,
+        "tail": 3085.0169697949036
+      },
+      {
+        "index": 8,
+        "label": "component4:log_Rtotal",
+        "rhat": 1.0005941000006804,
+        "bulk": 2630.9430493821305,
+        "tail": 4877.797351396102
+      },
+      {
+        "index": 9,
+        "label": "component4:log_R1_over_R2",
+        "rhat": 1.0013112535961008,
+        "bulk": 1649.2020947742703,
+        "tail": 705.5900110569485
+      },
+      {
+        "index": 10,
+        "label": "component5:log_Rtotal",
+        "rhat": 1.000351380216625,
+        "bulk": 2288.012202101049,
+        "tail": 3857.816618765287
+      },
+      {
+        "index": 11,
+        "label": "component5:log_R1_over_R2",
+        "rhat": 1.0028033376754704,
+        "bulk": 1267.6283936610248,
+        "tail": 848.6324773276881
+      },
+      {
+        "index": 12,
+        "label": "component6:log_Rtotal",
+        "rhat": 1.0063558960327006,
+        "bulk": 1197.0517710755805,
+        "tail": 2169.3684070345785
+      },
+      {
+        "index": 13,
+        "label": "component6:log_R1_over_R2",
+        "rhat": 1.0035359941365862,
+        "bulk": 1203.4240924786968,
+        "tail": 1358.1217932245552
+      },
+      {
+        "index": 14,
+        "label": "exterior_windows:log_total_G",
+        "rhat": 1.0002222811109462,
+        "bulk": 4540.854205779644,
+        "tail": 6838.9812233500725
+      },
+      {
+        "index": 15,
+        "label": "exterior_windows:log_R2_over_R1",
+        "rhat": 1.002048079908071,
+        "bulk": 2887.2790655186486,
+        "tail": 3380.318334795208
+      },
+      {
+        "index": 16,
+        "label": "interior_window:log_R",
+        "rhat": 1.0027665113594149,
+        "bulk": 1904.0961586969556,
+        "tail": 1241.9240529093518
+      },
+      {
+        "index": 17,
+        "label": "ceiling:log_tau",
+        "rhat": 1.0011013498348706,
+        "bulk": 1914.180195262372,
+        "tail": 2001.0327880551333
+      },
+      {
+        "index": 18,
+        "label": "exterior_fast:log_tau",
+        "rhat": 1.0028543036778739,
+        "bulk": 1318.5192451480207,
+        "tail": 2229.306661792982
+      },
+      {
+        "index": 19,
+        "label": "exterior_mid:log_tau_gap",
+        "rhat": 1.0019451281101925,
+        "bulk": 1752.8135043905577,
+        "tail": 2458.134139402698
+      },
+      {
+        "index": 20,
+        "label": "exterior_slow:log_tau_gap",
+        "rhat": 1.00217491549475,
+        "bulk": 2217.1321497531358,
+        "tail": 2088.0408731214807
+      },
+      {
+        "index": 21,
+        "label": "interior_fast:log_tau",
+        "rhat": 1.0027541570741711,
+        "bulk": 1879.9650713782712,
+        "tail": 2028.1704693057382
+      },
+      {
+        "index": 22,
+        "label": "interior_slow:log_tau_gap",
+        "rhat": 1.0025643059186928,
+        "bulk": 1319.7861785052949,
+        "tail": 1626.1063546474259
+      },
+      {
+        "index": 23,
+        "label": "floor:log_tau",
+        "rhat": 1.0112991762070431,
+        "bulk": 422.10052820708364,
+        "tail": 83.78564245412174
+      },
+      {
+        "index": 24,
+        "label": "air:log_C",
+        "rhat": 1.0003842970209802,
+        "bulk": 8671.15177456547,
+        "tail": 7166.315690831221
+      },
+      {
+        "index": 25,
+        "label": "noise:sigma_transform",
+        "rhat": 1.0008082023679852,
+        "bulk": 3714.2080057536314,
+        "tail": 5968.361686519225
+      },
+      {
+        "index": 26,
+        "label": "noise:rho_transform",
+        "rhat": 1.0008671662645534,
+        "bulk": 3478.402803843226,
+        "tail": 2372.239540775365
+      },
+      {
+        "index": 27,
+        "label": "solar:alpha_logratio_component0",
+        "rhat": 1.0015734023483933,
+        "bulk": 1391.9233898649034,
+        "tail": 1499.001006282807
+      },
+      {
+        "index": 28,
+        "label": "solar:alpha_logratio_component1",
+        "rhat": 1.0021123549522537,
+        "bulk": 1875.7853272056518,
+        "tail": 3447.9745805500934
+      },
+      {
+        "index": 29,
+        "label": "solar:alpha_logratio_component2",
+        "rhat": 1.0011805710625892,
+        "bulk": 2126.174548840039,
+        "tail": 4617.02174522157
+      },
+      {
+        "index": 30,
+        "label": "solar:alpha_logratio_component3",
+        "rhat": 1.0014788720142245,
+        "bulk": 1820.0215760765936,
+        "tail": 2690.4991723564235
+      },
+      {
+        "index": 31,
+        "label": "solar:alpha_logratio_component4",
+        "rhat": 1.0026969888672017,
+        "bulk": 1454.8996809945222,
+        "tail": 1924.7865710410636
+      },
+      {
+        "index": 32,
+        "label": "solar:alpha_logratio_component5",
+        "rhat": 1.0023471744049743,
+        "bulk": 1395.8606414255607,
+        "tail": 1916.5971204947111
+      },
+      {
+        "index": 33,
+        "label": "solar:alpha_logratio_component6",
+        "rhat": 1.0021743878787115,
+        "bulk": 3667.6098498593183,
+        "tail": 4216.65737152812
+      },
+      {
+        "index": 34,
+        "label": "lighting:alpha_logratio_component0",
+        "rhat": 1.0009366842233955,
+        "bulk": 3577.9386113241053,
+        "tail": 4069.1308463033283
+      },
+      {
+        "index": 35,
+        "label": "lighting:alpha_logratio_component1",
+        "rhat": 1.0006538298151595,
+        "bulk": 3012.430802643014,
+        "tail": 4884.517549784004
+      },
+      {
+        "index": 36,
+        "label": "lighting:alpha_logratio_component2",
+        "rhat": 1.0011368838290746,
+        "bulk": 2473.641588894247,
+        "tail": 5155.136078344753
+      },
+      {
+        "index": 37,
+        "label": "lighting:alpha_logratio_component3",
+        "rhat": 1.000892570659856,
+        "bulk": 2355.608966956225,
+        "tail": 4860.022563782874
+      },
+      {
+        "index": 38,
+        "label": "lighting:alpha_logratio_component4",
+        "rhat": 1.00044294707817,
+        "bulk": 3747.952579999705,
+        "tail": 4898.28734254302
+      },
+      {
+        "index": 39,
+        "label": "lighting:alpha_logratio_component5",
+        "rhat": 1.0010361298313317,
+        "bulk": 2529.4478989190106,
+        "tail": 4634.629125032387
+      },
+      {
+        "index": 40,
+        "label": "lighting:alpha_logratio_component6",
+        "rhat": 1.0005141287349393,
+        "bulk": 3789.5816991085053,
+        "tail": 4414.85279760727
+      },
+      {
+        "index": 41,
+        "label": "occupant:alpha_logratio_component0",
+        "rhat": 1.0006871503296262,
+        "bulk": 3767.7198749100394,
+        "tail": 3810.9883846376915
+      },
+      {
+        "index": 42,
+        "label": "occupant:alpha_logratio_component1",
+        "rhat": 1.0009738942769295,
+        "bulk": 4236.221056624509,
+        "tail": 4092.1568248714234
+      },
+      {
+        "index": 43,
+        "label": "occupant:alpha_logratio_component2",
+        "rhat": 1.0008322636197262,
+        "bulk": 4369.759271215307,
+        "tail": 4584.075961315452
+      },
+      {
+        "index": 44,
+        "label": "occupant:alpha_logratio_component3",
+        "rhat": 1.0006468095056256,
+        "bulk": 4334.842900895342,
+        "tail": 4135.635424654414
+      },
+      {
+        "index": 45,
+        "label": "occupant:alpha_logratio_component4",
+        "rhat": 1.0004852217080118,
+        "bulk": 4476.736644547339,
+        "tail": 4218.773949704311
+      },
+      {
+        "index": 46,
+        "label": "occupant:alpha_logratio_component5",
+        "rhat": 1.0003440513551047,
+        "bulk": 4933.587335796649,
+        "tail": 4730.861257217483
+      },
+      {
+        "index": 47,
+        "label": "occupant:alpha_logratio_component6",
+        "rhat": 1.0005657102087546,
+        "bulk": 4430.697431127321,
+        "tail": 4069.452926883928
+      },
+      {
+        "index": 48,
+        "label": "equipment:alpha_logratio_component0",
+        "rhat": 1.000792740042002,
+        "bulk": 3817.1211986032367,
+        "tail": 3455.832702519953
+      },
+      {
+        "index": 49,
+        "label": "equipment:alpha_logratio_component1",
+        "rhat": 1.0011544936438876,
+        "bulk": 4334.458219051484,
+        "tail": 4407.6129744806885
+      },
+      {
+        "index": 50,
+        "label": "equipment:alpha_logratio_component2",
+        "rhat": 1.0008028229814832,
+        "bulk": 3700.9078581252825,
+        "tail": 2981.9094929578373
+      },
+      {
+        "index": 51,
+        "label": "equipment:alpha_logratio_component3",
+        "rhat": 1.0014756545302612,
+        "bulk": 4209.795800789963,
+        "tail": 5007.699109339251
+      },
+      {
+        "index": 52,
+        "label": "equipment:alpha_logratio_component4",
+        "rhat": 1.000243267269099,
+        "bulk": 4623.824845068422,
+        "tail": 4833.641773574255
+      },
+      {
+        "index": 53,
+        "label": "equipment:alpha_logratio_component5",
+        "rhat": 1.0004238371751655,
+        "bulk": 4528.505940028327,
+        "tail": 4394.2427295067355
+      },
+      {
+        "index": 54,
+        "label": "equipment:alpha_logratio_component6",
+        "rhat": 1.0004414207660093,
+        "bulk": 4236.252227204796,
+        "tail": 3635.8619381554713
+      }
+    ]
+  }
+]

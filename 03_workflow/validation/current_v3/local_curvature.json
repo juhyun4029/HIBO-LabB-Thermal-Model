@@ -1,0 +1,70 @@
+{
+  "caveat": "Local quadratic stability heuristic; nonquadratictrajectorycurvaturemaydiffer,notaguaranteedstepsizebound",
+  "rows": [
+    {
+      "name": "bad_floor_c4",
+      "hessian_relative_asymmetry": 7.411268644822894e-09,
+      "maximum_local_preconditioned_curvature": 727149.8408887233,
+      "quadratic_local_step_stability_limit": 0.0023454060384788455,
+      "actual_step": 0.0030798741585413704,
+      "step_divided_by_local_limit": 1.3131517988837775,
+      "q13_q23_q24": [
+        1.9714473303265585,
+        10.678048438716013,
+        13.395492360831517
+      ]
+    },
+    {
+      "name": "final_c1",
+      "hessian_relative_asymmetry": 3.4463566312285896e-09,
+      "maximum_local_preconditioned_curvature": 77100.77015364819,
+      "quadratic_local_step_stability_limit": 0.0072027880863392785,
+      "actual_step": 0.003265963117276683,
+      "step_divided_by_local_limit": 0.45343040474436136,
+      "q13_q23_q24": [
+        -1.1698621800217346,
+        7.621312582500749,
+        12.676514743854108
+      ]
+    },
+    {
+      "name": "final_c2",
+      "hessian_relative_asymmetry": 1.3895261100641794e-09,
+      "maximum_local_preconditioned_curvature": 201715.34917262974,
+      "quadratic_local_step_stability_limit": 0.004453080257891796,
+      "actual_step": 0.0031911801062098864,
+      "step_divided_by_local_limit": 0.7166230836631438,
+      "q13_q23_q24": [
+        0.20226282174509322,
+        8.155959788696753,
+        12.411525736448343
+      ]
+    },
+    {
+      "name": "final_c3",
+      "hessian_relative_asymmetry": 2.406155689022637e-09,
+      "maximum_local_preconditioned_curvature": 69993.72082187823,
+      "quadratic_local_step_stability_limit": 0.007559628526746026,
+      "actual_step": 0.003063975304875532,
+      "step_divided_by_local_limit": 0.40530765421014575,
+      "q13_q23_q24": [
+        -1.976465960000887,
+        8.10658900942176,
+        12.45197637877575
+      ]
+    },
+    {
+      "name": "final_c4",
+      "hessian_relative_asymmetry": 5.2529785889172445e-09,
+      "maximum_local_preconditioned_curvature": 659628.4710899569,
+      "quadratic_local_step_stability_limit": 0.0024625230220751827,
+      "actual_step": 0.0030798741585413704,
+      "step_divided_by_local_limit": 1.2506986253253145,
+      "q13_q23_q24": [
+        1.7074268974264957,
+        10.51033794630077,
+        13.13193780397591
+      ]
+    }
+  ]
+}

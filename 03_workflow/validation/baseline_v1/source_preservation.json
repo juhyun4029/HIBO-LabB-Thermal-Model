@@ -1,0 +1,16 @@
+{
+  "initial_unchanged_numerical_python_files": 32,
+  "reduction_unchanged_numerical_python_files": 9,
+  "initial_settings_unchanged": true,
+  "reduction_config_unchanged": true,
+  "new_inputs_differ_from_old": {
+    "y": 0.5303268545874857,
+    "boundaries": 0.5007040093718977,
+    "g_hvac": 86.83269519291815,
+    "tsupply": 72.78710850497082,
+    "ginf": 0.0,
+    "gains": 2.7038300725743625
+  },
+  "python_syntax": "passed",
+  "old_results_or_checkpoints_bundled": false
+}

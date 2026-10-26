@@ -1,0 +1,21 @@
+test_archive_failure_prevents_handoff (__main__.Integration.test_archive_failure_prevents_handoff) ... ok
+test_archive_then_handoff_then_reduction_and_preserve_m0 (__main__.Integration.test_archive_then_handoff_then_reduction_and_preserve_m0) ... 
+INITIAL RESULT ZIP SAVED AND VERIFIED: /tmp/tmp82rmy8lk/exports/Initial_MCMC_results.zip
+FINAL/PAUSED RESULT ZIP: /tmp/tmp82rmy8lk/exports/FullPipeline_results.zip
+Pipeline completed.
+ok
+test_diagnostics_gate_rejects_every_failure (__main__.Integration.test_diagnostics_gate_rejects_every_failure) ... ok
+test_lock_and_nonoverwrite (__main__.Integration.test_lock_and_nonoverwrite) ... ok
+test_stopped_initial_never_starts_reduction (__main__.Integration.test_stopped_initial_never_starts_reduction) ... 
+INITIAL RESULT ZIP SAVED AND VERIFIED: /tmp/tmpby4g_03_/exports/Initial_MCMC_results.zip
+ok
+test_zero_exit_nonconvergence_still_archives_and_blocks (__main__.Integration.test_zero_exit_nonconvergence_still_archives_and_blocks) ... Paused after saving initial results.
+
+INITIAL RESULT ZIP SAVED AND VERIFIED: /tmp/tmpnosa5byv/exports/Initial_MCMC_results.zip
+Reduction NOT started. Initial results were saved. initial sampler stage is search_budget_reached; export does not confirm first-passing convergence; no positive first-passing N; checkpoint/export first-passing N mismatch
+ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.096s
+
+OK

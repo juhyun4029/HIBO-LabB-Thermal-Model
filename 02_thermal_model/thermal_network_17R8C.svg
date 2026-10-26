@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1040" viewBox="0 0 1240 1040" role="img" aria-labelledby="title desc">
+<title id="title">HIBO Lab B initial 17R8C thermal network</title>
+<desc id="desc">Seven capacitive envelope nodes, three massless window paths, and one zone-air capacitance. Four boundary temperatures are prescribed.</desc>
+<rect width="1240" height="1040" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="620" y="38" text-anchor="middle" font-size="25" fill="#182f40" font-weight="bold">HIBO Lab B · 17R8C</text>
+<text x="620" y="69" text-anchor="middle" font-size="16" fill="#182f40" font-weight="normal">17 resistances = 7 × 2 + 3   |   8 capacitances = 7 envelope + zone air</text>
+<text x="110" y="112" text-anchor="middle" font-size="15" fill="#182f40" font-weight="bold">Prescribed boundary</text>
+<text x="525" y="112" text-anchor="middle" font-size="15" fill="#182f40" font-weight="bold">Envelope state</text>
+<text x="1095" y="112" text-anchor="middle" font-size="15" fill="#182f40" font-weight="bold">Zone-air state</text>
+<line x1="970" y1="151" x2="970" y2="889" stroke="#284b63" stroke-width="3"/>
+<rect x="22" y="136" width="176" height="42" rx="7" fill="#edf3f8" stroke="#aabcc8"/>
+<text x="110" y="162" text-anchor="middle" font-size="15" fill="#182f40" font-weight="normal">T_plenum</text>
+<polyline points="198,157 271.0,157 279.0,164 287.0,150 295.0,164 303.0,150 311.0,164 319.0,150 327.0,164 335.0,150 343.0,164 351.0,150 359.0,164 367.0,157 440,157" fill="none" stroke="#284b63" stroke-width="2"/><text x="319.0" y="143" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">ceiling:R1</text>
+<rect x="440" y="131" width="170" height="52" rx="8" fill="#e4f1f5" stroke="#126b99" stroke-width="2"/>
+<text x="525" y="154" text-anchor="middle" font-size="14" fill="#182f40" font-weight="bold">ceiling</text>
+<text x="525" y="173" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">ceiling:C</text>
+<polyline points="610,157 742.0,157 750.0,164 758.0,150 766.0,164 774.0,150 782.0,164 790.0,150 798.0,164 806.0,150 814.0,164 822.0,150 830.0,164 838.0,157 970,157" fill="none" stroke="#284b63" stroke-width="2"/><text x="790.0" y="143" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">ceiling:R2</text>
+<circle cx="970" cy="157" r="4" fill="#284b63"/>
+<rect x="22" y="216" width="176" height="42" rx="7" fill="#edf3f8" stroke="#aabcc8"/>
+<text x="110" y="242" text-anchor="middle" font-size="15" fill="#182f40" font-weight="normal">T_outdoor</text>
+<polyline points="198,237 271.0,237 279.0,244 287.0,230 295.0,244 303.0,230 311.0,244 319.0,230 327.0,244 335.0,230 343.0,244 351.0,230 359.0,244 367.0,237 440,237" fill="none" stroke="#284b63" stroke-width="2"/><text x="319.0" y="223" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">extwall_1:R1</text>
+<rect x="440" y="211" width="170" height="52" rx="8" fill="#e4f1f5" stroke="#126b99" stroke-width="2"/>
+<text x="525" y="234" text-anchor="middle" font-size="14" fill="#182f40" font-weight="bold">extwall_1</text>
+<text x="525" y="253" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">extwall_1:C</text>
+<polyline points="610,237 742.0,237 750.0,244 758.0,230 766.0,244 774.0,230 782.0,244 790.0,230 798.0,244 806.0,230 814.0,244 822.0,230 830.0,244 838.0,237 970,237" fill="none" stroke="#284b63" stroke-width="2"/><text x="790.0" y="223" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">extwall_1:R2</text>
+<circle cx="970" cy="237" r="4" fill="#284b63"/>
+<rect x="22" y="296" width="176" height="42" rx="7" fill="#edf3f8" stroke="#aabcc8"/>
+<text x="110" y="322" text-anchor="middle" font-size="15" fill="#182f40" font-weight="normal">T_outdoor</text>
+<polyline points="198,317 271.0,317 279.0,324 287.0,310 295.0,324 303.0,310 311.0,324 319.0,310 327.0,324 335.0,310 343.0,324 351.0,310 359.0,324 367.0,317 440,317" fill="none" stroke="#284b63" stroke-width="2"/><text x="319.0" y="303" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">extwall_2:R1</text>
+<rect x="440" y="291" width="170" height="52" rx="8" fill="#e4f1f5" stroke="#126b99" stroke-width="2"/>
+<text x="525" y="314" text-anchor="middle" font-size="14" fill="#182f40" font-weight="bold">extwall_2</text>
+<text x="525" y="333" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">extwall_2:C</text>
+<polyline points="610,317 742.0,317 750.0,324 758.0,310 766.0,324 774.0,310 782.0,324 790.0,310 798.0,324 806.0,310 814.0,324 822.0,310 830.0,324 838.0,317 970,317" fill="none" stroke="#284b63" stroke-width="2"/><text x="790.0" y="303" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">extwall_2:R2</text>
+<circle cx="970" cy="317" r="4" fill="#284b63"/>
+<rect x="22" y="376" width="176" height="42" rx="7" fill="#edf3f8" stroke="#aabcc8"/>
+<text x="110" y="402" text-anchor="middle" font-size="15" fill="#182f40" font-weight="normal">T_outdoor</text>
+<polyline points="198,397 271.0,397 279.0,404 287.0,390 295.0,404 303.0,390 311.0,404 319.0,390 327.0,404 335.0,390 343.0,404 351.0,390 359.0,404 367.0,397 440,397" fill="none" stroke="#284b63" stroke-width="2"/><text x="319.0" y="383" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">extwall_3:R1</text>
+<rect x="440" y="371" width="170" height="52" rx="8" fill="#e4f1f5" stroke="#126b99" stroke-width="2"/>
+<text x="525" y="394" text-anchor="middle" font-size="14" fill="#182f40" font-weight="bold">extwall_3</text>
+<text x="525" y="413" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">extwall_3:C</text>
+<polyline points="610,397 742.0,397 750.0,404 758.0,390 766.0,404 774.0,390 782.0,404 790.0,390 798.0,404 806.0,390 814.0,404 822.0,390 830.0,404 838.0,397 970,397" fill="none" stroke="#284b63" stroke-width="2"/><text x="790.0" y="383" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">extwall_3:R2</text>
+<circle cx="970" cy="397" r="4" fill="#284b63"/>
+<rect x="22" y="456" width="176" height="42" rx="7" fill="#edf3f8" stroke="#aabcc8"/>
+<text x="110" y="482" text-anchor="middle" font-size="15" fill="#182f40" font-weight="normal">T_neighbor</text>
+<polyline points="198,477 271.0,477 279.0,484 287.0,470 295.0,484 303.0,470 311.0,484 319.0,470 327.0,484 335.0,470 343.0,484 351.0,470 359.0,484 367.0,477 440,477" fill="none" stroke="#284b63" stroke-width="2"/><text x="319.0" y="463" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">intwall_1:R1</text>
+<rect x="440" y="451" width="170" height="52" rx="8" fill="#e4f1f5" stroke="#126b99" stroke-width="2"/>
+<text x="525" y="474" text-anchor="middle" font-size="14" fill="#182f40" font-weight="bold">intwall_1</text>
+<text x="525" y="493" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">intwall_1:C</text>
+<polyline points="610,477 742.0,477 750.0,484 758.0,470 766.0,484 774.0,470 782.0,484 790.0,470 798.0,484 806.0,470 814.0,484 822.0,470 830.0,484 838.0,477 970,477" fill="none" stroke="#284b63" stroke-width="2"/><text x="790.0" y="463" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">intwall_1:R2</text>
+<circle cx="970" cy="477" r="4" fill="#284b63"/>
+<rect x="22" y="536" width="176" height="42" rx="7" fill="#edf3f8" stroke="#aabcc8"/>
+<text x="110" y="562" text-anchor="middle" font-size="15" fill="#182f40" font-weight="normal">T_neighbor</text>
+<polyline points="198,557 271.0,557 279.0,564 287.0,550 295.0,564 303.0,550 311.0,564 319.0,550 327.0,564 335.0,550 343.0,564 351.0,550 359.0,564 367.0,557 440,557" fill="none" stroke="#284b63" stroke-width="2"/><text x="319.0" y="543" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">intwall_2:R1</text>
+<rect x="440" y="531" width="170" height="52" rx="8" fill="#e4f1f5" stroke="#126b99" stroke-width="2"/>
+<text x="525" y="554" text-anchor="middle" font-size="14" fill="#182f40" font-weight="bold">intwall_2</text>
+<text x="525" y="573" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">intwall_2:C</text>
+<polyline points="610,557 742.0,557 750.0,564 758.0,550 766.0,564 774.0,550 782.0,564 790.0,550 798.0,564 806.0,550 814.0,564 822.0,550 830.0,564 838.0,557 970,557" fill="none" stroke="#284b63" stroke-width="2"/><text x="790.0" y="543" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">intwall_2:R2</text>
+<circle cx="970" cy="557" r="4" fill="#284b63"/>
+<rect x="22" y="616" width="176" height="42" rx="7" fill="#edf3f8" stroke="#aabcc8"/>
+<text x="110" y="642" text-anchor="middle" font-size="15" fill="#182f40" font-weight="normal">T_ground</text>
+<polyline points="198,637 271.0,637 279.0,644 287.0,630 295.0,644 303.0,630 311.0,644 319.0,630 327.0,644 335.0,630 343.0,644 351.0,630 359.0,644 367.0,637 440,637" fill="none" stroke="#284b63" stroke-width="2"/><text x="319.0" y="623" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">floor:R1</text>
+<rect x="440" y="611" width="170" height="52" rx="8" fill="#e4f1f5" stroke="#126b99" stroke-width="2"/>
+<text x="525" y="634" text-anchor="middle" font-size="14" fill="#182f40" font-weight="bold">floor</text>
+<text x="525" y="653" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">floor:C</text>
+<polyline points="610,637 742.0,637 750.0,644 758.0,630 766.0,644 774.0,630 782.0,644 790.0,630 798.0,644 806.0,630 814.0,644 822.0,630 830.0,644 838.0,637 970,637" fill="none" stroke="#284b63" stroke-width="2"/><text x="790.0" y="623" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">floor:R2</text>
+<circle cx="970" cy="637" r="4" fill="#284b63"/>
+<rect x="22" y="696" width="176" height="42" rx="7" fill="#edf3f8" stroke="#aabcc8"/>
+<text x="110" y="722" text-anchor="middle" font-size="15" fill="#182f40" font-weight="normal">T_outdoor</text>
+<polyline points="198,717 536.0,717 544.0,724 552.0,710 560.0,724 568.0,710 576.0,724 584.0,710 592.0,724 600.0,710 608.0,724 616.0,710 624.0,724 632.0,717 970,717" fill="none" stroke="#284b63" stroke-width="2"/><text x="584.0" y="703" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">extwindow_1:R (massless)</text>
+<circle cx="970" cy="717" r="4" fill="#284b63"/>
+<rect x="22" y="776" width="176" height="42" rx="7" fill="#edf3f8" stroke="#aabcc8"/>
+<text x="110" y="802" text-anchor="middle" font-size="15" fill="#182f40" font-weight="normal">T_outdoor</text>
+<polyline points="198,797 536.0,797 544.0,804 552.0,790 560.0,804 568.0,790 576.0,804 584.0,790 592.0,804 600.0,790 608.0,804 616.0,790 624.0,804 632.0,797 970,797" fill="none" stroke="#284b63" stroke-width="2"/><text x="584.0" y="783" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">extwindow_2:R (massless)</text>
+<circle cx="970" cy="797" r="4" fill="#284b63"/>
+<rect x="22" y="856" width="176" height="42" rx="7" fill="#edf3f8" stroke="#aabcc8"/>
+<text x="110" y="882" text-anchor="middle" font-size="15" fill="#182f40" font-weight="normal">T_neighbor</text>
+<polyline points="198,877 536.0,877 544.0,884 552.0,870 560.0,884 568.0,870 576.0,884 584.0,870 592.0,884 600.0,870 608.0,884 616.0,870 624.0,884 632.0,877 970,877" fill="none" stroke="#284b63" stroke-width="2"/><text x="584.0" y="863" text-anchor="middle" font-size="12" fill="#182f40" font-weight="normal">intwindow_1:R (massless)</text>
+<circle cx="970" cy="877" r="4" fill="#284b63"/>
+<line x1="970" y1="450" x2="1010" y2="450" stroke="#284b63" stroke-width="3"/>
+<rect x="1010" y="410" width="192" height="80" rx="9" fill="#fceadd" stroke="#b85e28" stroke-width="2"/>
+<text x="1106" y="442" text-anchor="middle" font-size="20" fill="#182f40" font-weight="bold">T_zone</text>
+<text x="1106" y="468" text-anchor="middle" font-size="15" fill="#182f40" font-weight="normal">zone_air:C</text>
+<text x="620" y="956" text-anchor="middle" font-size="16" fill="#182f40" font-weight="normal">Four heat-source allocation vectors act on all 8 states.</text>
+<text x="620" y="984" text-anchor="middle" font-size="16" fill="#182f40" font-weight="normal">HVAC and infiltration heat enter the zone-air balance.</text>
+<text x="620" y="1012" text-anchor="middle" font-size="13" fill="#536b7a" font-weight="normal">Repeated boundary labels denote the same prescribed temperature, not additional states.</text>
+</g></svg>

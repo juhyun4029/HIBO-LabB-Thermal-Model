@@ -1,0 +1,84 @@
+{
+  "initial": {
+    "unchanged": [
+      "adjoint.py",
+      "adjoint_fast.py",
+      "audit_profile_proposals.py",
+      "canonical_model.py",
+      "compiled_target.py",
+      "conditional_heat.py",
+      "conditional_transport.py",
+      "diagnostic_parallel.py",
+      "effective_coordinates.py",
+      "exterior_bridge.py",
+      "ghk_heat.py",
+      "global_transport.py",
+      "july_export.py",
+      "july_initialization.py",
+      "marginal_heat.py",
+      "model.py",
+      "physical_prior.py",
+      "profile_coordinates.py",
+      "profile_heat.py",
+      "profile_integrator.py",
+      "reflected_hmc_integrator.py",
+      "reporting.py",
+      "residue_transition.py",
+      "settling_policy.py",
+      "slice_transition.py",
+      "solver.py",
+      "tempered_hmc.py",
+      "tuned_adaptation.py",
+      "variety_assessment.py",
+      "warmup_health.py"
+    ],
+    "changed": [
+      "multiple_try_heat.py",
+      "tuned_profile_sampler.py"
+    ],
+    "added": [
+      "exterior_transport.py"
+    ]
+  },
+  "reduction": {
+    "unchanged": [
+      "__init__.py",
+      "analysis.py",
+      "numeric_rules.py",
+      "numerics.py",
+      "ranking.py",
+      "reprocess.py",
+      "sampling.py",
+      "topology.py",
+      "workflow.py"
+    ],
+    "changed": [],
+    "added": []
+  },
+  "target_and_inputs": {
+    "initial/src/model.py": {
+      "unchanged_from_actual_single_setpoint_run": true,
+      "sha256": "006f8de6c3fec6b0a613a431944b1dbd2e9232ad46bfed69f46ecb08ad1fcc9c"
+    },
+    "initial/src/solver.py": {
+      "unchanged_from_actual_single_setpoint_run": true,
+      "sha256": "1bfdfdef45aabe69b0e59d0ef47bd2c4f5420b1ee2e7a7311e1a51079243ee0b"
+    },
+    "initial/src/adjoint_fast.py": {
+      "unchanged_from_actual_single_setpoint_run": true,
+      "sha256": "36f40752f2d92e7c95732e03e93def59b8cf1ec90a320efc580aba6f32dd3852"
+    },
+    "initial/inputs/data.npz": {
+      "unchanged_from_actual_single_setpoint_run": true,
+      "sha256": "5521a1f6210ca41f02865751203057109f4e337d0770ac41ec50f4044e806f1c"
+    },
+    "initial/inputs/reference.json": {
+      "unchanged_from_actual_single_setpoint_run": true,
+      "sha256": "712258c194bd62da6908ba9449bc51d2fcfc1d9f2c21eb6cdc25c4ece5db2980"
+    },
+    "reduction/config.json": {
+      "unchanged_from_actual_single_setpoint_run": true,
+      "sha256": "6924b78886a2ddf0eb8435d0dcc4788e447d02b62cf7bd52b3148ead5d548d52"
+    }
+  }
+}

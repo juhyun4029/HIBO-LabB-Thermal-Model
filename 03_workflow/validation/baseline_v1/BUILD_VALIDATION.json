@@ -1,0 +1,40 @@
+{
+  "scope": "Package/runtime wiring validation only; production MCMC not run",
+  "input_rows": 44640,
+  "thermostat_type": 3,
+  "heating_cooling_gap_C": 0,
+  "training_likelihood_points": 6048,
+  "initial_smoke": {
+    "stage": "smoke_complete_no_inference",
+    "chains": 4,
+    "retained_draws_per_chain": 8,
+    "converged": false,
+    "posterior_export": "completed"
+  },
+  "reduction_smoke": {
+    "trials": 1,
+    "mode": "smoke",
+    "adopted_steps": 0,
+    "binary_analysis_executed": true,
+    "numeric_analysis_executed": true
+  },
+  "handoff": {
+    "max_temperature_difference_C": 3.517186542012496e-13,
+    "initial_pair_count": 45,
+    "input_minutes": 44640
+  },
+  "orchestration_tests": {
+    "passed": 6,
+    "coverage": [
+      "archive before handoff and reduction",
+      "nonconvergence blocks reduction even after normal process exit",
+      "archive failure blocks handoff",
+      "stop prevents reduction",
+      "Rhat/Bulk ESS/Tail ESS gates in both coordinate families",
+      "run lock and no overwrite"
+    ]
+  },
+  "runtime": "Linux CPython 3.12.14; pinned Case 5 requirements installed and imports checked",
+  "native_windows_execution_tested": false,
+  "old_production_checkpoints_included": false
+}

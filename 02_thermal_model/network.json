@@ -1,0 +1,597 @@
+{
+  "name": "HIBO_LabB_17R8C",
+  "target_zone": "Thermal Zone: Space 103 LAB B",
+  "n_R": 17,
+  "n_C": 8,
+  "boundary_temperatures": [
+    {
+      "index": 0,
+      "id": "T_plenum",
+      "description": "Thermal Zone: Plenum air temperature"
+    },
+    {
+      "index": 1,
+      "id": "T_outdoor",
+      "description": "Site outdoor air dry-bulb temperature"
+    },
+    {
+      "index": 2,
+      "id": "T_neighbor",
+      "description": "Thermal Zone: Space 102 - Plus air temperature"
+    },
+    {
+      "index": 3,
+      "id": "T_ground",
+      "description": "Site ground temperature"
+    }
+  ],
+  "states": [
+    "T_ceiling",
+    "T_extwall_1",
+    "T_extwall_2",
+    "T_extwall_3",
+    "T_intwall_1",
+    "T_intwall_2",
+    "T_floor",
+    "T_zone"
+  ],
+  "components": [
+    {
+      "name": "ceiling",
+      "surfaces": [
+        "Surface 8",
+        "Surface 71"
+      ],
+      "boundary": 0,
+      "area": 19.062273101184,
+      "gross_area": 19.062273101184,
+      "R": 0.03492802973813108,
+      "R1": 0.01746401486906554,
+      "R2": 0.01746401486906554,
+      "C": 82112.34281719322,
+      "vertices": [
+        [
+          [
+            3.956304,
+            0.0,
+            3.048
+          ],
+          [
+            3.956304,
+            4.654296,
+            3.048
+          ],
+          [
+            0.0,
+            4.654296,
+            3.048
+          ],
+          [
+            0.0,
+            0.0,
+            3.048
+          ]
+        ],
+        [
+          [
+            3.956304,
+            4.654296,
+            3.048
+          ],
+          [
+            3.956304,
+            4.654296,
+            2.7432
+          ],
+          [
+            1.8288,
+            4.654296,
+            2.7432
+          ],
+          [
+            1.8288,
+            4.654296,
+            3.048
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "extwall_1",
+      "surfaces": [
+        "Surface 69 Ext",
+        "Surface 69 Low CMU"
+      ],
+      "boundary": 1,
+      "area": 2.3968984319999977,
+      "gross_area": 12.058814592,
+      "R": 1.2375073912786887,
+      "R1": 0.599920732262235,
+      "R2": 0.6375866590164536,
+      "C": 191409.31680154795,
+      "vertices": [
+        [
+          [
+            0.0,
+            0.0,
+            3.048
+          ],
+          [
+            0.0,
+            0.0,
+            0.4064
+          ],
+          [
+            3.956304,
+            0.0,
+            0.4064
+          ],
+          [
+            3.956304,
+            0.0,
+            3.048
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.0,
+            0.4064
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            3.956304,
+            0.0,
+            0.0
+          ],
+          [
+            3.956304,
+            0.0,
+            0.4064
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "extwall_2",
+      "surfaces": [
+        "Surface 70 Ext"
+      ],
+      "boundary": 1,
+      "area": 12.095975808,
+      "gross_area": 14.186294208000001,
+      "R": 0.1883682088016543,
+      "R1": 0.08719154773168929,
+      "R2": 0.10117666106996502,
+      "C": 430315.73207287915,
+      "vertices": [
+        [
+          [
+            0.0,
+            4.654296,
+            3.048
+          ],
+          [
+            0.0,
+            4.654296,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            3.048
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "extwall_3",
+      "surfaces": [
+        "Surface 3 Ext"
+      ],
+      "boundary": 1,
+      "area": 5.5741824,
+      "gross_area": 5.5741824,
+      "R": 0.4927936350225319,
+      "R1": 0.2383238846987336,
+      "R2": 0.25446975032379826,
+      "C": 201824.9126848512,
+      "vertices": [
+        [
+          [
+            1.8288,
+            4.654296,
+            3.048
+          ],
+          [
+            1.8288,
+            4.654296,
+            0.0
+          ],
+          [
+            0.0,
+            4.654296,
+            0.0
+          ],
+          [
+            0.0,
+            4.654296,
+            3.048
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "intwall_1",
+      "surfaces": [
+        "Surface 5",
+        "Surface 6"
+      ],
+      "boundary": 2,
+      "area": 12.720490688000003,
+      "gross_area": 14.186294208000001,
+      "R": 0.10437105546294621,
+      "R1": 0.05218552773147311,
+      "R2": 0.05218552773147311,
+      "C": 365033.4548090497,
+      "vertices": [
+        [
+          [
+            3.956304,
+            2.734056,
+            3.048
+          ],
+          [
+            3.956304,
+            2.734056,
+            0.0
+          ],
+          [
+            3.956304,
+            4.654296,
+            0.0
+          ],
+          [
+            3.956304,
+            4.654296,
+            3.048
+          ]
+        ],
+        [
+          [
+            3.956304,
+            0.0,
+            3.048
+          ],
+          [
+            3.956304,
+            0.0,
+            0.0
+          ],
+          [
+            3.956304,
+            2.734056,
+            0.0
+          ],
+          [
+            3.956304,
+            2.734056,
+            3.048
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "intwall_2",
+      "surfaces": [
+        "Surface 4"
+      ],
+      "boundary": 2,
+      "area": 5.8361689727999995,
+      "gross_area": 5.8361689727999995,
+      "R": 0.36869577343662574,
+      "R1": 0.18434788671831287,
+      "R2": 0.18434788671831287,
+      "C": 194785.64116858365,
+      "vertices": [
+        [
+          [
+            3.956304,
+            4.654296,
+            2.7432
+          ],
+          [
+            3.956304,
+            4.654296,
+            0.0
+          ],
+          [
+            1.8288,
+            4.654296,
+            0.0
+          ],
+          [
+            1.8288,
+            4.654296,
+            2.7432
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "floor",
+      "surfaces": [
+        "Surface 1"
+      ],
+      "boundary": 3,
+      "area": 18.413809881984,
+      "gross_area": 18.413809881984,
+      "R": 0.018885559959149773,
+      "R1": 0.005912820649235772,
+      "R2": 0.012972739309914,
+      "C": 6238889.0132295955,
+      "vertices": [
+        [
+          [
+            3.956304,
+            4.654296,
+            0.0
+          ],
+          [
+            3.956304,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.654296,
+            0.0
+          ]
+        ]
+      ],
+      "kind": "massive",
+      "preaggregation": "sum C, sum steady-state conductance, conductance-weighted R1 fraction"
+    },
+    {
+      "name": "extwindow_1",
+      "surfaces": [
+        "HIBO CWC LabB Vision"
+      ],
+      "boundary": 1,
+      "area": 9.03224,
+      "R": 0.06680141387644578,
+      "C": 0.0,
+      "kind": "massless",
+      "host": 1,
+      "frame_G_correction": 2.6858966334270287,
+      "frame_area": 0.6296761600000007
+    },
+    {
+      "name": "extwindow_2",
+      "surfaces": [
+        "HIBO CWA LabB West Lower CTIG",
+        "HIBO CWA LabB West Upper CTIG"
+      ],
+      "boundary": 1,
+      "area": 2.0903184,
+      "R": 0.35176177832384703,
+      "C": 0.0,
+      "kind": "massless",
+      "host": 2,
+      "frame_G_correction": 0.0,
+      "frame_area": 0.0
+    },
+    {
+      "name": "intwindow_1",
+      "surfaces": [
+        "HIBO Type A LabB-Control CTG A",
+        "HIBO Door 103 CTG Lite A"
+      ],
+      "boundary": 2,
+      "area": 1.4658035199999984,
+      "R": 0.18170921024940662,
+      "C": 0.0,
+      "kind": "massless",
+      "host": 4,
+      "frame_G_correction": 0.0,
+      "frame_area": 0.0
+    }
+  ],
+  "resistances": [
+    {
+      "parameter": "ceiling:R1",
+      "node_a": "T_plenum",
+      "node_b": "T_ceiling",
+      "reference_K_per_W": 0.01746401486906554
+    },
+    {
+      "parameter": "ceiling:R2",
+      "node_a": "T_ceiling",
+      "node_b": "T_zone",
+      "reference_K_per_W": 0.01746401486906554
+    },
+    {
+      "parameter": "extwall_1:R1",
+      "node_a": "T_outdoor",
+      "node_b": "T_extwall_1",
+      "reference_K_per_W": 0.599920732262235
+    },
+    {
+      "parameter": "extwall_1:R2",
+      "node_a": "T_extwall_1",
+      "node_b": "T_zone",
+      "reference_K_per_W": 0.6375866590164536
+    },
+    {
+      "parameter": "extwall_2:R1",
+      "node_a": "T_outdoor",
+      "node_b": "T_extwall_2",
+      "reference_K_per_W": 0.08719154773168929
+    },
+    {
+      "parameter": "extwall_2:R2",
+      "node_a": "T_extwall_2",
+      "node_b": "T_zone",
+      "reference_K_per_W": 0.10117666106996502
+    },
+    {
+      "parameter": "extwall_3:R1",
+      "node_a": "T_outdoor",
+      "node_b": "T_extwall_3",
+      "reference_K_per_W": 0.2383238846987336
+    },
+    {
+      "parameter": "extwall_3:R2",
+      "node_a": "T_extwall_3",
+      "node_b": "T_zone",
+      "reference_K_per_W": 0.25446975032379826
+    },
+    {
+      "parameter": "intwall_1:R1",
+      "node_a": "T_neighbor",
+      "node_b": "T_intwall_1",
+      "reference_K_per_W": 0.05218552773147311
+    },
+    {
+      "parameter": "intwall_1:R2",
+      "node_a": "T_intwall_1",
+      "node_b": "T_zone",
+      "reference_K_per_W": 0.05218552773147311
+    },
+    {
+      "parameter": "intwall_2:R1",
+      "node_a": "T_neighbor",
+      "node_b": "T_intwall_2",
+      "reference_K_per_W": 0.18434788671831287
+    },
+    {
+      "parameter": "intwall_2:R2",
+      "node_a": "T_intwall_2",
+      "node_b": "T_zone",
+      "reference_K_per_W": 0.18434788671831287
+    },
+    {
+      "parameter": "floor:R1",
+      "node_a": "T_ground",
+      "node_b": "T_floor",
+      "reference_K_per_W": 0.005912820649235772
+    },
+    {
+      "parameter": "floor:R2",
+      "node_a": "T_floor",
+      "node_b": "T_zone",
+      "reference_K_per_W": 0.012972739309914
+    },
+    {
+      "parameter": "extwindow_1:R",
+      "node_a": "T_outdoor",
+      "node_b": "T_zone",
+      "reference_K_per_W": 0.06680141387644578
+    },
+    {
+      "parameter": "extwindow_2:R",
+      "node_a": "T_outdoor",
+      "node_b": "T_zone",
+      "reference_K_per_W": 0.35176177832384703
+    },
+    {
+      "parameter": "intwindow_1:R",
+      "node_a": "T_neighbor",
+      "node_b": "T_zone",
+      "reference_K_per_W": 0.18170921024940662
+    }
+  ],
+  "capacitances": [
+    {
+      "parameter": "ceiling:C",
+      "state": "T_ceiling",
+      "reference_J_per_K": 82112.34281719322
+    },
+    {
+      "parameter": "extwall_1:C",
+      "state": "T_extwall_1",
+      "reference_J_per_K": 191409.31680154795
+    },
+    {
+      "parameter": "extwall_2:C",
+      "state": "T_extwall_2",
+      "reference_J_per_K": 430315.73207287915
+    },
+    {
+      "parameter": "extwall_3:C",
+      "state": "T_extwall_3",
+      "reference_J_per_K": 201824.9126848512
+    },
+    {
+      "parameter": "intwall_1:C",
+      "state": "T_intwall_1",
+      "reference_J_per_K": 365033.4548090497
+    },
+    {
+      "parameter": "intwall_2:C",
+      "state": "T_intwall_2",
+      "reference_J_per_K": 194785.64116858365
+    },
+    {
+      "parameter": "floor:C",
+      "state": "T_floor",
+      "reference_J_per_K": 6238889.0132295955
+    },
+    {
+      "parameter": "zone_air:C",
+      "state": "T_zone",
+      "reference_J_per_K": 67687.10277946641
+    }
+  ],
+  "heat_sources": [
+    "solar",
+    "lighting",
+    "occupant",
+    "equipment"
+  ],
+  "heat_allocation": {
+    "shape": [
+      4,
+      8
+    ],
+    "order": [
+      "ceiling",
+      "extwall_1",
+      "extwall_2",
+      "extwall_3",
+      "intwall_1",
+      "intwall_2",
+      "floor",
+      "zone_air"
+    ],
+    "constraint": "Each heat-source allocation vector sums to 1."
+  },
+  "reference_sha256": "712258c194bd62da6908ba9449bc51d2fcfc1d9f2c21eb6cdc25c4ece5db2980",
+  "window_host_role": "Geometric association only; does not restrict reduction candidate generation."
+}

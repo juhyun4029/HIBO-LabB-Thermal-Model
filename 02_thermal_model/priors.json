@@ -1,0 +1,68 @@
+{
+  "independent_parameters": 55,
+  "reported_values": 59,
+  "thermal": {
+    "independent_count": 25,
+    "distribution": "lognormal",
+    "physical_mean": "reference",
+    "physical_sd": "2 * reference",
+    "log_sd": 1.2686362411795196,
+    "log_mean": "log(reference) - log(5)/2"
+  },
+  "heat_allocation": {
+    "sources": [
+      "solar",
+      "lighting",
+      "occupant",
+      "equipment"
+    ],
+    "states": [
+      "ceiling",
+      "extwall_1",
+      "extwall_2",
+      "extwall_3",
+      "intwall_1",
+      "intwall_2",
+      "floor",
+      "zone_air"
+    ],
+    "distribution_per_source": "Dirichlet",
+    "concentration_per_state": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "independent_count": 28,
+    "reported_count": 32
+  },
+  "noise": {
+    "independent_count": 2,
+    "log_sigma_hour": {
+      "distribution": "truncated_normal",
+      "mean": -1.2039728043259361,
+      "sd": 1.0,
+      "lower": -5.0,
+      "upper": 2.0
+    },
+    "eta": {
+      "distribution": "truncated_normal",
+      "mean": 1.5,
+      "sd": 1.5,
+      "lower": -5.0,
+      "upper": 6.0
+    },
+    "rho_hour": "0.98 * sigmoid(eta)",
+    "phi_5min": "rho_hour ** (5/60)",
+    "sigma_5min": "sigma_hour * sqrt((1 - phi_5min**2)/(1 - rho_hour**2))"
+  },
+  "priors_not_derived_from_idf": [
+    "thermal coefficient of variation",
+    "Dirichlet concentration",
+    "noise prior parameters"
+  ]
+}

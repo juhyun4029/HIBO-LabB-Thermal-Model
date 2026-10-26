@@ -1,0 +1,4 @@
+# Preserve released bytes so file-integrity checks survive checkout.
+* -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+03_workflow/initial/inputs/HIBO_MCMC_1min.csv filter=lfs diff=lfs merge=lfs -text

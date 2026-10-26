@@ -1,0 +1,9 @@
+parameter,state,reference_J_per_K
+ceiling:C,T_ceiling,82112.34281719322
+extwall_1:C,T_extwall_1,191409.31680154795
+extwall_2:C,T_extwall_2,430315.73207287915
+extwall_3:C,T_extwall_3,201824.9126848512
+intwall_1:C,T_intwall_1,365033.4548090497
+intwall_2:C,T_intwall_2,194785.64116858365
+floor:C,T_floor,6238889.0132295955
+zone_air:C,T_zone,67687.10277946641

@@ -1,0 +1,1115 @@
+{
+  "candidate_outcomes": {
+    "pass": 160,
+    "fail": 0,
+    "unresolved": 5
+  },
+  "binary_analysis": {
+    "resolved_candidates": 160,
+    "status": "no_outcome_contrast"
+  },
+  "numeric_analysis": {
+    "eligible_massive_pair_trials": 112,
+    "unique_member_pairs": 47,
+    "parent_stages": 9,
+    "reported_rules": 30,
+    "minimum_support": 10,
+    "minimum_stages": 3,
+    "maximum_coverage": 0.85,
+    "maximum_conditions": 2
+  },
+  "numeric_rules": [
+    {
+      "rule_id": "N01",
+      "rule": "pair_d_R <= 1.6094379 AND pair_d_C <= 1.4312607",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 1.6094379124341003
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.4312606924416311
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 23,
+      "unique_pairs": 9,
+      "n_stages": 6,
+      "coverage": 0.20535714285714285,
+      "score": 0.11509695724450199,
+      "mean_d_R": 1.1420046127936907,
+      "mean_d_C": 0.6806319095284902,
+      "stage_matched_reference_d_R": 1.8615453034590261,
+      "stage_matched_reference_d_C": 1.1321296462134858,
+      "d_R_lower_percent": 38.65287024325019,
+      "d_C_lower_percent": 39.88039163138889,
+      "both_below_stage_median_n": 15,
+      "descriptive_exception_n": 8,
+      "front1_n": 4,
+      "mean_validation_rmse": 0.4014595796284171,
+      "excess_mean_rank_percentile_R": 0.26806418219461703,
+      "excess_mean_rank_percentile_C": 0.338871635610766
+    },
+    {
+      "rule_id": "N02",
+      "rule": "pair_d_R <= 1.6094379 AND pair_d_C <= 1.3432174",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 1.6094379124341003
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.3432173676982218
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 22,
+      "unique_pairs": 8,
+      "n_stages": 6,
+      "coverage": 0.19642857142857142,
+      "score": 0.11288716344248409,
+      "mean_d_R": 1.1577748124657758,
+      "mean_d_C": 0.6798805052425835,
+      "stage_matched_reference_d_R": 1.8678919731216892,
+      "stage_matched_reference_d_C": 1.1344332048917474,
+      "d_R_lower_percent": 38.01703582831612,
+      "d_C_lower_percent": 40.06870547239838,
+      "both_below_stage_median_n": 14,
+      "descriptive_exception_n": 8,
+      "front1_n": 4,
+      "mean_validation_rmse": 0.4003017649112502,
+      "excess_mean_rank_percentile_R": 0.2791666666666666,
+      "excess_mean_rank_percentile_C": 0.3466991341991342
+    },
+    {
+      "rule_id": "N03",
+      "rule": "pair_d_R <= 1.3862944 AND pair_d_C <= 1.4312607",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 1.3862943611198906
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.4312606924416311
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 17,
+      "unique_pairs": 7,
+      "n_stages": 6,
+      "coverage": 0.15178571428571427,
+      "score": 0.10569315409188364,
+      "mean_d_R": 0.9709120458124432,
+      "mean_d_C": 0.6379753134458862,
+      "stage_matched_reference_d_R": 1.8432112397566467,
+      "stage_matched_reference_d_C": 1.1188364358030793,
+      "d_R_lower_percent": 47.324971502418265,
+      "d_C_lower_percent": 42.97867918575965,
+      "both_below_stage_median_n": 14,
+      "descriptive_exception_n": 3,
+      "front1_n": 3,
+      "mean_validation_rmse": 0.40345488607197033,
+      "excess_mean_rank_percentile_R": 0.1738095238095238,
+      "excess_mean_rank_percentile_C": 0.27647058823529413
+    },
+    {
+      "rule_id": "N04",
+      "rule": "pair_d_C <= 1.3432174 AND R_max <= 1.0189154",
+      "conditions": [
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.3432173676982218
+        },
+        {
+          "feature": "R_max",
+          "operator": "<=",
+          "value": 1.0189154381034415
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 24,
+      "unique_pairs": 10,
+      "n_stages": 7,
+      "coverage": 0.21428571428571427,
+      "score": 0.10339702155941963,
+      "mean_d_R": 1.1965590213123467,
+      "mean_d_C": 0.7247555392998537,
+      "stage_matched_reference_d_R": 1.912563327007274,
+      "stage_matched_reference_d_C": 1.1483306473360952,
+      "d_R_lower_percent": 37.43689401465785,
+      "d_C_lower_percent": 36.886162449713744,
+      "both_below_stage_median_n": 18,
+      "descriptive_exception_n": 6,
+      "front1_n": 4,
+      "mean_validation_rmse": 0.3995596496706982,
+      "excess_mean_rank_percentile_R": 0.23020833333333332,
+      "excess_mean_rank_percentile_C": 0.3353670634920635
+    },
+    {
+      "rule_id": "N05",
+      "rule": "pair_d_R <= 1.3862944 AND pair_d_C <= 1.3432174",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 1.3862943611198906
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.3432173676982218
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 16,
+      "unique_pairs": 6,
+      "n_stages": 6,
+      "coverage": 0.14285714285714285,
+      "score": 0.10332153823183785,
+      "mean_d_R": 0.9819027849252322,
+      "mean_d_C": 0.6342760952976018,
+      "stage_matched_reference_d_R": 1.8507920315614095,
+      "stage_matched_reference_d_C": 1.1211730033350384,
+      "d_R_lower_percent": 46.94688716069002,
+      "d_C_lower_percent": 43.42745558349286,
+      "both_below_stage_median_n": 13,
+      "descriptive_exception_n": 3,
+      "front1_n": 3,
+      "mean_validation_rmse": 0.4019875974885878,
+      "excess_mean_rank_percentile_R": 0.18318452380952382,
+      "excess_mean_rank_percentile_C": 0.2833333333333334
+    },
+    {
+      "rule_id": "N06",
+      "rule": "pair_d_R <= 2.2970151 AND pair_d_C <= 1.6094379",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 2.2970150904315934
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.6094379124341003
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 37,
+      "unique_pairs": 14,
+      "n_stages": 7,
+      "coverage": 0.33035714285714285,
+      "score": 0.09969655977715682,
+      "mean_d_R": 1.3306256206739808,
+      "mean_d_C": 0.8206543241629929,
+      "stage_matched_reference_d_R": 1.8978133856026986,
+      "stage_matched_reference_d_C": 1.1494760195600087,
+      "d_R_lower_percent": 29.88638236148772,
+      "d_C_lower_percent": 28.606224906099452,
+      "both_below_stage_median_n": 22,
+      "descriptive_exception_n": 15,
+      "front1_n": 5,
+      "mean_validation_rmse": 0.4003588601993963,
+      "excess_mean_rank_percentile_R": 0.32429214929214933,
+      "excess_mean_rank_percentile_C": 0.42377734877734885
+    },
+    {
+      "rule_id": "N07",
+      "rule": "pair_d_R <= 2.4645437 AND pair_d_C <= 1.3432174",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 2.4645437038943103
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.3432173676982218
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 36,
+      "unique_pairs": 13,
+      "n_stages": 7,
+      "coverage": 0.32142857142857145,
+      "score": 0.09863447879471945,
+      "mean_d_R": 1.3515701306065697,
+      "mean_d_C": 0.8272989194664,
+      "stage_matched_reference_d_R": 1.9128728237656614,
+      "stage_matched_reference_d_C": 1.1554850123494977,
+      "d_R_lower_percent": 29.343440200803162,
+      "d_C_lower_percent": 28.40245346114726,
+      "both_below_stage_median_n": 21,
+      "descriptive_exception_n": 15,
+      "front1_n": 5,
+      "mean_validation_rmse": 0.40245636677896723,
+      "excess_mean_rank_percentile_R": 0.3303240740740741,
+      "excess_mean_rank_percentile_C": 0.433234126984127
+    },
+    {
+      "rule_id": "N08",
+      "rule": "pair_d_C <= 1.4312607 AND R_max <= 1.0189154",
+      "conditions": [
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.4312606924416311
+        },
+        {
+          "feature": "R_max",
+          "operator": "<=",
+          "value": 1.0189154381034415
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 27,
+      "unique_pairs": 12,
+      "n_stages": 7,
+      "coverage": 0.24107142857142858,
+      "score": 0.09780837580220374,
+      "mean_d_R": 1.2208375648701855,
+      "mean_d_C": 0.7516472030501945,
+      "stage_matched_reference_d_R": 1.8936791421947106,
+      "stage_matched_reference_d_C": 1.1392380469129217,
+      "d_R_lower_percent": 35.53091768992736,
+      "d_C_lower_percent": 34.02193640855052,
+      "both_below_stage_median_n": 19,
+      "descriptive_exception_n": 8,
+      "front1_n": 4,
+      "mean_validation_rmse": 0.4066649049681955,
+      "excess_mean_rank_percentile_R": 0.23624338624338626,
+      "excess_mean_rank_percentile_C": 0.3585537918871253
+    },
+    {
+      "rule_id": "N09",
+      "rule": "pair_d_R <= 3.357066 AND pair_d_C <= 1.3432174",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 3.3570659965376293
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.3432173676982218
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 40,
+      "unique_pairs": 15,
+      "n_stages": 8,
+      "coverage": 0.35714285714285715,
+      "score": 0.09725461362857833,
+      "mean_d_R": 1.4331882614724418,
+      "mean_d_C": 0.807396951828722,
+      "stage_matched_reference_d_R": 1.9111411410442567,
+      "stage_matched_reference_d_C": 1.1566091331460213,
+      "d_R_lower_percent": 25.00876933195312,
+      "d_C_lower_percent": 30.19275668067991,
+      "both_below_stage_median_n": 22,
+      "descriptive_exception_n": 18,
+      "front1_n": 5,
+      "mean_validation_rmse": 0.40278597271491695,
+      "excess_mean_rank_percentile_R": 0.3639880952380952,
+      "excess_mean_rank_percentile_C": 0.41666666666666663
+    },
+    {
+      "rule_id": "N10",
+      "rule": "pair_d_R <= 2.8512924 AND pair_d_C <= 1.3432174",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 2.8512924206660695
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.3432173676982218
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 39,
+      "unique_pairs": 14,
+      "n_stages": 7,
+      "coverage": 0.3482142857142857,
+      "score": 0.09723268515911296,
+      "mean_d_R": 1.418858620144446,
+      "mean_d_C": 0.796080065609302,
+      "stage_matched_reference_d_R": 1.899775349914011,
+      "stage_matched_reference_d_C": 1.148639799363193,
+      "d_R_lower_percent": 25.31439992582979,
+      "d_C_lower_percent": 30.69367211107872,
+      "both_below_stage_median_n": 21,
+      "descriptive_exception_n": 18,
+      "front1_n": 5,
+      "mean_validation_rmse": 0.40269374286855414,
+      "excess_mean_rank_percentile_R": 0.3626373626373626,
+      "excess_mean_rank_percentile_C": 0.41666666666666674
+    },
+    {
+      "rule_id": "N11",
+      "rule": "pair_d_R <= 2.2970151 AND pair_d_C <= 1.4312607",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 2.2970150904315934
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.4312606924416311
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 36,
+      "unique_pairs": 13,
+      "n_stages": 6,
+      "coverage": 0.32142857142857145,
+      "score": 0.09713461977484157,
+      "mean_d_R": 1.3241645271292206,
+      "mean_d_C": 0.8182425238988906,
+      "stage_matched_reference_d_R": 1.8851302297826669,
+      "stage_matched_reference_d_C": 1.1406444325845553,
+      "d_R_lower_percent": 29.757397859887845,
+      "d_C_lower_percent": 28.264891273360526,
+      "both_below_stage_median_n": 21,
+      "descriptive_exception_n": 15,
+      "front1_n": 4,
+      "mean_validation_rmse": 0.40060366771908035,
+      "excess_mean_rank_percentile_R": 0.32635582010582015,
+      "excess_mean_rank_percentile_C": 0.43323412698412705
+    },
+    {
+      "rule_id": "N12",
+      "rule": "pair_d_R <= 2.4645437 AND pair_d_C <= 1.4312607",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 2.4645437038943103
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.4312606924416311
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 39,
+      "unique_pairs": 15,
+      "n_stages": 7,
+      "coverage": 0.3482142857142857,
+      "score": 0.09503513280835124,
+      "mean_d_R": 1.3564544215855177,
+      "mean_d_C": 0.8380282728192091,
+      "stage_matched_reference_d_R": 1.899775349914011,
+      "stage_matched_reference_d_C": 1.148639799363193,
+      "d_R_lower_percent": 28.599219815810617,
+      "d_C_lower_percent": 27.041682406981472,
+      "both_below_stage_median_n": 22,
+      "descriptive_exception_n": 17,
+      "front1_n": 5,
+      "mean_validation_rmse": 0.40715256528429083,
+      "excess_mean_rank_percentile_R": 0.3268009768009768,
+      "excess_mean_rank_percentile_C": 0.44175824175824185
+    },
+    {
+      "rule_id": "N13",
+      "rule": "pair_d_R <= 2.2970151 AND pair_d_C <= 1.3432174",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 2.2970150904315934
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.3432173676982218
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 35,
+      "unique_pairs": 12,
+      "n_stages": 6,
+      "coverage": 0.3125,
+      "score": 0.09470964792454467,
+      "mean_d_R": 1.3392817930469751,
+      "mean_d_C": 0.8217019444726179,
+      "stage_matched_reference_d_R": 1.8897934200370166,
+      "stage_matched_reference_d_C": 1.1423356633643502,
+      "d_R_lower_percent": 29.130783351931566,
+      "d_C_lower_percent": 28.068257796260852,
+      "both_below_stage_median_n": 20,
+      "descriptive_exception_n": 15,
+      "front1_n": 4,
+      "mean_validation_rmse": 0.3998514438423086,
+      "excess_mean_rank_percentile_R": 0.335,
+      "excess_mean_rank_percentile_C": 0.44085034013605445
+    },
+    {
+      "rule_id": "N14",
+      "rule": "pair_d_R <= 2.4645437 AND pair_d_C <= 1.6094379",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 2.4645437038943103
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.6094379124341003
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 41,
+      "unique_pairs": 17,
+      "n_stages": 8,
+      "coverage": 0.36607142857142855,
+      "score": 0.0935666189307645,
+      "mean_d_R": 1.3684171395997213,
+      "mean_d_C": 0.8473277696905209,
+      "stage_matched_reference_d_R": 1.9065259564061148,
+      "stage_matched_reference_d_C": 1.15477601661299,
+      "d_R_lower_percent": 28.22457333970696,
+      "d_C_lower_percent": 26.62405890834385,
+      "both_below_stage_median_n": 23,
+      "descriptive_exception_n": 18,
+      "front1_n": 6,
+      "mean_validation_rmse": 0.40847501022502836,
+      "excess_mean_rank_percentile_R": 0.32799070847851336,
+      "excess_mean_rank_percentile_C": 0.4414053426248548
+    },
+    {
+      "rule_id": "N15",
+      "rule": "pair_d_C <= 1.6094379 AND R_max <= 1.0189154",
+      "conditions": [
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.6094379124341003
+        },
+        {
+          "feature": "R_max",
+          "operator": "<=",
+          "value": 1.0189154381034415
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 28,
+      "unique_pairs": 13,
+      "n_stages": 7,
+      "coverage": 0.25,
+      "score": 0.09264455782312923,
+      "mean_d_R": 1.2358131980343943,
+      "mean_d_C": 0.765868973787385,
+      "stage_matched_reference_d_R": 1.8875448360763438,
+      "stage_matched_reference_d_C": 1.1371742364978794,
+      "d_R_lower_percent": 34.52800831988234,
+      "d_C_lower_percent": 32.651571834232875,
+      "both_below_stage_median_n": 19,
+      "descriptive_exception_n": 9,
+      "front1_n": 4,
+      "mean_validation_rmse": 0.4091761434924761,
+      "excess_mean_rank_percentile_R": 0.24396258503401366,
+      "excess_mean_rank_percentile_C": 0.3738095238095238
+    },
+    {
+      "rule_id": "N16",
+      "rule": "pair_d_R <= 1.6094379 AND C_max <= 272313.6",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 1.6094379124341003
+        },
+        {
+          "feature": "C_max",
+          "operator": "<=",
+          "value": 272313.6045530199
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 15,
+      "unique_pairs": 5,
+      "n_stages": 6,
+      "coverage": 0.13392857142857142,
+      "score": 0.09163585506406616,
+      "mean_d_R": 1.2422402806790804,
+      "mean_d_C": 0.654229469650287,
+      "stage_matched_reference_d_R": 1.8793145865647871,
+      "stage_matched_reference_d_C": 1.1491344426065504,
+      "d_R_lower_percent": 33.89929022209206,
+      "d_C_lower_percent": 43.067630262102654,
+      "both_below_stage_median_n": 10,
+      "descriptive_exception_n": 5,
+      "front1_n": 2,
+      "mean_validation_rmse": 0.40533542340039325,
+      "excess_mean_rank_percentile_R": 0.30992063492063493,
+      "excess_mean_rank_percentile_C": 0.3165873015873016
+    },
+    {
+      "rule_id": "N17",
+      "rule": "pair_d_C <= 2.0721224 AND R_max <= 1.0189154",
+      "conditions": [
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 2.0721224425596154
+        },
+        {
+          "feature": "R_max",
+          "operator": "<=",
+          "value": 1.0189154381034415
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 29,
+      "unique_pairs": 14,
+      "n_stages": 7,
+      "coverage": 0.25892857142857145,
+      "score": 0.09015589719580244,
+      "mean_d_R": 1.2639388211768372,
+      "mean_d_C": 0.7858389527614917,
+      "stage_matched_reference_d_R": 1.8942827628906564,
+      "stage_matched_reference_d_C": 1.1467988821713495,
+      "d_R_lower_percent": 33.276127200351056,
+      "d_C_lower_percent": 31.475434360941833,
+      "both_below_stage_median_n": 19,
+      "descriptive_exception_n": 10,
+      "front1_n": 4,
+      "mean_validation_rmse": 0.4082381899240608,
+      "excess_mean_rank_percentile_R": 0.2545155993431856,
+      "excess_mean_rank_percentile_C": 0.37643678160919536
+    },
+    {
+      "rule_id": "N18",
+      "rule": "pair_d_R <= 1.6094379 AND pair_d_C <= 1.0986123",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 1.6094379124341003
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.0986122886681098
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 17,
+      "unique_pairs": 7,
+      "n_stages": 6,
+      "coverage": 0.15178571428571427,
+      "score": 0.08937810346025059,
+      "mean_d_R": 1.2017328609198323,
+      "mean_d_C": 0.6821290595631924,
+      "stage_matched_reference_d_R": 1.8432112397566467,
+      "stage_matched_reference_d_C": 1.1188364358030793,
+      "d_R_lower_percent": 34.80221718491185,
+      "d_C_lower_percent": 39.032280525117756,
+      "both_below_stage_median_n": 9,
+      "descriptive_exception_n": 8,
+      "front1_n": 3,
+      "mean_validation_rmse": 0.3943090565509331,
+      "excess_mean_rank_percentile_R": 0.32521008403361346,
+      "excess_mean_rank_percentile_C": 0.41666666666666663
+    },
+    {
+      "rule_id": "N19",
+      "rule": "pair_d_R <= 3.357066 AND pair_d_C <= 1.3862944",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 3.3570659965376293
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.3862943611198906
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 49,
+      "unique_pairs": 17,
+      "n_stages": 8,
+      "coverage": 0.4375,
+      "score": 0.08877022741934402,
+      "mean_d_R": 1.4914191846660882,
+      "mean_d_C": 0.8409511663178983,
+      "stage_matched_reference_d_R": 1.9011104803377046,
+      "stage_matched_reference_d_C": 1.1527065206261482,
+      "d_R_lower_percent": 21.550104526215684,
+      "d_C_lower_percent": 27.04550973988634,
+      "both_below_stage_median_n": 25,
+      "descriptive_exception_n": 24,
+      "front1_n": 5,
+      "mean_validation_rmse": 0.4084196486212674,
+      "excess_mean_rank_percentile_R": 0.35233236151603503,
+      "excess_mean_rank_percentile_C": 0.4254616132167153
+    },
+    {
+      "rule_id": "N20",
+      "rule": "pair_d_R <= 2.8512924 AND pair_d_C <= 1.3862944",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 2.8512924206660695
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.3862943611198906
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 48,
+      "unique_pairs": 16,
+      "n_stages": 7,
+      "coverage": 0.42857142857142855,
+      "score": 0.0885535992073737,
+      "mean_d_R": 1.4809894953202931,
+      "mean_d_C": 0.8324552423998105,
+      "stage_matched_reference_d_R": 1.8916668029463268,
+      "stage_matched_reference_d_C": 1.1461501325001027,
+      "d_R_lower_percent": 21.709812054976684,
+      "d_C_lower_percent": 27.369441507285618,
+      "both_below_stage_median_n": 24,
+      "descriptive_exception_n": 24,
+      "front1_n": 5,
+      "mean_validation_rmse": 0.40846208011914653,
+      "excess_mean_rank_percentile_R": 0.3509920634920635,
+      "excess_mean_rank_percentile_C": 0.42564484126984126
+    },
+    {
+      "rule_id": "N21",
+      "rule": "pair_d_R <= 3.8828547 AND pair_d_C <= 1.3432174",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 3.882854671537458
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.3432173676982218
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 42,
+      "unique_pairs": 17,
+      "n_stages": 8,
+      "coverage": 0.375,
+      "score": 0.08810664636031329,
+      "mean_d_R": 1.4882670590567588,
+      "mean_d_C": 0.7946098903023416,
+      "stage_matched_reference_d_R": 1.9194246390640686,
+      "stage_matched_reference_d_C": 1.1587463592497036,
+      "d_R_lower_percent": 22.462855338647035,
+      "d_C_lower_percent": 31.425036725305688,
+      "both_below_stage_median_n": 22,
+      "descriptive_exception_n": 20,
+      "front1_n": 5,
+      "mean_validation_rmse": 0.4009018559819819,
+      "excess_mean_rank_percentile_R": 0.38316326530612244,
+      "excess_mean_rank_percentile_C": 0.40952380952380957
+    },
+    {
+      "rule_id": "N22",
+      "rule": "pair_d_R <= 3.357066 AND pair_d_C <= 1.6094379",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 3.3570659965376293
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.6094379124341003
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 54,
+      "unique_pairs": 21,
+      "n_stages": 8,
+      "coverage": 0.48214285714285715,
+      "score": 0.08797434049922044,
+      "mean_d_R": 1.49126144574797,
+      "mean_d_C": 0.8548941593721845,
+      "stage_matched_reference_d_R": 1.8973806684006365,
+      "stage_matched_reference_d_C": 1.1524254768005915,
+      "d_R_lower_percent": 21.404203669630373,
+      "d_C_lower_percent": 25.81783580960263,
+      "both_below_stage_median_n": 27,
+      "descriptive_exception_n": 27,
+      "front1_n": 6,
+      "mean_validation_rmse": 0.4124372036597305,
+      "excess_mean_rank_percentile_R": 0.34852292768959436,
+      "excess_mean_rank_percentile_C": 0.4323853615520283
+    },
+    {
+      "rule_id": "N23",
+      "rule": "pair_d_C <= 1.4312607 AND R_max <= 0.94438729",
+      "conditions": [
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.4312606924416311
+        },
+        {
+          "feature": "R_max",
+          "operator": "<=",
+          "value": 0.944387286812229
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 20,
+      "unique_pairs": 10,
+      "n_stages": 6,
+      "coverage": 0.17857142857142858,
+      "score": 0.08773506072896028,
+      "mean_d_R": 1.2235444746447113,
+      "mean_d_C": 0.736505932212618,
+      "stage_matched_reference_d_R": 1.8932203043120424,
+      "stage_matched_reference_d_C": 1.1352037896195963,
+      "d_R_lower_percent": 35.37231394265432,
+      "d_C_lower_percent": 35.12125849584954,
+      "both_below_stage_median_n": 14,
+      "descriptive_exception_n": 6,
+      "front1_n": 3,
+      "mean_validation_rmse": 0.39564891144106046,
+      "excess_mean_rank_percentile_R": 0.2467857142857143,
+      "excess_mean_rank_percentile_C": 0.38357142857142856
+    },
+    {
+      "rule_id": "N24",
+      "rule": "pair_d_R <= 2.8512924 AND pair_d_C <= 1.6094379",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 2.8512924206660695
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.6094379124341003
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 53,
+      "unique_pairs": 20,
+      "n_stages": 8,
+      "coverage": 0.4732142857142857,
+      "score": 0.08771879599356142,
+      "mean_d_R": 1.4818127131533227,
+      "mean_d_C": 0.8474628130511672,
+      "stage_matched_reference_d_R": 1.8887575301605761,
+      "stage_matched_reference_d_C": 1.1464823131425586,
+      "d_R_lower_percent": 21.54563571601783,
+      "d_C_lower_percent": 26.081475192736793,
+      "both_below_stage_median_n": 26,
+      "descriptive_exception_n": 27,
+      "front1_n": 6,
+      "mean_validation_rmse": 0.41255143511136566,
+      "excess_mean_rank_percentile_R": 0.34723719676549863,
+      "excess_mean_rank_percentile_C": 0.4326819407008087
+    },
+    {
+      "rule_id": "N25",
+      "rule": "pair_d_R <= 3.357066 AND pair_d_C <= 1.4312607",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 3.3570659965376293
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.4312606924416311
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 52,
+      "unique_pairs": 19,
+      "n_stages": 8,
+      "coverage": 0.4642857142857143,
+      "score": 0.08762226083135438,
+      "mean_d_R": 1.4870141882430192,
+      "mean_d_C": 0.8482105517064571,
+      "stage_matched_reference_d_R": 1.8919659716851944,
+      "stage_matched_reference_d_C": 1.1477329084858436,
+      "d_R_lower_percent": 21.40375617228889,
+      "d_C_lower_percent": 26.0968692772375,
+      "both_below_stage_median_n": 26,
+      "descriptive_exception_n": 26,
+      "front1_n": 5,
+      "mean_validation_rmse": 0.41159776200935816,
+      "excess_mean_rank_percentile_R": 0.3484203296703296,
+      "excess_mean_rank_percentile_C": 0.4323031135531136
+    },
+    {
+      "rule_id": "N26",
+      "rule": "pair_d_R <= 2.8512924 AND pair_d_C <= 1.4312607",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 2.8512924206660695
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.4312606924416311
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 51,
+      "unique_pairs": 18,
+      "n_stages": 7,
+      "coverage": 0.45535714285714285,
+      "score": 0.08737451547519258,
+      "mean_d_R": 1.477111637556328,
+      "mean_d_C": 0.840356728908817,
+      "stage_matched_reference_d_R": 1.882898500637378,
+      "stage_matched_reference_d_C": 1.1414646684428928,
+      "d_R_lower_percent": 21.551180955515527,
+      "d_C_lower_percent": 26.379085385518465,
+      "both_below_stage_median_n": 25,
+      "descriptive_exception_n": 26,
+      "front1_n": 5,
+      "mean_validation_rmse": 0.41170001348555985,
+      "excess_mean_rank_percentile_R": 0.3470821661998132,
+      "excess_mean_rank_percentile_C": 0.43260971055088704
+    },
+    {
+      "rule_id": "N27",
+      "rule": "pair_d_C <= 1.0986123 AND R_max <= 0.2731477",
+      "conditions": [
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.0986122886681098
+        },
+        {
+          "feature": "R_max",
+          "operator": "<=",
+          "value": 0.273147700555361
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 12,
+      "unique_pairs": 6,
+      "n_stages": 5,
+      "coverage": 0.10714285714285714,
+      "score": 0.0853063091741,
+      "mean_d_R": 0.9970024912035583,
+      "mean_d_C": 0.6329706206219236,
+      "stage_matched_reference_d_R": 1.8240162383992329,
+      "stage_matched_reference_d_C": 1.1015491326965545,
+      "d_R_lower_percent": 45.34026231704311,
+      "d_C_lower_percent": 42.53813998541916,
+      "both_below_stage_median_n": 9,
+      "descriptive_exception_n": 3,
+      "front1_n": 2,
+      "mean_validation_rmse": 0.38969991810066595,
+      "excess_mean_rank_percentile_R": 0.21259920634920634,
+      "excess_mean_rank_percentile_C": 0.36299603174603184
+    },
+    {
+      "rule_id": "N28",
+      "rule": "pair_d_C <= 1.3432174 AND R_max <= 0.2731477",
+      "conditions": [
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.3432173676982218
+        },
+        {
+          "feature": "R_max",
+          "operator": "<=",
+          "value": 0.273147700555361
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 19,
+      "unique_pairs": 9,
+      "n_stages": 6,
+      "coverage": 0.16964285714285715,
+      "score": 0.0848529041605746,
+      "mean_d_R": 1.2460962775203372,
+      "mean_d_C": 0.7385766231807326,
+      "stage_matched_reference_d_R": 1.9022361850189689,
+      "stage_matched_reference_d_C": 1.1380328651105363,
+      "d_R_lower_percent": 34.49308307065395,
+      "d_C_lower_percent": 35.10058928667274,
+      "both_below_stage_median_n": 13,
+      "descriptive_exception_n": 6,
+      "front1_n": 3,
+      "mean_validation_rmse": 0.39400245923237465,
+      "excess_mean_rank_percentile_R": 0.2585213032581453,
+      "excess_mean_rank_percentile_C": 0.3949874686716792
+    },
+    {
+      "rule_id": "N29",
+      "rule": "pair_d_R <= 3.357066 AND pair_d_C <= 2.0721224",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 3.3570659965376293
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 2.0721224425596154
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 56,
+      "unique_pairs": 23,
+      "n_stages": 8,
+      "coverage": 0.5,
+      "score": 0.08449505138285679,
+      "mean_d_R": 1.5160172431425056,
+      "mean_d_C": 0.8774639563211863,
+      "stage_matched_reference_d_R": 1.9153955850284647,
+      "stage_matched_reference_d_C": 1.1654103024123237,
+      "d_R_lower_percent": 20.85095867442046,
+      "d_C_lower_percent": 24.707722721783654,
+      "both_below_stage_median_n": 27,
+      "descriptive_exception_n": 29,
+      "front1_n": 6,
+      "mean_validation_rmse": 0.41178567874354527,
+      "excess_mean_rank_percentile_R": 0.3548256802721088,
+      "excess_mean_rank_percentile_C": 0.4339073129251701
+    },
+    {
+      "rule_id": "N30",
+      "rule": "pair_d_C <= 1.3862944 AND C_max <= 272313.6",
+      "conditions": [
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.3862943611198906
+        },
+        {
+          "feature": "C_max",
+          "operator": "<=",
+          "value": 272313.6045530199
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 21,
+      "unique_pairs": 6,
+      "n_stages": 7,
+      "coverage": 0.1875,
+      "score": 0.08419691425682041,
+      "mean_d_R": 1.3993153970300856,
+      "mean_d_C": 0.7932386435662715,
+      "stage_matched_reference_d_R": 1.9191980060195148,
+      "stage_matched_reference_d_C": 1.173416232797175,
+      "d_R_lower_percent": 27.088534239762176,
+      "d_C_lower_percent": 32.3992099823471,
+      "both_below_stage_median_n": 13,
+      "descriptive_exception_n": 8,
+      "front1_n": 2,
+      "mean_validation_rmse": 0.4128359795514748,
+      "excess_mean_rank_percentile_R": 0.26859410430839004,
+      "excess_mean_rank_percentile_C": 0.3691609977324263
+    }
+  ],
+  "readable_rules": [
+    {
+      "rule_id": "E01",
+      "rule": "R_eff ratio <= 3",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 1.0986122886681098
+        }
+      ],
+      "eligibility": "no_joint_rank_improvement",
+      "n": 14,
+      "unique_pairs": 6,
+      "n_stages": 6,
+      "coverage": 0.125,
+      "score": -0.015903889763932134,
+      "mean_d_R": 1.1231151223360967,
+      "mean_d_C": 1.1406236665445506,
+      "stage_matched_reference_d_R": 1.8647695774843136,
+      "stage_matched_reference_d_C": 1.1300519770049815,
+      "d_R_lower_percent": 39.771908771096186,
+      "d_C_lower_percent": -0.9355047161270891,
+      "both_below_stage_median_n": 3,
+      "descriptive_exception_n": 11,
+      "front1_n": 3,
+      "mean_validation_rmse": 0.4039019117002343,
+      "excess_mean_rank_percentile_R": 0.3216836734693877,
+      "excess_mean_rank_percentile_C": 0.32117346938775515
+    },
+    {
+      "rule_id": "E02",
+      "rule": "R_eff ratio <= 4 AND C ratio <= 4",
+      "conditions": [
+        {
+          "feature": "pair_d_R",
+          "operator": "<=",
+          "value": 1.3862943611198906
+        },
+        {
+          "feature": "pair_d_C",
+          "operator": "<=",
+          "value": 1.3862943611198906
+        }
+      ],
+      "eligibility": "eligible",
+      "n": 16,
+      "unique_pairs": 6,
+      "n_stages": 6,
+      "coverage": 0.14285714285714285,
+      "score": 0.10332153823183785,
+      "mean_d_R": 0.9819027849252322,
+      "mean_d_C": 0.6342760952976018,
+      "stage_matched_reference_d_R": 1.8507920315614095,
+      "stage_matched_reference_d_C": 1.1211730033350384,
+      "d_R_lower_percent": 46.94688716069002,
+      "d_C_lower_percent": 43.42745558349286,
+      "both_below_stage_median_n": 13,
+      "descriptive_exception_n": 3,
+      "front1_n": 3,
+      "mean_validation_rmse": 0.4019875974885878,
+      "excess_mean_rank_percentile_R": 0.18318452380952382,
+      "excess_mean_rank_percentile_C": 0.2833333333333334
+    }
+  ],
+  "interpretation": [
+    "Exploratory associations, not independently validated rules.",
+    "Stage-matched references include subgroup members.",
+    "Parent mismatch contributes algebraically to d_R and d_C.",
+    "Shared forcing, repeated pairs and a greedy path preclude independent-replication interpretation.",
+    "No p-values, permutation tests, multiple-testing correction or external rule validation were performed."
+  ]
+}

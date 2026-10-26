@@ -1,0 +1,1 @@
+Historical validation records inherited from v2. These are not newly run v3 inference. See ../current_v3 for the current audit and ../V3_VALIDATION.json for current software checks. No previous posterior or fitted proposal is shipped as runtime input.

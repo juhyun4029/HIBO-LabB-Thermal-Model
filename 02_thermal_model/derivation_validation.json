@@ -1,0 +1,12 @@
+{
+  "idf_sha256": "c2bd736fcba626f9ff652ba1fb4548f047b66a567eaf121e9dc0aa0b4bb9cede",
+  "derived_reference_sha256": "712258c194bd62da6908ba9449bc51d2fcfc1d9f2c21eb6cdc25c4ece5db2980",
+  "archived_reference_sha256": "712258c194bd62da6908ba9449bc51d2fcfc1d9f2c21eb6cdc25c4ece5db2980",
+  "byte_identical_reference": true,
+  "components": 10,
+  "resistances": 17,
+  "capacitances": 8,
+  "material_patch_rows": 31,
+  "material_layer_rows": 70,
+  "method": "IDF geometry/material calculation using the archived reference construction conventions."
+}

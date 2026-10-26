@@ -1,0 +1,38 @@
+{
+  "run_id": "20261024_084010_3074c42a",
+  "source_archives": {
+    "Initial_MCMC_results.zip": {
+      "sha256": "2f52ebe47d04529592b90f0bbeef7bdf7a4566042a03a71504e247d54539dc76",
+      "bytes": 104982536
+    },
+    "Reduction_and_Rules_results.zip": {
+      "sha256": "1f7f371ae8432ffd2c11d4090a69518c0f851bdfa4c55574471829418279529f",
+      "bytes": 459509000
+    }
+  },
+  "copied_summary_sources": {
+    "initial_parameter_summary.csv": {
+      "source_result_path": "initial/single_sp_initial/export/parameter_summary.csv",
+      "sha256": "067a50d3defd8cac9bf01145ce7e0be8af2f5cf01f12c3e6b84b7e88853edb89"
+    },
+    "final_model.json": {
+      "source_result_path": "reduction/selected_model.json",
+      "sha256": "398c48e23c883b2a8a18f0b1ad1672c65313b12a4eb3c161098c0489682573b7"
+    },
+    "final_parameter_summary.csv": {
+      "source_result_path": "reduction/trials/k08_6411cf836c7a/attempt_02_rescue/parameter_summary.csv",
+      "sha256": "83b52416ca23e442466556da850125550dd5e0af90ded1f478927a4882b65e62"
+    },
+    "numeric_rules.csv": {
+      "source_result_path": "reduction/rules/numeric/numeric_rules.csv",
+      "sha256": "c2804536daffab005a6ea3cfdf21760b2fe637149adb51108512bde2742e3571"
+    },
+    "readable_rules.csv": {
+      "source_result_path": "reduction/rules/numeric/readable_rules.csv",
+      "sha256": "ad1a764672bfe3d9a7d62fd3fed31f390ad653015d0a8e7c624e1183339a4807"
+    }
+  },
+  "selected_path_source": "reduction/selected_path.json and authoritative reduction/trials/<trial_id>/result.json",
+  "scope": "Curated publication summaries. Raw chains, checkpoints, complete candidate records and execution logs are omitted from this repository.",
+  "scientific_values": "Summaries retain the recorded numerical values; no new MCMC or parameter fitting was performed."
+}

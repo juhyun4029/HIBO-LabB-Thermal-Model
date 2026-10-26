@@ -1,0 +1,17 @@
+{
+  "change_scope": "Bounded file-read retries, diagnostic errors, and local Windows extraction instructions only",
+  "unchanged_scientific_code_and_input_files": true,
+  "changed_existing_files": [
+    "README_KO.md",
+    "run_pipeline.py"
+  ],
+  "hash_retry_tests_passed": 4,
+  "orchestration_tests_passed": 6,
+  "integrity_checks_skipped": false,
+  "read_retry_restarts_at_byte_zero": true,
+  "persistent_error_stops_operation_and_reports_path_offset_errno": true,
+  "runtime": "Linux-6.18.55-x86_64-with-glibc2.39; Python 3.12.14",
+  "native_windows_execution_tested": false,
+  "original_windows_error_reproduced_natively": false,
+  "production_MCMC_started_during_validation": false
+}

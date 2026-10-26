@@ -1,0 +1,62 @@
+{
+  "schema": "hibo-reduction-allpairs-rca-v3",
+  "mode": "production",
+  "seed": 20261020,
+  "max_stages": 9,
+  "likelihood_minutes": 5,
+  "validation_rmse_limit_C": 1.0,
+  "sampler": {
+    "chains": 4,
+    "warmup": 12000,
+    "settling": 12000,
+    "min_draws": 6000,
+    "max_draws": 24000,
+    "check_every": 1000,
+    "checkpoint_every": 250,
+    "target_accept": 0.234,
+    "rhat_threshold": 1.1,
+    "bulk_ess_min": 400,
+    "tail_ess_min": 400,
+    "block_probability": 0.7
+  },
+  "rules": {
+    "beam_width": 20,
+    "max_depth": 2,
+    "min_support": 5,
+    "min_resolved": 20,
+    "max_rules_per_outcome": 10
+  },
+  "selection": {
+    "method": "postfit_pareto",
+    "objectives": [
+      "d_R",
+      "d_C"
+    ],
+    "tie_break": [
+      "validation_rmse",
+      "child_n_C",
+      "child_n_R",
+      "trial_id"
+    ],
+    "min_pass_candidates": 1
+  },
+  "rescue": {
+    "enabled": true,
+    "max_attempts_per_trial": 2,
+    "trigger": "no_passing_candidates",
+    "restart": "fresh_independent_chains",
+    "authoritative": "latest_predeclared_attempt",
+    "sampler_overrides": {
+      "warmup": 24000,
+      "settling": 12000,
+      "max_draws": 48000
+    }
+  },
+  "numeric_rules": {
+    "min_support": 10,
+    "min_stages": 3,
+    "max_coverage": 0.85,
+    "max_depth": 2,
+    "max_rules": 30
+  }
+}

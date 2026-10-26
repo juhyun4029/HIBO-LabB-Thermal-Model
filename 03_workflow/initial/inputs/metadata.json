@@ -1,0 +1,279 @@
+{
+  "source_upload_names": {
+    "HIBO_MCMC_1min.csv": "HIBO_LabB_July_Single_Setpoint_Excitation.csv",
+    "HIBO.idf": "HIBO_LabB_July_Single_Setpoint_Excitation.idf",
+    "simulation_audit.json": "Audit of supplied single-setpoint SQL and CSV"
+  },
+  "source_period": "July 1-31, end-of-interval minute data, IDF Sunday-start local standard-time calendar",
+  "target_zone": "THERMAL ZONE: SPACE 103 LAB B",
+  "rows": 44640,
+  "dt_seconds": 60,
+  "first_raw_timestamp": " 07/01  00:01:00",
+  "last_raw_timestamp": " 07/31  24:00:00",
+  "conditioning_minutes": 1440,
+  "train_minutes": 30240,
+  "validation_minutes": 12960,
+  "partition": {
+    "conditioning": "July 1, first 24 h; no likelihood or validation score",
+    "training": "July 2-22",
+    "validation": "July 23-31"
+  },
+  "continuous_simulation": "All 44,640 minutes are simulated from the first E+ zone air temperature, with no state reset at partition boundaries.",
+  "reference_sha256": "712258c194bd62da6908ba9449bc51d2fcfc1d9f2c21eb6cdc25c4ece5db2980",
+  "reference_role": "Original IDF-derived broad prior reference values, not fixed R or C estimates.",
+  "unchanged_IDF_core": {
+    "objects": 361,
+    "sha256": "15a0330f618f6a97ba83423f25285e6ad7431663017ca55e8c24d92d8e24dce2",
+    "excluded_intentionally_modified_types": [
+      "RunPeriod",
+      "Schedule:Compact",
+      "ThermostatSetpoint:DualSetpoint",
+      "ZoneControl:Thermostat",
+      "ThermostatSetpoint:SingleHeatingOrCooling",
+      "Output:Variable"
+    ]
+  },
+  "boundary_order": [
+    "plenum temperature",
+    "outdoor dry-bulb temperature",
+    "Space 102 - Plus air temperature",
+    "site ground temperature"
+  ],
+  "gain_order": [
+    "solar_transmitted",
+    "lighting",
+    "occupant_sensible",
+    "equipment_sensible"
+  ],
+  "gain_recovery": {
+    "lighting": "visible / 0.2",
+    "occupant_sensible_raw": "(radiant - 0.7*lighting) / 0.3",
+    "equipment_sensible": "convective - 0.1*lighting - 0.7*occupant_sensible_raw",
+    "occupant_sensible": "maximum(occupant_sensible_raw,0), after equipment reconstruction"
+  },
+  "hvac_conductance": "Lab B supply-inlet mass flow * (1005 + 1860 * AHU supply-fan-outlet humidity ratio)",
+  "terminal_temperature": "Lab B SUPPLY INLET System Node Temperature, downstream of terminal reheat. AHU SAT is not substituted.",
+  "infiltration_conductance": "Lab B infiltration mass flow * 1005",
+  "equipment_IDF_schedule_max_difference_W": 8.526512829121202e-14,
+  "people_direct_output_max_difference_W": 9.237055564881302e-14,
+  "equipment_direct_output_max_difference_W": 8.526512829121202e-14,
+  "central_setpoint_levels_C": [
+    20,
+    22,
+    24,
+    26,
+    28
+  ],
+  "heating_cooling_band_width_C": 0,
+  "thermostat_control_type": 3,
+  "EnergyPlus_run": {
+    "csv_sha256": "3d7af46b9928291ff36348618643d10b035cff44fc23eaf10facda30dc889a36",
+    "sql_sha256": "8ee1394b200454ac632801a923620750f1625390571a094e27362703299ab1c5",
+    "simulations": [
+      {
+        "SimulationIndex": 1,
+        "EnergyPlusVersion": "EnergyPlus, Version 22.2.0-c249759bad, YMD=2026.10.21 15:38",
+        "TimeStamp": " YMD=2026.10.21 15:38",
+        "NumTimestepsPerHour": 60,
+        "Completed": "FALSE",
+        "CompletedSuccessfully": "FALSE"
+      }
+    ],
+    "sql_rows": 44640,
+    "sql_errors": [
+      {
+        "ErrorIndex": 1,
+        "SimulationIndex": 1,
+        "ErrorType": -1,
+        "ErrorMessage": "Successfully added path \"<ENERGYPLUS_WORKDIR>\" to the sys.path in Python",
+        "Count": 0
+      },
+      {
+        "ErrorIndex": 2,
+        "SimulationIndex": 1,
+        "ErrorType": -1,
+        "ErrorMessage": "Beginning Zone Sizing Calculations",
+        "Count": 0
+      },
+      {
+        "ErrorIndex": 3,
+        "SimulationIndex": 1,
+        "ErrorType": -1,
+        "ErrorMessage": "Beginning System Sizing Calculations",
+        "Count": 0
+      },
+      {
+        "ErrorIndex": 4,
+        "SimulationIndex": 1,
+        "ErrorType": 0,
+        "ErrorMessage": "SizeDXCoil Coil:Cooling:DX:TwoSpeed DXVAV SYS 1 COOLING COIL  ...High Speed Gross Rated Total Cooling Capacity [W] will be limited by the minimum rated volume flow per rated total capacity ratio.  ...DX coil volume flow rate (m3/s ) = 0.267077  ...Requested capacity (W ) = 7342.987  ...Requested flow/capacity ratio (m3/s/W ) = 3.637E-005  ...Minimum flow/capacity ratio (m3/s/W ) = 4.027E-005  ...Adjusted capacity ( W ) = 6632.177",
+        "Count": 1
+      },
+      {
+        "ErrorIndex": 5,
+        "SimulationIndex": 1,
+        "ErrorType": -1,
+        "ErrorMessage": "SizeHeatingCoil: : Potential issue with equipment sizing for Coil:Heating:Electric DXVAV SYS 1 HEATING COIL  User-Specified Nominal Capacity [W] = 15000.00000  differs from Design Size Nominal Capacity [W] = 1429.17361  This may, or may not, indicate mismatched component sizes.  Verify that the value entered is intended and is consistent with other components.",
+        "Count": 0
+      },
+      {
+        "ErrorIndex": 6,
+        "SimulationIndex": 1,
+        "ErrorType": -1,
+        "ErrorMessage": "Testing Individual Branch Integrity",
+        "Count": 0
+      },
+      {
+        "ErrorIndex": 7,
+        "SimulationIndex": 1,
+        "ErrorType": -1,
+        "ErrorMessage": "All Branches passed integrity testing",
+        "Count": 0
+      },
+      {
+        "ErrorIndex": 8,
+        "SimulationIndex": 1,
+        "ErrorType": -1,
+        "ErrorMessage": "Testing Individual Supply Air Path Integrity",
+        "Count": 0
+      },
+      {
+        "ErrorIndex": 9,
+        "SimulationIndex": 1,
+        "ErrorType": -1,
+        "ErrorMessage": "All Supply Air Paths passed integrity testing",
+        "Count": 0
+      },
+      {
+        "ErrorIndex": 10,
+        "SimulationIndex": 1,
+        "ErrorType": -1,
+        "ErrorMessage": "Testing Individual Return Air Path Integrity",
+        "Count": 0
+      },
+      {
+        "ErrorIndex": 11,
+        "SimulationIndex": 1,
+        "ErrorType": -1,
+        "ErrorMessage": "All Return Air Paths passed integrity testing",
+        "Count": 0
+      },
+      {
+        "ErrorIndex": 12,
+        "SimulationIndex": 1,
+        "ErrorType": -1,
+        "ErrorMessage": "No node connection errors were found.",
+        "Count": 0
+      },
+      {
+        "ErrorIndex": 13,
+        "SimulationIndex": 1,
+        "ErrorType": -1,
+        "ErrorMessage": "Beginning Simulation",
+        "Count": 0
+      },
+      {
+        "ErrorIndex": 14,
+        "SimulationIndex": 1,
+        "ErrorType": -1,
+        "ErrorMessage": "Simulation Error Summary *************",
+        "Count": 0
+      }
+    ],
+    "csv_sql_max_differences": {
+      "Zone Air Temperature": 3.552713678800501e-15,
+      "Zone Thermostat Control Type": 0.0,
+      "Zone Thermostat Heating Setpoint Temperature": 0.0,
+      "Zone Thermostat Cooling Setpoint Temperature": 0.0
+    },
+    "full_month_coverage_verified": true,
+    "no_severe_or_fatal_errors_in_sql": true,
+    "note": "SQL Completed and CompletedSuccessfully are FALSE in the supplied file. No successful-completion claim is made. The complete July 1-minute coverage and matching CSV/SQL thermostat and temperature data are independently verified; no .err was supplied for this run.",
+    "idf_role": "Single-setpoint IDF delivered in the preceding turn, retained as configuration reference; exact executed-file identity was not supplied with these outputs."
+  },
+  "used_columns": {
+    "THERMAL ZONE: SPACE 103 LAB B:Zone Total Internal Visible Radiation Heating Rate [W](TimeStep)": "THERMAL ZONE: SPACE 103 LAB B:Zone Total Internal Visible Radiation Heating Rate [W](TimeStep)",
+    "THERMAL ZONE: SPACE 103 LAB B:Zone Total Internal Radiant Heating Rate [W](TimeStep)": "THERMAL ZONE: SPACE 103 LAB B:Zone Total Internal Radiant Heating Rate [W](TimeStep)",
+    "THERMAL ZONE: SPACE 103 LAB B:Zone Total Internal Convective Heating Rate [W](TimeStep)": "THERMAL ZONE: SPACE 103 LAB B:Zone Total Internal Convective Heating Rate [W](TimeStep)",
+    "Environment:Site Day Type Index [](TimeStep)": "Environment:Site Day Type Index [](TimeStep)",
+    "THERMAL ZONE: SPACE 103 LAB B:Zone People Sensible Heating Rate [W](TimeStep)": "THERMAL ZONE: SPACE 103 LAB B:Zone People Sensible Heating Rate [W](TimeStep)",
+    "THERMAL ZONE: SPACE 103 LAB B:Zone Electric Equipment Total Heating Rate [W](TimeStep)": "THERMAL ZONE: SPACE 103 LAB B:Zone Electric Equipment Total Heating Rate [W](TimeStep)",
+    "THERMAL ZONE: SPACE 103 LAB B SUPPLY INLET:System Node Mass Flow Rate [kg/s](TimeStep)": "THERMAL ZONE: SPACE 103 LAB B SUPPLY INLET:System Node Mass Flow Rate [kg/s](TimeStep)",
+    "THERMAL ZONE: SPACE 103 LAB B SUPPLY INLET:System Node Temperature [C](TimeStep)": "THERMAL ZONE: SPACE 103 LAB B SUPPLY INLET:System Node Temperature [C](TimeStep)",
+    "DXVAV SYS 1 SUPPLY FAN OUTLET:System Node Humidity Ratio [kgWater/kgDryAir](TimeStep)": "DXVAV SYS 1 SUPPLY FAN OUTLET:System Node Humidity Ratio [kgWater/kgDryAir](TimeStep)",
+    "THERMAL ZONE: SPACE 103 LAB B:Zone Thermostat Heating Setpoint Temperature [C](TimeStep)": "THERMAL ZONE: SPACE 103 LAB B:Zone Thermostat Heating Setpoint Temperature [C](TimeStep)",
+    "THERMAL ZONE: SPACE 103 LAB B:Zone Thermostat Cooling Setpoint Temperature [C](TimeStep)": "THERMAL ZONE: SPACE 103 LAB B:Zone Thermostat Cooling Setpoint Temperature [C](TimeStep)",
+    "THERMAL ZONE: SPACE 103 LAB B:Zone Thermostat Control Type [](TimeStep)": "THERMAL ZONE: SPACE 103 LAB B:Zone Thermostat Control Type [](TimeStep)",
+    "THERMAL ZONE: SPACE 103 LAB B:Zone Air Temperature [C](TimeStep)": "THERMAL ZONE: SPACE 103 LAB B:Zone Air Temperature [C](TimeStep)",
+    "THERMAL ZONE: PLENUM:Zone Air Temperature [C](TimeStep)": "THERMAL ZONE: PLENUM:Zone Air Temperature [C](TimeStep)",
+    "Environment:Site Outdoor Air Drybulb Temperature [C](TimeStep)": "Environment:Site Outdoor Air Drybulb Temperature [C](TimeStep)",
+    "THERMAL ZONE: SPACE 102 - PLUS:Zone Air Temperature [C](TimeStep)": "THERMAL ZONE: SPACE 102 - PLUS:Zone Air Temperature [C](TimeStep)",
+    "Environment:Site Ground Temperature [C](TimeStep)": "Environment:Site Ground Temperature [C](TimeStep)",
+    "THERMAL ZONE: SPACE 103 LAB B:Zone Infiltration Mass Flow Rate [kg/s](TimeStep)": "THERMAL ZONE: SPACE 103 LAB B:Zone Infiltration Mass Flow Rate [kg/s](TimeStep)",
+    "THERMAL ZONE: SPACE 103 LAB B:Zone Windows Total Transmitted Solar Radiation Rate [W](TimeStep)": "THERMAL ZONE: SPACE 103 LAB B:Zone Windows Total Transmitted Solar Radiation Rate [W](TimeStep)"
+  },
+  "hashes": {
+    "HIBO.idf": "c2bd736fcba626f9ff652ba1fb4548f047b66a567eaf121e9dc0aa0b4bb9cede",
+    "HIBO_MCMC_1min.csv": "3d7af46b9928291ff36348618643d10b035cff44fc23eaf10facda30dc889a36",
+    "build_data.py": "609c1a00036ee6e4898ca63b1465be672f5fc3d7e6add968cdedef66d985554e",
+    "data.npz": "5521a1f6210ca41f02865751203057109f4e337d0770ac41ec50f4044e806f1c",
+    "reference.json": "712258c194bd62da6908ba9449bc51d2fcfc1d9f2c21eb6cdc25c4ece5db2980",
+    "simulation_audit.json": "b3ba70131e930d253ef6b69d01463b64d7a830d6c5985efc82110ebbc11d9d56"
+  },
+  "array_shapes": {
+    "y": [
+      44640
+    ],
+    "boundaries": [
+      44640,
+      4
+    ],
+    "g_hvac": [
+      44640
+    ],
+    "tsupply": [
+      44640
+    ],
+    "ginf": [
+      44640
+    ],
+    "gains": [
+      44640,
+      4
+    ],
+    "train": [
+      44640
+    ],
+    "valid": [
+      44640
+    ],
+    "month": [
+      44640
+    ],
+    "day": [
+      44640
+    ],
+    "dt_seconds": [],
+    "conditioning": [
+      44640
+    ],
+    "weekday": [
+      44640
+    ],
+    "minute_end": [
+      44640
+    ],
+    "day_type": [
+      44640
+    ],
+    "time_seconds": [
+      44640
+    ],
+    "heating_setpoint": [
+      44640
+    ],
+    "cooling_setpoint": [
+      44640
+    ]
+  }
+}

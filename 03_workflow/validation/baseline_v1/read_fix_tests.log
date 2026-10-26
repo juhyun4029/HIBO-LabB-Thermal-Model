@@ -1,0 +1,9 @@
+test_midstream_failure_restarts_digest_from_zero (__main__.HashReadFixTests.test_midstream_failure_restarts_digest_from_zero) ... ok
+test_modified_file_still_fails_manifest_verification (__main__.HashReadFixTests.test_modified_file_still_fails_manifest_verification) ... ok
+test_persistent_error_is_bounded_and_identifies_path_offsets (__main__.HashReadFixTests.test_persistent_error_is_bounded_and_identifies_path_offsets) ... ok
+test_real_file_hash_matches_standard_sha256 (__main__.HashReadFixTests.test_real_file_hash_matches_standard_sha256) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.013s
+
+OK

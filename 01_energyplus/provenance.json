@@ -1,0 +1,80 @@
+{
+  "idf_executed_identity_limit": "The archived simulation audit does not establish exact executed IDF-file identity. The published IDF preserves every active object and value from the archived inference configuration; only comments were edited.",
+  "weather_sha256": "db7cb7c7cb16ce7c7445254f18904fbfc39df2739cc559214ee8fefbf1dabadc",
+  "weather_name": "USA_NE_Omaha-Eppley.Airfield.725500_TMY3.epw",
+  "weather_location": "LOCATION,Omaha Eppley Airfield,NE,USA,TMY3,725500,41.32,-95.90,-6.0,299.0",
+  "july_hourly_drybulb_vs_csv_max_abs_C": 0.0,
+  "july_minute_drybulb_linear_interpolation_max_abs_C": 2.8516666666666666,
+  "july_minute_drybulb_rmse_C": 0.06061556269359456,
+  "weather_identity_limit": "No original EPW-file hash was recorded in the simulation outputs. Exact July drybulb match provides weather-consistency evidence but not a cryptographic proof of executed-file identity.",
+  "july_minute_drybulb_match_with_same_day_warmup_start": {
+    "initial_previous_hour_drybulb_C": 22.2,
+    "initial_previous_hour_source": "July 1 hour 24 (same-day warmup boundary)",
+    "max_abs_C": 1.4210854715202004e-14,
+    "rmse_C": 2.1558209867716394e-15
+  },
+  "linear_interpolation_note": "Using June 30 hour24 gives a difference only in the first hour. Using July1 hour24 for the previous-hour warmup condition matches all minutes.",
+  "idf_file": "HIBO_LabB_July_Single_Setpoint_Excitation.idf",
+  "weather_file": "USA_NE_Omaha-Eppley.Airfield.725500_TMY3.epw",
+  "workflow_idf_file": "../03_workflow/initial/inputs/HIBO.idf",
+  "raw_csv_file": "../03_workflow/initial/inputs/HIBO_MCMC_1min.csv",
+  "raw_csv_sha256": "3d7af46b9928291ff36348618643d10b035cff44fc23eaf10facda30dc889a36",
+  "dependency_inspection": {
+    "active_objects": 513,
+    "schedule_compact_objects": 16,
+    "schedule_file_objects": 0,
+    "python_plugin_objects": 0,
+    "external_interface_objects": 0,
+    "external_table_files": 0,
+    "hvac_template_objects": 0,
+    "additional_runtime_input_files_found": []
+  },
+  "idf_original_sha256": "80bdbd484400f78263fef5fbd0cde3b5f2a6bf9f589cbbf229215580a47754f4",
+  "idf_publication_sha256": "c2bd736fcba626f9ff652ba1fb4548f047b66a567eaf121e9dc0aa0b4bb9cede",
+  "idf_equals_published_workflow_input": true,
+  "publication_comment_cleanup": {
+    "active_objects_equal": true,
+    "active_object_count": 513,
+    "active_objects_canonical_sha256": "84741618b89af8db39e862ee0c8d570aef621e18c132e9318453942f4f263981",
+    "canonicalization": "Remove EnergyPlus ! comments; split objects at semicolons and fields at commas; strip surrounding field whitespace; preserve all field values and object ordering; JSON encode with compact separators and UTF-8.",
+    "changes": [
+      {
+        "original_line": 15,
+        "operation": "remove nontechnical historical instruction"
+      },
+      {
+        "original_line": 16,
+        "operation": "remove nontechnical historical instruction"
+      },
+      {
+        "original_line": 36,
+        "operation": "remove nontechnical historical instruction"
+      },
+      {
+        "original_line": 689,
+        "operation": "neutral source wording"
+      },
+      {
+        "original_line": 722,
+        "operation": "neutral source wording"
+      },
+      {
+        "original_line": 723,
+        "operation": "neutral source wording"
+      },
+      {
+        "original_line": 725,
+        "operation": "neutral source wording"
+      },
+      {
+        "original_line": 968,
+        "operation": "neutral source wording"
+      },
+      {
+        "original_line": 1069,
+        "operation": "neutral source wording"
+      }
+    ],
+    "technical_source_urls_and_material_assumptions_preserved": true
+  }
+}

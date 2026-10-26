@@ -1,0 +1,315 @@
+{
+  "schema": "hibo_reduction_network_allpairs_rca_v2",
+  "depth": 9,
+  "blocks": [
+    {
+      "id": "merged_342d06c41c8e9447",
+      "members": [
+        "ceiling",
+        "extwall_1",
+        "extwall_2",
+        "extwall_3",
+        "extwindow_1",
+        "extwindow_2",
+        "floor",
+        "intwall_1",
+        "intwall_2",
+        "intwindow_1"
+      ],
+      "kind": "massive",
+      "r_boundary": [
+        0.01798243899689213,
+        0.0255175576600135,
+        0.8007255051981415,
+        0.012559952201684807
+      ],
+      "r_air": 0.00763269968462879,
+      "C": 1303436.4162428742,
+      "alpha": [
+        0.5617725949876453,
+        0.6453245276544781,
+        0.32376347268003797,
+        0.17514851847158416
+      ],
+      "area": 88.68816120396801,
+      "reference": {
+        "r_boundary": [
+          0.01746401486906554,
+          0.018734460247089878,
+          0.02809499833923745,
+          0.005912820649235772
+        ],
+        "r_air": 0.004534427721304267,
+        "C": 7704370.413583701
+      }
+    }
+  ],
+  "air": {
+    "C": 64281.422987747705,
+    "alpha": [
+      0.4382274050123549,
+      0.3546754723455219,
+      0.6762365273199618,
+      0.8248514815284158
+    ]
+  },
+  "noise": {
+    "sigma_hour": 0.12011910458815751,
+    "rho_hour": 0.9410912328121112
+  },
+  "provenance": {
+    "target_zone": "Thermal Zone: Space 103 LAB B",
+    "boundary_order": [
+      "plenum",
+      "outdoor",
+      "neighbor102plus",
+      "ground"
+    ],
+    "original_members": [
+      "ceiling",
+      "extwall_1",
+      "extwall_2",
+      "extwall_3",
+      "intwall_1",
+      "intwall_2",
+      "floor",
+      "extwindow_1",
+      "extwindow_2",
+      "intwindow_1"
+    ],
+    "original_massive_members": [
+      "ceiling",
+      "extwall_1",
+      "extwall_2",
+      "extwall_3",
+      "intwall_1",
+      "intwall_2",
+      "floor"
+    ],
+    "candidate_policy": "all_unordered_envelope_block_pairs",
+    "geometry_metadata_role": "descriptive_only_not_a_merge_constraint",
+    "window_hosts": {
+      "extwindow_1": "extwall_1",
+      "extwindow_2": "extwall_2",
+      "intwindow_1": "intwall_1"
+    },
+    "adjacency": [
+      [
+        "ceiling",
+        "extwall_1"
+      ],
+      [
+        "ceiling",
+        "extwall_2"
+      ],
+      [
+        "ceiling",
+        "extwall_3"
+      ],
+      [
+        "ceiling",
+        "intwall_1"
+      ],
+      [
+        "ceiling",
+        "intwall_2"
+      ],
+      [
+        "extwall_1",
+        "extwall_2"
+      ],
+      [
+        "extwall_1",
+        "extwindow_1"
+      ],
+      [
+        "extwall_1",
+        "floor"
+      ],
+      [
+        "extwall_1",
+        "intwall_1"
+      ],
+      [
+        "extwall_2",
+        "extwall_3"
+      ],
+      [
+        "extwall_2",
+        "extwindow_2"
+      ],
+      [
+        "extwall_2",
+        "floor"
+      ],
+      [
+        "extwall_3",
+        "floor"
+      ],
+      [
+        "extwall_3",
+        "intwall_2"
+      ],
+      [
+        "floor",
+        "intwall_1"
+      ],
+      [
+        "floor",
+        "intwall_2"
+      ],
+      [
+        "intwall_1",
+        "intwall_2"
+      ],
+      [
+        "intwall_1",
+        "intwindow_1"
+      ]
+    ],
+    "baseline": "Case 5 exported representative joint posterior draw",
+    "prior_reference": "Original IDF-derived references, never fitted-parent values",
+    "merge_history": [
+      {
+        "depth": 1,
+        "parent_hash": "e9bd7459c4875a1daaa7c6f9fdbdcd223a45465ce6fee4bda241847b24669cdc",
+        "left_id": "intwall_1",
+        "right_id": "intwindow_1",
+        "new_block_id": "merged_8999843d7fe99d1e",
+        "members": [
+          "intwall_1",
+          "intwindow_1"
+        ],
+        "operator": "massless_massive_dc_matched_absorption",
+        "approximation": "Approximation: remove the direct branch once and preserve its initial steady-state boundary-to-zone coefficients. No original-host restriction; transient equivalence is not asserted."
+      },
+      {
+        "depth": 2,
+        "parent_hash": "060f2bb556c8eeb6497e8b806f7bca978be06ca08d681605453ccaf44a8e60e0",
+        "left_id": "extwindow_1",
+        "right_id": "extwindow_2",
+        "new_block_id": "merged_4f46234ab9f263e3",
+        "members": [
+          "extwindow_1",
+          "extwindow_2"
+        ],
+        "operator": "massless_direct_port_aggregation",
+        "approximation": "Exact initial direct-conductance aggregation by boundary. Distinct boundary inputs remain separate; grouping may reduce component count without reducing R count. No C or alpha invented."
+      },
+      {
+        "depth": 3,
+        "parent_hash": "ba0c79eee3c71e81827ac1c153cbe7953f4840dd721e040c0f38a7ca93903bd7",
+        "left_id": "ceiling",
+        "right_id": "extwall_2",
+        "new_block_id": "merged_ac9fb56037e19e53",
+        "members": [
+          "ceiling",
+          "extwall_2"
+        ],
+        "operator": "opaque_state_aggregation",
+        "approximation": "Approximation: initialize by summing C, alpha and conductances per boundary and air port. No physical-contact restriction; R/C/alpha are subsequently estimated."
+      },
+      {
+        "depth": 4,
+        "parent_hash": "7d310333a2000c232e0830da23527eaa53f064e9f6a1e22f1aaa70d69bcb54be",
+        "left_id": "merged_4f46234ab9f263e3",
+        "right_id": "merged_ac9fb56037e19e53",
+        "new_block_id": "merged_b039ab0bd955ba6f",
+        "members": [
+          "ceiling",
+          "extwall_2",
+          "extwindow_1",
+          "extwindow_2"
+        ],
+        "operator": "massless_massive_dc_matched_absorption",
+        "approximation": "Approximation: remove the direct branch once and preserve its initial steady-state boundary-to-zone coefficients. No original-host restriction; transient equivalence is not asserted."
+      },
+      {
+        "depth": 5,
+        "parent_hash": "97198b3d37807ccb07664d4d5544c7c0488f44106f7ccf0a1d628cb0d5ae37e3",
+        "left_id": "floor",
+        "right_id": "merged_b039ab0bd955ba6f",
+        "new_block_id": "merged_91e9ec07296e2418",
+        "members": [
+          "ceiling",
+          "extwall_2",
+          "extwindow_1",
+          "extwindow_2",
+          "floor"
+        ],
+        "operator": "opaque_state_aggregation",
+        "approximation": "Approximation: initialize by summing C, alpha and conductances per boundary and air port. No physical-contact restriction; R/C/alpha are subsequently estimated."
+      },
+      {
+        "depth": 6,
+        "parent_hash": "126185e1e45a5cab20829cd72e2251f79eff9dc96e425f61264656def3774931",
+        "left_id": "extwall_3",
+        "right_id": "merged_8999843d7fe99d1e",
+        "new_block_id": "merged_f5ffaac4853c7876",
+        "members": [
+          "extwall_3",
+          "intwall_1",
+          "intwindow_1"
+        ],
+        "operator": "opaque_state_aggregation",
+        "approximation": "Approximation: initialize by summing C, alpha and conductances per boundary and air port. No physical-contact restriction; R/C/alpha are subsequently estimated."
+      },
+      {
+        "depth": 7,
+        "parent_hash": "b48be52f5f707de14337db4057cd91208cb193951e4314501637563aed19195c",
+        "left_id": "intwall_2",
+        "right_id": "merged_f5ffaac4853c7876",
+        "new_block_id": "merged_95bac1ebcc31bf59",
+        "members": [
+          "extwall_3",
+          "intwall_1",
+          "intwall_2",
+          "intwindow_1"
+        ],
+        "operator": "opaque_state_aggregation",
+        "approximation": "Approximation: initialize by summing C, alpha and conductances per boundary and air port. No physical-contact restriction; R/C/alpha are subsequently estimated."
+      },
+      {
+        "depth": 8,
+        "parent_hash": "ab4c6c136eaa0ac5d8e89bbc30213d7e5d979bfab511109dab583dae035b4a1b",
+        "left_id": "merged_91e9ec07296e2418",
+        "right_id": "merged_95bac1ebcc31bf59",
+        "new_block_id": "merged_fa2ac008ed94f2f8",
+        "members": [
+          "ceiling",
+          "extwall_2",
+          "extwall_3",
+          "extwindow_1",
+          "extwindow_2",
+          "floor",
+          "intwall_1",
+          "intwall_2",
+          "intwindow_1"
+        ],
+        "operator": "opaque_state_aggregation",
+        "approximation": "Approximation: initialize by summing C, alpha and conductances per boundary and air port. No physical-contact restriction; R/C/alpha are subsequently estimated."
+      },
+      {
+        "depth": 9,
+        "parent_hash": "7b50e24b3534402d708c6e29d34f2bc3c10af9df0639636539f9d54d31d1bed6",
+        "left_id": "extwall_1",
+        "right_id": "merged_fa2ac008ed94f2f8",
+        "new_block_id": "merged_342d06c41c8e9447",
+        "members": [
+          "ceiling",
+          "extwall_1",
+          "extwall_2",
+          "extwall_3",
+          "extwindow_1",
+          "extwindow_2",
+          "floor",
+          "intwall_1",
+          "intwall_2",
+          "intwindow_1"
+        ],
+        "operator": "opaque_state_aggregation",
+        "approximation": "Approximation: initialize by summing C, alpha and conductances per boundary and air port. No physical-contact restriction; R/C/alpha are subsequently estimated."
+      }
+    ]
+  }
+}

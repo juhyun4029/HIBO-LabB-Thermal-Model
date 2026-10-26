@@ -1,0 +1,362 @@
+{
+  "release_date": "2026-10-26",
+  "scope": "Calculation code and required inputs with curated completed-result summaries; raw MCMC results excluded.",
+  "scientific_python_files_compared": 50,
+  "all_scientific_executable_asts_identical": true,
+  "source_comparison": [
+    {
+      "file": "03_workflow/initial/inputs/build_data.py",
+      "executable_ast_identical": true,
+      "source_sha256": "031049637ef633b091cd5f7628ef7528317abb9341e06b4ebf2cc5ba9010e9c2",
+      "publication_sha256": "609c1a00036ee6e4898ca63b1465be672f5fc3d7e6add968cdedef66d985554e"
+    },
+    {
+      "file": "03_workflow/initial/run_case5.py",
+      "executable_ast_identical": true,
+      "source_sha256": "035fe9e411a3d7ee839dc3c6c5d8159841fc251978092de00b1a5200b99f432a",
+      "publication_sha256": "92fc9e6aa912688efb792034348e4caa68f587e679314225a91cf9d45481e5cf"
+    },
+    {
+      "file": "03_workflow/initial/src/adjoint.py",
+      "executable_ast_identical": true,
+      "source_sha256": "647264eea88681fec01c29c9a3f7e0eff980f58efaeb04a15577bf58c32d11f4",
+      "publication_sha256": "647264eea88681fec01c29c9a3f7e0eff980f58efaeb04a15577bf58c32d11f4"
+    },
+    {
+      "file": "03_workflow/initial/src/adjoint_fast.py",
+      "executable_ast_identical": true,
+      "source_sha256": "36f40752f2d92e7c95732e03e93def59b8cf1ec90a320efc580aba6f32dd3852",
+      "publication_sha256": "650552f1079aeee82508ddf02787143de0adb5786de942ec1ff5ca3a46e8cf44"
+    },
+    {
+      "file": "03_workflow/initial/src/audit_profile_proposals.py",
+      "executable_ast_identical": true,
+      "source_sha256": "1dab51615a549de1bd67af695a80f73a4fc2eebef90295129ea9152ca5067dd5",
+      "publication_sha256": "1dab51615a549de1bd67af695a80f73a4fc2eebef90295129ea9152ca5067dd5"
+    },
+    {
+      "file": "03_workflow/initial/src/canonical_model.py",
+      "executable_ast_identical": true,
+      "source_sha256": "f30ce6a16b7ae8589b350aaa92049f874803323b4a5efe4e0f01e0e3f5de851b",
+      "publication_sha256": "8eb49fdedc5f84a57d883ac4d60791ed59ca54eacfc0fabd7a8647c9947ed25d"
+    },
+    {
+      "file": "03_workflow/initial/src/compiled_target.py",
+      "executable_ast_identical": true,
+      "source_sha256": "7b4a43f88a439ff8de099167701406efd4a3d632a663bc3c5257efe80d872e3c",
+      "publication_sha256": "b9ff185311a59be141cc52ff7c721d94e3e37777abc90861482f9d832ce1163f"
+    },
+    {
+      "file": "03_workflow/initial/src/conditional_heat.py",
+      "executable_ast_identical": true,
+      "source_sha256": "b669212c56ff44c7a094688e0d97ed44d5acbf7441e1dcfe42f2bfe3f2609c37",
+      "publication_sha256": "5a978af38c0785201fb68eef45564c60c99ba68f2b361fd14e3c3e0dc4eb29a8"
+    },
+    {
+      "file": "03_workflow/initial/src/conditional_transport.py",
+      "executable_ast_identical": true,
+      "source_sha256": "29cdc537b9a7258d321cfd762f98163f574f8d96c529b8d3ae76f07cab19c045",
+      "publication_sha256": "29cdc537b9a7258d321cfd762f98163f574f8d96c529b8d3ae76f07cab19c045"
+    },
+    {
+      "file": "03_workflow/initial/src/diagnostic_parallel.py",
+      "executable_ast_identical": true,
+      "source_sha256": "d1a4dcc2aa190af0b371fbcea224df16cbf062c569554946c2dddc79dc099f1e",
+      "publication_sha256": "2d855d23589982f83e8b4b855baa1cef513c6f1f4ce2bcc95607441724394108"
+    },
+    {
+      "file": "03_workflow/initial/src/effective_coordinates.py",
+      "executable_ast_identical": true,
+      "source_sha256": "784d99703e74aa207046752659a1a14c261a9cd4dfcce53968c0b44d9287de2c",
+      "publication_sha256": "784d99703e74aa207046752659a1a14c261a9cd4dfcce53968c0b44d9287de2c"
+    },
+    {
+      "file": "03_workflow/initial/src/exterior_bridge.py",
+      "executable_ast_identical": true,
+      "source_sha256": "6c95c89a1791e04a5cc495b4c6e0459f5226f93ffdd56d367d6545742fbaacfc",
+      "publication_sha256": "6c95c89a1791e04a5cc495b4c6e0459f5226f93ffdd56d367d6545742fbaacfc"
+    },
+    {
+      "file": "03_workflow/initial/src/exterior_transport.py",
+      "executable_ast_identical": true,
+      "source_sha256": "aba59711ed66314aefb9a93eb3b45a371d18773e7ce923841df19b8d2433cab9",
+      "publication_sha256": "2fae3fa30e6b84a9a25b157978f373e1815e431f368040e55dae93539ee73c94"
+    },
+    {
+      "file": "03_workflow/initial/src/ghk_heat.py",
+      "executable_ast_identical": true,
+      "source_sha256": "aedad8fe3698442c4167b3d5db779b0bf19b53c67d39dce1f9f809c723014c4f",
+      "publication_sha256": "89550bd6f242541d16a7eb7ac67e7344cb42148efbd63596a17998effbc1d85f"
+    },
+    {
+      "file": "03_workflow/initial/src/global_transport.py",
+      "executable_ast_identical": true,
+      "source_sha256": "cecaf495767b9f913f8a69c248245cd1cde9b6fb28125942b47b417b5aa9f8db",
+      "publication_sha256": "cecaf495767b9f913f8a69c248245cd1cde9b6fb28125942b47b417b5aa9f8db"
+    },
+    {
+      "file": "03_workflow/initial/src/july_export.py",
+      "executable_ast_identical": true,
+      "source_sha256": "82d2403c8d6d1cc552024e439042f4f93f756157829892951306959014c95127",
+      "publication_sha256": "80e634c3c581283370a6592ff443d3c0131533c4450c875cfba027eec7171fc7"
+    },
+    {
+      "file": "03_workflow/initial/src/july_initialization.py",
+      "executable_ast_identical": true,
+      "source_sha256": "a17fb7ccaf7cb29ed25c8c0d552fdac3d673109681254e93be67fa1f960e9ee1",
+      "publication_sha256": "15b128d746ba70acf7bde80205d5e0b4c75881a39446db584dfdbc9efeac9c50"
+    },
+    {
+      "file": "03_workflow/initial/src/marginal_heat.py",
+      "executable_ast_identical": true,
+      "source_sha256": "7827e91e5010fd3d7ef3292398e308c63457b3b4d612287da872f29d1e042411",
+      "publication_sha256": "7827e91e5010fd3d7ef3292398e308c63457b3b4d612287da872f29d1e042411"
+    },
+    {
+      "file": "03_workflow/initial/src/model.py",
+      "executable_ast_identical": true,
+      "source_sha256": "006f8de6c3fec6b0a613a431944b1dbd2e9232ad46bfed69f46ecb08ad1fcc9c",
+      "publication_sha256": "9bef7e201910f712fae745f8b4775acd1cf7e17f61768827675751c65f9e894e"
+    },
+    {
+      "file": "03_workflow/initial/src/multiple_try_heat.py",
+      "executable_ast_identical": true,
+      "source_sha256": "8dacc5dccb6dd58d69817c24323fcd06453a6ed3729056d8857be1d950a9402b",
+      "publication_sha256": "be2f9d61ffe29db99ec85a61372fd09faa10f5dd207a09dc8a000df4881f1bf9"
+    },
+    {
+      "file": "03_workflow/initial/src/physical_prior.py",
+      "executable_ast_identical": true,
+      "source_sha256": "df72537b42f819cb2bf446f4e907642dfcb3771ad781bf7984dc7a982f3e4f23",
+      "publication_sha256": "e8dfcf1471d7ba1471c9df3057b243d0ad15e934b39ec43b049a913932566672"
+    },
+    {
+      "file": "03_workflow/initial/src/production_health.py",
+      "executable_ast_identical": true,
+      "source_sha256": "c5e62d66edc122db0494d2a24162c36aa47acd6743d2054e09a9a3e8cdc0fb38",
+      "publication_sha256": "bedd20c4396336b24e61ed059fc5df17e7b91a9d359655f8750209816c806a7b"
+    },
+    {
+      "file": "03_workflow/initial/src/profile_coordinates.py",
+      "executable_ast_identical": true,
+      "source_sha256": "996a44bea251abb661b9c892cf3eb0fbacc279ceec93f5f87d797a49f813a352",
+      "publication_sha256": "8d5c6a702ee5d215394c764f26efbe330f60649d1fb06c0357f76d6cbec4017e"
+    },
+    {
+      "file": "03_workflow/initial/src/profile_heat.py",
+      "executable_ast_identical": true,
+      "source_sha256": "905e33915bcd2c371ba9ec3229081828410b33c559aa1ee7ade2eeff3fd715f0",
+      "publication_sha256": "8faf1f02e68fc487687d79e236db382452629838bb436a54ee93561294ef614d"
+    },
+    {
+      "file": "03_workflow/initial/src/profile_integrator.py",
+      "executable_ast_identical": true,
+      "source_sha256": "003b6b7aee2f600e8a30f430401d0f8f315ab354709d66070721942a905b9e9a",
+      "publication_sha256": "003b6b7aee2f600e8a30f430401d0f8f315ab354709d66070721942a905b9e9a"
+    },
+    {
+      "file": "03_workflow/initial/src/reflected_hmc_integrator.py",
+      "executable_ast_identical": true,
+      "source_sha256": "75250db23fdefc2b0530c09c1601206dfcb05f002708fdf2f3c2e71f4ad0ee0c",
+      "publication_sha256": "75250db23fdefc2b0530c09c1601206dfcb05f002708fdf2f3c2e71f4ad0ee0c"
+    },
+    {
+      "file": "03_workflow/initial/src/reporting.py",
+      "executable_ast_identical": true,
+      "source_sha256": "1cd23269542601265e2c3084395ab00fa2e88a06de96152824e1924e6025038f",
+      "publication_sha256": "5497160e8cfcf2cde91647391fe410069e70721b3481e66af4b48aceae7a4036"
+    },
+    {
+      "file": "03_workflow/initial/src/residue_transition.py",
+      "executable_ast_identical": true,
+      "source_sha256": "5cab0065851fdb8dcbab09ed3b6a3c9d8f18aa1dc07f0ff17fa726c8db5b0438",
+      "publication_sha256": "e4b9bb29326d38c8ec807ba2c43547aef4e1ab28695c5a9bafcf6cee108a1655"
+    },
+    {
+      "file": "03_workflow/initial/src/settling_policy.py",
+      "executable_ast_identical": true,
+      "source_sha256": "c33bd47c7c540e457f054b1b561023e5c54a1c05b400133d7cc8c660ed511613",
+      "publication_sha256": "87090aca494a74470063d5367c304954507db58ab9a984c169e7490c1e48d2ad"
+    },
+    {
+      "file": "03_workflow/initial/src/slice_transition.py",
+      "executable_ast_identical": true,
+      "source_sha256": "b5acebf477630cfb596c44d8eb0d1a83684cd84119e492e89bb1ccf78e59180b",
+      "publication_sha256": "b5acebf477630cfb596c44d8eb0d1a83684cd84119e492e89bb1ccf78e59180b"
+    },
+    {
+      "file": "03_workflow/initial/src/solver.py",
+      "executable_ast_identical": true,
+      "source_sha256": "1bfdfdef45aabe69b0e59d0ef47bd2c4f5420b1ee2e7a7311e1a51079243ee0b",
+      "publication_sha256": "1bfdfdef45aabe69b0e59d0ef47bd2c4f5420b1ee2e7a7311e1a51079243ee0b"
+    },
+    {
+      "file": "03_workflow/initial/src/tempered_hmc.py",
+      "executable_ast_identical": true,
+      "source_sha256": "b857ed34e8bce779c66bd694173d53e16b4148d16674c827e8be0d21de3c5f75",
+      "publication_sha256": "b857ed34e8bce779c66bd694173d53e16b4148d16674c827e8be0d21de3c5f75"
+    },
+    {
+      "file": "03_workflow/initial/src/tuned_adaptation.py",
+      "executable_ast_identical": true,
+      "source_sha256": "ab7e4645c8774734101d8fae740a170fa75f8a90b4f3330c2c9df70d6798d989",
+      "publication_sha256": "23e6e2c422b21e4b082ac7e2c8e14e20ee69f6b9ae36a7d19c807a6fdc104887"
+    },
+    {
+      "file": "03_workflow/initial/src/tuned_profile_sampler.py",
+      "executable_ast_identical": true,
+      "source_sha256": "6ead06145c13b49560f53cfa3dfc39e04c900708adfd33e7e7fd5ddfe69b8645",
+      "publication_sha256": "c468090c9a30eca2c3de25e147721da48e063d9c6d64fa8893c106f8eae69147"
+    },
+    {
+      "file": "03_workflow/initial/src/variety_assessment.py",
+      "executable_ast_identical": true,
+      "source_sha256": "c42099b2a07fe6867001d20d8ed32ff49a2a7a9780dd2857287287243ae11735",
+      "publication_sha256": "670b39194f3c30eea9586a0537c5c4ba75aa1a292605a86377ca6d05877d916b"
+    },
+    {
+      "file": "03_workflow/initial/src/warmup_health.py",
+      "executable_ast_identical": true,
+      "source_sha256": "ab5ca274d8bf49718fe1426838ada789002d0d4e7c2b023d5eddf9dea168b60c",
+      "publication_sha256": "ab5ca274d8bf49718fe1426838ada789002d0d4e7c2b023d5eddf9dea168b60c"
+    },
+    {
+      "file": "03_workflow/reduction/run_reduction.py",
+      "executable_ast_identical": true,
+      "source_sha256": "213c9517ff0e9d9982ba8f9353e11b6f4a32be74eaba38d9dfa89c04588b5394",
+      "publication_sha256": "6d700555cb0fbabd8301e7793685ba984583b27e84958bf0e23f9fecd5432991"
+    },
+    {
+      "file": "03_workflow/reduction/src/reduction/__init__.py",
+      "executable_ast_identical": true,
+      "source_sha256": "10f9a05ce7562a4b394bffd9307ecdbbac6901e56b6697f1685cb8a7292ec9e2",
+      "publication_sha256": "10f9a05ce7562a4b394bffd9307ecdbbac6901e56b6697f1685cb8a7292ec9e2"
+    },
+    {
+      "file": "03_workflow/reduction/src/reduction/analysis.py",
+      "executable_ast_identical": true,
+      "source_sha256": "7ea95dcdfabb1734485391598cd2d326be069753e6dd90b1b89866644a1e5810",
+      "publication_sha256": "dd5e15338b4552f517a62f7efc505b897f600a15fb0d9b7a63397a0ca1580a00"
+    },
+    {
+      "file": "03_workflow/reduction/src/reduction/numeric_rules.py",
+      "executable_ast_identical": true,
+      "source_sha256": "d552b9cf9fa97f26f825eee33a9d7ccc97f9f1f7238b4b412088aabdd26e0aee",
+      "publication_sha256": "9e7d33a86d81307e16240b4687d9c78c6b07ebb2942c54c9ccb3e1ee7e701d96"
+    },
+    {
+      "file": "03_workflow/reduction/src/reduction/numerics.py",
+      "executable_ast_identical": true,
+      "source_sha256": "96225be0d5fa8e2a899b572325ac2a3a6b36fbe1cd521d5c1c308f3c01c4dac0",
+      "publication_sha256": "b789210db954cf137e6a6f837c461513c9ad749acce6cfcf9419399d7127bc89"
+    },
+    {
+      "file": "03_workflow/reduction/src/reduction/ranking.py",
+      "executable_ast_identical": true,
+      "source_sha256": "207fb7f65388528f7571d61c7463d93e4073611065a26248474b21c1d24d25bf",
+      "publication_sha256": "22de3792a8dd1c96de4235fe7394ba8951a15da0eea792386491d90fd08e170d"
+    },
+    {
+      "file": "03_workflow/reduction/src/reduction/reprocess.py",
+      "executable_ast_identical": true,
+      "source_sha256": "4318cdef0f9445bbdbfcb86b75631f1c17216c3160153da6aeacf09edbf032f1",
+      "publication_sha256": "4318cdef0f9445bbdbfcb86b75631f1c17216c3160153da6aeacf09edbf032f1"
+    },
+    {
+      "file": "03_workflow/reduction/src/reduction/sampling.py",
+      "executable_ast_identical": true,
+      "source_sha256": "384f5f8d40b2374bb60ba5d37756a186bb790807df01d24b0647d5c2e412d861",
+      "publication_sha256": "63c0270965bbd707cadc82b209640fb7cc106e082dee9daa50dd97b4893c38ba"
+    },
+    {
+      "file": "03_workflow/reduction/src/reduction/topology.py",
+      "executable_ast_identical": true,
+      "source_sha256": "e2fe43b3332875059e996db15f9e14e4a0b43ca55fcff0a6b2f09a75e2c93ef8",
+      "publication_sha256": "03b3450d79f5f8e35a66bc26a66e9ca8d0c201e6546805de01904e4b217ed29b"
+    },
+    {
+      "file": "03_workflow/reduction/src/reduction/workflow.py",
+      "executable_ast_identical": true,
+      "source_sha256": "06c4a8c4b820ed23946a0fe427c5b45c2ba61dff9824df76797d7117f5765e56",
+      "publication_sha256": "46b4510ac92c6be5c718e5fda8c6f1a541137e91fb6c94e650328384ade3fc26"
+    },
+    {
+      "file": "03_workflow/run_pipeline.py",
+      "executable_ast_identical": true,
+      "source_sha256": "68c02ec118049b11d6459bd023730e620ab4f6925b6822ca09b666b96a9b0d65",
+      "publication_sha256": "e79059c25eafe76e20fdfb4fc786fe65fd0c49b2d8201fe359cc462ed9900055"
+    },
+    {
+      "file": "03_workflow/validation/test_exterior_transport.py",
+      "executable_ast_identical": true,
+      "source_sha256": "0a47cb7fe49f18f93e8a16132116d87b0a5c404ddd0467c10f2f5a89a4e1cb1e",
+      "publication_sha256": "aa85a906aedc391bd7d4b38c150f6f1bdabdd448cedc40ecec5311cccaa2ef06"
+    },
+    {
+      "file": "03_workflow/validation/test_pipeline_safety.py",
+      "executable_ast_identical": true,
+      "source_sha256": "eb34796384cc63651bdf6bf9793dbdb588d50a295300744dc976751fc36cf2a1",
+      "publication_sha256": "eb34796384cc63651bdf6bf9793dbdb588d50a295300744dc976751fc36cf2a1"
+    },
+    {
+      "file": "03_workflow/validation/test_production_health.py",
+      "executable_ast_identical": true,
+      "source_sha256": "4094a0582747dac0889d69319f55c43742de6516d12738a1e2822b9ced0c691f",
+      "publication_sha256": "4094a0582747dac0889d69319f55c43742de6516d12738a1e2822b9ced0c691f"
+    }
+  ],
+  "input_reconstruction": {
+    "all_arrays_identical": true,
+    "arrays": {
+      "y": true,
+      "boundaries": true,
+      "g_hvac": true,
+      "tsupply": true,
+      "ginf": true,
+      "gains": true,
+      "train": true,
+      "valid": true,
+      "month": true,
+      "day": true,
+      "dt_seconds": true,
+      "conditioning": true,
+      "weekday": true,
+      "minute_end": true,
+      "day_type": true,
+      "time_seconds": true,
+      "heating_setpoint": true,
+      "cooling_setpoint": true
+    },
+    "n_minutes": 44640
+  },
+  "prior_reconstruction": {
+    "idf_sha256": "c2bd736fcba626f9ff652ba1fb4548f047b66a567eaf121e9dc0aa0b4bb9cede",
+    "derived_reference_sha256": "712258c194bd62da6908ba9449bc51d2fcfc1d9f2c21eb6cdc25c4ece5db2980",
+    "archived_reference_sha256": "712258c194bd62da6908ba9449bc51d2fcfc1d9f2c21eb6cdc25c4ece5db2980",
+    "byte_identical_reference": true,
+    "components": 10,
+    "resistances": 17,
+    "capacitances": 8,
+    "material_patch_rows": 31,
+    "material_layer_rows": 70,
+    "method": "IDF geometry/material calculation using the archived reference construction conventions."
+  },
+  "checks": {
+    "python_compilation": "passed",
+    "launcher_tests": {
+      "passed": 9,
+      "failed": 0
+    },
+    "archive_and_handoff_tests": {
+      "passed": 9,
+      "failed": 0
+    },
+    "network_diagram": "17 resistance symbols and eight thermal states; rendered and visually reviewed"
+  },
+  "execution_scope": {
+    "new_full_mcmc_run": false,
+    "new_energyplus_run": false,
+    "dependency_environment": "Pinned to recorded Python3.12.10 package versions; release checks use available runtime dependencies."
+  },
+  "result_policy": "Only curated statistics and parameter tables. Full chains, checkpoint states, per-candidate posterior arrays and logs are not distributed."
+}

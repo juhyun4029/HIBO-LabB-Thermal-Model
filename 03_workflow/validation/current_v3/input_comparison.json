@@ -1,0 +1,431 @@
+{
+  "old_reconstruction": {
+    "y": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "boundaries": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "g_hvac": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "tsupply": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "ginf": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "gains": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "month": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "day": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "minute_end": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "day_type": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "weekday": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "train": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "valid": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "conditioning": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "dt_seconds": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "time_seconds": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "heating_setpoint": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "cooling_setpoint": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "rows": 44640,
+    "complete_contiguous_month": true,
+    "csv_sha256": "f10361d4692109f37172196e8183b5868317c1f33acf937100a0f626cc41ab31",
+    "people_reconstruction_max_abs_error": 9.237055564881302e-14,
+    "equipment_reconstruction_max_abs_error": 8.526512829121202e-14
+  },
+  "new_reconstruction": {
+    "y": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "boundaries": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "g_hvac": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "tsupply": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "ginf": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "gains": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "month": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "day": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "minute_end": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "day_type": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "weekday": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "train": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "valid": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "conditioning": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "dt_seconds": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "time_seconds": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "heating_setpoint": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "cooling_setpoint": {
+      "exact": true,
+      "max_abs_error": 0.0
+    },
+    "rows": 44640,
+    "complete_contiguous_month": true,
+    "csv_sha256": "3d7af46b9928291ff36348618643d10b035cff44fc23eaf10facda30dc889a36",
+    "people_reconstruction_max_abs_error": 9.237055564881302e-14,
+    "equipment_reconstruction_max_abs_error": 8.526512829121202e-14
+  },
+  "same_reference": true,
+  "common_array_differences": {
+    "y": {
+      "exact": false,
+      "rmse": 0.460268170972551,
+      "max_abs": 0.5303268545874857
+    },
+    "boundaries": {
+      "exact": false,
+      "rmse": 0.10655552523031621,
+      "max_abs": 0.5007040093718977
+    },
+    "g_hvac": {
+      "exact": false,
+      "rmse": 8.500640769519364,
+      "max_abs": 86.83269519291815
+    },
+    "tsupply": {
+      "exact": false,
+      "rmse": 2.1320896096084203,
+      "max_abs": 72.78710850497082
+    },
+    "ginf": {
+      "exact": true,
+      "rmse": 0.0,
+      "max_abs": 0.0
+    },
+    "gains": {
+      "exact": false,
+      "rmse": 0.5314695141089588,
+      "max_abs": 2.7038300725743625
+    },
+    "month": {
+      "exact": true,
+      "rmse": 0.0,
+      "max_abs": 0.0
+    },
+    "day": {
+      "exact": true,
+      "rmse": 0.0,
+      "max_abs": 0.0
+    },
+    "minute_end": {
+      "exact": true,
+      "rmse": 0.0,
+      "max_abs": 0.0
+    },
+    "day_type": {
+      "exact": true,
+      "rmse": 0.0,
+      "max_abs": 0.0
+    },
+    "weekday": {
+      "exact": true,
+      "rmse": 0.0,
+      "max_abs": 0.0
+    },
+    "train": {
+      "exact": true,
+      "rmse": 0.0,
+      "max_abs": 0.0
+    },
+    "valid": {
+      "exact": true,
+      "rmse": 0.0,
+      "max_abs": 0.0
+    },
+    "conditioning": {
+      "exact": true,
+      "rmse": 0.0,
+      "max_abs": 0.0
+    },
+    "dt_seconds": {
+      "exact": true,
+      "rmse": 0.0,
+      "max_abs": 0.0
+    },
+    "time_seconds": {
+      "exact": true,
+      "rmse": 0.0,
+      "max_abs": 0.0
+    },
+    "heating_setpoint": {
+      "exact": false,
+      "rmse": 0.5,
+      "max_abs": 0.5
+    },
+    "cooling_setpoint": {
+      "exact": false,
+      "rmse": 0.5,
+      "max_abs": 0.5
+    }
+  },
+  "metrics": {
+    "old": {
+      "temperature": {
+        "min": 20.3530929246668,
+        "max": 28.374892777974665,
+        "mean": 24.044551670404363,
+        "sd": 2.3902101879327624,
+        "p01": 20.499950610137468,
+        "p99": 27.500730992899314
+      },
+      "center_setpoint": {
+        "min": 20.0,
+        "max": 28.0,
+        "mean": 24.010752688172044,
+        "sd": 2.8284066856972805,
+        "p01": 20.0,
+        "p99": 28.0
+      },
+      "center_changes": 151,
+      "band_widths": [
+        1.0
+      ],
+      "within_0p01_of_active_bound": 0.8187948028673835,
+      "g_hvac": {
+        "min": 21.508743962653742,
+        "max": 109.03875988714651,
+        "mean": 63.712688843005814,
+        "sd": 33.82302835593084,
+        "p01": 21.520121756696728,
+        "p99": 108.87624281626162
+      },
+      "tsupply": {
+        "min": 11.398219950034663,
+        "max": 92.20971901563728,
+        "mean": 22.046318710691796,
+        "sd": 8.894556822990573,
+        "p01": 11.999990906754668,
+        "p99": 51.22646130494702
+      },
+      "observed_hvac_proxy": {
+        "min": -1754.498667822608,
+        "max": 1531.6453236693376,
+        "mean": -260.03588725093886,
+        "sd": 398.6043513944855,
+        "p01": -1104.3821065814234,
+        "p99": 553.2971279493217
+      },
+      "temperature_increments": {
+        "1min": {
+          "abs_change": {
+            "min": 1.2935430504512624e-11,
+            "max": 1.6456726731416786,
+            "mean": 0.012922317652718649,
+            "sd": 0.09733121049713207,
+            "p01": 4.890329776685576e-09,
+            "p99": 0.5230849550100003
+          },
+          "fraction_abs_change_le_0p01": 0.932659781805148
+        },
+        "5min": {
+          "abs_change": {
+            "min": 4.083808846644388e-10,
+            "max": 6.389786335348742,
+            "mean": 0.06271864954678277,
+            "sd": 0.43135720504894937,
+            "p01": 2.5108456469524754e-08,
+            "p99": 2.080795404456755
+          },
+          "fraction_abs_change_le_0p01": 0.8340988013890445
+        },
+        "60min": {
+          "abs_change": {
+            "min": 9.294364389234033e-09,
+            "max": 7.000600982927068,
+            "mean": 0.7393758800381758,
+            "sd": 1.553721915525651,
+            "p01": 1.8792380650722863e-07,
+            "p99": 6.999605533213556
+          },
+          "fraction_abs_change_le_0p01": 0.6218034993270525
+        }
+      }
+    },
+    "new": {
+      "temperature": {
+        "min": 19.99976064323184,
+        "max": 28.00127636297189,
+        "mean": 24.11527017778938,
+        "sd": 2.702737568236039,
+        "p01": 19.99996363922489,
+        "p99": 28.000589219401032
+      },
+      "center_setpoint": {
+        "min": 20.0,
+        "max": 28.0,
+        "mean": 24.010752688172044,
+        "sd": 2.8284066856972805,
+        "p01": 20.0,
+        "p99": 28.0
+      },
+      "center_changes": 151,
+      "band_widths": [
+        0.0
+      ],
+      "within_0p01_of_active_bound": 0.8952732974910395,
+      "g_hvac": {
+        "min": 21.509073259043298,
+        "max": 109.0594474629406,
+        "mean": 67.19230505642305,
+        "sd": 34.47810672936163,
+        "p01": 21.52070751501875,
+        "p99": 108.91859196577691
+      },
+      "tsupply": {
+        "min": 11.398236165358371,
+        "max": 92.3339707087622,
+        "mean": 22.866770681361025,
+        "sd": 9.988879067782648,
+        "p01": 11.99969848318699,
+        "p99": 54.387799186186754
+      },
+      "observed_hvac_proxy": {
+        "min": -1716.8107849881721,
+        "max": 1543.3629241360895,
+        "mean": -256.38380885306174,
+        "sd": 432.56390854722775,
+        "p01": -1124.3254314182418,
+        "p99": 650.1527208798684
+      },
+      "temperature_increments": {
+        "1min": {
+          "abs_change": {
+            "min": 1.0082601420435822e-11,
+            "max": 1.6454037499317309,
+            "mean": 0.014003754097685782,
+            "sd": 0.10774214890493532,
+            "p01": 4.000748887733607e-09,
+            "p99": 0.6340766646171021
+          },
+          "fraction_abs_change_le_0p01": 0.9434351127937454
+        },
+        "5min": {
+          "abs_change": {
+            "min": 1.2402523452692549e-11,
+            "max": 6.507205137142904,
+            "mean": 0.06916878747717999,
+            "sd": 0.48254293270404547,
+            "p01": 1.984411881039705e-08,
+            "p99": 2.3700763905040154
+          },
+          "fraction_abs_change_le_0p01": 0.8967178223367313
+        },
+        "60min": {
+          "abs_change": {
+            "min": 3.395339831513411e-08,
+            "max": 8.000655365718803,
+            "mean": 0.8293548482467774,
+            "sd": 1.7989481244658576,
+            "p01": 2.800564112703796e-07,
+            "p99": 7.975946925957321
+          },
+          "fraction_abs_change_le_0p01": 0.721399730820996
+        }
+      }
+    }
+  },
+  "central_sequence_exactly_same": true,
+  "hvac_proxy_difference_rmse_W": 74.37138280420245,
+  "limits": [
+    "Input correctness does not prove the EnergyPlus process exited successfully; new simulation audit has Completed and CompletedSuccessfully false and no new .err.",
+    "Greater whole-month temperature variance is not proof of greater information about all parameters.",
+    "Observed HVAC proxy uses measured temperature only for audit; actual model uses its predicted zone temperature."
+  ],
+  "idf_core_common_filter": {
+    "exact": true,
+    "old_count": 361,
+    "new_count": 361
+  }
+}

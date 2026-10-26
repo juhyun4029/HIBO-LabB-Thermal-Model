@@ -1,0 +1,22 @@
+{
+  "attempts": 640,
+  "identity_choices": 325,
+  "slow_to_fast": {
+    "proposed": 250,
+    "valid": 250,
+    "actual_crossings": 0,
+    "mean_MH_probability": 0.0002182
+  },
+  "fast_to_slow": {
+    "proposed": 65,
+    "valid": 48,
+    "actual_crossings": 4,
+    "mean_MH_probability": 0.05305
+  },
+  "heat_particles": 512,
+  "fit_source": "previous failed run discarded adaptive warmup, last4000 iterations; diagnostic pilot only",
+  "test_source": "held-out settling states from the same single-setpoint data",
+  "pilot_data_or_fitted_proposals_bundled": false,
+  "full_mixing_or_convergence_demonstrated": false,
+  "limitation": "Escape from the problematic fast region was observed; reverse crossings and full posterior convergence were not established."
+}

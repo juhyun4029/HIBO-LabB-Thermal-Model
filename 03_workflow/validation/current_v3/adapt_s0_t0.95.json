@@ -1,0 +1,6824 @@
+{
+  "summary": {
+    "start_chain": 1,
+    "start_record_index": 17792,
+    "target_acceptance": 0.95,
+    "warmup": 200,
+    "fixed": 200,
+    "frozen_step": 0.002317195328718682,
+    "mean_fixed_probability": 0.9349744366494821,
+    "fixed_acceptance": 0.94,
+    "fixed_bad_count": 0,
+    "fixed_invalid_count": 0,
+    "fixed_capped_count": 0,
+    "fixed_max_abs_energy_error": 1.6642475854727117,
+    "final_q13_q23_q24": [
+      0.828603063653852,
+      8.194975550867674,
+      12.520307722822324
+    ],
+    "elapsed_seconds": 822.6061458120002
+  },
+  "rows": [
+    {
+      "iteration": 1,
+      "warm": true,
+      "step": 0.003265963117276683,
+      "nsteps": 360,
+      "capped": false,
+      "valid": false,
+      "bad": true,
+      "abs_energy_error": null,
+      "probability": 0.0,
+      "accepted": false,
+      "q13_q23_q24": [
+        1.6564064302847008,
+        10.618452834889306,
+        13.305159416434352
+      ]
+    },
+    {
+      "iteration": 2,
+      "warm": true,
+      "step": 0.00580585602267612,
+      "nsteps": 132,
+      "capped": false,
+      "valid": false,
+      "bad": true,
+      "abs_energy_error": null,
+      "probability": 0.0,
+      "accepted": false,
+      "q13_q23_q24": [
+        1.6564064302847008,
+        10.618452834889306,
+        13.305159416434352
+      ]
+    },
+    {
+      "iteration": 3,
+      "warm": true,
+      "step": 0.0003707589518644409,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02039094126611829,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.848213377747167,
+        10.600524409318336,
+        13.386863011249666
+      ]
+    },
+    {
+      "iteration": 4,
+      "warm": true,
+      "step": 0.00023608974444930226,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.008916616448981785,
+      "probability": 0.9911230186842249,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.8194649577110311,
+        10.602846229718539,
+        13.396679993727712
+      ]
+    },
+    {
+      "iteration": 5,
+      "warm": true,
+      "step": 0.00018598669277064092,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0017900988832479925,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.904813338679235,
+        10.90236715737473,
+        13.475051684582963
+      ]
+    },
+    {
+      "iteration": 6,
+      "warm": true,
+      "step": 0.00017242064146722383,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0016703596019134181,
+      "probability": 0.9983310346722652,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.9759928340770498,
+        10.883862587529329,
+        13.521204814553615
+      ]
+    },
+    {
+      "iteration": 7,
+      "warm": true,
+      "step": 0.0001735453823541655,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.006875332702275472,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.018736071116398,
+        10.796002105113104,
+        13.511143224492509
+      ]
+    },
+    {
+      "iteration": 8,
+      "warm": true,
+      "step": 0.00018589817087637359,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0004941031406744401,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.950479513862992,
+        10.709769100952924,
+        13.454364259835929
+      ]
+    },
+    {
+      "iteration": 9,
+      "warm": true,
+      "step": 0.00020694177474301308,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.01394625117188042,
+      "probability": 0.9861505472746898,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.943589258502308,
+        10.718720715818334,
+        13.451697086026629
+      ]
+    },
+    {
+      "iteration": 10,
+      "warm": true,
+      "step": 0.00022635852320430805,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0019530435879779873,
+      "probability": 0.9980488623606482,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.8952777289060814,
+        10.938710327813087,
+        13.457452020885366
+      ]
+    },
+    {
+      "iteration": 11,
+      "warm": true,
+      "step": 0.00026169076433398344,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.003832331178376336,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.8683219063397205,
+        10.857603380656373,
+        13.46164264139844
+      ]
+    },
+    {
+      "iteration": 12,
+      "warm": true,
+      "step": 0.00030814597709203875,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.012666548721682602,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.8731421313575023,
+        10.92259526953026,
+        13.447225116136988
+      ]
+    },
+    {
+      "iteration": 13,
+      "warm": true,
+      "step": 0.00036579329219750886,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.009510468755259183,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.6553955540004452,
+        10.756367566684972,
+        13.307201765047692
+      ]
+    },
+    {
+      "iteration": 14,
+      "warm": true,
+      "step": 0.0004364562349060608,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0017783774343236303,
+      "probability": 0.9982232029418519,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.5483759615712291,
+        10.81742378195589,
+        13.253784817725945
+      ]
+    },
+    {
+      "iteration": 15,
+      "warm": true,
+      "step": 0.0005194356864735921,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.005187412119823875,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.8247586194854073,
+        10.864057469744141,
+        13.406075807361843
+      ]
+    },
+    {
+      "iteration": 16,
+      "warm": true,
+      "step": 0.0006225193820864873,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.004223277838640627,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.9049719389814286,
+        10.662105485348622,
+        13.321635518722033
+      ]
+    },
+    {
+      "iteration": 17,
+      "warm": true,
+      "step": 0.0007462450605303166,
+      "nsteps": 1007,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.009176914597688324,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.4891924008761126,
+        10.63799933751457,
+        13.10455576550766
+      ]
+    },
+    {
+      "iteration": 18,
+      "warm": true,
+      "step": 0.0008940189440051823,
+      "nsteps": 478,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.13576533028624382,
+      "probability": 0.8730474862549868,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.4693250312528339,
+        10.646957558773355,
+        13.102255612275128
+      ]
+    },
+    {
+      "iteration": 19,
+      "warm": true,
+      "step": 0.0007281018117391887,
+      "nsteps": 881,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.07229668321366489,
+      "probability": 0.9302548638636693,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.7500062456894405,
+        10.727297276785679,
+        13.184451242155125
+      ]
+    },
+    {
+      "iteration": 20,
+      "warm": true,
+      "step": 0.0007074084962479176,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0228710535602481,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.4959007899515142,
+        10.446762096844342,
+        13.05300293710382
+      ]
+    },
+    {
+      "iteration": 21,
+      "warm": true,
+      "step": 0.0008474098255190886,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.11720124523110798,
+      "probability": 0.889406186398356,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.8773173937870624,
+        10.474296516325229,
+        13.210373393127568
+      ]
+    },
+    {
+      "iteration": 22,
+      "warm": true,
+      "step": 0.000730380512431536,
+      "nsteps": 796,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0027674134927444527,
+      "probability": 0.9972364122660096,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.7630899728768301,
+        10.618054285794308,
+        13.16545570193535
+      ]
+    },
+    {
+      "iteration": 23,
+      "warm": true,
+      "step": 0.0008662408096940017,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.20380469514416433,
+      "probability": 0.8156216505016423,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.673179462849999,
+        10.798524113279308,
+        13.1353185081622
+      ]
+    },
+    {
+      "iteration": 24,
+      "warm": true,
+      "step": 0.0006045414955963441,
+      "nsteps": 873,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.11275109111890202,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.7341568022984946,
+        10.687485070378722,
+        13.160945644223556
+      ]
+    },
+    {
+      "iteration": 25,
+      "warm": true,
+      "step": 0.0007224250758856546,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.015218966742942541,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.0555830620888456,
+        10.592700015990944,
+        13.33987664161413
+      ]
+    },
+    {
+      "iteration": 26,
+      "warm": true,
+      "step": 0.0008609347249055808,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.025662302837837103,
+      "probability": 0.9746641753660417,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.7511477938671094,
+        10.639434570983937,
+        13.266787127431233
+      ]
+    },
+    {
+      "iteration": 27,
+      "warm": true,
+      "step": 0.0009522991645476305,
+      "nsteps": 926,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.10009459709383961,
+      "probability": 0.904751827094207,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.9618939104395356,
+        10.710192012672588,
+        13.410286960271014
+      ]
+    },
+    {
+      "iteration": 28,
+      "warm": true,
+      "step": 0.0008642054764295757,
+      "nsteps": 940,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09345374035521559,
+      "probability": 0.9107801488178611,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.9160591057196383,
+        10.718509128309515,
+        13.378122147785806
+      ]
+    },
+    {
+      "iteration": 29,
+      "warm": true,
+      "step": 0.0007989265464762746,
+      "nsteps": 706,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.20968111050990856,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.9347194216404786,
+        10.864601278882828,
+        13.354187189065959
+      ]
+    },
+    {
+      "iteration": 30,
+      "warm": true,
+      "step": 0.0009462422552282776,
+      "nsteps": 424,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.053836514522835444,
+      "probability": 0.9475870105537472,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.9957622103877897,
+        10.47216342826371,
+        13.432126238595915
+      ]
+    },
+    {
+      "iteration": 31,
+      "warm": true,
+      "step": 0.0009681603627665633,
+      "nsteps": 946,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0956168788515761,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.198062938361999,
+        10.74258464092092,
+        13.47224226906359
+      ]
+    },
+    {
+      "iteration": 32,
+      "warm": true,
+      "step": 0.001141697552195768,
+      "nsteps": 645,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.024847070245634484,
+      "probability": 0.9754590773392259,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.1417145331572454,
+        10.723956224845551,
+        13.468813132629636
+      ]
+    },
+    {
+      "iteration": 33,
+      "warm": true,
+      "step": 0.001256789962613539,
+      "nsteps": 355,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.027073949889384608,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.0717384642795946,
+        10.800522434471812,
+        13.441026835518013
+      ]
+    },
+    {
+      "iteration": 34,
+      "warm": true,
+      "step": 0.0014748841540315294,
+      "nsteps": 727,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.05509674102107809,
+      "probability": 0.9463935884426873,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.9293130782049848,
+        10.73511642009302,
+        13.33840010463612
+      ]
+    },
+    {
+      "iteration": 35,
+      "warm": true,
+      "step": 0.0014976485107460423,
+      "nsteps": 624,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.018021385745992546,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.0938264272753875,
+        10.7080526340634,
+        13.557261406287965
+      ]
+    },
+    {
+      "iteration": 36,
+      "warm": true,
+      "step": 0.0017504279357024703,
+      "nsteps": 554,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.768229026069239,
+      "probability": 0.4638337788988337,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.2991297990002715,
+        10.784565495309627,
+        13.662119412385794
+      ]
+    },
+    {
+      "iteration": 37,
+      "warm": true,
+      "step": 0.000503892743326437,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0004927640762346641,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.3375238147866724,
+        10.954473916597,
+        13.688863149306686
+      ]
+    },
+    {
+      "iteration": 38,
+      "warm": true,
+      "step": 0.0005924242987699202,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.10596235896833406,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.292414462169497,
+        10.785121154205402,
+        13.669903940445266
+      ]
+    },
+    {
+      "iteration": 39,
+      "warm": true,
+      "step": 0.0006947006532539038,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0019656790932067736,
+      "probability": 0.9980362515887011,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.1926282530639005,
+        10.828859215369954,
+        13.606317537288287
+      ]
+    },
+    {
+      "iteration": 40,
+      "warm": true,
+      "step": 0.0008085133473247119,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.00670862193839028,
+      "probability": 0.9933138306291136,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.3375555660853373,
+        10.796324777916404,
+        13.702492549405159
+      ]
+    },
+    {
+      "iteration": 41,
+      "warm": true,
+      "step": 0.0009275723008394644,
+      "nsteps": 674,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.3088123249576853,
+      "probability": 0.7343185703637823,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.1398957087332064,
+        10.582826968322522,
+        13.578039734144228
+      ]
+    },
+    {
+      "iteration": 42,
+      "warm": true,
+      "step": 0.0005541547716554904,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1263725762888832,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.0060840377235496,
+        10.636615637264216,
+        13.491640657569311
+      ]
+    },
+    {
+      "iteration": 43,
+      "warm": true,
+      "step": 0.0006467784838410392,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0005064249377788599,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.0531996716221497,
+        10.607617284560853,
+        13.51783201790586
+      ]
+    },
+    {
+      "iteration": 44,
+      "warm": true,
+      "step": 0.0007530926645019263,
+      "nsteps": 991,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.014927336821649817,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.0021241260139417,
+        10.68405023911131,
+        13.488495470861755
+      ]
+    },
+    {
+      "iteration": 45,
+      "warm": true,
+      "step": 0.0008748573280695679,
+      "nsteps": 746,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.032016194669221676,
+      "probability": 0.9684908975624649,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.0192985495485503,
+        10.988995180969537,
+        13.491751491290872
+      ]
+    },
+    {
+      "iteration": 46,
+      "warm": true,
+      "step": 0.000939006140497934,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.01969000335462212,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.9272963448298481,
+        10.76305314135068,
+        13.443771155073428
+      ]
+    },
+    {
+      "iteration": 47,
+      "warm": true,
+      "step": 0.0010865841020362024,
+      "nsteps": 809,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0007597590965566781,
+      "probability": 0.9992405294473065,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.8516558722015948,
+        10.658391246660297,
+        13.390152154037667
+      ]
+    },
+    {
+      "iteration": 48,
+      "warm": true,
+      "step": 0.0012523781986039668,
+      "nsteps": 520,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.021820376229047866,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.7333565568696774,
+        10.792395198228794,
+        13.339317188920415
+      ]
+    },
+    {
+      "iteration": 49,
+      "warm": true,
+      "step": 0.0014431193083927125,
+      "nsteps": 657,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.03226885326347784,
+      "probability": 0.968246230923603,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.5958005351562747,
+        10.870288676340651,
+        13.248807366975573
+      ]
+    },
+    {
+      "iteration": 50,
+      "warm": true,
+      "step": 0.0015390963850057996,
+      "nsteps": 635,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04350199973931268,
+      "probability": 0.9574306394773636,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.4506482574219721,
+        10.700374176546912,
+        13.174379723445453
+      ]
+    },
+    {
+      "iteration": 51,
+      "warm": true,
+      "step": 0.0015985978016765136,
+      "nsteps": 567,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02899027032117729,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.3793531374107433,
+        10.640242951239944,
+        13.131697894535387
+      ]
+    },
+    {
+      "iteration": 52,
+      "warm": true,
+      "step": 0.0018333228250142885,
+      "nsteps": 628,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.07150090864174885,
+      "probability": 0.9309954316531602,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.382603514412804,
+        10.604298030852888,
+        13.125886284323412
+      ]
+    },
+    {
+      "iteration": 53,
+      "warm": true,
+      "step": 0.0017873409491261359,
+      "nsteps": 426,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.2958111262683403,
+      "probability": 0.7439279231947776,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.078151038562008,
+        10.59844410828807,
+        12.939235993597563
+      ]
+    },
+    {
+      "iteration": 54,
+      "warm": true,
+      "step": 0.0011311351747262898,
+      "nsteps": 705,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.005459819903048668,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.6259096883847339,
+        10.351743833748174,
+        12.811341245327773
+      ]
+    },
+    {
+      "iteration": 55,
+      "warm": true,
+      "step": 0.0012962858578571747,
+      "nsteps": 910,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.016698469521717385,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.3343119711021016,
+        10.542003297477963,
+        13.079883553262789
+      ]
+    },
+    {
+      "iteration": 56,
+      "warm": true,
+      "step": 0.0014828373476472789,
+      "nsteps": 567,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.24190718016510715,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.5899950579384732,
+        10.74646012979087,
+        13.246490780044113
+      ]
+    },
+    {
+      "iteration": 57,
+      "warm": true,
+      "step": 0.0016932200402055713,
+      "nsteps": 479,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.28977882924969833,
+      "probability": 0.748429079895797,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.2750297670619763,
+        10.49224205060298,
+        13.104083843529013
+      ]
+    },
+    {
+      "iteration": 58,
+      "warm": true,
+      "step": 0.001094844645387918,
+      "nsteps": 1001,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.029233014862914075,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.4322659773725674,
+        10.582661763055029,
+        13.167046637467939
+      ]
+    },
+    {
+      "iteration": 59,
+      "warm": true,
+      "step": 0.0012502251523836005,
+      "nsteps": 858,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.15654895775242395,
+      "probability": 0.8550896534105754,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.3602121698748226,
+        10.523589667114368,
+        13.123384127496315
+      ]
+    },
+    {
+      "iteration": 60,
+      "warm": true,
+      "step": 0.0010322067951829674,
+      "nsteps": 999,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.08932807829272349,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.3687013364342282,
+        10.823431950374578,
+        13.123536016791164
+      ]
+    },
+    {
+      "iteration": 61,
+      "warm": true,
+      "step": 0.001177000662298224,
+      "nsteps": 799,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.07198417992793793,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.130096657125874,
+        10.442106909058033,
+        12.953145166865568
+      ]
+    },
+    {
+      "iteration": 62,
+      "warm": true,
+      "step": 0.0013398905153865375,
+      "nsteps": 565,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.014685934795362954,
+      "probability": 0.985421377575271,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.4944382933111282,
+        10.525028199747998,
+        12.7916513752266
+      ]
+    },
+    {
+      "iteration": 63,
+      "warm": true,
+      "step": 0.001475075444802033,
+      "nsteps": 409,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.029003498011846318,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.5832884973192943,
+        10.365486852931877,
+        12.746718754152015
+      ]
+    },
+    {
+      "iteration": 64,
+      "warm": true,
+      "step": 0.0016741919865008884,
+      "nsteps": 702,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.28193651304037814,
+      "probability": 0.7543215725961604,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.8667376180678222,
+        10.511814981461825,
+        12.912055945570748
+      ]
+    },
+    {
+      "iteration": 65,
+      "warm": true,
+      "step": 0.0011154083522082112,
+      "nsteps": 774,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.03112562282706932,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.9821703609212217,
+        10.551376449561507,
+        12.977835074735557
+      ]
+    },
+    {
+      "iteration": 66,
+      "warm": true,
+      "step": 0.0012659380745139734,
+      "nsteps": 727,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.15982306452347927,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.7335342534569217,
+        10.344752154231706,
+        12.901126984188956
+      ]
+    },
+    {
+      "iteration": 67,
+      "warm": true,
+      "step": 0.001434615325968593,
+      "nsteps": 373,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.010528419899195285,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.4188775589964875,
+        10.450824450444653,
+        13.134660914854338
+      ]
+    },
+    {
+      "iteration": 68,
+      "warm": true,
+      "step": 0.001623374250221595,
+      "nsteps": 283,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0021260330441812414,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.5629331079079591,
+        10.920812051462638,
+        13.253866826957788
+      ]
+    },
+    {
+      "iteration": 69,
+      "warm": true,
+      "step": 0.0018343291382398041,
+      "nsteps": 399,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.007242185645544907,
+      "probability": 0.9927839757875022,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.5272204132905853,
+        10.65947882572912,
+        13.211451217995059
+      ]
+    },
+    {
+      "iteration": 70,
+      "warm": true,
+      "step": 0.0020386172130394133,
+      "nsteps": 375,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.5830253325563284,
+      "probability": 0.5582070475001146,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.5777536646566457,
+        10.586884211845982,
+        13.248976599377288
+      ]
+    },
+    {
+      "iteration": 71,
+      "warm": true,
+      "step": 0.0009118073966789521,
+      "nsteps": 506,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09598393694886909,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.4521929677197298,
+        10.71258131830303,
+        13.175339817525739
+      ]
+    },
+    {
+      "iteration": 72,
+      "warm": true,
+      "step": 0.0010312000772239901,
+      "nsteps": 667,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.004014781338135265,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.3319530997282087,
+        10.423488321535997,
+        13.114430552739718
+      ]
+    },
+    {
+      "iteration": 73,
+      "warm": true,
+      "step": 0.0011646124813959305,
+      "nsteps": 413,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0012976529758326194,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.4689830407854738,
+        10.777306442618308,
+        13.21792105936825
+      ]
+    },
+    {
+      "iteration": 74,
+      "warm": true,
+      "step": 0.0013135069595657,
+      "nsteps": 345,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1429751661072558,
+      "probability": 0.866775594040347,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.526905170166965,
+        10.654221567415476,
+        13.208037363159349
+      ]
+    },
+    {
+      "iteration": 75,
+      "warm": true,
+      "step": 0.0011261717395207778,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04202299349228511,
+      "probability": 0.9588477330610581,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.622481993424894,
+        10.614144743052556,
+        13.266609292980378
+      ]
+    },
+    {
+      "iteration": 76,
+      "warm": true,
+      "step": 0.0011665604072556917,
+      "nsteps": 386,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.22894467441076571,
+      "probability": 0.7953725367420863,
+      "accepted": false,
+      "q13_q23_q24": [
+        1.622481993424894,
+        10.614144743052556,
+        13.266609292980378
+      ]
+    },
+    {
+      "iteration": 77,
+      "warm": true,
+      "step": 0.0008671276554593811,
+      "nsteps": 473,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.003715824687528624,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.7746600983096121,
+        10.586335847342358,
+        13.332747374590413
+      ]
+    },
+    {
+      "iteration": 78,
+      "warm": true,
+      "step": 0.0009767547532823764,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02996962472554543,
+      "probability": 0.9704750115456318,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.0583474793745467,
+        10.720691180604735,
+        13.533976624544316
+      ]
+    },
+    {
+      "iteration": 79,
+      "warm": true,
+      "step": 0.0010356220875988175,
+      "nsteps": 643,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.6917100726749261,
+      "probability": 0.5007190705097025,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.8713663686625515,
+        10.671898659924256,
+        13.422888851775385
+      ]
+    },
+    {
+      "iteration": 80,
+      "warm": true,
+      "step": 0.0004293876030854635,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.027806718934861863,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.013613789167791,
+        10.691724720998868,
+        13.526427575378488
+      ]
+    },
+    {
+      "iteration": 81,
+      "warm": true,
+      "step": 0.00048436757152394973,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09089409056490183,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        2.0542983896524887,
+        10.860975140961516,
+        13.542348533383107
+      ]
+    },
+    {
+      "iteration": 82,
+      "warm": true,
+      "step": 0.0005457011267925078,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.07150934808855425,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.8000447539228464,
+        10.694072310086682,
+        13.365392824621456
+      ]
+    },
+    {
+      "iteration": 83,
+      "warm": true,
+      "step": 0.0006140454170727197,
+      "nsteps": 733,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.019421409021468605,
+      "probability": 0.9807659715172863,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.8371909951557313,
+        10.6417289349597,
+        13.385159332266527
+      ]
+    },
+    {
+      "iteration": 84,
+      "warm": true,
+      "step": 0.0006645954105879001,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0020242766118450106,
+      "probability": 0.9979777708542766,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.6743653489807384,
+        10.730651333515365,
+        13.273490189936348
+      ]
+    },
+    {
+      "iteration": 85,
+      "warm": true,
+      "step": 0.0007432457567141374,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.009484814823984777,
+      "probability": 0.990560024157015,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.3236101163102787,
+        10.640932352302833,
+        13.105720425697502
+      ]
+    },
+    {
+      "iteration": 86,
+      "warm": true,
+      "step": 0.0008184051746022168,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.014928454395075619,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.070455439519299,
+        10.75598271151316,
+        12.955059048161361
+      ]
+    },
+    {
+      "iteration": 87,
+      "warm": true,
+      "step": 0.00091686687442807,
+      "nsteps": 619,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.007456907276328195,
+      "probability": 0.9925708264779083,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.212730497103482,
+        10.513800762916935,
+        13.041622419298236
+      ]
+    },
+    {
+      "iteration": 88,
+      "warm": true,
+      "step": 0.0010114784268572888,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.013126179830237561,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.3470263705303887,
+        10.429143729670633,
+        13.054282477896631
+      ]
+    },
+    {
+      "iteration": 89,
+      "warm": true,
+      "step": 0.0011307518534014176,
+      "nsteps": 411,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02881024966695378,
+      "probability": 0.9716008085533867,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.3869955781528365,
+        10.601653338453325,
+        13.13267573708672
+      ]
+    },
+    {
+      "iteration": 90,
+      "warm": true,
+      "step": 0.0011962122565269764,
+      "nsteps": 578,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.36387161083487385,
+      "probability": 0.6949804169707183,
+      "accepted": false,
+      "q13_q23_q24": [
+        1.3869955781528365,
+        10.601653338453325,
+        13.13267573708672
+      ]
+    },
+    {
+      "iteration": 91,
+      "warm": true,
+      "step": 0.0007482806993186449,
+      "nsteps": 889,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04622830797595512,
+      "probability": 0.9548239433820381,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.5508164452261815,
+        10.768179711405502,
+        13.214695017017451
+      ]
+    },
+    {
+      "iteration": 92,
+      "warm": true,
+      "step": 0.0007678270418339862,
+      "nsteps": 570,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04897785497919216,
+      "probability": 0.9522022160029123,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.4277999423078636,
+        10.611127380868938,
+        13.131610882195362
+      ]
+    },
+    {
+      "iteration": 93,
+      "warm": true,
+      "step": 0.0007837779520109186,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04860977538501032,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.8939038869735006,
+        10.416918614082652,
+        12.877326420456983
+      ]
+    },
+    {
+      "iteration": 94,
+      "warm": true,
+      "step": 0.0008747563186977422,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.006743169425259765,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.9364461189186586,
+        10.675542385287546,
+        12.869866282723095
+      ]
+    },
+    {
+      "iteration": 95,
+      "warm": true,
+      "step": 0.000975308424791814,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0035497349629487474,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.7630714852923338,
+        10.317991842965126,
+        12.82357805797102
+      ]
+    },
+    {
+      "iteration": 96,
+      "warm": true,
+      "step": 0.001086340874219105,
+      "nsteps": 829,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.00024624686652074956,
+      "probability": 0.9997537834497504,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.4694670938972225,
+        10.44096355848397,
+        12.77543690329689
+      ]
+    },
+    {
+      "iteration": 97,
+      "warm": true,
+      "step": 0.0012082867994737117,
+      "nsteps": 911,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.020823654030447614,
+      "probability": 0.9793916611138929,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.072869066585547,
+        10.488963164324852,
+        12.972985057255336
+      ]
+    },
+    {
+      "iteration": 98,
+      "warm": true,
+      "step": 0.001293247284179744,
+      "nsteps": 562,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.043068641576812894,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.386784415638053,
+        10.591097523859602,
+        13.1359442889715
+      ]
+    },
+    {
+      "iteration": 99,
+      "warm": true,
+      "step": 0.001436584564994638,
+      "nsteps": 821,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0289088235987478,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.2058302897545163,
+        10.595192812604516,
+        13.034403373493488
+      ]
+    },
+    {
+      "iteration": 100,
+      "warm": true,
+      "step": 0.001594339064993613,
+      "nsteps": 324,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0018713365768654455,
+      "probability": 0.9981304132817315,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.218877331540855,
+        10.541984701511346,
+        13.059768160625953
+      ]
+    },
+    {
+      "iteration": 101,
+      "warm": true,
+      "step": 0.0017618184011818807,
+      "nsteps": 416,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.030523323859039664,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.401265556449076,
+        10.756006475886904,
+        13.102264493463199
+      ]
+    },
+    {
+      "iteration": 102,
+      "warm": true,
+      "step": 0.0019518133569192183,
+      "nsteps": 224,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0990145327130918,
+      "probability": 0.9057295452202836,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.3147268784966937,
+        10.691779988373565,
+        13.099283587622383
+      ]
+    },
+    {
+      "iteration": 103,
+      "warm": true,
+      "step": 0.0018226366969982442,
+      "nsteps": 606,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.10670721539780104,
+      "probability": 0.8987887859878751,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.185303366427001,
+        10.432953085307384,
+        13.014500371260194
+      ]
+    },
+    {
+      "iteration": 104,
+      "warm": true,
+      "step": 0.001681770165739331,
+      "nsteps": 424,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.018428057364637596,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.7602694990717793,
+        10.561690343559711,
+        12.850960014131905
+      ]
+    },
+    {
+      "iteration": 105,
+      "warm": true,
+      "step": 0.001860945723795183,
+      "nsteps": 534,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.13000710223581535,
+      "probability": 0.8780891945018888,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.1945511916272722,
+        10.277311303429043,
+        13.008685156190582
+      ]
+    },
+    {
+      "iteration": 106,
+      "warm": true,
+      "step": 0.0016557031476526118,
+      "nsteps": 556,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09454562067710981,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.7172682622814585,
+        10.375273220406399,
+        12.848972458337633
+      ]
+    },
+    {
+      "iteration": 107,
+      "warm": true,
+      "step": 0.0018305995697304597,
+      "nsteps": 547,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.046557693762679264,
+      "probability": 0.9545094897373878,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.8008708696023171,
+        10.459981899516649,
+        12.863051976533217
+      ]
+    },
+    {
+      "iteration": 108,
+      "warm": true,
+      "step": 0.0018660078803666496,
+      "nsteps": 335,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09021890697263757,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.2686899067358273,
+        10.129708602756521,
+        12.669696512830791
+      ]
+    },
+    {
+      "iteration": 109,
+      "warm": true,
+      "step": 0.0020603947506896837,
+      "nsteps": 565,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.011619164610756627,
+      "probability": 0.9884480771991793,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.1692576407434419,
+        10.448269088853705,
+        12.709834137745574
+      ]
+    },
+    {
+      "iteration": 110,
+      "warm": true,
+      "step": 0.002227602453158417,
+      "nsteps": 319,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.005074515073751229,
+      "probability": 0.9949383385267447,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.5823263742309099,
+        10.030454782678865,
+        12.826118736909866
+      ]
+    },
+    {
+      "iteration": 111,
+      "warm": true,
+      "step": 0.002434322719203908,
+      "nsteps": 383,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.03139839404284572,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.35030724266711954,
+        10.237353320762814,
+        12.769968104733186
+      ]
+    },
+    {
+      "iteration": 112,
+      "warm": true,
+      "step": 0.0026818863525795308,
+      "nsteps": 206,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.042399590732912884,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.7332289071124234,
+        10.368520628236096,
+        12.871807878295947
+      ]
+    },
+    {
+      "iteration": 113,
+      "warm": true,
+      "step": 0.0029523835328194247,
+      "nsteps": 295,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 249.5431117191533,
+      "probability": 4.215058275913218e-109,
+      "accepted": false,
+      "q13_q23_q24": [
+        0.7332289071124234,
+        10.368520628236096,
+        12.871807878295947
+      ]
+    },
+    {
+      "iteration": 114,
+      "warm": true,
+      "step": 0.000576649587566169,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.00042675510057677,
+      "probability": 0.999573335946429,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.8218320288666691,
+        10.373466656443659,
+        12.939434535295913
+      ]
+    },
+    {
+      "iteration": 115,
+      "warm": true,
+      "step": 0.000637453249595212,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.012686427701002145,
+      "probability": 0.9873937057956834,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.9415680277345382,
+        10.410219616043085,
+        12.96476811631295
+      ]
+    },
+    {
+      "iteration": 116,
+      "warm": true,
+      "step": 0.0006895527818816359,
+      "nsteps": 759,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.01646952081608788,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.7004856638677863,
+        10.362669494159636,
+        12.794539677306927
+      ]
+    },
+    {
+      "iteration": 117,
+      "warm": true,
+      "step": 0.0007616870635184153,
+      "nsteps": 1024,
+      "capped": true,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0038524998979418967,
+      "probability": 0.9961549114593176,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.41465152308239234,
+        9.914086116229122,
+        12.703799599027304
+      ]
+    },
+    {
+      "iteration": 118,
+      "warm": true,
+      "step": 0.0008352341769667641,
+      "nsteps": 931,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.008667823400497099,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.0949870951013796,
+        10.874964166089597,
+        12.99239471413019
+      ]
+    },
+    {
+      "iteration": 119,
+      "warm": true,
+      "step": 0.0009212281191679668,
+      "nsteps": 738,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02202967353602503,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.4436906743335085,
+        9.997392613826023,
+        12.743898794379524
+      ]
+    },
+    {
+      "iteration": 120,
+      "warm": true,
+      "step": 0.0010153220546720342,
+      "nsteps": 460,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0019044129685035216,
+      "probability": 0.9980973992752711,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.8710855906086803,
+        10.46685296860476,
+        12.902610319995095
+      ]
+    },
+    {
+      "iteration": 121,
+      "warm": true,
+      "step": 0.0011146301065107548,
+      "nsteps": 990,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.010815117039559397,
+      "probability": 0.98924315607269,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.5860917762895335,
+        10.41113251177741,
+        12.744563244236225
+      ]
+    },
+    {
+      "iteration": 122,
+      "warm": true,
+      "step": 0.0012047516930611395,
+      "nsteps": 836,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.031595854291207814,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.18779030309996916,
+        10.060975439127255,
+        12.69711496604359
+      ]
+    },
+    {
+      "iteration": 123,
+      "warm": true,
+      "step": 0.0013250428276328787,
+      "nsteps": 460,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.01358247454060546,
+      "probability": 0.9865093510569661,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.4283937197613885,
+        10.13742774251814,
+        12.597996451244288
+      ]
+    },
+    {
+      "iteration": 124,
+      "warm": true,
+      "step": 0.0014239291480901376,
+      "nsteps": 408,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.003210952005275658,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.5332526182205564,
+        9.387243450430129,
+        12.523180495929985
+      ]
+    },
+    {
+      "iteration": 125,
+      "warm": true,
+      "step": 0.0015640607908157,
+      "nsteps": 453,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.03800369080203225,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.4328276391125785,
+        9.26016288866991,
+        12.458718878105708
+      ]
+    },
+    {
+      "iteration": 126,
+      "warm": true,
+      "step": 0.001716821505161229,
+      "nsteps": 433,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.01423726666486047,
+      "probability": 0.985863603941525,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.724794644171789,
+        8.155612912591566,
+        12.316738291171893
+      ]
+    },
+    {
+      "iteration": 127,
+      "warm": true,
+      "step": 0.0018398101138621887,
+      "nsteps": 424,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.06343054767671674,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.40353569037167,
+        8.633771973387626,
+        12.480830068462383
+      ]
+    },
+    {
+      "iteration": 128,
+      "warm": true,
+      "step": 0.0020169939675792124,
+      "nsteps": 460,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04435499895062378,
+      "probability": 0.9566143001149184,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.848836882795793,
+        8.38755125620129,
+        12.260030706859146
+      ]
+    },
+    {
+      "iteration": 129,
+      "warm": true,
+      "step": 0.0020580714310138343,
+      "nsteps": 220,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0030029959317232624,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.6905407940317585,
+        8.432508352070545,
+        12.260825966507621
+      ]
+    },
+    {
+      "iteration": 130,
+      "warm": true,
+      "step": 0.0022539134927522728,
+      "nsteps": 376,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09761732280024304,
+      "probability": 0.9069959240117076,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.2967558707669973,
+        8.638938069525611,
+        12.411256243655538
+      ]
+    },
+    {
+      "iteration": 131,
+      "warm": true,
+      "step": 0.002120071596507645,
+      "nsteps": 523,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.002829932645749267,
+      "probability": 0.9971740678390498,
+      "accepted": true,
+      "q13_q23_q24": [
+        -5.1183359125595365,
+        6.600138811727621,
+        12.478792912944016
+      ]
+    },
+    {
+      "iteration": 132,
+      "warm": true,
+      "step": 0.0023094455442791394,
+      "nsteps": 432,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.038931455957282424,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.409651041509971,
+        8.213288076498216,
+        12.419007038034165
+      ]
+    },
+    {
+      "iteration": 133,
+      "warm": true,
+      "step": 0.00252578465038685,
+      "nsteps": 160,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.08829265388205698,
+      "probability": 0.9154929149596543,
+      "accepted": false,
+      "q13_q23_q24": [
+        -2.409651041509971,
+        8.213288076498216,
+        12.419007038034165
+      ]
+    },
+    {
+      "iteration": 134,
+      "warm": true,
+      "step": 0.0024089319663952156,
+      "nsteps": 317,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.008329887245118073,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.1236298245433938,
+        7.935165404889008,
+        12.48970162520702
+      ]
+    },
+    {
+      "iteration": 135,
+      "warm": true,
+      "step": 0.002632570641707062,
+      "nsteps": 397,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.03141210338271705,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.576921291345085,
+        8.12960508581537,
+        12.35822205226859
+      ]
+    },
+    {
+      "iteration": 136,
+      "warm": true,
+      "step": 0.002875263138272324,
+      "nsteps": 177,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.004290334942432139,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.5184937982098498,
+        8.336505932723671,
+        12.481902451852527
+      ]
+    },
+    {
+      "iteration": 137,
+      "warm": true,
+      "step": 0.003138491299924759,
+      "nsteps": 219,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.011805914229231718,
+      "probability": 0.9882635021330779,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.0847864242279903,
+        8.29268108070896,
+        12.447723716292034
+      ]
+    },
+    {
+      "iteration": 138,
+      "warm": true,
+      "step": 0.003360443947826485,
+      "nsteps": 153,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0704706792518337,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.0231958819474993,
+        8.302727887607315,
+        12.489947896819169
+      ]
+    },
+    {
+      "iteration": 139,
+      "warm": true,
+      "step": 0.0036641041817368713,
+      "nsteps": 304,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.13298265636502293,
+      "probability": 0.8754802759874353,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.5744311007860533,
+        8.284873580369588,
+        12.544755509728422
+      ]
+    },
+    {
+      "iteration": 140,
+      "warm": true,
+      "step": 0.003278799883514297,
+      "nsteps": 308,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0170912653974149,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.576238372165007,
+        7.832363336909847,
+        12.550666735489319
+      ]
+    },
+    {
+      "iteration": 141,
+      "warm": true,
+      "step": 0.0035732809927681275,
+      "nsteps": 247,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.009600656451659972,
+      "probability": 0.9904452827175526,
+      "accepted": false,
+      "q13_q23_q24": [
+        -2.576238372165007,
+        7.832363336909847,
+        12.550666735489319
+      ]
+    },
+    {
+      "iteration": 142,
+      "warm": true,
+      "step": 0.0038340139086083832,
+      "nsteps": 171,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.042440662457437384,
+      "probability": 0.9584473357432393,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.367529788006174,
+        7.202238709658232,
+        12.564902089043919
+      ]
+    },
+    {
+      "iteration": 143,
+      "warm": true,
+      "step": 0.0039107046840047505,
+      "nsteps": 133,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0807913238130844,
+      "probability": 0.9223861513879416,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.3898308987053363,
+        7.358956921962527,
+        12.594283893430484
+      ]
+    },
+    {
+      "iteration": 144,
+      "warm": true,
+      "step": 0.0037697662644975006,
+      "nsteps": 204,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.005258008657669677,
+      "probability": 0.994755790473941,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.3354621909415743,
+        7.547783725140569,
+        12.479262745753525
+      ]
+    },
+    {
+      "iteration": 145,
+      "warm": true,
+      "step": 0.004068585040007108,
+      "nsteps": 211,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.668786975356074,
+      "probability": 0.5123296695255409,
+      "accepted": false,
+      "q13_q23_q24": [
+        -3.3354621909415743,
+        7.547783725140569,
+        12.479262745753525
+      ]
+    },
+    {
+      "iteration": 146,
+      "warm": true,
+      "step": 0.0020741011793003724,
+      "nsteps": 482,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.010108633971210423,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.0566403220366682,
+        8.090980016642574,
+        12.61043401428865
+      ]
+    },
+    {
+      "iteration": 147,
+      "warm": true,
+      "step": 0.0022596851919110847,
+      "nsteps": 397,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.22006597312438103,
+      "probability": 0.8024658550364268,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.445713336687704,
+        7.848016559639169,
+        12.470880749559848
+      ]
+    },
+    {
+      "iteration": 148,
+      "warm": true,
+      "step": 0.0018135702964723881,
+      "nsteps": 250,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.007766208101337213,
+      "probability": 0.992263870975641,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.2966356590106802,
+        8.06058203319947,
+        12.518297959565913
+      ]
+    },
+    {
+      "iteration": 149,
+      "warm": true,
+      "step": 0.0019521351631213621,
+      "nsteps": 333,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.026421712465442226,
+      "probability": 0.9739242869823259,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.9306578057925192,
+        8.017701567202163,
+        12.524993848714516
+      ]
+    },
+    {
+      "iteration": 150,
+      "warm": true,
+      "step": 0.0020420086522995947,
+      "nsteps": 404,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.11334403504580237,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.527405210357491,
+        8.45872761509712,
+        12.447836483270645
+      ]
+    },
+    {
+      "iteration": 151,
+      "warm": true,
+      "step": 0.0022223777800164162,
+      "nsteps": 182,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.05018776767132849,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.8299567063936204,
+        7.824910354793896,
+        12.484442966327327
+      ]
+    },
+    {
+      "iteration": 152,
+      "warm": true,
+      "step": 0.0024174343164140425,
+      "nsteps": 473,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.027825626871972986,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.6534131596556726,
+        8.247986747999914,
+        12.676856842659065
+      ]
+    },
+    {
+      "iteration": 153,
+      "warm": true,
+      "step": 0.0026282755351784656,
+      "nsteps": 261,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04194301504500686,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.614718196714512,
+        7.795231385183818,
+        12.603167454982712
+      ]
+    },
+    {
+      "iteration": 154,
+      "warm": true,
+      "step": 0.0028560735335044674,
+      "nsteps": 280,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.011726599492522638,
+      "probability": 0.9883418891011285,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.262268805805252,
+        8.520329572795683,
+        12.461465690364708
+      ]
+    },
+    {
+      "iteration": 155,
+      "warm": true,
+      "step": 0.0030478295635984094,
+      "nsteps": 225,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.00396873245344409,
+      "probability": 0.9960391325570518,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.0181980574934577,
+        7.848662184094704,
+        12.455308596665569
+      ]
+    },
+    {
+      "iteration": 156,
+      "warm": true,
+      "step": 0.003289182624344268,
+      "nsteps": 259,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.011030613457197802,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.016678826436465184,
+        8.06422019054152,
+        12.413879102365836
+      ]
+    },
+    {
+      "iteration": 157,
+      "warm": true,
+      "step": 0.0035692659142657662,
+      "nsteps": 114,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.054836011497602755,
+      "probability": 0.9466403733626814,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.054563976936615875,
+        8.165877954562962,
+        12.544677453754533
+      ]
+    },
+    {
+      "iteration": 158,
+      "warm": true,
+      "step": 0.0035734552472900614,
+      "nsteps": 120,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0280876034904729,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.6255686169598155,
+        7.908659634032304,
+        12.540841751808642
+      ]
+    },
+    {
+      "iteration": 159,
+      "warm": true,
+      "step": 0.0038749395961344846,
+      "nsteps": 259,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04622023963288768,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.1829020730981816,
+        8.727083474362686,
+        12.507922760446961
+      ]
+    },
+    {
+      "iteration": 160,
+      "warm": true,
+      "step": 0.00419989945924191,
+      "nsteps": 143,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.006272886481831108,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.435518748517618,
+        8.701352883015414,
+        12.58584614699714
+      ]
+    },
+    {
+      "iteration": 161,
+      "warm": true,
+      "step": 0.004550014173741434,
+      "nsteps": 183,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.065037004829545,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.5502092657747177,
+        8.596470912973205,
+        12.544149050238913
+      ]
+    },
+    {
+      "iteration": 162,
+      "warm": true,
+      "step": 0.004927072904223895,
+      "nsteps": 147,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.3550059122916842,
+      "probability": 0.7011692976789097,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.920361338331633,
+        7.977285978644309,
+        12.622664866153663
+      ]
+    },
+    {
+      "iteration": 163,
+      "warm": true,
+      "step": 0.0034268575349353085,
+      "nsteps": 173,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.21477108769666486,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -4.251833013991631,
+        7.4319296559382,
+        12.684105743000899
+      ]
+    },
+    {
+      "iteration": 164,
+      "warm": true,
+      "step": 0.0037119840257613056,
+      "nsteps": 201,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.014041084799249148,
+      "probability": 0.9860570314754513,
+      "accepted": true,
+      "q13_q23_q24": [
+        -4.561738780293966,
+        6.930399836154701,
+        12.584040026030978
+      ]
+    },
+    {
+      "iteration": 165,
+      "warm": true,
+      "step": 0.0039373873262839795,
+      "nsteps": 137,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.49028899726889463,
+      "probability": 0.6124493724102807,
+      "accepted": true,
+      "q13_q23_q24": [
+        -4.244297239670763,
+        6.917137897873161,
+        12.469715838161319
+      ]
+    },
+    {
+      "iteration": 166,
+      "warm": true,
+      "step": 0.002412515312387914,
+      "nsteps": 353,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.06631670615055896,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -6.097609209665327,
+        7.038314161092447,
+        12.59515226934738
+      ]
+    },
+    {
+      "iteration": 167,
+      "warm": true,
+      "step": 0.0026138916629902123,
+      "nsteps": 302,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.004411413739333625,
+      "probability": 0.9955983022539168,
+      "accepted": true,
+      "q13_q23_q24": [
+        -5.677361171281965,
+        6.621471519623747,
+        12.583682028148504
+      ]
+    },
+    {
+      "iteration": 168,
+      "warm": true,
+      "step": 0.0028126819183398617,
+      "nsteps": 318,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.10413467356999462,
+      "probability": 0.901103934365413,
+      "accepted": true,
+      "q13_q23_q24": [
+        -8.262276650415819,
+        5.130139514881519,
+        12.566499071746273
+      ]
+    },
+    {
+      "iteration": 169,
+      "warm": true,
+      "step": 0.0026364015893689066,
+      "nsteps": 189,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.07566963231115054,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -7.594613201904684,
+        5.4992563376623265,
+        12.57806557859452
+      ]
+    },
+    {
+      "iteration": 170,
+      "warm": true,
+      "step": 0.002853833591515411,
+      "nsteps": 211,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.21935987684758018,
+      "probability": 0.8030326732795033,
+      "accepted": true,
+      "q13_q23_q24": [
+        -6.977108448915831,
+        6.334354487257738,
+        12.540647749453028
+      ]
+    },
+    {
+      "iteration": 171,
+      "warm": true,
+      "step": 0.002321307584542764,
+      "nsteps": 393,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04316588271025523,
+      "probability": 0.9577525023081923,
+      "accepted": true,
+      "q13_q23_q24": [
+        -5.278709434821722,
+        6.957519394020119,
+        12.7382169029033
+      ]
+    },
+    {
+      "iteration": 172,
+      "warm": true,
+      "step": 0.002363676212859375,
+      "nsteps": 462,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.014843674111201466,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -4.215244134752643,
+        7.871745952365919,
+        12.455639250308497
+      ]
+    },
+    {
+      "iteration": 173,
+      "warm": true,
+      "step": 0.0025576304248817274,
+      "nsteps": 464,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02807780943895466,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.4464147361212731,
+        8.154292776005057,
+        12.591304427779017
+      ]
+    },
+    {
+      "iteration": 174,
+      "warm": true,
+      "step": 0.0027663271013464055,
+      "nsteps": 178,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0018813694112154167,
+      "probability": 0.9981203992548701,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.27924911036211925,
+        7.924370116669142,
+        12.398712628622208
+      ]
+    },
+    {
+      "iteration": 175,
+      "warm": true,
+      "step": 0.002982750620611588,
+      "nsteps": 197,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.036960043502364925,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.39381672409536794,
+        8.595696973408563,
+        12.545201901139164
+      ]
+    },
+    {
+      "iteration": 176,
+      "warm": true,
+      "step": 0.003223472229022813,
+      "nsteps": 172,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.01586669267811658,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.1073961998546147,
+        8.527787398109089,
+        12.58571050072603
+      ]
+    },
+    {
+      "iteration": 177,
+      "warm": true,
+      "step": 0.0034821955005176555,
+      "nsteps": 323,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02111756145838939,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.2220030202374084,
+        8.13537197636218,
+        12.44693291292567
+      ]
+    },
+    {
+      "iteration": 178,
+      "warm": true,
+      "step": 0.0037601626430934774,
+      "nsteps": 202,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.012416261826878383,
+      "probability": 0.9876605019172949,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.341233620310276,
+        8.648217872765152,
+        12.527248382442593
+      ]
+    },
+    {
+      "iteration": 179,
+      "warm": true,
+      "step": 0.0039882304164724,
+      "nsteps": 243,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0023428954993391926,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.497328811404176,
+        8.02765005887238,
+        12.422235136477884
+      ]
+    },
+    {
+      "iteration": 180,
+      "warm": true,
+      "step": 0.004303355643127146,
+      "nsteps": 181,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.05027942617556391,
+      "probability": 0.9509636632325985,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.9642555912011217,
+        8.51170025894041,
+        12.414233816392334
+      ]
+    },
+    {
+      "iteration": 181,
+      "warm": true,
+      "step": 0.004331004304715871,
+      "nsteps": 176,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0038692417751065022,
+      "probability": 0.9961382340957585,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.1285897124340445,
+        8.216676173827816,
+        12.419909917466022
+      ]
+    },
+    {
+      "iteration": 182,
+      "warm": true,
+      "step": 0.0046450389014989985,
+      "nsteps": 245,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1750312739682549,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.9985622073980874,
+        7.8803733520893315,
+        12.448096212577319
+      ]
+    },
+    {
+      "iteration": 183,
+      "warm": true,
+      "step": 0.005007164515578201,
+      "nsteps": 181,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 1.8838847960865976,
+      "probability": 0.15199847423914575,
+      "accepted": false,
+      "q13_q23_q24": [
+        -0.9985622073980874,
+        7.8803733520893315,
+        12.448096212577319
+      ]
+    },
+    {
+      "iteration": 184,
+      "warm": true,
+      "step": 0.001643450815508291,
+      "nsteps": 326,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04556053618025402,
+      "probability": 0.9554617608158341,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.6135406378868087,
+        8.630689384017693,
+        12.443966461825374
+      ]
+    },
+    {
+      "iteration": 185,
+      "warm": true,
+      "step": 0.0016681755817057227,
+      "nsteps": 487,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0067743928403913856,
+      "probability": 0.9932485016309001,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.2771871023124417,
+        7.988400508440182,
+        12.460059979498748
+      ]
+    },
+    {
+      "iteration": 186,
+      "warm": true,
+      "step": 0.0017847641779918414,
+      "nsteps": 648,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.014284808660491422,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.8507462374855759,
+        8.778669998772358,
+        12.416834499004636
+      ]
+    },
+    {
+      "iteration": 187,
+      "warm": true,
+      "step": 0.0019268643546416298,
+      "nsteps": 308,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.019659786961145898,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.542526554087895,
+        7.73991052110081,
+        12.346430454754637
+      ]
+    },
+    {
+      "iteration": 188,
+      "warm": true,
+      "step": 0.0020794771752519875,
+      "nsteps": 240,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.003554123314536639,
+      "probability": 0.9964521851058832,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.9337838005389276,
+        7.608136828526966,
+        12.461169143894349
+      ]
+    },
+    {
+      "iteration": 189,
+      "warm": true,
+      "step": 0.0022323265870384046,
+      "nsteps": 298,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.08056774011998513,
+      "probability": 0.9225924049467394,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.993448770756909,
+        8.322998334538134,
+        12.353140431774104
+      ]
+    },
+    {
+      "iteration": 190,
+      "warm": true,
+      "step": 0.0021631555805113095,
+      "nsteps": 234,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04372679741046781,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.5126846012006545,
+        8.30058101085496,
+        12.324572725469437
+      ]
+    },
+    {
+      "iteration": 191,
+      "warm": true,
+      "step": 0.0023324637259140293,
+      "nsteps": 405,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1240069189235129,
+      "probability": 0.8833737288663432,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.5652101108425813,
+        8.23940896983348,
+        12.426189313698567
+      ]
+    },
+    {
+      "iteration": 192,
+      "warm": true,
+      "step": 0.00214155588094319,
+      "nsteps": 247,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.14629520445489064,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.06046728152936992,
+        8.465709160952837,
+        12.388914882940467
+      ]
+    },
+    {
+      "iteration": 193,
+      "warm": true,
+      "step": 0.0023083406498463845,
+      "nsteps": 301,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1872947536225027,
+      "probability": 0.829199290866813,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.0839051190424158,
+        8.146753440026407,
+        12.250507514268577
+      ]
+    },
+    {
+      "iteration": 194,
+      "warm": true,
+      "step": 0.0019687178581350587,
+      "nsteps": 230,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04454972475692287,
+      "probability": 0.9564280407593514,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.26613939641479717,
+        8.618182778253392,
+        12.282660180065447
+      ]
+    },
+    {
+      "iteration": 195,
+      "warm": true,
+      "step": 0.0019990999179600984,
+      "nsteps": 349,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1334561644107488,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.4445057182685144,
+        8.112215334293886,
+        12.275250293788764
+      ]
+    },
+    {
+      "iteration": 196,
+      "warm": true,
+      "step": 0.0021539138153309875,
+      "nsteps": 293,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09776973306593462,
+      "probability": 0.9068576990556665,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.6671656271632243,
+        7.4504657705309345,
+        12.241285907087759
+      ]
+    },
+    {
+      "iteration": 197,
+      "warm": true,
+      "step": 0.002044015299355684,
+      "nsteps": 402,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.11752961391637484,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.168816618827669,
+        8.110533437070245,
+        12.034826134966908
+      ]
+    },
+    {
+      "iteration": 198,
+      "warm": true,
+      "step": 0.002201375801626078,
+      "nsteps": 455,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.05494408261057515,
+      "probability": 0.9465380744118277,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.7900928097706492,
+        7.910989402295756,
+        11.854259217767282
+      ]
+    },
+    {
+      "iteration": 199,
+      "warm": true,
+      "step": 0.0022046336725725277,
+      "nsteps": 419,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.027484642228518652,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.3532995249415836,
+        8.643276240194911,
+        11.988725865934294
+      ]
+    },
+    {
+      "iteration": 200,
+      "warm": true,
+      "step": 0.0023730814353918207,
+      "nsteps": 502,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.11847344061154175,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.4187620494193625,
+        8.751276714061174,
+        12.374618798581098
+      ]
+    },
+    {
+      "iteration": 201,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 478,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.13696710012197855,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.160750215436547,
+        7.320591560041184,
+        12.237187670113448
+      ]
+    },
+    {
+      "iteration": 202,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 263,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02596382837611344,
+      "probability": 0.9743703335285612,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.202024933308779,
+        8.217427446458318,
+        12.312646681936911
+      ]
+    },
+    {
+      "iteration": 203,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 361,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02729116315595803,
+      "probability": 0.9730778758481915,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.15505961665982,
+        7.934985849519088,
+        12.353621154017356
+      ]
+    },
+    {
+      "iteration": 204,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 415,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02239756612963717,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.235646018909409,
+        7.852032472429895,
+        12.2962788545473
+      ]
+    },
+    {
+      "iteration": 205,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 224,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.12327832100677583,
+      "probability": 0.8840175876534981,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.9690981044121452,
+        8.537022847935752,
+        12.310964681349255
+      ]
+    },
+    {
+      "iteration": 206,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 256,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.004024575438769773,
+      "probability": 0.9959835123114033,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.873877680653983,
+        7.9418325345217955,
+        12.357078106870206
+      ]
+    },
+    {
+      "iteration": 207,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 374,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04360029992871617,
+      "probability": 0.957336528489802,
+      "accepted": true,
+      "q13_q23_q24": [
+        -4.350618127067696,
+        7.222137718350383,
+        12.49706159794783
+      ]
+    },
+    {
+      "iteration": 208,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 188,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04529285382372095,
+      "probability": 0.955717555305855,
+      "accepted": true,
+      "q13_q23_q24": [
+        -5.14387855437123,
+        6.623846800352122,
+        12.44585534694737
+      ]
+    },
+    {
+      "iteration": 209,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 457,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02251591283486576,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.1661299990610723,
+        8.165637550975406,
+        12.47843685362071
+      ]
+    },
+    {
+      "iteration": 210,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 304,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.03531648031250967,
+      "probability": 0.9652998695059842,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.574067163609271,
+        7.578672058146095,
+        12.443842305059585
+      ]
+    },
+    {
+      "iteration": 211,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 174,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.01606784585967702,
+      "probability": 0.9840605533561719,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.9194199349884589,
+        7.996899769464941,
+        12.484371861931338
+      ]
+    },
+    {
+      "iteration": 212,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 422,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.20412472189635977,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.0258066362521958,
+        8.16158999021546,
+        12.461275500236512
+      ]
+    },
+    {
+      "iteration": 213,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 378,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.08405396612226923,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.6798977608329707,
+        8.772268926551758,
+        12.589879179491762
+      ]
+    },
+    {
+      "iteration": 214,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 194,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0050434255988527354,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.9097713630633552,
+        8.282884547292984,
+        12.490863244598861
+      ]
+    },
+    {
+      "iteration": 215,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 482,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.00040520912768826634,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.5029778937296858,
+        8.096530243147953,
+        12.444881449595169
+      ]
+    },
+    {
+      "iteration": 216,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 298,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02572588159275213,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.4493899811025597,
+        8.292719343025253,
+        12.436450878864273
+      ]
+    },
+    {
+      "iteration": 217,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 409,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.14157160405797953,
+      "probability": 0.8679930215370373,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.7271451412029015,
+        8.831392002070016,
+        12.479434689335143
+      ]
+    },
+    {
+      "iteration": 218,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 339,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.11326773788877276,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.0480527694585113,
+        8.195625622166203,
+        12.440624556984238
+      ]
+    },
+    {
+      "iteration": 219,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 511,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.005569207331866721,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.3612186520808787,
+        7.934500793433283,
+        12.41357091765189
+      ]
+    },
+    {
+      "iteration": 220,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 461,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.05753550179261424,
+      "probability": 0.944088372961835,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.490046322298498,
+        8.479958672124603,
+        12.4812866263719
+      ]
+    },
+    {
+      "iteration": 221,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 463,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.016722800438309093,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.0871202959932007,
+        8.089159502114017,
+        12.4612507424447
+      ]
+    },
+    {
+      "iteration": 222,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 501,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.018177027217554098,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.2352322541332635,
+        8.199177356062698,
+        12.527681647965812
+      ]
+    },
+    {
+      "iteration": 223,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 328,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.014848237328873637,
+      "probability": 0.9852614541674531,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.7699766584899976,
+        8.255458416743513,
+        12.41970671794101
+      ]
+    },
+    {
+      "iteration": 224,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 330,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.10530737162994086,
+      "probability": 0.9000478308960489,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.7316353575041568,
+        7.885264140522511,
+        12.633411477516688
+      ]
+    },
+    {
+      "iteration": 225,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 483,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.27861244287123554,
+      "probability": 0.7568331624714202,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.9902626702841728,
+        8.760099940823228,
+        12.63363764562809
+      ]
+    },
+    {
+      "iteration": 226,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 464,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.195586636647878,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.3799343864425933,
+        7.88684281244957,
+        12.606106541646843
+      ]
+    },
+    {
+      "iteration": 227,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 433,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.05906477105792973,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.6588332314278995,
+        8.286586238073406,
+        12.508742226016716
+      ]
+    },
+    {
+      "iteration": 228,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 450,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.06153478162512371,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.4246406973962116,
+        7.577943298576335,
+        12.487893343885819
+      ]
+    },
+    {
+      "iteration": 229,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 378,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1115073007038383,
+      "probability": 0.8944848610103716,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.7977920060713655,
+        7.734998516139646,
+        12.477503019692278
+      ]
+    },
+    {
+      "iteration": 230,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 245,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0044479215365527125,
+      "probability": 0.9955619558164547,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.8010120214504086,
+        7.73602741642749,
+        12.395031902375383
+      ]
+    },
+    {
+      "iteration": 231,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 371,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.06989049605111575,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.1149127857969128,
+        8.666026571382066,
+        12.424468107095235
+      ]
+    },
+    {
+      "iteration": 232,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 320,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.022193774018656853,
+      "probability": 0.9780506958741294,
+      "accepted": false,
+      "q13_q23_q24": [
+        -1.1149127857969128,
+        8.666026571382066,
+        12.424468107095235
+      ]
+    },
+    {
+      "iteration": 233,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 514,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0029285575005637554,
+      "probability": 0.9970757265409123,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.2624756082987837,
+        8.880822486637598,
+        12.522436421466407
+      ]
+    },
+    {
+      "iteration": 234,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 314,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.033856513326149695,
+      "probability": 0.9667102047183143,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.17989607716820305,
+        8.194365382795521,
+        12.462329856953277
+      ]
+    },
+    {
+      "iteration": 235,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 260,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0006913265000783042,
+      "probability": 0.9993089124110281,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.44243276956408545,
+        8.430358352683866,
+        12.45312613830864
+      ]
+    },
+    {
+      "iteration": 236,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 291,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.034754274623150394,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.4284304083997503,
+        8.124235200311944,
+        12.479576439169774
+      ]
+    },
+    {
+      "iteration": 237,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 233,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.028214930585555464,
+      "probability": 0.9721793932583904,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.6699582143895494,
+        8.525913449045976,
+        12.44776538189521
+      ]
+    },
+    {
+      "iteration": 238,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 498,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.2171999074634101,
+      "probability": 0.804769073879249,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.173967488584192,
+        8.040015429444525,
+        12.401434490768649
+      ]
+    },
+    {
+      "iteration": 239,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 307,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.05896558729379464,
+      "probability": 0.9427392108063838,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.1359646576475135,
+        8.16907192716956,
+        12.429988877215548
+      ]
+    },
+    {
+      "iteration": 240,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 353,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.05320996097423958,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.11840593911629847,
+        8.368574847563599,
+        12.506559841319985
+      ]
+    },
+    {
+      "iteration": 241,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 459,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09567156586911807,
+      "probability": 0.9087624356611684,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.9235628006913651,
+        8.515815926605736,
+        12.4338290461082
+      ]
+    },
+    {
+      "iteration": 242,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 421,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.2926060540103599,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.6573685180704214,
+        8.159935478322334,
+        12.387418003048637
+      ]
+    },
+    {
+      "iteration": 243,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 316,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.007141517401283437,
+      "probability": 0.9928839226379282,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.91994022971375,
+        8.19998975424947,
+        12.443315321122908
+      ]
+    },
+    {
+      "iteration": 244,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 495,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.008767790606555081,
+      "probability": 0.9912705343792306,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.9750170338214,
+        8.428840434471478,
+        12.399453064596234
+      ]
+    },
+    {
+      "iteration": 245,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 268,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.016928482336680872,
+      "probability": 0.9832139992882816,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.0750165522650315,
+        10.115991685403968,
+        12.633681372218716
+      ]
+    },
+    {
+      "iteration": 246,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 473,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.19881334684036744,
+      "probability": 0.8197028791871951,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.655755526584222,
+        10.026571000094,
+        12.826320747395787
+      ]
+    },
+    {
+      "iteration": 247,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 516,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.06130628246773284,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.1527501889178755,
+        10.261930599094564,
+        12.777333383467994
+      ]
+    },
+    {
+      "iteration": 248,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 373,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.20765322444188428,
+      "probability": 0.812488739101329,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.019138057217224877,
+        10.295221245005791,
+        12.788888783479052
+      ]
+    },
+    {
+      "iteration": 249,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 338,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.4338717533548042,
+      "probability": 0.6479953533868975,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.209076170421242,
+        9.281169483127043,
+        12.636507586037734
+      ]
+    },
+    {
+      "iteration": 250,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 390,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.43026142070074513,
+      "probability": 0.6503390604061464,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.4729143092932258,
+        9.060144984635592,
+        12.591326892330084
+      ]
+    },
+    {
+      "iteration": 251,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 216,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.38863619819631623,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.4818442424605187,
+        8.824082294968242,
+        12.679052482239214
+      ]
+    },
+    {
+      "iteration": 252,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 209,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.8328950273808964,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.570266297727424,
+        8.412653407910105,
+        12.671250873610802
+      ]
+    },
+    {
+      "iteration": 253,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 334,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.8575730731705846,
+      "probability": 0.4241903129440764,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.9980167075193553,
+        7.8278939019012395,
+        12.497942358805377
+      ]
+    },
+    {
+      "iteration": 254,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 392,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1878023615463391,
+      "probability": 0.8287784895464072,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.915678062367245,
+        7.689885388018059,
+        12.520277163235189
+      ]
+    },
+    {
+      "iteration": 255,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 468,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1940859516096154,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.056528559528076,
+        8.186235829622225,
+        12.485708014709482
+      ]
+    },
+    {
+      "iteration": 256,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 403,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.35505938499711576,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.9712633778480216,
+        7.914606618453267,
+        12.545879993262442
+      ]
+    },
+    {
+      "iteration": 257,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 246,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0014032336139138124,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.5514383488827934,
+        7.977251935408512,
+        12.50586715155326
+      ]
+    },
+    {
+      "iteration": 258,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 356,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.014751154375151287,
+      "probability": 0.9853571109028566,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.30043371056510354,
+        8.149094219847457,
+        12.552884823663382
+      ]
+    },
+    {
+      "iteration": 259,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 269,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0688073342267721,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.4550569972683724,
+        8.177709244362273,
+        12.571038701715478
+      ]
+    },
+    {
+      "iteration": 260,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 268,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.01841223024922911,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.6873677986925991,
+        8.122126893469122,
+        12.576601348324964
+      ]
+    },
+    {
+      "iteration": 261,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 494,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0427464151832595,
+      "probability": 0.9581543326533082,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.655513524258009,
+        7.712248160157591,
+        12.659828846707269
+      ]
+    },
+    {
+      "iteration": 262,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 209,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.005229646372530539,
+      "probability": 0.9947840044214183,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.185215763340325,
+        8.217390832927329,
+        12.652004710348791
+      ]
+    },
+    {
+      "iteration": 263,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 484,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.026336889621166648,
+      "probability": 0.974006901514207,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.5950014093858504,
+        8.308264336591282,
+        12.767299304133932
+      ]
+    },
+    {
+      "iteration": 264,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 402,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.11360060335846711,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.794828350872598,
+        8.188688728676036,
+        12.539130409941777
+      ]
+    },
+    {
+      "iteration": 265,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 233,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.018840119631910568,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.46747419519878797,
+        8.185542952140583,
+        12.562470067346542
+      ]
+    },
+    {
+      "iteration": 266,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 350,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.01476333632118454,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.37389407421573917,
+        8.101996029099825,
+        12.584135993246264
+      ]
+    },
+    {
+      "iteration": 267,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 383,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09534682805715988,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.6747481870839659,
+        8.15071135348786,
+        12.526568305675143
+      ]
+    },
+    {
+      "iteration": 268,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 373,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.009533308162282594,
+      "probability": 0.990511989759343,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.6532396109834446,
+        8.098201538442368,
+        12.552789825887162
+      ]
+    },
+    {
+      "iteration": 269,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 472,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.17004745468813098,
+      "probability": 0.8436247816955544,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.7837028014325267,
+        8.087780096012775,
+        12.533208479307692
+      ]
+    },
+    {
+      "iteration": 270,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 360,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.03281441794227291,
+      "probability": 0.9677181340482343,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.7838770646491883,
+        8.064339702860233,
+        12.502984421886739
+      ]
+    },
+    {
+      "iteration": 271,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 421,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.13550893164368816,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.728900106435933,
+        8.109338533747408,
+        12.501224716446252
+      ]
+    },
+    {
+      "iteration": 272,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 512,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.03358452789262145,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.091830573411315,
+        8.199093643966734,
+        12.485302291122148
+      ]
+    },
+    {
+      "iteration": 273,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 274,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.01854701687769733,
+      "probability": 0.9816239206149717,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.33456248563666635,
+        7.84886288461101,
+        12.644383324885275
+      ]
+    },
+    {
+      "iteration": 274,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 216,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.05447275871989987,
+      "probability": 0.9469843055711742,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.02186589687718466,
+        8.682503814095721,
+        12.717934297768647
+      ]
+    },
+    {
+      "iteration": 275,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 281,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.3838641446453188,
+      "probability": 0.6812239688171673,
+      "accepted": false,
+      "q13_q23_q24": [
+        0.02186589687718466,
+        8.682503814095721,
+        12.717934297768647
+      ]
+    },
+    {
+      "iteration": 276,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 263,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09427426342290701,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.9949176884361766,
+        7.656008021758581,
+        12.61950120913878
+      ]
+    },
+    {
+      "iteration": 277,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 483,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.008781499612826593,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.8858980711046626,
+        8.224507350398053,
+        12.506029361232851
+      ]
+    },
+    {
+      "iteration": 278,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 245,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0015780192180088193,
+      "probability": 0.9984232251996596,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.6744180353229172,
+        8.812130853826432,
+        12.553113556877033
+      ]
+    },
+    {
+      "iteration": 279,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 428,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.03620940549759055,
+      "probability": 0.964438313651052,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.7175682205594338,
+        8.002291323931482,
+        12.639660309895431
+      ]
+    },
+    {
+      "iteration": 280,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 375,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.24925905229831358,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.7056830125195988,
+        7.661361622853865,
+        12.637403123639178
+      ]
+    },
+    {
+      "iteration": 281,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 476,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.021744216853150533,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.026383961327375,
+        7.88292599355141,
+        12.620096022539485
+      ]
+    },
+    {
+      "iteration": 282,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 486,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.18095860095754546,
+      "probability": 0.834469904235701,
+      "accepted": false,
+      "q13_q23_q24": [
+        -3.026383961327375,
+        7.88292599355141,
+        12.620096022539485
+      ]
+    },
+    {
+      "iteration": 283,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 286,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.033861719814098024,
+      "probability": 0.9667051715663864,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.1699354958917185,
+        8.549730800104404,
+        12.683894137451157
+      ]
+    },
+    {
+      "iteration": 284,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 191,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.07343907690884421,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.26133940930956,
+        7.953928798165822,
+        12.665519863902626
+      ]
+    },
+    {
+      "iteration": 285,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 286,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.025218336181584533,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.4170088654385133,
+        8.145407097823531,
+        12.608846938848298
+      ]
+    },
+    {
+      "iteration": 286,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 402,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.32381522743847313,
+      "probability": 0.7233838915267192,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.5933652067150916,
+        8.204305852428508,
+        12.644181803259276
+      ]
+    },
+    {
+      "iteration": 287,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 416,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.07769631832213619,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.5877392787717184,
+        8.248332040125874,
+        12.56534237129186
+      ]
+    },
+    {
+      "iteration": 288,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 293,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.08248171369488588,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -4.054315552702873,
+        7.244999008049067,
+        12.561815898332107
+      ]
+    },
+    {
+      "iteration": 289,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 502,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.013087081527853428,
+      "probability": 0.986998181968206,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.2886942918506201,
+        8.569231640456737,
+        12.50412218616389
+      ]
+    },
+    {
+      "iteration": 290,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 259,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0013336361420925869,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.6978488840328674,
+        8.807791221625251,
+        12.482330434514347
+      ]
+    },
+    {
+      "iteration": 291,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 429,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.00019111588158082782,
+      "probability": 0.9998089023798958,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.7979246386358608,
+        9.515983353447757,
+        12.677259780513838
+      ]
+    },
+    {
+      "iteration": 292,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 437,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.025834454539999996,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.3126291317927291,
+        10.334355483428968,
+        12.71357589000894
+      ]
+    },
+    {
+      "iteration": 293,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 394,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.11128169628813112,
+      "probability": 0.8946866835099663,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.6726587656245181,
+        10.272048889210987,
+        12.894650114710494
+      ]
+    },
+    {
+      "iteration": 294,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 497,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1499354072910748,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.9098768214339322,
+        10.504078133240752,
+        12.947794985005407
+      ]
+    },
+    {
+      "iteration": 295,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 246,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.16707445706970603,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.0320385496190099,
+        10.529858856088444,
+        13.016443065020127
+      ]
+    },
+    {
+      "iteration": 296,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 494,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.08965046295784873,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.252036980950137,
+        10.55141282001346,
+        13.082740694056492
+      ]
+    },
+    {
+      "iteration": 297,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 433,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04326842861387448,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.3677716325926537,
+        10.542641001854957,
+        13.156655876116895
+      ]
+    },
+    {
+      "iteration": 298,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 436,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.45676524170747257,
+      "probability": 0.6333290018473655,
+      "accepted": false,
+      "q13_q23_q24": [
+        1.3677716325926537,
+        10.542641001854957,
+        13.156655876116895
+      ]
+    },
+    {
+      "iteration": 299,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 209,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.9502005672363438,
+      "probability": 0.3866634636544835,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.427500754142444,
+        10.834351250927462,
+        13.212132500376509
+      ]
+    },
+    {
+      "iteration": 300,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 415,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.4838001148213671,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.4138212111891895,
+        10.753405352421519,
+        13.18141607605849
+      ]
+    },
+    {
+      "iteration": 301,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 460,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.009751737104974012,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.0826383439434695,
+        10.642067257601031,
+        13.083964067005924
+      ]
+    },
+    {
+      "iteration": 302,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 178,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.36757894656915013,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.3453914432232956,
+        10.597970325793499,
+        13.114031195582925
+      ]
+    },
+    {
+      "iteration": 303,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 234,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04733914683521334,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.022762563483216,
+        10.36465879207272,
+        12.963439463463775
+      ]
+    },
+    {
+      "iteration": 304,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 297,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1299347861995166,
+      "probability": 0.878152696728039,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.8106837675601216,
+        10.420777579303468,
+        12.888756280367073
+      ]
+    },
+    {
+      "iteration": 305,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 257,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04230951491478052,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.8948542459121542,
+        10.315801566472533,
+        12.904839957828733
+      ]
+    },
+    {
+      "iteration": 306,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 332,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1501704991072046,
+      "probability": 0.8605612389931695,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.8730619999795156,
+        10.522644892612057,
+        12.909782765258967
+      ]
+    },
+    {
+      "iteration": 307,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 295,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04262724123339723,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.7264271214011577,
+        10.39710487111111,
+        12.87035758356103
+      ]
+    },
+    {
+      "iteration": 308,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 462,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.7077884912659975,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.103794431857707,
+        10.569687534935188,
+        12.989231471933843
+      ]
+    },
+    {
+      "iteration": 309,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 335,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.12851655059579414,
+      "probability": 0.8793990077204532,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.5575387577970214,
+        10.58609449822999,
+        13.194534486483562
+      ]
+    },
+    {
+      "iteration": 310,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 466,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 1.6642475854727117,
+      "probability": 0.18933306134793734,
+      "accepted": false,
+      "q13_q23_q24": [
+        1.5575387577970214,
+        10.58609449822999,
+        13.194534486483562
+      ]
+    },
+    {
+      "iteration": 311,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 501,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 1.0511224112296276,
+      "probability": 0.349545195396443,
+      "accepted": false,
+      "q13_q23_q24": [
+        1.5575387577970214,
+        10.58609449822999,
+        13.194534486483562
+      ]
+    },
+    {
+      "iteration": 312,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 310,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 1.3233454415337356,
+      "probability": 0.2662431096522541,
+      "accepted": false,
+      "q13_q23_q24": [
+        1.5575387577970214,
+        10.58609449822999,
+        13.194534486483562
+      ]
+    },
+    {
+      "iteration": 313,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 509,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.11186803382400612,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.1679377861854725,
+        10.444746439132214,
+        13.072313383774114
+      ]
+    },
+    {
+      "iteration": 314,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 319,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09098564018587041,
+      "probability": 0.9130308217580259,
+      "accepted": false,
+      "q13_q23_q24": [
+        1.1679377861854725,
+        10.444746439132214,
+        13.072313383774114
+      ]
+    },
+    {
+      "iteration": 315,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 261,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 1.017656219748531,
+      "probability": 0.3614410866760222,
+      "accepted": false,
+      "q13_q23_q24": [
+        1.1679377861854725,
+        10.444746439132214,
+        13.072313383774114
+      ]
+    },
+    {
+      "iteration": 316,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 326,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.002815484309049765,
+      "probability": 0.9971884754498127,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.9667528063574645,
+        10.784395839316621,
+        12.985328093838469
+      ]
+    },
+    {
+      "iteration": 317,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 440,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.007940385941971329,
+      "probability": 0.9920910556479924,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.46833391416628345,
+        10.429300878812683,
+        12.793587966472852
+      ]
+    },
+    {
+      "iteration": 318,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 196,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0449813076671397,
+      "probability": 0.9560153518232594,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.3265244352320029,
+        9.994244640536627,
+        12.767677845947402
+      ]
+    },
+    {
+      "iteration": 319,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 289,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.017128792682225225,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.027649433070296464,
+        10.298230767083703,
+        12.635959696946653
+      ]
+    },
+    {
+      "iteration": 320,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 378,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0770962795275949,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.02281723113526493,
+        10.117279567989273,
+        12.688248222304617
+      ]
+    },
+    {
+      "iteration": 321,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 228,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.01713607435550557,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.24891075045678532,
+        9.896648601912945,
+        12.731681598839545
+      ]
+    },
+    {
+      "iteration": 322,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 200,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02110576822821031,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.9125303019976231,
+        10.664123861614632,
+        12.927119507761493
+      ]
+    },
+    {
+      "iteration": 323,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 440,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.3043145229218105,
+      "probability": 0.7376288287874803,
+      "accepted": false,
+      "q13_q23_q24": [
+        0.9125303019976231,
+        10.664123861614632,
+        12.927119507761493
+      ]
+    },
+    {
+      "iteration": 324,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 314,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.03105621948952475,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.9369334731337937,
+        10.394884651837938,
+        12.91481753733421
+      ]
+    },
+    {
+      "iteration": 325,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 416,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.17708631404625663,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.3600794427325742,
+        10.822100954607679,
+        13.116152833566519
+      ]
+    },
+    {
+      "iteration": 326,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 360,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.6810600618023166,
+      "probability": 0.5060802315936386,
+      "accepted": false,
+      "q13_q23_q24": [
+        1.3600794427325742,
+        10.822100954607679,
+        13.116152833566519
+      ]
+    },
+    {
+      "iteration": 327,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 184,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.007090098792971844,
+      "probability": 0.9929349766599974,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.1717180392808226,
+        10.586697700133955,
+        13.03443633489509
+      ]
+    },
+    {
+      "iteration": 328,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 236,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.15508232921781584,
+      "probability": 0.8563446723942799,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.1701905939063644,
+        10.615178385616835,
+        13.026613032659995
+      ]
+    },
+    {
+      "iteration": 329,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 462,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.06863536519369973,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.1383468109707098,
+        10.641495524084036,
+        12.980229352572868
+      ]
+    },
+    {
+      "iteration": 330,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 377,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.7249234877829345,
+      "probability": 0.48436162711959563,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.7157798460517681,
+        10.226069287506167,
+        12.83700683163538
+      ]
+    },
+    {
+      "iteration": 331,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 228,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09561794228003606,
+      "probability": 0.9088111680711831,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.9841393191745272,
+        10.71700374719973,
+        12.935793316572319
+      ]
+    },
+    {
+      "iteration": 332,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 327,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.3617978607098138,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.6768899527217195,
+        9.925773195632694,
+        12.765747935399348
+      ]
+    },
+    {
+      "iteration": 333,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 487,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.13153560870885528,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.2747628815361687,
+        10.55618992531928,
+        13.056947476977639
+      ]
+    },
+    {
+      "iteration": 334,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 290,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.046215640216832554,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.9464833399405793,
+        10.235301011108334,
+        12.908067923806838
+      ]
+    },
+    {
+      "iteration": 335,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 452,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.2421149227867403,
+      "probability": 0.7849659618921744,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.4349774165424974,
+        10.242080802500949,
+        12.580591305477748
+      ]
+    },
+    {
+      "iteration": 336,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 414,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1516870254044278,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.5797204559031579,
+        10.122109868910401,
+        12.783683051578409
+      ]
+    },
+    {
+      "iteration": 337,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 214,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0829585862192701,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.5164201060937065,
+        10.283528691243808,
+        12.793996508077923
+      ]
+    },
+    {
+      "iteration": 338,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 245,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0043483747922401506,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.890992611926037,
+        9.805593674677317,
+        12.847414325830252
+      ]
+    },
+    {
+      "iteration": 339,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 447,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.042258101056471986,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.9726411309760534,
+        10.514340932071491,
+        12.9357595459281
+      ]
+    },
+    {
+      "iteration": 340,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 398,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.07434336363581195,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.8130467819437821,
+        10.55785725407475,
+        12.856622117996885
+      ]
+    },
+    {
+      "iteration": 341,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 400,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.009860221690477289,
+      "probability": 0.9901882309135083,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.6948457701692236,
+        10.206002930389912,
+        12.819146895678156
+      ]
+    },
+    {
+      "iteration": 342,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 399,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.019608783682869557,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.6693292178151916,
+        10.720779497081487,
+        12.863575106039175
+      ]
+    },
+    {
+      "iteration": 343,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 258,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0015639048238931252,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        1.1636699206405212,
+        10.351857009016632,
+        12.98540538721827
+      ]
+    },
+    {
+      "iteration": 344,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 209,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.14642073024016966,
+      "probability": 0.8637942023798899,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.5286178227734506,
+        10.282915185189808,
+        12.785690051875202
+      ]
+    },
+    {
+      "iteration": 345,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 185,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.13725181420296906,
+      "probability": 0.8717506792882701,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.2837320661606769,
+        10.630242304750823,
+        12.70954696551243
+      ]
+    },
+    {
+      "iteration": 346,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 325,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.03699943957251861,
+      "probability": 0.9636766754197942,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.32895748964782556,
+        10.01630737591836,
+        12.750473659171316
+      ]
+    },
+    {
+      "iteration": 347,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 358,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.032751279238407704,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.4287291673697553,
+        10.476947037426845,
+        12.73127680866635
+      ]
+    },
+    {
+      "iteration": 348,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 489,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.042626840879638195,
+      "probability": 0.9582689101405221,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.797819035694536,
+        8.223511438235832,
+        12.460076352598561
+      ]
+    },
+    {
+      "iteration": 349,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 492,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.07093455271116866,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.674180234573477,
+        8.82392035963745,
+        12.391162201002047
+      ]
+    },
+    {
+      "iteration": 350,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 175,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09723746410266187,
+      "probability": 0.9073405197468141,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.5873787068174257,
+        8.832666658497509,
+        12.457849473045407
+      ]
+    },
+    {
+      "iteration": 351,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 274,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04143080055891346,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.344079557371099,
+        8.259354178418763,
+        12.464700547108023
+      ]
+    },
+    {
+      "iteration": 352,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 280,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.054478753842772676,
+      "probability": 0.9469786283009216,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.878884121594246,
+        7.92558994873571,
+        12.460102585949562
+      ]
+    },
+    {
+      "iteration": 353,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 248,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0288585454763286,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.2143885133816252,
+        8.292322939543462,
+        12.463298701425357
+      ]
+    },
+    {
+      "iteration": 354,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 408,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.05758365511537633,
+      "probability": 0.9440429130642272,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.7575277275452061,
+        8.11608211345124,
+        12.45148526137666
+      ]
+    },
+    {
+      "iteration": 355,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 222,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.12341397119389086,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.6550269359256173,
+        7.693605489942556,
+        12.417794096944997
+      ]
+    },
+    {
+      "iteration": 356,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 364,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.007982637554562189,
+      "probability": 0.9920491390865817,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.9348084098159954,
+        8.694946561743794,
+        12.509070854971828
+      ]
+    },
+    {
+      "iteration": 357,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 338,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.00021052064024473793,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.14167760998911,
+        8.168846792536698,
+        12.447894134678634
+      ]
+    },
+    {
+      "iteration": 358,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 234,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.005430836504412895,
+      "probability": 0.9945838838281937,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.319840315293141,
+        8.556826095146407,
+        12.465902053248595
+      ]
+    },
+    {
+      "iteration": 359,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 492,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.027903756962594173,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.047129406733881,
+        8.080033545896589,
+        12.42397997341861
+      ]
+    },
+    {
+      "iteration": 360,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 219,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.017292323269749943,
+      "probability": 0.9828563308605269,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.9586123425149315,
+        7.903972667342952,
+        12.388343546014879
+      ]
+    },
+    {
+      "iteration": 361,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 238,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0383202057434211,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.4974593670235947,
+        7.788140541807595,
+        12.482542981106548
+      ]
+    },
+    {
+      "iteration": 362,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 396,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0018631920722746997,
+      "probability": 0.9981385425925692,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.7748189875031875,
+        8.354378383678487,
+        12.453450673585916
+      ]
+    },
+    {
+      "iteration": 363,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 510,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.005163557552904763,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.9420575545105907,
+        7.691260583391586,
+        12.351591253797652
+      ]
+    },
+    {
+      "iteration": 364,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 497,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.08559610824448427,
+      "probability": 0.917964914818035,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.4049346518576573,
+        8.403250068433698,
+        12.439705657696123
+      ]
+    },
+    {
+      "iteration": 365,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 513,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.039513388461514865,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.577306019471419,
+        7.443535561834528,
+        12.39283446063342
+      ]
+    },
+    {
+      "iteration": 366,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 322,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.021964239189617984,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.537861616910217,
+        7.50069683461553,
+        12.406853221149536
+      ]
+    },
+    {
+      "iteration": 367,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 430,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.10698202705183135,
+      "probability": 0.8985418222907792,
+      "accepted": true,
+      "q13_q23_q24": [
+        -4.502795332595918,
+        7.277483216478645,
+        12.385369832451305
+      ]
+    },
+    {
+      "iteration": 368,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 220,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09705159740234848,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -3.6775340294778185,
+        7.556938818321996,
+        12.49388507807226
+      ]
+    },
+    {
+      "iteration": 369,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 323,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.11862433664067851,
+      "probability": 0.8881413802756936,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.4973916227831854,
+        7.904279797790327,
+        12.35628124023312
+      ]
+    },
+    {
+      "iteration": 370,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 423,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0031966547837498638,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.9015011040151941,
+        8.051872611450543,
+        12.377030233031478
+      ]
+    },
+    {
+      "iteration": 371,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 478,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1554258777226174,
+      "probability": 0.8560505269919837,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.5969834446838462,
+        8.269828562087085,
+        12.581075793384649
+      ]
+    },
+    {
+      "iteration": 372,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 304,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.10012145265929462,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.703597355836338,
+        7.885633182176477,
+        12.565681872559727
+      ]
+    },
+    {
+      "iteration": 373,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 312,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.03296947100729497,
+      "probability": 0.9675680980175465,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.102391353327591,
+        8.217501999474806,
+        12.553614388719284
+      ]
+    },
+    {
+      "iteration": 374,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 333,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.021292772581670505,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.872281501526606,
+        8.39319949971551,
+        12.557942320905235
+      ]
+    },
+    {
+      "iteration": 375,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 290,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.028456779885100758,
+      "probability": 0.9719443007827197,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.5409823336879543,
+        8.709306351906834,
+        12.602001136955323
+      ]
+    },
+    {
+      "iteration": 376,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 446,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.018744748445694626,
+      "probability": 0.9814298417663547,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.7518148202779456,
+        7.9214082568208175,
+        12.49089072520446
+      ]
+    },
+    {
+      "iteration": 377,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 474,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.14533273918549128,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.2007124250697239,
+        8.488753070906856,
+        12.645129351642296
+      ]
+    },
+    {
+      "iteration": 378,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 372,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.09060587433675948,
+      "probability": 0.9133776255312619,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.0808913622629295,
+        8.295289526886043,
+        12.712278325099827
+      ]
+    },
+    {
+      "iteration": 379,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 350,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.14200125329056235,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.2696625338520566,
+        8.196668883435938,
+        12.632017642828421
+      ]
+    },
+    {
+      "iteration": 380,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 238,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.030771240883943562,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.9057820326727728,
+        7.821964675310825,
+        12.678274230410027
+      ]
+    },
+    {
+      "iteration": 381,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 434,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.02070502759312376,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.39540702508350556,
+        8.36200007309168,
+        12.580798332298647
+      ]
+    },
+    {
+      "iteration": 382,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 252,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.004273610877202572,
+      "probability": 0.9957355080029555,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.5830442902963416,
+        8.200584018971584,
+        12.589294737099841
+      ]
+    },
+    {
+      "iteration": 383,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 500,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.06317726435447568,
+      "probability": 0.9387770472315556,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.326681339504237,
+        8.029698959773079,
+        12.623073725598923
+      ]
+    },
+    {
+      "iteration": 384,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 410,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.1583808007941414,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.7396733354123395,
+        8.422222491987123,
+        12.576440493812836
+      ]
+    },
+    {
+      "iteration": 385,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 470,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.07585353586508248,
+      "probability": 0.9269519618347003,
+      "accepted": false,
+      "q13_q23_q24": [
+        0.7396733354123395,
+        8.422222491987123,
+        12.576440493812836
+      ]
+    },
+    {
+      "iteration": 386,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 360,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.033934396865696215,
+      "probability": 0.9666349168377364,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.926507966938717,
+        8.01638717984929,
+        12.555401081443994
+      ]
+    },
+    {
+      "iteration": 387,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 241,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.0011576009658540443,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.5651008555462856,
+        7.961303026703575,
+        12.563011187396283
+      ]
+    },
+    {
+      "iteration": 388,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 247,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.24947375266406624,
+      "probability": 0.779210732766726,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.7111067970291037,
+        8.180295918714783,
+        12.535988038419337
+      ]
+    },
+    {
+      "iteration": 389,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 399,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.024915951591360397,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.0827735695266707,
+        7.654232867062889,
+        12.566425637857254
+      ]
+    },
+    {
+      "iteration": 390,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 261,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.04179129476688459,
+      "probability": 0.9590699225981838,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.7766328001131293,
+        8.06157605552069,
+        12.637444085646104
+      ]
+    },
+    {
+      "iteration": 391,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 260,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.046589737364350015,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.5673120051625196,
+        8.019752434522706,
+        12.561904508057703
+      ]
+    },
+    {
+      "iteration": 392,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 389,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.07086885271163723,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -2.256632923274276,
+        7.662231935221016,
+        12.509377635174333
+      ]
+    },
+    {
+      "iteration": 393,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 436,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.05445956139854147,
+      "probability": 0.9469968033098443,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.247188370989004,
+        8.231149021242711,
+        12.694301405003914
+      ]
+    },
+    {
+      "iteration": 394,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 505,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.005451079989555296,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.3110587695601512,
+        8.605139204301809,
+        12.595845838569728
+      ]
+    },
+    {
+      "iteration": 395,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 256,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.004247283354338549,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        -1.701349294702179,
+        7.635680820724516,
+        12.494176806795625
+      ]
+    },
+    {
+      "iteration": 396,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 282,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.15977504186309233,
+      "probability": 0.8523355072088354,
+      "accepted": true,
+      "q13_q23_q24": [
+        -0.730524873103524,
+        8.414760226110449,
+        12.543832345196696
+      ]
+    },
+    {
+      "iteration": 397,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 396,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.344163472150111,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.8813841302619306,
+        8.148283849358139,
+        12.502759666351775
+      ]
+    },
+    {
+      "iteration": 398,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 276,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.48250172845307304,
+      "probability": 0.6172372985476889,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.782871972405273,
+        8.057767071067232,
+        12.42182565193268
+      ]
+    },
+    {
+      "iteration": 399,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 282,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.6045919025013546,
+      "probability": 1.0,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.8257877511010631,
+        8.163648364942597,
+        12.480444066733144
+      ]
+    },
+    {
+      "iteration": 400,
+      "warm": false,
+      "step": 0.002317195328718682,
+      "nsteps": 340,
+      "capped": false,
+      "valid": true,
+      "bad": false,
+      "abs_energy_error": 0.196462320597945,
+      "probability": 0.8216322893253809,
+      "accepted": true,
+      "q13_q23_q24": [
+        0.828603063653852,
+        8.194975550867674,
+        12.520307722822324
+      ]
+    }
+  ]
+}
